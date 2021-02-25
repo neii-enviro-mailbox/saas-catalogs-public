@@ -516,5 +516,6 @@
     "south": -45,
     "west": -15
   },
-  "viewerMode": "2d"
+  "viewerMode": "2d",
+  "baseMapId": "basemap-voyager"
 }
