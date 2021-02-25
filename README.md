@@ -10,3 +10,4 @@ Each map has a directory, in that directory there is:
 - `dev.json`
 - `test.json`
 - `prod.json`
+
