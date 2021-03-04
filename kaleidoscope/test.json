@@ -62,9 +62,6 @@
       "url": "http://www.cmar.csiro.au/geoserver/kscope/ows"
     }
   ],
-  "corsDomains": [
-    "cmar.csiro.au"
-  ],
   "homeCamera": {
     "east": 158,
     "north": -8,
