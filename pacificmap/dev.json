@@ -1,0 +1,60 @@
+{
+  "catalog": [
+    {
+      "type": "ckan-group",
+      "name": "Pacific Data Hub Catalogue",
+      "url": "https://pacificdata.org/data",
+      "filterQuery": [
+        {
+          "fq": "+(res_format:(geojson OR GeoJSON OR CSV-GEO-PACIFIC OR csv-geo-pacific OR kml OR KML OR kmz OR KMZ OR wms OR WMS OR \"Esri REST\" OR \"tile service\"))"
+        }
+      ],
+      "groupBy": "organization",
+      "useCombinationNameWhereMultipleResources": true,
+      "supportedResourceFormats": [
+        {
+          "id": "ArcGIS FeatureServer",
+          "formatRegex": "^tile service$"
+        },
+        {
+          "id": "WMS",
+          "definition": {
+            "type": "wms",
+            "parameters": {
+              "tiled": true
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "sdmx-group",
+      "name": "Pacific Data Hub .Stat",
+      "url": "https://stats-nsi-stable.pacificdata.org/rest",
+      "conceptOverrides": [
+        {
+          "id": "urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=SPC:CS_COMMON(2.0).GEO_PICT",
+          "type": "region",
+          "regionType": "ISO2_EEZ_CODE"
+        }
+      ]
+    },
+    {
+      "type": "esri-featureServer",
+      "name": "Corona Virus - Cases",
+      "description": "<p>Current situation for the Novel Coronavirus Cases starting from Wuhan, China.</p> <p>Data and web service provided by the Johns Hopkins University Center for Systems Science and Engineering. Click <a href='https://gisanddata.maps.arcgis.com/apps/opsdashboard/index.html#/bda7594740fd40299423467b48e9ecf6'>here</a> for the official Johns Hopkins CSSE dashboard.</p>",
+      "url": "https://services1.arcgis.com/0MSEUqKaxRlEPj5g/ArcGIS/rest/services/ncov_cases/FeatureServer/1",
+      "useStyleInformationFromService": true
+    }
+  ],
+  "corsDomains": [
+    "pacificdata.org",
+    "arcgis.com"
+  ],
+  "homeCamera": {
+    "west": 130,
+    "south": -27,
+    "east": 220,
+    "north": 10
+  }
+}

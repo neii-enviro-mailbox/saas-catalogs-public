@@ -1,0 +1,237 @@
+{
+  "aspects": {
+    "terria-saas": {},
+    "terria": {
+      "id": "map-config-de-australia",
+      "shareKeys": [
+        "map-config-de-australia"
+      ],
+      "type": "group"
+    },
+    "terria-saas-about-pages": {
+      "brandingImageUrl": "https://saas.terria.io/api/v0/storage/terria/de-australia/DE-Australia-logo.png",
+      "footerText": "© Geoscience Australia and CSIRO Data61 2019. All Rights Reserved.",
+      "pages": {
+        "faq": {
+          "content": "\n# Frequently asked questions\n\n## DEA Map Operation\n\n<details>\n<summary>\nWhere is the DEA Map User Manual?\n</summary>\nThere isn't one! All user interface features of the DEA Map are either obvious from the interface or are described in this “Help”.\nThe Map has been carefully designed to be as easy to use as possible. Our user experience design team run regular usability testing sessions, the results of which are then assessed for inclusion in releases.\n\n</details>\n\n<details>\n<summary>\nWhat browsers work with DEA Map?\n</summary>\nIt is best to use a browser with WebGL support such as the latest versions of Google Chrome, Mozilla Firefox and Internet Explorer 11. It will also work in some older browsers (for example IE9 and IE10) but the map rendering will be limited. It may not support 3D rendering of maps, so the **3D Terrain** option may show the same result as **3D Smooth**.\n</details>\n\n<details>\n<summary>\nWhat types are spatial data are displayed by DEA Map?\n</summary>\nThere are three types of spatial data which are read from the data sources and displayed by DEA Map over its base maps:\n\n**Point Click** on any point to see more information about that particular point feature.\n\n**Line Click** on any line to see more information about that particular line feature.\n\n**Region Click** within any region to see more information about that region.\n\n</details>\n\n<details>\n<summary>\nWhy do \"3D Terrain\" and \"3D Smooth\" Perspective Views look the same on my computer?\n</summary>\nSome older computers do not have graphics cards which fully support WebGL and some older browsers do not make use of this support even if it is present. The DEA Map requires this support in order to support 3D Terrain Perspective View.\n\nTry upgrading your browser to the latest version. If that still does not work, you may need to consider working on a computer that has more recent graphics support.\n\n</details>\n\n<details>\n<summary>\nWhy does the terrain in my perspective view have two different hues?\n</summary>\nDEA Map automatically changes the content of the map according to the scale at which you're viewing. If you zoom in it shows more detail. At some points in the zoom range, the map display switches from high altitude photography to lower altitude photography. These sets of the photography are not colour matched to each other, so may have quite different hues. The actual photography scales used, the date of that photography and its lighting conditions will vary across Australia.\nWhen you are using Perspective View the part of the terrain nearest to the \"camera position\" is naturally shown at a larger scale than the more distant parts. Depending on your zoom level, this can result in the foreground being displayed with a different set of photography from the distant parts of your Perspective View.\n\n</details>\n\n<details>\n<summary>\nHow can I save my current data selection and view?\n</summary>\n1. Select the datasets that you would like to save. Adjust the view to the desired view.\n2. Create a share URL by clicking the \"Share / Print\" button at the top right.\n3. Copy the generated share URL and email the URL to yourself, or save it in Favourites.\n\n</details>\n\n<details>\n<summary>\nI need more help to use the DEA Map. Who can I ask?\n</summary>\nSend your question to the DEA Map support email address, which is <insertemail@example.com>  or use the Feedback functionality at the bottom right corner of the map.\n\n</details>\n\n## DEA Map System and Data\n\n<details>\n<summary>\nWhere does the spatial data come from??\n</summary>\nIn most cases the spatial data being displayed is coming straight from the various data custodians included in the platform. For some datasets which are not available in a format possible to display on the map, these have been transformed and are hosted by DEA Map with the data custodians’ permission. You can see details of the department or agency that provides the spatial data by clicking About this data in the Data Workbench.\n\n</details>\n\n<details>\n<summary>\nThe data I was using are now gone. Where did they go?\n</summary>\nThe spatial data displayed by the DEA Map are referenced directly from the supplying department or agency by the DEA Map server. If that supplying department or agency updates or removes any data, that change will be reflected immediately by the DEA Map.\n\nIf you have any questions about the spatial data, you will need to contact the supplying department or agency.\n\n</details>\n\n<details>\n<summary>\nWhat can I do if I encounter errors when I try to add data to my workbench?\n</summary>\nWith DEA Map application harvesting data from various custodians in real time, it is highly dependent on the reliability of those services. There are many types of errors which can be encountered when data is selected:\n\n- Dataset hangs and possibly freezes the screen - that is because the application in your browser is trying to show an unusually large file.\n\n- 404, 500, 501, 503 etc. and other common errors which mean data services are not available due to server hosting those datasets temporarily having issues.\n\n- Dataset doesn't hang, no error message is displayed, but it doesn't show on the map.\n\nWhat you can do:\n\n- Come back to the dataset later (it might have been a temporary outage of the custodian server).\n\n- Refresh the view and clear the cache (i.e. \"browsing history\").\n\n- When there is no visible error, try first \"zoom to extent\" functionality or just zoom in very closely (under 100m) into an area of interest and wait for the app to \"load\" the images. Monitor the \"loading\" through the \"load progress bar\" at the very top of the map.\n\n</details>\n\n<details>\n<summary>\nWhere do the base maps come from?\n</summary>\nThe base maps displayed by the DEA Map come from a number of difference sources including Microsoft’s Bing, Geoscience Australia and NASA. They are downloaded from the source as they are required, so they are as up to date as that service provides.\n</details>\n\n<details>\n<summary>\nWhy are location / address labels incorrectly positioned?\n</summary>\nLocations/addresses are part of the base maps provided by Bing Maps, Geoscience Australia, NASA and OpenStreet Maps. The DEA Map is dependent on those providers updates. For example, Bing Maps updated the Australian maps in February 2017: https://blogs.bing.com/maps/February-2017/New-Imagery-Released-Covering-Australia-and-India. For correcting those location errors, users have to address them directly to the base maps providers.\n\n</details>\n\n<details>\n<summary>\nWho developed the DEA Map?\n</summary>\nThe DEA Map was developed by Data61 in collaboration with the Australian Government. See the (About)[https://map.drought.gov.au/about.html] page from more information.\n</details>\n\n<details>\n<summary>\nWho owns the spatial data on DEA Map? Can I use it and distribute it?\n</summary>\nBefore distributing any data from the DEA Map it is important to understand the licence restriction for the data. All Data Sets displayed by the DEA Map are the property of the department or agency which has provided them.\n\nTherefore the restrictions for each Data Set may be quite different.\nThe licence which governs the usage and distribution restrictions for each Data Set is shown in the About this data for the Data Set. To Display this information click on the title of your preferred data set in the Data Catalogue.\n\n</details>\n\n<details>\n<summary>\nHow reliable is the spatial data on the DEA Map?\n</summary>\nThe reliability will vary between data sets. To understand the reliability of a particular data set, click on the title of the data set in question in the Data Catalogue for more information. The metadata which is shown in the Data Catalogue may offer sufficient information or you may need to contact the listed data provider.\n</details>\n\n<details>\n<summary>\nWhy can I see the whole world on the DEA Map?\n</summary>\nMost of the DEA Map base maps are provided by services for the whole world. There is no value in suppressing the display of the rest of the world, so you can view it if you wish. (Take a look at Mt Everest or the Grand Canyon in perspective view - they’re cool!)\n\nObviously, the DEA Map data does not cover the rest of the world!\n\n</details>\n\n<details>\n<summary>\nWill more data sets be added to the DEA Map?\n</summary>\nThat depends on the supplying departments or agencies, who must make the data available and the Drought Taskforce and the Department of Prime Minister and Cabinet teams currently managing the application. \n</details>\n\n## Reporting issues and providing feedback\n\n<details>\n<summary>\nI think I've found a bug. How do I report it?\n</summary>\nEmail us on info@terria.io to report the problem. Be sure to include a step by step description of how to reproduce the problem.\n</details>\n\n<details>\n<summary>\nI'd love a new feature. Can I suggest it?\n</summary>\nAbsolutely! Just email your suggestion to insertemail@example.com or use the Feedback functionality at the bottom right corner of the map. \n</details>\n\n<details>\n<summary>\nI think there’s an error in some data. How can I find out if it’s correct or report the problem? \n</summary>\nYou will need to refer to the department or agency which provides the Data Set which contains the issue.\nClick on the title of your preferred data set in the Data Catalogue to find out which department or agency provides that data.\n</details>\n",
+          "data": {
+            "template": "normal",
+            "title": "FAQ"
+          }
+        },
+        "help": {
+          "content": "\n# Help\n\n## Get started\n\nTo launch DEA Map and display basic data:\n\n-   Display the DEA Map by using the URL [https://maps.dea.ga.gov.au](https://maps.dea.ga.gov.au/).\n-   In the left hand panel click the **Add Data** button to launch the data \\\\catalogue.\n-   Browse through the data catalogue to find a data set of interest.\n-   Click on the title of your prefered data set to get a preview of that data, along with a description and other relevent metadata.\n-   To view your selected data set on a larger map, click the **Add to the Map** button. The spatial data will be immediately displayed in the map view, and a visual legend for that data will appear in the Data Workbench, located on the left hand side of the page.\n-   It may not be immediately obvious where your selected spatial data has loaded on the map if does not cover a large part of Australia. To locate loaded data on the map, go to the Data Workbench (positioned on the left hand side of the page), and click the **Zoom to extent** link for your desired data set. From here you can also click **About this data** to get more information about your selected data set.\n-   To add additional data sets to the map, simply click **Add Data** again in the left hand panel to relaunch the Data Catalogue.\n-   Zoom manually by moving your mouse pointer over the map and using your mouse wheel to zoom in or out further.\n-   Click and drag the map to further show the region in which you are interested.\n-   Click on a feature (that is, directly on a point or line, or within a region) to show data about the individual feature.\n\nYou can perform these steps in any order as required to tune your display of spatial data.\n\n## A displayed feature\n\nClick on the feature which is displayed on the map. You can click on points, on lines or within regions to see a display of the information available from the spatial data provider for that particular feature.\n\nFor points and lines, you need to click quite accurately to identify the feature. For regions, clicking on the boundary will give ambiguous results. Click within the region.\n\n## Display your own spreadsheet or spatial data\n\nDEA Maps can display two kinds of spreadsheets:\n\n1.  Spreadsheets with a **point location (latitude and longitude)** for each row, expressed as two columns: `lat` and `lon`. These will be displayed as points (circles).\n2.  Spreadsheets where each row refers to a **region** such as a local government area (council), state, postcode, or ABS statistical unit such as an SA2 or CED (Commonwealth Electoral Division). Columns must be named according to the [CSV-geo-au](https://github.com/NICTA/nationalmap/wiki/csv-geo-au) standard. These will be displayed as regions, highlighting the actual shape of each area.\n\nSpreadsheets must be saved as CSV (comma-separated values).\n\nOther standard spatial data types such as GeoJSON and KML are also supported.\n\nThere are two ways to load your data:\n\n-   Drag your data file onto the NationalMap map view. The format of the data file will be auto-detected.\n-   Click on the **Add Data** button in the left hand panel. This will launch the Data Catalogue. Select the **My Data** tab at the top of the modal window and follow the provided instructions.\n\nYou can click on the regions or points to see the data available for that location. If the file is a CSV file, the data from all columns will be shown in the feature information dialogue when you click.\n\nYou can also use all of the features of the [Data Workbench](https://maps.dea.ga.gov.au/help/data-workbench.html) on the data you have loaded as well.\n\nTo share a view of your data with others, you must first publish it to the web somewhere with a URL, and then load it from there.\n\n## Share my DEA Map view with others\n\nThere are three ways:\n\n-   Click the Share button, copy the given URL (shown in the first text box) to the clipboard and paste it into an email which you send to the recipient. They can click on it in the email or paste it into their browser to see the same view as you.\n-   Click the Share button, copy the HTML fragment (shown in the second text box) and paste it into an HTML file, which you then make available to the recipients. When the recipients display your web page, they will see the DEA Maps view within that web page.\n-   Take a screenshot and email it as an image (see your OS instructions on how to take a screenshot). This will share all information, even if loaded from a local file or URL.\n\n**Note that only the third method will show the data you have loaded from a local file**.\n\n## Contribute datasets to DEA Maps\n\nDEA Maps encourages data providers to publish their spatial data using this platform.\n\nIf you require your dataset to appear under a separate category of the DEA Maps Data Catalogue, contact the support for DEA Maps at dea@ga.gov.au. You will need to provide an internet accessible service in a standard protocol to access your dataset on the internet and appropriate references must be added to the DEA Maps configuration.\n\nYou can also signup to receive DEA updates by emailing dea@ga.gov.au.\n",
+          "data": {
+            "template": "normal",
+            "title": "Help"
+          }
+        },
+        "home": {
+          "content": "# About the Digital Earth Australia Map\n\nDigital Earth Australia (DEA) Maps is a website for map-based access to DEA’s products. It’s developed by Data61 CSIRO for Geoscience Australia.\n\nDEA uses satellite data to detect physical changes across Australia in unprecedented detail. It identifies soil and coastal erosion, crop growth, water quality and changes to cities and regions. Learn more about DEA at [https://www.ga.gov.au/dea](https://www.ga.gov.au/dea).\n\nDEA Maps aims to provide easy access to DEA’s products to help users to make more informed decisions.\n\nTo see what is available on DEA Maps, click the Add information button and expand a category to browse.\n\n## How to use the DEA Map\n\nJust go to [https://maps.dea.ga.gov.au/](https://maps.dea.ga.gov.au/). Most operations are obvious, but you can click the [Help and FAQs](https://maps.dea.ga.gov.au/help/help.html) button near the top of this page for specific instructions.\n\n## Contributing Data to DEA Map\n\nIf you’re working on spatial datasets or producing them (such as CSVs with geolocation information) and you think they would be beneficial, you can contact dea@ga.gov.au to suggest inclusion in the Data Catalogue.\n\n## The DEA Maps software\n\nDEA Maps is open source software available as a [Github project](https://github.com/TerriaJS/de-australia-map). The core platform, [TerriaJS](https://github.com/TerriaJS/terriajs), was initially developed by Data61 for the NationalMap. You may not use the source code files except in compliance with the License. You may obtain a copy of the License at [http://www.apache.org/licenses/LICENSE-2.0](http://www.apache.org/licenses/LICENSE-2.0). Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an \"AS IS\" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.\n\n## Additional Open Source Software Used\n\nIn developing the DEA Map, Data61 has used open source software and contributed back to it. DEA Map leverages these excellent open source libraries:\n\n-   [Open Data Cube](http://www.opendatacube.org/)\n-   [TerriaJS](https://github.com/TerriaJS/terriajs)\n-   [Cesium](http://cesiumjs.org/)\n-   [Leaflet](http://leafletjs.com/)\n\nThe [complete list](https://github.com/TerriaJS/de-australia-map/blob/master/LICENSE.md) is available with the [DEA Map source code](https://github.com/TerriaJS/de-australia-map)\n\n### Contributing to the open source community\n\nYou are encouraged to contribute to the code or simply suggest new features by submitting an issue directly in the open repository. Make sure you give a detailed description of the use case for the new functionalities.\n\n## Data attribution\n\nThe content presented in DEA Maps is sourced from a wide range of organisations. Details about each data custodian and their contact details can be found in the data catalogue, usually under \"Data Custodian\" or \"Description\".\n\n#### Base maps\n\n-   [Bing Maps](https://www.microsoft.com/en-us/maps/) - From Microsoft Corporation. [Commercial Licence](https://www.microsoft.com/en-us/maps/product).\n-   [Natural Earth II](https://www.naturalearthdata.com/downloads/10m-raster-data/10m-natural-earth-2/) - From Natural Earth. [Public Domain](https://www.naturalearthdata.com/about/terms-of-use/).\n-   [Black Marble](https://earthobservatory.nasa.gov/Features/NightLights) - From NASA's Earth Observatory [Use Policy](https://earthobservatory.nasa.gov/image-use-policy).\n-   [Positron (Light) and Dark Matter](https://carto.com/location-data-services/basemaps/) - From Carto. [Commercial Licence](https://carto.com/location-data-services/basemaps/).\n\n#### Terrain:\n\n-   [Cesium World Terrain](https://cesium.com/content/cesium-world-terrain/) - From Cesium Ion. [Commercial License](https://cesium.com/legal/terms-of-service/).\n\n#### Geocoders:\n\n-   [GNAF](https://data.gov.au/dataset/geocoded-national-address-file-g-naf) - Incorporates or developed using G-NAF ©PSMA Australia Limited licensed by the Commonwealth of Australia under the Open Geo-coded National Address File (G-NAF) End User Licence Agreement.\n-   [Bing Maps](https://www.microsoft.com/en-us/maps/) - From Microsoft Corporation.\n-   [Gazatteer of Australia](https://ecat.ga.gov.au/geonetwork/srv/eng/catalog.search#/metadata/e19a92fa-257c-159d-e044-00144fdd4fa6) - For Official Place Names. [More information](https://s3-ap-southeast-2.amazonaws.com/fsdf.placenames/DPS/Composite+Gazetteer+DPS.pdf)\n\n## Terms and conditions\n\nThe information displayed on DEA Maps is for general informational purposes only, and is not intended to provide any commercial, financial, or legal advice. Any information in connection with DEA Maps may not be appropriate to your individual needs. You must exercise your own independent, skill, care and judgment with respect to how you use the information displayed on DEA Maps.\n\nAs a condition of using DEA Maps, you must comply with all applicable laws, regulations and third party rights (including, without limitation, laws regarding the import or export of data or software, privacy and local laws). You must not use DEA Maps to encourage or promote illegal activity or violation of third party rights. Some parts of DEA Maps (like the URL shortening function) rely upon third party APIs.\n\nIn any important matter, you should seek professional advice relevant to your own circumstances.\n\nThe information displayed on DEA Maps was consolidated by Geoscience Australia and Data61.\n\nData61 and Geoscience Australia (“We”) make no representations or warranties regarding the accuracy or completeness of any content or the product in connection with DEA Maps. We disclaim all responsibility and all liability (including without limitation, liability in negligence, for errors or omissions) for all expenses, loss, damage and costs which you might incur as a result of the information displayed on DEA Maps and your use of it.\n\nDEA Maps must not be used for navigation or precise spatial analysis or for any activities where the use or failure of DEA Maps could lead to death, personal injury, or environmental damage (such as the operation of nuclear facilities, air traffic control, or life support systems).\n\n### Access\n\nAny information provided by data custodians displayed on DEA Maps is provided as is and on the understanding that the respective data custodian is not responsible for, nor guarantees the timeliness, accuracy or completeness of that information. If you intend to rely on any information displayed on DEA Maps, then you must apply in writing to the respective data custodian for further authorisation.\n\nYou acknowledge that your use of DEA Maps means that you have provided your acceptance of these terms and conditions.\n\nYou must consider the usage rights and restrictions of the basemap and each activated dataset when using the output of DEA Maps in broadcast, print, or other distribution. The terms of use of the default Bing Maps basemap may be found here: https://www.microsoft.com/maps/product/terms.html.\n",
+          "data": {
+            "sidebarImageItems": [
+              {
+                "alt": "TerriaJS",
+                "src": "./about/terria.png"
+              }
+            ],
+            "title": "About TerriaMap"
+          }
+        },
+        "privacy": {
+          "content": "\n# Privacy\n\nGeoscience Australia is covered by the Privacy Act 1988 (Cth) (‘the Privacy Act’). The Privacy Act contains 13 Australian Privacy Principles (‘the APPs’) which governs how Australian Government agencies should collect, use, store and disclose personal information, and how individuals can access records containing their personal information. General information about the Privacy Act and the APPs can be found on the website of the [Office of the Australian Information Commissioner](http://www.oaic.gov.au/privacy/privacy-news).\n\nWe are committed to protecting your privacy. See our [Privacy Policy](https://www.ga.gov.au/privacy). The DEA Maps website (this website) complies with the Australian Information Commissioner’s APP Guidelines and with our APP Privacy Policy.\n\nYou are reminded that there are risks involved in sending information over the internet.\n\nAny data collected by us as described in this notice is stored securely, and archived for a period of at least five years, and possible up to ten years.\n\n## Use and disclosure\n\nWe only use personal information that we collect through this website for the purposes for which it was given to us or for related purposes, such as the maintenance, upgrade or improvements of this website or any policy development associated with this website.\n\nWe do not share personal information about any individual which we collect through this website to any third party, such as other Australian Government agencies or organisations unless one of the following applies:\n\n• the individual has consented;\n\n• the individual would reasonably expect, or has been told that information of that kind is usually passed to those other individuals, agencies, organisations;\n\n• is required or authorised by law;\n\n• a Permitted General Situation (as defined under section 16A of the Privacy Act) exists (for example, it will prevent or lessen a serious and imminent threat to somebody’s life or health); or\n\n• the disclosure is reasonably necessary for the enforcement of the criminal law or of a law imposing a pecuniary penalty, or for the protection of public revenue.\n\n## Information logged when browsing the DEA Maps website\n\nWe do not collect personal information about you if you only browse this website.\n\nWhen you browse this website, our server logs the following information:\n\n• the type of browser and operating system you are using;\n\n• the address of the referring site (for example, the previous site that you visited); and\n\n• your IP (Internet Protocol) address, which is a number unique to the machine on which you connect to the internet.\n\nOur server also logs the following information:\n\n• the date and time of your visit; and\n\n• the address of the pages accessed and the documents downloaded.\n\nWe use the information we collect from your browsing of this website for statistical analysis, system administration, monitoring of this website’s security, customisation of this website to users’ needs, and the evaluation, research and development of this website.\n\nIn order to give you a better experience, we use a URL shortening service provided by a third party. That service may also track the clicks and referrers (sharers) of the DEA Maps.\n\nNo attempt will be made to identify users due to their browsing activities on this website, except in the unlikely event of an investigation, for example, where a law enforcement agency may exercise a warrant or subpoena. The information we collect from your browsing of this website will only be disclosed to a third party if it is required or authorised by law.\n\n## Cookies\n\nA cookie is an electronic token that is passed to your browser and your browser passes it back to the server whenever a page is sent to you.\n\nFor this website, our server creates a cookie that is used to keep track of the pages you have accessed. This cookie allows you to page back and forward through this website and return to pages you have already visited. This cookie exists only for the time that you are accessing our server.\n\nPlease note that some browsers can be configured to allow cookies to be accessed by servers other than the originating server. Most browsers can also be configured to notify the user when a cookie is received, allowing you to either accept or reject it. You do not need to have configured your browser to enable the accepting or sending of cookies in order to use this website.\n\nCookies are not used for any other purposes on this website, for example, we do not use cookies on this website to collect your personal information.\n\n## Online forms, email address and contact us\n\nWhen using this website (for example, the online forms or contact us function), you may provide us with your personal information, for example, your name and email address etc. When you do this, you agree to provide us with your consent to disclose your personal information to other areas of the Department and potentially other appropriate third parties, for example, the National ICT Australia, Geoscience Australia, Bureau of Meteorology, Australian Bureau of Statistics, data.gov.au website etc. so that we can appropriately respond to your request or query. You also agree to provide us with your consent to disclose your personal information for the administration, regulation and evaluation processes associated with this website or for related purposes such as any policy development associated with this website.\n\nYou have the right not to identify yourself or to use an alias (pseudonym) when you contact us or use online forms in relation to this website. However, where it is impractical for us to deal with your request in that way, or the law requires or authorise us to collect your personal information, then we may require you to identify yourself.\n\n## Searches\n\nThe search terms that you enter when using this website’s search engine are collected so that we can find out what users are looking for on this website.\n\n## Links\n\nThis website contains links to other websites for the attribution of the data source or may use social media sites to make it easy to share information. These other sites may use web measurement tools, customisation technologies and persistent cookies to inform the services that they provide to their users. We are not responsible for the privacy practices or the content of other sites. This website does not use, maintain or share Personally Identifiable Information made through the other websites, such as, Facebook, Twitter or YouTube etc.\n",
+          "data": {
+            "title": "Privacy"
+          }
+        }
+      }
+    },
+    "terria-init": {
+      "homeCamera": {
+        "east": 158,
+        "north": -8,
+        "south": -45,
+        "west": 109
+      }
+    },
+    "terria-config": {
+      "initializationUrls": [
+        "https://raw.githubusercontent.com/TerriaJS/saas-catalogs-public/main/de-australia/dev.json",
+        "https://raw.githubusercontent.com/TerriaJS/saas-catalogs-public/main/de-australia/terria-cube/dev.json"
+      ],
+      "parameters": {
+        "appName": "Digital Earth Australia Map",
+        "bingMapsKey": "AkaOmRFtjAb71cXgLwAGtLbj2RpkPKtVqAIroFQsocfurCBILxIeAWPkil7hhRy_",
+        "brandBarElements": [
+          "",
+          "<a target=\"_blank\" href=\"http://terria.io\"><img src=\"https://maps.dea.ga.gov.au/images/DE-Australia-logo.png\" height=\"52\" title=\"Version: {{version}}\" /></a>",
+          "<a id='secondary-logo' href='https://data61.csiro.au/' target='_blank'><img class='right' style=\"width:65px;\" src='https://maps.dea.ga.gov.au/images/data61-csiro.svg' alt='Data61 logo' title='Data61 logo'/></a>",
+          "<a id='tertiary-logo' target='https://www.ga.gov.au/' rel='noreferrer noopener'><img src='https://maps.dea.ga.gov.au/images/geoscience_stacked.svg' style=\"width: 80px;\"  alt='Geoscience Australia logo' title='Geoscience Australia logo'/></a>",
+          ""
+        ],
+        "cesiumIonAccessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiI3NDU1NGQ4NC1iOWQ3LTRiYjgtYjNkNi1iZDdlZWY4ZTU4NjQiLCJpZCI6Mjk5MiwiaWF0IjoxNTM3NDQ1NzYxfQ.fjQUGky7Y4XZhBk1I6SyvzNlVufeEUJXQNHmNz8Ikiw",
+        "developerAttribution": {
+          "link": "https://terria.io",
+          "text": "Terria Team at CSIRO's Data61"
+        },
+        "disclaimer": {
+          "text": "Disclaimer: This map must not be used for navigation or precise spatial analysis",
+          "url": "http://google.com"
+        },
+        "experimentalFeatures": true,
+        "feedbackUrl": "feedback",
+        "globalDisclaimer": {
+          "buttonTitle": "I agree",
+          "confirmationRequired": true,
+          "devHostRegex": "\\b(staging|preview|test|dev)\\.",
+          "enableOnLocalhost": true,
+          "message": "The information displayed on the DEA Maps (the \"Service\") is for general informational purposes only, and is not intended to provide any commercial, financial, or legal advice.\n\nThe Service provides access to a range of data sets and tools, some of which are in development (beta). All data and tools are provided on an \"as is\" and \"with all faults\" basis without any warranty whatsoever. Geoscience Australia and Data61 do not warrant that these data sets and tools shall meet any requirements or expectations, or that the will be fit for any intended purposes.\n\nGeoscience Australia and Data61 assumes no responsibility for errors or omissions in the contents of the Service and reserves the right to make additions, deletions, or modification to the contents on the Service at any time without prior notice.\n\nGeoscience Australia and Data61 does not guarantee the accuracy, relevance, timeliness, or completeness of any information or data available through the Service or on linked external websites.\n\n[See full terms and conditions here.](./about#terms-and-conditions)",
+          "prodHostRegex": "gov.\\.au$",
+          "title": "Disclaimer"
+        },
+        "helpContent": [
+          {
+            "icon": "video",
+            "itemName": "gettingstarted",
+            "markdownText": "## Getting started with the map\n\nIf you're new to the map or using spatial data, our Getting Started video quickly covers the basic functionality you'll need to use to add and interrogate data sets.\n\nIf you don't have time to watch the video, we suggest exploring the following areas:\n\n1. Search for a location to quickly find an area of interest\n2. Use 'Explore map data' to view the catalogue of available data sets and add them to the map\n3. Interact with the data layer, including opacity and toggling on and off on the left in your workbench\n4. Click on the data on the map to view more detailed data, including the raw data\n5. Change your basemap using options in 'Map Settings' to help make some data sets more visible\n6. Zoom and change your view, including tilting the view angle using the controls on the right-hand side of the screen",
+            "paneMode": "videoAndContent",
+            "placeholderImage": "https://img.youtube.com/vi/FjSxaviSLhc/maxresdefault.jpg",
+            "title": "Getting started with the map",
+            "videoUrl": "https://www.youtube.com/embed/FjSxaviSLhc"
+          },
+          {
+            "icon": "oneTwoThree",
+            "itemName": "stepbystepguide",
+            "markdownText": "## Step by step guide\n\nLaunch a step by step guide for various popular workflows below:",
+            "paneMode": "trainer",
+            "title": "Step by step guide",
+            "trainerItems": [
+              {
+                "footnote": "Important: Satellite imagery can take a little while to load so please be patient. If images don’t seem to be loading, zoom out a little bit",
+                "steps": [
+                  {
+                    "markdownDescription": "- Use the location search or zoom and pan around the map using your mouse or the zoom controls",
+                    "title": "Find the location to view satellite imagery"
+                  },
+                  {
+                    "markdownDescription": "- Open the data catalogue using \"Explore map data\" button\n- Navigate through datasets to select your satellite option: Landsat or Sentinel, and daily or composite images. This can depend on resolution of the image you need (10m or 25m) and whether you want daily, 16 day composite, or annual average images\n - Select \"Add to the map\" to view the satellite imagery",
+                    "title": "Add the satellite imagery to the map"
+                  },
+                  {
+                    "markdownDescription": "- Filter images by location to quickly find satellite images for that location\n - Satellites circle the globe many times a day. You can expect satellite imagery to be available for one location every two weeks\n - If you haven't already selected your point of interest on the map, zoom in to select one. You will see the filter applied in blue in the Workbench on the left",
+                    "title": "Filter images to find satellite imagery"
+                  },
+                  {
+                    "markdownDescription": "- Use the date picker to select a time and date. Cycle backwards through previous years using the back arrow\n - Choose another date if your imagery is obscured by clouds. You can quickly cycle back and forward using the arrows next to the date picker",
+                    "title": "Select a time and date"
+                  }
+                ],
+                "title": "Adding satellite imagery"
+              },
+              {
+                "footnote": "Important: Any time series data can be compared using the Split Screen Mode, not just satellite imagery",
+                "steps": [
+                  {
+                    "markdownDescription": "- Satellite imagery is a good example of time series data, with many satellites going back decades\n- Find your location of interest and filter available imagery by this location\n-See our Adding Satellite Imagery to the Map guide for more",
+                    "title": "Add a time series dataset to the map"
+                  },
+                  {
+                    "markdownDescription": "- In the workbench on the left, select the time and date which will open the date picker\n- Select a year, month and date, or navigate back to other years and even centuries using the back arrow\n- Available dates appear in blue",
+                    "title": "Select the time and date"
+                  },
+                  {
+                    "markdownDescription": "- From the 3 dots drop-down menu in the workbench, press 'Compare' to activate Split Screen Mode\n- A duplicate copy of your dataset will appear in the workbench\n- Choose the dates you want to compare on the left and right of the screen\n- Drag the slider using the white button to swipe and compare the two image dates",
+                    "title": "Compare different dates at one location"
+                  },
+                  {
+                    "markdownDescription": "- Escape the Split Screen Mode by pressing the 'x' of Split Screen Mode title in the workbench\n- Remove the duplicate copy of your dataset in the workbench using the 3 dots drop-down menu",
+                    "title": "Close Split Screen Mode"
+                  }
+                ],
+                "title": "View and compare different points in time"
+              },
+              {
+                "steps": [
+                  {
+                    "markdownDescription": "- This includes the dataset Delta Blended Service\n- Search or scroll to find the location where you want to perform change detection",
+                    "title": "Add a Change Detection / Difference-enabled dataset to the map"
+                  },
+                  {
+                    "markdownDescription": "-  Behind the 3 dots in the workbench, select the menu item 'Difference'\n-   Difference mode will activate, splitting the screen and adding new options on the left",
+                    "title": "Turn on Difference mode"
+                  },
+                  {
+                    "markdownDescription": "-   Use the date pickers at the bottom to choose your dates for screen A and B\n -   The Preview style defaults to True colour to help you find cloud-free images, change if required\n -   If you have previously searched for a location, this will be used to refine the imagery to only show available images for that location\n -   If you didn't search for a location, select a point on the map in your area of interest to refine the imagery for that area only\n -   Select your Difference Output, e.g. NDVI\n -   Select Generate Change Detection",
+                    "title": "Select your Difference variables"
+                  },
+                  {
+                    "markdownDescription": "-   The legend for the Difference calculation will appear on the left to help your analysis\n -   You can change dates using the date pickers to toggle between dates and a new Change Detection calculation will be run\n -   Close or exit Difference mode when you are finished your analysis",
+                    "title": "View the change detection results on-screen"
+                  }
+                ],
+                "title": "Detecting change between two points in time"
+              }
+            ]
+          },
+          {
+            "icon": "story",
+            "itemName": "storymigration",
+            "markdownText": "## Share & Story Migration\n\n### Guide on updating share links, including stories\n\nIf you've received a warning telling you that a share link was based off an older version of TerriaJS, you'll want to do a few things to recreate them in the latest version of Terria!\n\n#### Creators\n\n1. Identify the share URL which causes a notification of share preservation effort when loading them into Terria. e.g. you may know where they are embedded, or come across them accidentally\n2. Open them in the newer (v8) based map application \n3. Check that everything is sharing as you expect, tweak the layers to fit if some are missing or not behaving correctly.\n4. Update the share link by clicking the Share/Print button and copy the new link\n5. If distribution of share link is known, update the url in your web page (if embedded), or send the new link to users \n\n#### Consumers\n1. Load the share URL\n2. If it doesn't quite look right, notify the provider so they can follow the above steps to recreate it in the latest version of Terria",
+            "title": "Share & Story migration"
+          }
+        ],
+        "mobileDefaultViewerMode": "2d",
+        "showWelcomeMessage": true,
+        "supportEmail": "info@terria.io",
+        "theme": {
+          "charcoalGrey": "#3f4854",
+          "colorPrimary": "#00a1de",
+          "colorSplitter": "#ff6f00",
+          "compassWidth": "56",
+          "dark": "#3f4854",
+          "frontComponentZIndex": "99",
+          "grey": "#888888",
+          "greyLighter": "#ddd",
+          "greyLighter2": "#e6e6e6",
+          "greyLightest": "#f2f2f2",
+          "lg": "1300",
+          "mapButtonColor": "#9ca1aa",
+          "md": "992",
+          "mobile": "767",
+          "modalHighlight": "#00a1de",
+          "overlay": "rgba(255, 255, 255, 0.15)",
+          "overlayInvert": "rgba(255, 255, 255, 0.85)",
+          "primary": "#00a1de",
+          "radius40Button": "20",
+          "radiusLarge": "4px",
+          "radiusSmall": "2px",
+          "ringWidth": "10",
+          "secondary": "#8fcae7",
+          "sm": "768",
+          "spacing": "5",
+          "text": "#fff",
+          "textBlack": "#000",
+          "textDark": "#595b60",
+          "textDarker": "#4d5766",
+          "textLight": "#ffffff",
+          "textLightDimmed": "#bbbbbb",
+          "workbenchWidth": "350"
+        },
+        "welcomeMessageVideo": {
+          "placeholderImage": "https://img.youtube.com/vi/FjSxaviSLhc/maxresdefault.jpg",
+          "videoTitle": "Getting started with the map",
+          "videoUrl": "https://www.youtube.com/embed/FjSxaviSLhc"
+        }
+      }
+    },
+    "group": {
+      "members": [
+        "a143bc38-6eb3-46d0-9f9e-35a8f41ed3e0"
+      ]
+    }
+  },
+  "authnReadPolicyId": "object.registry.record.public",
+  "id": "map-config-de-australia",
+  "name": "Terria Configuration",
+  "tenantId": 0
+}
