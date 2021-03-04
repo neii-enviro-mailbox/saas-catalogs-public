@@ -31,3 +31,9 @@ A map may have a few levels of catalogs - for example `de-australia`:
   - `dev.json`
   - `test.json`
   - `prod.json`
+
+### Random notes
+
+#### `group-DISABLED` or similar properties in `map-config`
+
+These are just holding the old `group` aspect - which contains IDs to Magda records. They are remnants of older maps which used catalog-editor - I left them here if they ever need to be resurrected.
