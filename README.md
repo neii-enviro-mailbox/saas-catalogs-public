@@ -2,6 +2,10 @@
 
 Catalogs for SaaS (until we come up with something better)
 
+**Catalog JSON files are hosted in GitHub** for example `https://raw.githubusercontent.com/TerriaJS/saas-catalogs-public/main/kaleidoscope/prod.json`
+
+**Map-config JSON files are hosted as Magda records** - these will need to be update manually (for the moment)
+
 ## Format
 
 Each map has a directory, in that directory there is:
@@ -19,15 +23,14 @@ A map may have a few levels of catalogs - for example `de-australia`:
 `de-australia/`
 
 - `in/`
-  - `de-australia-v7-2020-02-26.json`
-  - `de-australia-v8-2020-02-26.json`
+- `dev-map-config.json`
+- `test-map-config.json`
+- `prod-map-config.json`
 - `dev.json`
 - `test.json`
 - `prod.json`
 - `terria-cube/`
   - `in/`
-    - `terria-cube-v7-2020-02-26.json`
-    - `terria-cube-v8-2020-02-26.json`
   - `dev.json`
   - `test.json`
   - `prod.json`
