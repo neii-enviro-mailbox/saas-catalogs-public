@@ -8,18 +8,6 @@
         }
       ]
     },
-    "terria": {
-      "definition": {
-        "members": [
-          "__User-Added_Data__"
-        ]
-      },
-      "id": "map-config-pacificmap",
-      "shareKeys": [
-        "/"
-      ],
-      "type": "group"
-    },
     "terria-saas-about-pages": {
       "brandingImageUrl": "https://saas.terria.io/api/v0/storage/terria/pacificmap/spc_data_hub_logo.png",
       "footerText": "© Pacific Community (SPC) and CSIRO's Data61 2020. All Rights Reserved.",
