@@ -1,13 +1,6 @@
 {
   "aspects": {
-    "terria-saas": {
-      "extraBaseMaps": [
-        {
-          "enabled": true,
-          "id": "basemap-GEBCO-bathymetry"
-        }
-      ]
-    },
+    "terria-saas": {},
     "terria-saas-about-pages": {
       "brandingImageUrl": "https://saas.terria.io/api/v0/storage/terria/pacificmap/spc_data_hub_logo.png",
       "footerText": "© Pacific Community (SPC) and CSIRO's Data61 2020. All Rights Reserved.",
