@@ -1835,7 +1835,7 @@
     "south": -45,
     "west": 109
   },
-  "baseMapId": "basemap-australian-topography",
+  "baseMapId": "basemap-bing-aerial-with-labels",
   "previewBaseMapId": "basemap-positron",
   "baseMaps": [
     {
