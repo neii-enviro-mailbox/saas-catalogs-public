@@ -64,9 +64,9 @@
         "bingMapsKey": "AkaOmRFtjAb71cXgLwAGtLbj2RpkPKtVqAIroFQsocfurCBILxIeAWPkil7hhRy_",
         "brandBarElements": [
           "",
-          "<a target=\"_blank\" href=\"http://terria.io\"><img src=\"https://maps.dea.ga.gov.au/images/DE-Australia-logo.png\" height=\"52\" title=\"Version: {{version}}\" /></a>",
-          "<a id='secondary-logo' href='https://data61.csiro.au/' target='_blank'><img class='right' style=\"width:65px;\" src='https://maps.dea.ga.gov.au/images/data61-csiro.svg' alt='Data61 logo' title='Data61 logo'/></a>",
-          "<a id='tertiary-logo' target='https://www.ga.gov.au/' rel='noreferrer noopener'><img src='https://maps.dea.ga.gov.au/images/geoscience_stacked.svg' style=\"width: 80px;\"  alt='Geoscience Australia logo' title='Geoscience Australia logo'/></a>",
+          "<a target=\"_blank\" href=\"http://terria.io\"><img src=\"https://saas.terria.io/api/v0/storage/terria/de-australia/DE-Australia-logo.png\" height=\"52\" title=\"Version: {{version}}\" /></a>",
+          "<a id='secondary-logo' href='https://data61.csiro.au/' target='_blank'><img class='right' style=\"width:65px;\" src='https://saas.terria.io/api/v0/storage/terria/de-australia/data61-csiro.svg' alt='Data61 logo' title='Data61 logo'/></a>",
+          "<a id='tertiary-logo' target='https://www.ga.gov.au/' rel='noreferrer noopener'><img src='https://saas.terria.io/api/v0/storage/terria/de-australia/geoscience_stacked.svg' style=\"width: 80px;\"  alt='Geoscience Australia logo' title='Geoscience Australia logo'/></a>",
           ""
         ],
         "cesiumIonAccessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiI3NDU1NGQ4NC1iOWQ3LTRiYjgtYjNkNi1iZDdlZWY4ZTU4NjQiLCJpZCI6Mjk5MiwiaWF0IjoxNTM3NDQ1NzYxfQ.fjQUGky7Y4XZhBk1I6SyvzNlVufeEUJXQNHmNz8Ikiw",
@@ -80,15 +80,6 @@
         },
         "experimentalFeatures": true,
         "feedbackUrl": "feedback",
-        "globalDisclaimer": {
-          "buttonTitle": "I agree",
-          "confirmationRequired": true,
-          "devHostRegex": "\\b(staging|preview|test|dev)\\.",
-          "enableOnLocalhost": true,
-          "message": "The information displayed on the DEA Maps (the \"Service\") is for general informational purposes only, and is not intended to provide any commercial, financial, or legal advice.\n\nThe Service provides access to a range of data sets and tools, some of which are in development (beta). All data and tools are provided on an \"as is\" and \"with all faults\" basis without any warranty whatsoever. Geoscience Australia and Data61 do not warrant that these data sets and tools shall meet any requirements or expectations, or that the will be fit for any intended purposes.\n\nGeoscience Australia and Data61 assumes no responsibility for errors or omissions in the contents of the Service and reserves the right to make additions, deletions, or modification to the contents on the Service at any time without prior notice.\n\nGeoscience Australia and Data61 does not guarantee the accuracy, relevance, timeliness, or completeness of any information or data available through the Service or on linked external websites.\n\n[See full terms and conditions here.](./about#terms-and-conditions)",
-          "prodHostRegex": "gov.\\.au$",
-          "title": "Disclaimer"
-        },
         "googleAnalyticsKey": "UA-63280156-11",
         "helpContent": [
           {

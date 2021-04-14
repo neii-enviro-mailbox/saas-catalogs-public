@@ -64,9 +64,9 @@
         "bingMapsKey": "AkaOmRFtjAb71cXgLwAGtLbj2RpkPKtVqAIroFQsocfurCBILxIeAWPkil7hhRy_",
         "brandBarElements": [
           "",
-          "<a target=\"_blank\" href=\"http://terria.io\"><img src=\"https://maps.dea.ga.gov.au/images/DE-Australia-logo.png\" height=\"52\" title=\"Version: {{version}}\" /></a>",
-          "<a id='secondary-logo' href='https://data61.csiro.au/' target='_blank'><img class='right' style=\"width:65px;\" src='https://maps.dea.ga.gov.au/images/data61-csiro.svg' alt='Data61 logo' title='Data61 logo'/></a>",
-          "<a id='tertiary-logo' target='https://www.ga.gov.au/' rel='noreferrer noopener'><img src='https://maps.dea.ga.gov.au/images/geoscience_stacked.svg' style=\"width: 80px;\"  alt='Geoscience Australia logo' title='Geoscience Australia logo'/></a>",
+          "<a target=\"_blank\" href=\"http://terria.io\"><img src=\"https://saas.terria.io/api/v0/storage/terria/de-australia/DE-Australia-logo.png\" height=\"52\" title=\"Version: {{version}}\" /></a>",
+          "<a id='secondary-logo' href='https://data61.csiro.au/' target='_blank'><img class='right' style=\"width:65px;\" src='https://saas.terria.io/api/v0/storage/terria/de-australia/data61-csiro.svg' alt='Data61 logo' title='Data61 logo'/></a>",
+          "<a id='tertiary-logo' target='https://www.ga.gov.au/' rel='noreferrer noopener'><img src='https://saas.terria.io/api/v0/storage/terria/de-australia/geoscience_stacked.svg' style=\"width: 80px;\"  alt='Geoscience Australia logo' title='Geoscience Australia logo'/></a>",
           ""
         ],
         "cesiumIonAccessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiI3NDU1NGQ4NC1iOWQ3LTRiYjgtYjNkNi1iZDdlZWY4ZTU4NjQiLCJpZCI6Mjk5MiwiaWF0IjoxNTM3NDQ1NzYxfQ.fjQUGky7Y4XZhBk1I6SyvzNlVufeEUJXQNHmNz8Ikiw",
