@@ -20,24 +20,19 @@
     },
     "terria-config": {
       "parameters": {
+        "supportEmail": "environment@bom.gov.au",
         "appName": "NEII Viewer ",
-        "bingMapsKey": "Ar4AdyLIOra8xQjP0Wt8yEQBZMmxz0eQgV00wIYsTulBXXe02q1hEA9D_rfpo5Dd",
-        "brandBarElements": [
-          "",
-          "<span style=\"background: url(https://saas.terria.io/api/v0/storage/terria/neii/bg_1_col.jpg); width: 100%; color: white; background-size: 30%; background-repeat: no-repeat; background-position: top right;\" title=\"Version: {{version}}\">National Environmental<br/> Information Infrastructure</span>",
-          ""
-        ],
-        "cesiumIonAccessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiJmMGVmYWQyNy1hMTgxLTQ0NzgtYjJmYi05MWVlODdlN2M2YmEiLCJpZCI6MzU1Mywic2NvcGVzIjpbImFzciIsImdjIl0sImlhdCI6MTUzODAyNTgzN30.nW2jknU2nTfaZPhaefYPQ6L28FGMRHwLuixeU8uQu24",
-        "developerAttribution": {
-          "link": "https://terria.io",
-          "text": "Terria Team at CSIRO's Data61"
-        },
         "disclaimer": {
           "text": "Disclaimer: This map must not be used for navigation or precise spatial analysis",
           "url": "http://google.com"
         },
-        "experimentalFeatures": true,
-        "feedbackUrl": "feedback",
+        "initializationUrls": [
+          "https://raw.githubusercontent.com/TerriaJS/neii-viewer/next/wwwroot/init/neii-air-converted.json"
+        ],
+        "brandBarElements": [
+          "<span style=\"background: url(https://saas.terria.io/api/v0/storage/terria/neii/bg_1_col.jpg); font-weight: 300; font-size: 24px; padding-top: 2px; padding-left: 6px;width: 100%; color: white; background-size: 30%; background-repeat: no-repeat; background-position: top right;\" title=\"Version: {{version}}\">National Environmental<br/> Information Infrastructure</span>"
+        ],
+        "cesiumIonAccessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiJmMGVmYWQyNy1hMTgxLTQ0NzgtYjJmYi05MWVlODdlN2M2YmEiLCJpZCI6MzU1Mywic2NvcGVzIjpbImFzciIsImdjIl0sImlhdCI6MTUzODAyNTgzN30.nW2jknU2nTfaZPhaefYPQ6L28FGMRHwLuixeU8uQu24",
         "globalDisclaimer": {
           "buttonTitle": "I agree",
           "confirmationRequired": true,
@@ -45,6 +40,54 @@
           "enableOnLocalhost": true,
           "prodHostRegex": "gov.\\.au$",
           "title": "Disclaimer"
+        },
+        "experimentalFeatures": true,
+        "feedbackUrl": "feedback",
+        "mobileDefaultViewerMode": "2d",
+        "bingMapsKey": "Ar4AdyLIOra8xQjP0Wt8yEQBZMmxz0eQgV00wIYsTulBXXe02q1hEA9D_rfpo5Dd",
+        "welcomeMessageVideo": {
+          "placeholderImage": "https://img.youtube.com/vi/lQE5E1O7VTs/maxresdefault.jpg",
+          "videoTitle": "Getting started with the map",
+          "videoUrl": "https://www.youtube.com/embed/lQE5E1O7VTs"
+        },
+        "theme": {
+          "brandingHeight": "70px",
+          "brandingPaddingVertical": "0px",
+          "charcoalGrey": "#3f4854",
+          "colorPrimary": "#bcc94e",
+          "colorSplitter": "#ff6f00",
+          "compassWidth": "56",
+          "dark": "#4d4d4d",
+          "darkWithOverlay": "#7E7E7E",
+          "frontComponentZIndex": "99",
+          "grey": "#888888",
+          "greyLighter": "#ddd",
+          "greyLighter2": "#e6e6e6",
+          "greyLightest": "#f2f2f2",
+          "lg": "1300",
+          "mapButtonColor": "#7e7e7e",
+          "mapButtonTop": "18",
+          "mapNavigationTop": "80",
+          "md": "992",
+          "mobile": "767",
+          "modalBg": "#fff",
+          "modalHighlight": "#bb5430",
+          "modalText": "#000",
+          "overlay": "rgba(255, 255, 255, 0.15)",
+          "overlayInvert": "rgba(255, 255, 255, 0.85)",
+          "radius40Button": "20",
+          "radiusLarge": "4px",
+          "radiusSmall": "2px",
+          "ringWidth": "10",
+          "sm": "768",
+          "spacing": "5",
+          "textBlack": "#000",
+          "textDark": "#595b60",
+          "textDarker": "#4d5766",
+          "textLight": "#ffffff",
+          "textLightDimmed": "#bbbbbb",
+          "trainerHeight": "64",
+          "workbenchWidth": "350"
         },
         "helpContent": [
           {
@@ -131,56 +174,13 @@
             ]
           }
         ],
-        "initializationUrls": [
-          "https://raw.githubusercontent.com/TerriaJS/neii-viewer/next/wwwroot/init/neii-air-converted.json"
-        ],
-        "mobileDefaultViewerMode": "2d",
-        "showWelcomeMessage": true,
-        "supportEmail": "environment@bom.gov.au",
-        "theme": {
-          "charcoalGrey": "#3f4854",
-          "colorPrimary": "#bcc94e",
-          "colorSplitter": "#ff6f00",
-          "compassWidth": "56",
-          "dark": "#4d4d4d",
-          "darkWithOverlay": "#4d4d4d",
-          "frontComponentZIndex": "99",
-          "grey": "#888888",
-          "greyLighter": "#ddd",
-          "greyLighter2": "#e6e6e6",
-          "greyLightest": "#f2f2f2",
-          "lg": "1300",
-          "mapButtonColor": "#7e7e7e",
-          "mapButtonTop": "18",
-          "mapNavigationTop": "80",
-          "md": "992",
-          "mobile": "767",
-          "modalBg": "#fff",
-          "modalHighlight": "#bb5430",
-          "modalText": "#000",
-          "overlay": "rgba(255, 255, 255, 0.15)",
-          "overlayInvert": "rgba(255, 255, 255, 0.85)",
-          "radius40Button": "20",
-          "radiusLarge": "4px",
-          "radiusSmall": "2px",
-          "ringWidth": "10",
-          "sm": "768",
-          "spacing": "5",
-          "textBlack": "#000",
-          "textDark": "#595b60",
-          "textDarker": "#4d5766",
-          "textLight": "#ffffff",
-          "textLightDimmed": "#bbbbbb",
-          "trainerHeight": "64",
-          "workbenchWidth": "350"
+        "developerAttribution": {
+          "link": "https://terria.io",
+          "text": "Terria Team at CSIRO's Data61"
         },
-        "welcomeMessageVideo": {
-          "placeholderImage": "https://img.youtube.com/vi/lQE5E1O7VTs/maxresdefault.jpg",
-          "videoTitle": "Getting started with the map",
-          "videoUrl": "https://www.youtube.com/embed/lQE5E1O7VTs"
-        }
+        "showWelcomeMessage": true
       },
-      "v7intializationUrls": [
+      "v7initializationUrls": [
         "https://raw.githubusercontent.com/TerriaJS/neii-viewer/master/wwwroot/init/neii-oceans.json",
         "https://raw.githubusercontent.com/TerriaJS/neii-viewer/master/wwwroot/init/neii-water.json",
         "https://raw.githubusercontent.com/TerriaJS/neii-viewer/master/wwwroot/init/neii-air.json",
