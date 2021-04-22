@@ -1,0 +1,2718 @@
+{
+  "workbench": [],
+  "catalog": [
+    {
+      "id": "QTE3m2",
+      "type": "group",
+      "name": "NEII Data Services – Conformant",
+      "members": [
+        {
+          "id": "Ib4nDn",
+          "type": "group",
+          "name": "Oceans (14)",
+          "members": [
+            {
+              "type": "wfs-group",
+              "name": " NSW Marine protected areas (NSW DPI)",
+              "description": "This layer provides a geographic interpretation of Marine Park and Aquatic Reserve boundaries in NSW as described in the NSW Marine Estate Management (Management Rules) Regulation 1999 and NSW Government Gazette (Aquatic Reserves).",
+              "info": [
+                {
+                  "name": "Data Custodian",
+                  "content": "[NSW Government](http://www.seed.nsw.gov.au/)"
+                },
+                {
+                  "name": "Further Information",
+                  "content": "[NSW Government](http://www.seed.nsw.gov.au/)"
+                }
+              ],
+              "url": "https://spatial.industry.nsw.gov.au/arcgis/services/PUBLIC/Marine_Protected_Areas/MapServer/WFSServer",
+              "rectangle": {
+                "west": 100,
+                "south": -44,
+                "east": 159,
+                "north": -4
+              },
+              "id": "uAajHZ",
+              "shareKeys": [
+                "Root Group/NEII Data Services – Conformant/Oceans (14)/ NSW Marine protected areas (NSW DPI)"
+              ]
+            },
+            {
+              "id": "s3urd5",
+              "type": "group",
+              "name": "Marine water quality (eReefs) (BoM)",
+              "members": [
+                {
+                  "id": "4LKHg5",
+                  "type": "group",
+                  "name": "Annual median",
+                  "members": [
+                    {
+                      "type": "wms",
+                      "name": "Chlorophyll-a concentration (annual median)",
+                      "description": "Chlorophyll-a, reflecting wavelengths in the green part of the visible light spectrum, is the substance that helps plants capture the sun’s energy. In the water, it indicates the presence of microscopic green algae (phytoplankton). While these plants are a natural part of the reef ecosystem, elevated numbers (a bloom) of phytoplankton signal elevated nutrient levels, especially nitrogen, in the water. Typical sources are runoff from excess fertiliser being applied to crops and, to a lesser extent in the Great Barrier Reef region, sewage contamination from urban areas.",
+                      "info": [
+                        {
+                          "name": "Service Contact",
+                          "content": "Senior Ocean Colour Scientist<br>[sros@bom.gov.au](mailto:sros@bom.gov.au)"
+                        }
+                      ],
+                      "url": "http://ereeftds.bom.gov.au/ereefs/tds/wms/ereefs/mwq_gridAgg_P1A",
+                      "layers": "Chl_MIM_median",
+                      "parameters": {
+                        "ABOVEMAXCOLOR": "0xAF324B",
+                        "BELOWMINCOLOR": "transparent",
+                        "COLORSCALERANGE": "0,1",
+                        "FORMAT": "image/png",
+                        "LAYERS": "Chl_MIM_median",
+                        "LOGSCALE": "false",
+                        "NUMCOLORBANDS": "16",
+                        "PALETTE": "mwq_chl",
+                        "STYLES": "boxfill/mwq_chl",
+                        "TRANSPARENT": "true",
+                        "VERSION": "1.1.1"
+                      },
+                      "featureInfoTemplate": {
+                        "template": "{{#value}}{{value}} µg/L{{/value}}"
+                      },
+                      "id": "APEgz8",
+                      "shareKeys": [
+                        "Root Group/NEII Data Services – Conformant/Oceans (14)/Marine water quality (eReefs) (BoM)/Annual median/Chlorophyll-a concentration (annual median)"
+                      ]
+                    },
+                    {
+                      "type": "wms",
+                      "name": "Coloured dissolved organic matter (annual median)",
+                      "info": [
+                        {
+                          "name": "Service Contact",
+                          "content": "Senior Ocean Colour Scientist<br>[sros@bom.gov.au](mailto:sros@bom.gov.au)"
+                        }
+                      ],
+                      "url": "http://ereeftds.bom.gov.au/ereefs/tds/wms/ereefs/mwq_gridAgg_P1A",
+                      "layers": "CDOM_MIM_median",
+                      "parameters": {
+                        "ABOVEMAXCOLOR": "0xAF324B",
+                        "BELOWMINCOLOR": "transparent",
+                        "COLORSCALERANGE": "0,0.5",
+                        "FORMAT": "image/png",
+                        "LAYERS": "CDOM_MIM_median",
+                        "LOGSCALE": "false",
+                        "NUMCOLORBANDS": "16",
+                        "PALETTE": "mwq_cdom",
+                        "STYLES": "boxfill/mwq_cdom",
+                        "TRANSPARENT": "true",
+                        "VERSION": "1.1.1"
+                      },
+                      "featureInfoTemplate": {
+                        "template": "{{value}} <a href=\"http://environment.data.gov.au/def/property/absorption_by_colored_dissolved_organic_solids\">m<sup>-1</sup></a>"
+                      },
+                      "id": "SK34Dc",
+                      "shareKeys": [
+                        "Root Group/NEII Data Services – Conformant/Oceans (14)/Marine water quality (eReefs) (BoM)/Annual median/Coloured dissolved organic matter (annual median)"
+                      ]
+                    },
+                    {
+                      "type": "wms",
+                      "name": "Non-algal particles (annual median)",
+                      "info": [
+                        {
+                          "name": "Service Contact",
+                          "content": "Senior Ocean Colour Scientist<br>[sros@bom.gov.au](mailto:sros@bom.gov.au)"
+                        }
+                      ],
+                      "url": "http://ereeftds.bom.gov.au/ereefs/tds/wms/ereefs/mwq_gridAgg_P1A",
+                      "layers": "Nap_MIM_median",
+                      "parameters": {
+                        "ABOVEMAXCOLOR": "0xAF324B",
+                        "BELOWMINCOLOR": "transparent",
+                        "COLORSCALERANGE": "0,0.5",
+                        "FORMAT": "image/png",
+                        "LAYERS": "Nap_MIM_median",
+                        "LOGSCALE": "false",
+                        "NUMCOLORBANDS": "16",
+                        "PALETTE": "mwq_nap",
+                        "STYLES": "boxfill/mwq_nap",
+                        "TRANSPARENT": "true",
+                        "VERSION": "1.1.1"
+                      },
+                      "featureInfoTemplate": {
+                        "template": "{{value}} <a href=\"http://environment.data.gov.au/def/property/absorption_by_non-algal_particles\">m<sup>-1</sup></a>"
+                      },
+                      "id": "3bhHEm",
+                      "shareKeys": [
+                        "Root Group/NEII Data Services – Conformant/Oceans (14)/Marine water quality (eReefs) (BoM)/Annual median/Non-algal particles (annual median)"
+                      ]
+                    }
+                  ],
+                  "isOpen": true,
+                  "shareKeys": [
+                    "Root Group/NEII Data Services – Conformant/Oceans (14)/Marine water quality (eReefs) (BoM)/Annual median"
+                  ]
+                },
+                {
+                  "id": "fPmhR3",
+                  "type": "group",
+                  "name": "Seasonal median",
+                  "members": [
+                    {
+                      "type": "wms",
+                      "name": "Chlorophyll-a concentration (seasonal)",
+                      "info": [
+                        {
+                          "name": "Service Contact",
+                          "content": "Senior Ocean Colour Scientist<br>[sros@bom.gov.au](mailto:sros@bom.gov.au)"
+                        }
+                      ],
+                      "url": "http://ereeftds.bom.gov.au/ereefs/tds/wms/ereefs/mwq_gridAgg_P6M",
+                      "layers": "Chl_MIM_median",
+                      "parameters": {
+                        "ABOVEMAXCOLOR": "0xAF324B",
+                        "BELOWMINCOLOR": "transparent",
+                        "COLORSCALERANGE": "0,1",
+                        "FORMAT": "image/png",
+                        "LAYERS": "Chl_MIM_median",
+                        "LOGSCALE": "false",
+                        "NUMCOLORBANDS": "16",
+                        "PALETTE": "mwq_chl",
+                        "STYLES": "boxfill/mwq_chl",
+                        "TRANSPARENT": "true",
+                        "VERSION": "1.1.1"
+                      },
+                      "featureInfoTemplate": {
+                        "template": "{{#value}}{{value}} µg/L{{/value}}"
+                      },
+                      "id": "XyCtFg",
+                      "shareKeys": [
+                        "Root Group/NEII Data Services – Conformant/Oceans (14)/Marine water quality (eReefs) (BoM)/Seasonal median/Chlorophyll-a concentration (seasonal)"
+                      ]
+                    },
+                    {
+                      "type": "wms",
+                      "name": "Coloured dissolved organic matter (seasonal)",
+                      "info": [
+                        {
+                          "name": "Service Contact",
+                          "content": "Senior Ocean Colour Scientist<br>[sros@bom.gov.au](mailto:sros@bom.gov.au)"
+                        }
+                      ],
+                      "url": "http://ereeftds.bom.gov.au/ereefs/tds/wms/ereefs/mwq_gridAgg_P6M",
+                      "layers": "CDOM_MIM_median",
+                      "parameters": {
+                        "ABOVEMAXCOLOR": "0xAF324B",
+                        "BELOWMINCOLOR": "transparent",
+                        "COLORSCALERANGE": "0,0.5",
+                        "FORMAT": "image/png",
+                        "LAYERS": "CDOM_MIM_median",
+                        "LOGSCALE": "false",
+                        "NUMCOLORBANDS": "16",
+                        "PALETTE": "mwq_cdom",
+                        "STYLES": "boxfill/mwq_cdom",
+                        "TRANSPARENT": "true",
+                        "VERSION": "1.1.1"
+                      },
+                      "featureInfoTemplate": {
+                        "template": "{{value}} <a href=\"http://environment.data.gov.au/def/property/absorption_by_colored_dissolved_organic_solids\">m<sup>-1</sup></a>"
+                      },
+                      "id": "slaDrS",
+                      "shareKeys": [
+                        "Root Group/NEII Data Services – Conformant/Oceans (14)/Marine water quality (eReefs) (BoM)/Seasonal median/Coloured dissolved organic matter (seasonal)"
+                      ]
+                    },
+                    {
+                      "type": "wms",
+                      "name": "Non-algal particles (seasonal)",
+                      "info": [
+                        {
+                          "name": "Service Contact",
+                          "content": "Senior Ocean Colour Scientist<br>[sros@bom.gov.au](mailto:sros@bom.gov.au)"
+                        }
+                      ],
+                      "url": "http://ereeftds.bom.gov.au/ereefs/tds/wms/ereefs/mwq_gridAgg_P6M",
+                      "layers": "Nap_MIM_median",
+                      "parameters": {
+                        "ABOVEMAXCOLOR": "0xAF324B",
+                        "BELOWMINCOLOR": "transparent",
+                        "COLORSCALERANGE": "0,0.5",
+                        "FORMAT": "image/png",
+                        "LAYERS": "Nap_MIM_median",
+                        "LOGSCALE": "false",
+                        "NUMCOLORBANDS": "16",
+                        "PALETTE": "mwq_nap",
+                        "STYLES": "boxfill/mwq_nap",
+                        "TRANSPARENT": "true",
+                        "VERSION": "1.1.1"
+                      },
+                      "featureInfoTemplate": {
+                        "template": "{{value}} <a href=\"http://environment.data.gov.au/def/property/absorption_by_non-algal_particles\">m<sup>-1</sup></a>"
+                      },
+                      "id": "gKZFfT",
+                      "shareKeys": [
+                        "Root Group/NEII Data Services – Conformant/Oceans (14)/Marine water quality (eReefs) (BoM)/Seasonal median/Non-algal particles (seasonal)"
+                      ]
+                    }
+                  ],
+                  "shareKeys": [
+                    "Root Group/NEII Data Services – Conformant/Oceans (14)/Marine water quality (eReefs) (BoM)/Seasonal median"
+                  ]
+                },
+                {
+                  "id": "2MNIrI",
+                  "type": "group",
+                  "name": "Monthly median",
+                  "members": [
+                    {
+                      "type": "wms",
+                      "name": "Chlorophyll-a concentration (monthly)",
+                      "info": [
+                        {
+                          "name": "Service Contact",
+                          "content": "Senior Ocean Colour Scientist<br>[sros@bom.gov.au](mailto:sros@bom.gov.au)"
+                        }
+                      ],
+                      "url": "http://ereeftds.bom.gov.au/ereefs/tds/wms/ereefs/mwq_gridAgg_P1M",
+                      "layers": "Chl_MIM_median",
+                      "parameters": {
+                        "ABOVEMAXCOLOR": "0xAF324B",
+                        "BELOWMINCOLOR": "transparent",
+                        "COLORSCALERANGE": "0,1",
+                        "FORMAT": "image/png",
+                        "LAYERS": "Chl_MIM_median",
+                        "LOGSCALE": "false",
+                        "NUMCOLORBANDS": "16",
+                        "PALETTE": "mwq_chl",
+                        "STYLES": "boxfill/mwq_chl",
+                        "TRANSPARENT": "true",
+                        "VERSION": "1.1.1"
+                      },
+                      "featureInfoTemplate": {
+                        "template": "{{#value}}{{value}} µg/L{{/value}}"
+                      },
+                      "id": "vNNqqI",
+                      "shareKeys": [
+                        "Root Group/NEII Data Services – Conformant/Oceans (14)/Marine water quality (eReefs) (BoM)/Monthly median/Chlorophyll-a concentration (monthly)"
+                      ]
+                    },
+                    {
+                      "type": "wms",
+                      "name": "Coloured dissolved organic matter (monthly)",
+                      "info": [
+                        {
+                          "name": "Service Contact",
+                          "content": "Senior Ocean Colour Scientist<br>[sros@bom.gov.au](mailto:sros@bom.gov.au)"
+                        }
+                      ],
+                      "url": "http://ereeftds.bom.gov.au/ereefs/tds/wms/ereefs/mwq_gridAgg_P1M",
+                      "layers": "CDOM_MIM_median",
+                      "parameters": {
+                        "ABOVEMAXCOLOR": "0xAF324B",
+                        "BELOWMINCOLOR": "transparent",
+                        "COLORSCALERANGE": "0,0.5",
+                        "FORMAT": "image/png",
+                        "LAYERS": "CDOM_MIM_median",
+                        "LOGSCALE": "false",
+                        "NUMCOLORBANDS": "16",
+                        "PALETTE": "mwq_cdom",
+                        "STYLES": "boxfill/mwq_cdom",
+                        "TRANSPARENT": "true",
+                        "VERSION": "1.1.1"
+                      },
+                      "featureInfoTemplate": {
+                        "template": "{{value}} <a href=\"http://environment.data.gov.au/def/property/absorption_by_colored_dissolved_organic_solids\">m<sup>-1</sup></a>"
+                      },
+                      "id": "AMeYL5",
+                      "shareKeys": [
+                        "Root Group/NEII Data Services – Conformant/Oceans (14)/Marine water quality (eReefs) (BoM)/Monthly median/Coloured dissolved organic matter (monthly)"
+                      ]
+                    },
+                    {
+                      "type": "wms",
+                      "name": "Non-algal particles (monthly)",
+                      "info": [
+                        {
+                          "name": "Service Contact",
+                          "content": "Senior Ocean Colour Scientist<br>[sros@bom.gov.au](mailto:sros@bom.gov.au)"
+                        }
+                      ],
+                      "url": "http://ereeftds.bom.gov.au/ereefs/tds/wms/ereefs/mwq_gridAgg_P1M",
+                      "layers": "Nap_MIM_median",
+                      "parameters": {
+                        "ABOVEMAXCOLOR": "0xAF324B",
+                        "BELOWMINCOLOR": "transparent",
+                        "COLORSCALERANGE": "0,0.5",
+                        "FORMAT": "image/png",
+                        "LAYERS": "Nap_MIM_median",
+                        "LOGSCALE": "false",
+                        "NUMCOLORBANDS": "16",
+                        "PALETTE": "mwq_nap",
+                        "STYLES": "boxfill/mwq_nap",
+                        "TRANSPARENT": "true",
+                        "VERSION": "1.1.1"
+                      },
+                      "featureInfoTemplate": {
+                        "template": "{{value}} <a href=\"http://environment.data.gov.au/def/property/absorption_by_non-algal_particles\">m<sup>-1</sup></a>"
+                      },
+                      "id": "5mQb6H",
+                      "shareKeys": [
+                        "Root Group/NEII Data Services – Conformant/Oceans (14)/Marine water quality (eReefs) (BoM)/Monthly median/Non-algal particles (monthly)"
+                      ]
+                    }
+                  ],
+                  "shareKeys": [
+                    "Root Group/NEII Data Services – Conformant/Oceans (14)/Marine water quality (eReefs) (BoM)/Monthly median"
+                  ]
+                },
+                {
+                  "id": "t7FXCC",
+                  "type": "group",
+                  "name": "Weekly median",
+                  "members": [
+                    {
+                      "type": "wms",
+                      "name": "Chlorophyll-a concentration (weekly)",
+                      "info": [
+                        {
+                          "name": "Service Contact",
+                          "content": "Senior Ocean Colour Scientist<br>[sros@bom.gov.au](mailto:sros@bom.gov.au)"
+                        }
+                      ],
+                      "url": "http://ereeftds.bom.gov.au/ereefs/tds/wms/ereefs/mwq_gridAgg_P1W",
+                      "layers": "Chl_MIM_median",
+                      "parameters": {
+                        "ABOVEMAXCOLOR": "0xAF324B",
+                        "BELOWMINCOLOR": "transparent",
+                        "COLORSCALERANGE": "0,1",
+                        "FORMAT": "image/png",
+                        "LAYERS": "Chl_MIM_median",
+                        "LOGSCALE": "false",
+                        "NUMCOLORBANDS": "16",
+                        "PALETTE": "mwq_chl",
+                        "STYLES": "boxfill/mwq_chl",
+                        "TRANSPARENT": "true",
+                        "VERSION": "1.1.1"
+                      },
+                      "featureInfoTemplate": {
+                        "template": "{{#value}}{{value}} µg/L{{/value}}"
+                      },
+                      "id": "11g2bn",
+                      "shareKeys": [
+                        "Root Group/NEII Data Services – Conformant/Oceans (14)/Marine water quality (eReefs) (BoM)/Weekly median/Chlorophyll-a concentration (weekly)"
+                      ]
+                    },
+                    {
+                      "type": "wms",
+                      "name": "Coloured dissolved organic matter (weekly)",
+                      "info": [
+                        {
+                          "name": "Service Contact",
+                          "content": "Senior Ocean Colour Scientist<br>[sros@bom.gov.au](mailto:sros@bom.gov.au)"
+                        }
+                      ],
+                      "url": "http://ereeftds.bom.gov.au/ereefs/tds/wms/ereefs/mwq_gridAgg_P1W",
+                      "layers": "CDOM_MIM_median",
+                      "parameters": {
+                        "ABOVEMAXCOLOR": "0xAF324B",
+                        "BELOWMINCOLOR": "transparent",
+                        "COLORSCALERANGE": "0,0.5",
+                        "FORMAT": "image/png",
+                        "LAYERS": "CDOM_MIM_median",
+                        "LOGSCALE": "false",
+                        "NUMCOLORBANDS": "16",
+                        "PALETTE": "mwq_cdom",
+                        "STYLES": "boxfill/mwq_cdom",
+                        "TRANSPARENT": "true",
+                        "VERSION": "1.1.1"
+                      },
+                      "featureInfoTemplate": {
+                        "template": "{{value}} <a href=\"http://environment.data.gov.au/def/property/absorption_by_colored_dissolved_organic_solids\">m<sup>-1</sup></a>"
+                      },
+                      "id": "x7nVTA",
+                      "shareKeys": [
+                        "Root Group/NEII Data Services – Conformant/Oceans (14)/Marine water quality (eReefs) (BoM)/Weekly median/Coloured dissolved organic matter (weekly)"
+                      ]
+                    },
+                    {
+                      "type": "wms",
+                      "name": "Non-algal particles (weekly)",
+                      "info": [
+                        {
+                          "name": "Service Contact",
+                          "content": "Senior Ocean Colour Scientist<br>[sros@bom.gov.au](mailto:sros@bom.gov.au)"
+                        }
+                      ],
+                      "url": "http://ereeftds.bom.gov.au/ereefs/tds/wms/ereefs/mwq_gridAgg_P1W",
+                      "layers": "Nap_MIM_median",
+                      "parameters": {
+                        "ABOVEMAXCOLOR": "0xAF324B",
+                        "BELOWMINCOLOR": "transparent",
+                        "COLORSCALERANGE": "0,0.5",
+                        "FORMAT": "image/png",
+                        "LAYERS": "Nap_MIM_median",
+                        "LOGSCALE": "false",
+                        "NUMCOLORBANDS": "16",
+                        "PALETTE": "mwq_nap",
+                        "STYLES": "boxfill/mwq_nap",
+                        "TRANSPARENT": "true",
+                        "VERSION": "1.1.1"
+                      },
+                      "featureInfoTemplate": {
+                        "template": "{{value}} <a href=\"http://environment.data.gov.au/def/property/absorption_by_non-algal_particles\">m<sup>-1</sup></a>"
+                      },
+                      "id": "mVNWDF",
+                      "shareKeys": [
+                        "Root Group/NEII Data Services – Conformant/Oceans (14)/Marine water quality (eReefs) (BoM)/Weekly median/Non-algal particles (weekly)"
+                      ]
+                    }
+                  ],
+                  "shareKeys": [
+                    "Root Group/NEII Data Services – Conformant/Oceans (14)/Marine water quality (eReefs) (BoM)/Weekly median"
+                  ]
+                },
+                {
+                  "id": "rBNlUR",
+                  "type": "group",
+                  "name": "Daily median",
+                  "members": [
+                    {
+                      "type": "wms",
+                      "name": "Chlorophyll-a concentration (daily)",
+                      "info": [
+                        {
+                          "name": "Service Contact",
+                          "content": "Senior Ocean Colour Scientist<br>[sros@bom.gov.au](mailto:sros@bom.gov.au)"
+                        }
+                      ],
+                      "url": "http://ereeftds.bom.gov.au/ereefs/tds/wms/ereefs/mwq_gridAgg_P1D",
+                      "layers": "Chl_MIM",
+                      "parameters": {
+                        "ABOVEMAXCOLOR": "0xAF324B",
+                        "BELOWMINCOLOR": "transparent",
+                        "COLORSCALERANGE": "0,1",
+                        "FORMAT": "image/png",
+                        "LAYERS": "Chl_MIM",
+                        "LOGSCALE": "false",
+                        "NUMCOLORBANDS": "16",
+                        "PALETTE": "mwq_chl",
+                        "STYLES": "boxfill/mwq_chl",
+                        "TRANSPARENT": "true",
+                        "VERSION": "1.1.1"
+                      },
+                      "featureInfoTemplate": {
+                        "template": "{{#value}}{{value}} µg/L{{/value}}"
+                      },
+                      "id": "sx6njL",
+                      "shareKeys": [
+                        "Root Group/NEII Data Services – Conformant/Oceans (14)/Marine water quality (eReefs) (BoM)/Daily median/Chlorophyll-a concentration (daily)"
+                      ]
+                    },
+                    {
+                      "type": "wms",
+                      "name": "Coloured dissolved organic matter (daily)",
+                      "info": [
+                        {
+                          "name": "Service Contact",
+                          "content": "Senior Ocean Colour Scientist<br>[sros@bom.gov.au](mailto:sros@bom.gov.au)"
+                        }
+                      ],
+                      "url": "http://ereeftds.bom.gov.au/ereefs/tds/wms/ereefs/mwq_gridAgg_P1D",
+                      "layers": "CDOM_MIM",
+                      "parameters": {
+                        "ABOVEMAXCOLOR": "0xAF324B",
+                        "BELOWMINCOLOR": "transparent",
+                        "COLORSCALERANGE": "0,0.5",
+                        "FORMAT": "image/png",
+                        "LAYERS": "CDOM_MIM",
+                        "LOGSCALE": "false",
+                        "NUMCOLORBANDS": "16",
+                        "PALETTE": "mwq_cdom",
+                        "STYLES": "boxfill/mwq_cdom",
+                        "TRANSPARENT": "true",
+                        "VERSION": "1.1.1"
+                      },
+                      "featureInfoTemplate": {
+                        "template": "{{value}} <a href=\"http://environment.data.gov.au/def/property/absorption_by_colored_dissolved_organic_solids\">m<sup>-1</sup></a>"
+                      },
+                      "id": "VvNPfA",
+                      "shareKeys": [
+                        "Root Group/NEII Data Services – Conformant/Oceans (14)/Marine water quality (eReefs) (BoM)/Daily median/Coloured dissolved organic matter (daily)"
+                      ]
+                    },
+                    {
+                      "type": "wms",
+                      "name": "Non-algal particles (daily)",
+                      "info": [
+                        {
+                          "name": "Service Contact",
+                          "content": "Senior Ocean Colour Scientist<br>[sros@bom.gov.au](mailto:sros@bom.gov.au)"
+                        }
+                      ],
+                      "url": "http://ereeftds.bom.gov.au/ereefs/tds/wms/ereefs/mwq_gridAgg_P1D",
+                      "layers": "Nap_MIM",
+                      "parameters": {
+                        "ABOVEMAXCOLOR": "0xAF324B",
+                        "BELOWMINCOLOR": "transparent",
+                        "COLORSCALERANGE": "0,0.5",
+                        "FORMAT": "image/png",
+                        "LAYERS": "Nap_MIM",
+                        "LOGSCALE": "false",
+                        "NUMCOLORBANDS": "16",
+                        "PALETTE": "mwq_nap",
+                        "STYLES": "boxfill/mwq_nap",
+                        "TRANSPARENT": "true",
+                        "VERSION": "1.1.1"
+                      },
+                      "featureInfoTemplate": {
+                        "template": "{{value}} <a href=\"http://environment.data.gov.au/def/property/absorption_by_non-algal_particles\">m<sup>-1</sup></a>"
+                      },
+                      "id": "bUNXb1",
+                      "shareKeys": [
+                        "Root Group/NEII Data Services – Conformant/Oceans (14)/Marine water quality (eReefs) (BoM)/Daily median/Non-algal particles (daily)"
+                      ]
+                    }
+                  ],
+                  "shareKeys": [
+                    "Root Group/NEII Data Services – Conformant/Oceans (14)/Marine water quality (eReefs) (BoM)/Daily median"
+                  ]
+                }
+              ],
+              "description": "The Marine Water Quality data services underlie the eReefs Marine Water Quality Dashboard. The Dashboard enables access to a range of water-quality indicators for the Great Barrier Reef. It uses near real-time data and more than ten years of records of sea surface temperatures, chlorophyll levels, suspended sediments and dissolved organic matter.",
+              "info": [
+                {
+                  "name": "Data Custodian",
+                  "content": "[Bureau of Meteorology](http://www.bom.gov.au/)"
+                },
+                {
+                  "name": "Further Information",
+                  "content": "[NEII Catalogue](http://neii.gov.au/catalogue/)"
+                }
+              ],
+              "isOpen": false,
+              "shareKeys": [
+                "Root Group/NEII Data Services – Conformant/Oceans (14)/Marine water quality (eReefs) (BoM)"
+              ]
+            },
+            {
+              "id": "ecE1JD",
+              "type": "group",
+              "name": "Reef temperature (eReefs) (BoM)",
+              "members": [
+                {
+                  "type": "wms-group",
+                  "name": "Sea surface temperature (daily composites)",
+                  "url": "http://ereeftds.bom.gov.au/ereefs/tds/wms/ereefs/RT2_gridAgg_P1D_SST",
+                  "id": "YnQmdc",
+                  "shareKeys": [
+                    "Root Group/NEII Data Services – Conformant/Oceans (14)/Reef temperature (eReefs) (BoM)/Sea surface temperature (daily composites)"
+                  ]
+                },
+                {
+                  "type": "wms-group",
+                  "name": "Degree heating days (daily composites)",
+                  "url": "http://ereeftds.bom.gov.au/ereefs/tds/wms/ereefs/RT2_gridAgg_P1D_DHD",
+                  "id": "4guJSe",
+                  "shareKeys": [
+                    "Root Group/NEII Data Services – Conformant/Oceans (14)/Reef temperature (eReefs) (BoM)/Degree heating days (daily composites)"
+                  ]
+                },
+                {
+                  "type": "wms-group",
+                  "name": "Error variables (daily composites)",
+                  "url": "http://ereeftds.bom.gov.au/ereefs/tds/wms/ereefs/RT2_gridAgg_P1D_ERR",
+                  "id": "xI88Ia",
+                  "shareKeys": [
+                    "Root Group/NEII Data Services – Conformant/Oceans (14)/Reef temperature (eReefs) (BoM)/Error variables (daily composites)"
+                  ]
+                },
+                {
+                  "type": "wms-group",
+                  "name": "Weekly composites",
+                  "url": "http://ereeftds.bom.gov.au/ereefs/tds/wms/ereefs/RT2_gridAgg_P1W",
+                  "id": "C4jfaf",
+                  "shareKeys": [
+                    "Root Group/NEII Data Services – Conformant/Oceans (14)/Reef temperature (eReefs) (BoM)/Weekly composites"
+                  ]
+                },
+                {
+                  "type": "wms-group",
+                  "name": "Monthly composites",
+                  "url": "http://ereeftds.bom.gov.au/ereefs/tds/wms/ereefs/RT2_gridAgg_P1M",
+                  "id": "q2njqI",
+                  "shareKeys": [
+                    "Root Group/NEII Data Services – Conformant/Oceans (14)/Reef temperature (eReefs) (BoM)/Monthly composites"
+                  ]
+                },
+                {
+                  "type": "wms-group",
+                  "name": "Seasonal composites",
+                  "url": "http://ereeftds.bom.gov.au/ereefs/tds/wms/ereefs/RT2_gridAgg_P6M",
+                  "id": "lE74aT",
+                  "shareKeys": [
+                    "Root Group/NEII Data Services – Conformant/Oceans (14)/Reef temperature (eReefs) (BoM)/Seasonal composites"
+                  ]
+                },
+                {
+                  "type": "wms-group",
+                  "name": "Annual composites",
+                  "url": "http://ereeftds.bom.gov.au/ereefs/tds/wms/ereefs/RT2_gridAgg_P1A",
+                  "id": "XLEaNj",
+                  "shareKeys": [
+                    "Root Group/NEII Data Services – Conformant/Oceans (14)/Reef temperature (eReefs) (BoM)/Annual composites"
+                  ]
+                }
+              ],
+              "description": "The ReefTemp Next Generation web data services underlie the eReefs Marine Water Quality Dashboard. The Dashboard enables access to a range of water-quality indicators for the Great Barrier Reef. It uses near real-time data and more than ten years of records of sea surface temperatures, chlorophyll levels, suspended sediments and dissolved organic matter.",
+              "info": [
+                {
+                  "name": "Data Custodian",
+                  "content": "[Bureau of Meteorology](http://www.bom.gov.au/)"
+                },
+                {
+                  "name": "Further Information",
+                  "content": "[NEII Catalogue](http://neii.gov.au/catalogue/)"
+                }
+              ],
+              "shareKeys": [
+                "Root Group/NEII Data Services – Conformant/Oceans (14)/Reef temperature (eReefs) (BoM)"
+              ]
+            },
+            {
+              "id": "4WSf3d",
+              "type": "group",
+              "name": "Marine key ecological features (DotEE)",
+              "members": [
+                {
+                  "type": "wms",
+                  "name": "Marine key ecological features - unnamed",
+                  "url": "http://www.environment.gov.au/mapping/services/ogc_services/Key_Ecological_Features/MapServer/WMSServer",
+                  "rectangle": {
+                    "west": 100,
+                    "south": -44,
+                    "east": 159,
+                    "north": -4
+                  },
+                  "dataCustodian": "[Department of the Environment and Energy](http://www.environment.gov.au/)",
+                  "layers": "Key_Ecological_Features",
+                  "id": "J6DKq5",
+                  "shareKeys": [
+                    "Root Group/NEII Data Services – Conformant/Oceans (14)/Marine key ecological features (DotEE)/Marine key ecological features - unnamed"
+                  ]
+                },
+                {
+                  "type": "wms",
+                  "name": "Marine key ecological features - named",
+                  "url": "http://www.environment.gov.au/mapping/services/ogc_services/Key_Ecological_Features_named/MapServer/WMSServer",
+                  "rectangle": {
+                    "west": 100,
+                    "south": -44,
+                    "east": 159,
+                    "north": -4
+                  },
+                  "dataCustodian": "[Department of the Environment and Energy](http://www.environment.gov.au/)",
+                  "layers": "Key_Ecological_Features_named",
+                  "id": "G7xN7W",
+                  "shareKeys": [
+                    "Root Group/NEII Data Services – Conformant/Oceans (14)/Marine key ecological features (DotEE)/Marine key ecological features - named"
+                  ]
+                }
+              ],
+              "description": "Key ecological features are the parts of the marine ecosystem that are considered to be of importance for a marine region's biodiversity or ecosystem function and integrity.\n\nKey ecological features (KEFs) meet one or more of the following criteria:\n\n<ol><li>a species, group of species, or a community with a regionally important ecological role (e.g. a predator, prey that affects a large biomass or number of other marine species);</li><li>a species, group of species, or a community that is nationally or regionally important for biodiversity;</li><li>an area or habitat that is nationally or regionally important for:</li><ol type='a'><li>enhanced or high productivity (such as predictable upwellings - an upwelling occurs when cold nutrient-rich waters from the bottom of the ocean rise to the surface);</li><li>aggregations of marine life (such as feeding, resting, breeding or nursery areas);</li><li>biodiversity and endemism (species which only occur in a specific area); or</li></ol><li>a unique seafloor feature, with known or presumed ecological properties of regional significance.</li></ol>",
+              "info": [
+                {
+                  "name": "Data Custodian",
+                  "content": "[Department of the Environment and Energy](http://www.environment.gov.au/)"
+                },
+                {
+                  "name": "Further Information",
+                  "content": "[NEII Catalogue](http://neii.gov.au/catalogue/)"
+                }
+              ],
+              "shareKeys": [
+                "Root Group/NEII Data Services – Conformant/Oceans (14)/Marine key ecological features (DotEE)"
+              ]
+            },
+            {
+              "type": "wms",
+              "name": "Collaborative Australian Protected Areas Database (CAPAD) 2018 - Marine (DoEE)",
+              "url": "http://www.environment.gov.au/mapping/services/ogc_services/CAPAD_MARINE/MapServer/WMSServer",
+              "layers": "Marine CAPAD",
+              "id": "ttH2wn",
+              "shareKeys": [
+                "Root Group/NEII Data Services – Conformant/Oceans (14)/Collaborative Australian Protected Areas Database (CAPAD) 2018 - Marine (DoEE)"
+              ]
+            },
+            {
+              "id": "6ZhkVW",
+              "type": "group",
+              "name": "Australian Coastal Sediment Compartments",
+              "members": [
+                {
+                  "type": "wms",
+                  "name": "Regions",
+                  "url": "http://services.ga.gov.au/gis/services/Australian_Coastal_Sediment_Compartments/MapServer/WMSServer?request=GetCapabilities&service=WMS",
+                  "opacity": 1,
+                  "dataCustodian": "[Geoscience Australia](http://www.ga.gov.au/)",
+                  "layers": "Regions",
+                  "id": "UdRUNU",
+                  "shareKeys": [
+                    "Root Group/NEII Data Services – Conformant/Oceans (14)/Australian Coastal Sediment Compartments/Regions"
+                  ]
+                },
+                {
+                  "type": "wms",
+                  "name": "Divisions",
+                  "url": "http://services.ga.gov.au/gis/services/Australian_Coastal_Sediment_Compartments/MapServer/WMSServer?request=GetCapabilities&service=WMS",
+                  "opacity": 1,
+                  "dataCustodian": "[Geoscience Australia](http://www.ga.gov.au/)",
+                  "layers": "Divisions",
+                  "id": "gLH6y8",
+                  "shareKeys": [
+                    "Root Group/NEII Data Services – Conformant/Oceans (14)/Australian Coastal Sediment Compartments/Divisions"
+                  ]
+                },
+                {
+                  "type": "wms",
+                  "name": "Primary compartments",
+                  "url": "http://services.ga.gov.au/gis/services/Australian_Coastal_Sediment_Compartments/MapServer/WMSServer?request=GetCapabilities&service=WMS",
+                  "opacity": 1,
+                  "dataCustodian": "[Geoscience Australia](http://www.ga.gov.au/)",
+                  "layers": "Primary_compartments",
+                  "id": "uqYdhT",
+                  "shareKeys": [
+                    "Root Group/NEII Data Services – Conformant/Oceans (14)/Australian Coastal Sediment Compartments/Primary compartments"
+                  ]
+                },
+                {
+                  "type": "wms",
+                  "name": "Secondary compartments",
+                  "url": "http://services.ga.gov.au/gis/services/Australian_Coastal_Sediment_Compartments/MapServer/WMSServer?request=GetCapabilities&service=WMS",
+                  "opacity": 1,
+                  "dataCustodian": "[Geoscience Australia](http://www.ga.gov.au/)",
+                  "layers": "Secondary_compartments",
+                  "id": "N3pu7R",
+                  "shareKeys": [
+                    "Root Group/NEII Data Services – Conformant/Oceans (14)/Australian Coastal Sediment Compartments/Secondary compartments"
+                  ]
+                },
+                {
+                  "type": "wms",
+                  "name": "Primary points",
+                  "url": "http://services.ga.gov.au/gis/services/Australian_Coastal_Sediment_Compartments/MapServer/WMSServer?request=GetCapabilities&service=WMS",
+                  "opacity": 1,
+                  "dataCustodian": "[Geoscience Australia](http://www.ga.gov.au/)",
+                  "layers": "Primary_points",
+                  "id": "ZaHkK8",
+                  "shareKeys": [
+                    "Root Group/NEII Data Services – Conformant/Oceans (14)/Australian Coastal Sediment Compartments/Primary points"
+                  ]
+                },
+                {
+                  "type": "wms",
+                  "name": "Secondary points",
+                  "url": "http://services.ga.gov.au/gis/services/Australian_Coastal_Sediment_Compartments/MapServer/WMSServer?request=GetCapabilities&service=WMS",
+                  "opacity": 1,
+                  "dataCustodian": "[Geoscience Australia](http://www.ga.gov.au/)",
+                  "layers": "Secondary_points",
+                  "id": "G1FBwa",
+                  "shareKeys": [
+                    "Root Group/NEII Data Services – Conformant/Oceans (14)/Australian Coastal Sediment Compartments/Secondary points"
+                  ]
+                }
+              ],
+              "description": "Geoscience Australia is the custodian of the most comprehensive publicly available Australian airborne magnetic, gamma-ray, seismic, electromagnetic and gravity data sets. The airborne geophysics data set contains approximately 34 million line kilometres of data, which, at current prices, would cost approximately $197 million to acquire. The gravity data set contains more than 1.57 million reliable onshore stations gathered during more than 1800 surveys. The collection also includes a large number of seismic surveys from Australia offshore basins. The data types and access methods for the Offshore and Onshore data are identical.The AusHydro database provides a seamless surface hydrography layer for Australia at a nominal scale of 1:250, 000. It consists of lines, points and polygons representing natural and man-made features such as water courses, lakes, dams and other waterbodies. The natural water course layer consists of a linear network with a consistent topology that provide directional flow paths through the network for hydrological analysis. This network was used to produce the National 9 second Digital Elevation Model (DEM) of  Australia (http://www.ga.gov.au/nmd/products/digidat/dem_9s.jsp). It also provides information on naming, hierarchy and perenniality.",
+              "info": [
+                {
+                  "name": "Data Custodian",
+                  "content": "[Geoscience Australia](http://www.ga.gov.au/)"
+                },
+                {
+                  "name": "Further Information",
+                  "content": "[NEII Catalogue](http://neii.gov.au/catalogue/)"
+                }
+              ],
+              "shareKeys": [
+                "Root Group/NEII Data Services – Conformant/Oceans (14)/Australian Coastal Sediment Compartments"
+              ]
+            },
+            {
+              "type": "wms",
+              "name": "Australian Submarine Canyons",
+              "url": "http://services.ga.gov.au/gis/services/Submarine_Canyons/MapServer/WMSServer?request=GetCapabilities&service=WMS",
+              "layers": "Submarine_Canyons",
+              "id": "GEp6XX",
+              "shareKeys": [
+                "Root Group/NEII Data Services – Conformant/Oceans (14)/Australian Submarine Canyons"
+              ]
+            },
+            {
+              "id": "22K4lf",
+              "type": "group",
+              "name": "Bathymetry Derivatives Map of Australia",
+              "members": [
+                {
+                  "type": "wms",
+                  "name": "Topographic Rugosity",
+                  "url": "http://gaservices.ga.gov.au/site_3/services/Bathymetry_Derivatives/MapServer/WMSServer?request=GetCapabilities&service=WMS",
+                  "opacity": 1,
+                  "dataCustodian": "[Geoscience Australia](http://www.ga.gov.au/)",
+                  "layers": "Topographic_Rugosity",
+                  "id": "TbXEID",
+                  "shareKeys": [
+                    "Root Group/NEII Data Services – Conformant/Oceans (14)/Bathymetry Derivatives Map of Australia/Topographic Rugosity"
+                  ]
+                },
+                {
+                  "type": "wms",
+                  "name": "Topographic Relief",
+                  "url": "http://gaservices.ga.gov.au/site_3/services/Bathymetry_Derivatives/MapServer/WMSServer?request=GetCapabilities&service=WMS",
+                  "opacity": 1,
+                  "dataCustodian": "[Geoscience Australia](http://www.ga.gov.au/)",
+                  "layers": "Topographic_Relief",
+                  "id": "HA7syR",
+                  "shareKeys": [
+                    "Root Group/NEII Data Services – Conformant/Oceans (14)/Bathymetry Derivatives Map of Australia/Topographic Relief"
+                  ]
+                },
+                {
+                  "type": "wms",
+                  "name": "Topographic Slope",
+                  "url": "http://gaservices.ga.gov.au/site_3/services/Bathymetry_Derivatives/MapServer/WMSServer?request=GetCapabilities&service=WMS",
+                  "opacity": 1,
+                  "dataCustodian": "[Geoscience Australia](http://www.ga.gov.au/)",
+                  "layers": "Topographic_Slope",
+                  "id": "Ai2Pjt",
+                  "shareKeys": [
+                    "Root Group/NEII Data Services – Conformant/Oceans (14)/Bathymetry Derivatives Map of Australia/Topographic Slope"
+                  ]
+                },
+                {
+                  "type": "wms",
+                  "name": "Topographic Aspect",
+                  "url": "http://gaservices.ga.gov.au/site_3/services/Bathymetry_Derivatives/MapServer/WMSServer?request=GetCapabilities&service=WMS",
+                  "opacity": 1,
+                  "dataCustodian": "[Geoscience Australia](http://www.ga.gov.au/)",
+                  "layers": "Topographic_Aspect",
+                  "id": "pDpsEx",
+                  "shareKeys": [
+                    "Root Group/NEII Data Services – Conformant/Oceans (14)/Bathymetry Derivatives Map of Australia/Topographic Aspect"
+                  ]
+                },
+                {
+                  "type": "wms",
+                  "name": "Hillshaded Bathymetry Topography",
+                  "url": "http://gaservices.ga.gov.au/site_3/services/Bathymetry_Derivatives/MapServer/WMSServer?request=GetCapabilities&service=WMS",
+                  "opacity": 1,
+                  "dataCustodian": "[Geoscience Australia](http://www.ga.gov.au/)",
+                  "layers": "Hillshaded_Bathymetry_Topography",
+                  "id": "ICIThF",
+                  "shareKeys": [
+                    "Root Group/NEII Data Services – Conformant/Oceans (14)/Bathymetry Derivatives Map of Australia/Hillshaded Bathymetry Topography"
+                  ]
+                }
+              ],
+              "description": "Geoscience Australia is the custodian of the most comprehensive publicly available Australian airborne magnetic, gamma-ray, seismic, electromagnetic and gravity data sets. The airborne geophysics data set contains approximately 34 million line kilometres of data, which, at current prices, would cost approximately $197 million to acquire. The gravity data set contains more than 1.57 million reliable onshore stations gathered during more than 1800 surveys. The collection also includes a large number of seismic surveys from Australia offshore basins. The data types and access methods for the Offshore and Onshore data are identical.The AusHydro database provides a seamless surface hydrography layer for Australia at a nominal scale of 1:250, 000. It consists of lines, points and polygons representing natural and man-made features such as water courses, lakes, dams and other waterbodies. The natural water course layer consists of a linear network with a consistent topology that provide directional flow paths through the network for hydrological analysis. This network was used to produce the National 9 second Digital Elevation Model (DEM) of  Australia (http://www.ga.gov.au/nmd/products/digidat/dem_9s.jsp). It also provides information on naming, hierarchy and perenniality.",
+              "info": [
+                {
+                  "name": "Data Custodian",
+                  "content": "[Geoscience Australia](http://www.ga.gov.au/)"
+                },
+                {
+                  "name": "Further Information",
+                  "content": "[NEII Catalogue](http://neii.gov.au/catalogue/)"
+                }
+              ],
+              "shareKeys": [
+                "Root Group/NEII Data Services – Conformant/Oceans (14)/Bathymetry Derivatives Map of Australia"
+              ]
+            },
+            {
+              "id": "H2N7jD",
+              "type": "group",
+              "name": "Dynamic National Map Hydrology and Marine - Points",
+              "members": [
+                {
+                  "type": "wms",
+                  "name": "Water Storage Points",
+                  "url": "http://gaservices.ga.gov.au/site_7/services/NM_Hydrology_and_Marine_Points/MapServer/WMSServer?request=GetCapabilities&service=WMS",
+                  "opacity": 1,
+                  "dataCustodian": "[Geoscience Australia](http://www.ga.gov.au/)",
+                  "layers": "Dams_and_Tanks",
+                  "id": "IMzBpZ",
+                  "shareKeys": [
+                    "Root Group/NEII Data Services – Conformant/Oceans (14)/Dynamic National Map Hydrology and Marine - Points/Water Storage Points"
+                  ]
+                },
+                {
+                  "type": "wms",
+                  "name": "Natural Water Points - Soak",
+                  "url": "http://gaservices.ga.gov.au/site_7/services/NM_Hydrology_and_Marine_Points/MapServer/WMSServer?request=GetCapabilities&service=WMS",
+                  "opacity": 1,
+                  "dataCustodian": "[Geoscience Australia](http://www.ga.gov.au/)",
+                  "layers": "Natural_Water_Points_Soak",
+                  "id": "EYKSAH",
+                  "shareKeys": [
+                    "Root Group/NEII Data Services – Conformant/Oceans (14)/Dynamic National Map Hydrology and Marine - Points/Natural Water Points - Soak"
+                  ]
+                },
+                {
+                  "type": "wms",
+                  "name": "Natural Water Points - Rockhole",
+                  "url": "http://gaservices.ga.gov.au/site_7/services/NM_Hydrology_and_Marine_Points/MapServer/WMSServer?request=GetCapabilities&service=WMS",
+                  "opacity": 1,
+                  "dataCustodian": "[Geoscience Australia](http://www.ga.gov.au/)",
+                  "layers": "Natural_Water_Points_Rockhole",
+                  "id": "iLCyTW",
+                  "shareKeys": [
+                    "Root Group/NEII Data Services – Conformant/Oceans (14)/Dynamic National Map Hydrology and Marine - Points/Natural Water Points - Rockhole"
+                  ]
+                },
+                {
+                  "type": "wms",
+                  "name": "Natural Water Points - Pool",
+                  "url": "http://gaservices.ga.gov.au/site_7/services/NM_Hydrology_and_Marine_Points/MapServer/WMSServer?request=GetCapabilities&service=WMS",
+                  "opacity": 1,
+                  "dataCustodian": "[Geoscience Australia](http://www.ga.gov.au/)",
+                  "layers": "Natural_Water_Points_Pool",
+                  "id": "kYm56R",
+                  "shareKeys": [
+                    "Root Group/NEII Data Services – Conformant/Oceans (14)/Dynamic National Map Hydrology and Marine - Points/Natural Water Points - Pool"
+                  ]
+                },
+                {
+                  "type": "wms",
+                  "name": "Natural Water Points - Native Well",
+                  "url": "http://gaservices.ga.gov.au/site_7/services/NM_Hydrology_and_Marine_Points/MapServer/WMSServer?request=GetCapabilities&service=WMS",
+                  "opacity": 1,
+                  "dataCustodian": "[Geoscience Australia](http://www.ga.gov.au/)",
+                  "layers": "Natural_Water_Points_NativeWell",
+                  "id": "aDTMiI",
+                  "shareKeys": [
+                    "Root Group/NEII Data Services – Conformant/Oceans (14)/Dynamic National Map Hydrology and Marine - Points/Natural Water Points - Native Well"
+                  ]
+                },
+                {
+                  "type": "wms",
+                  "name": "Natural Water Points - Gnamma Hole",
+                  "url": "http://gaservices.ga.gov.au/site_7/services/NM_Hydrology_and_Marine_Points/MapServer/WMSServer?request=GetCapabilities&service=WMS",
+                  "opacity": 1,
+                  "dataCustodian": "[Geoscience Australia](http://www.ga.gov.au/)",
+                  "layers": "Natural_Water_Points_GnammaHole",
+                  "id": "vwuuXG",
+                  "shareKeys": [
+                    "Root Group/NEII Data Services – Conformant/Oceans (14)/Dynamic National Map Hydrology and Marine - Points/Natural Water Points - Gnamma Hole"
+                  ]
+                },
+                {
+                  "type": "wms",
+                  "name": "Bores",
+                  "url": "http://gaservices.ga.gov.au/site_7/services/NM_Hydrology_and_Marine_Points/MapServer/WMSServer?request=GetCapabilities&service=WMS",
+                  "opacity": 1,
+                  "dataCustodian": "[Geoscience Australia](http://www.ga.gov.au/)",
+                  "layers": "Bores",
+                  "id": "APVaHk",
+                  "shareKeys": [
+                    "Root Group/NEII Data Services – Conformant/Oceans (14)/Dynamic National Map Hydrology and Marine - Points/Bores"
+                  ]
+                },
+                {
+                  "type": "wms",
+                  "name": "Waterholes",
+                  "url": "http://gaservices.ga.gov.au/site_7/services/NM_Hydrology_and_Marine_Points/MapServer/WMSServer?request=GetCapabilities&service=WMS",
+                  "opacity": 1,
+                  "dataCustodian": "[Geoscience Australia](http://www.ga.gov.au/)",
+                  "layers": "Waterholes",
+                  "id": "eFM3lG",
+                  "shareKeys": [
+                    "Root Group/NEII Data Services – Conformant/Oceans (14)/Dynamic National Map Hydrology and Marine - Points/Waterholes"
+                  ]
+                },
+                {
+                  "type": "wms",
+                  "name": "Springs",
+                  "url": "http://gaservices.ga.gov.au/site_7/services/NM_Hydrology_and_Marine_Points/MapServer/WMSServer?request=GetCapabilities&service=WMS",
+                  "opacity": 1,
+                  "dataCustodian": "[Geoscience Australia](http://www.ga.gov.au/)",
+                  "layers": "Springs",
+                  "id": "cajxci",
+                  "shareKeys": [
+                    "Root Group/NEII Data Services – Conformant/Oceans (14)/Dynamic National Map Hydrology and Marine - Points/Springs"
+                  ]
+                },
+                {
+                  "type": "wms",
+                  "name": "Waterfalls",
+                  "url": "http://gaservices.ga.gov.au/site_7/services/NM_Hydrology_and_Marine_Points/MapServer/WMSServer?request=GetCapabilities&service=WMS",
+                  "opacity": 1,
+                  "dataCustodian": "[Geoscience Australia](http://www.ga.gov.au/)",
+                  "layers": "Waterfalls",
+                  "id": "4iFBWH",
+                  "shareKeys": [
+                    "Root Group/NEII Data Services – Conformant/Oceans (14)/Dynamic National Map Hydrology and Marine - Points/Waterfalls"
+                  ]
+                },
+                {
+                  "type": "wms",
+                  "name": "Locks",
+                  "url": "http://gaservices.ga.gov.au/site_7/services/NM_Hydrology_and_Marine_Points/MapServer/WMSServer?request=GetCapabilities&service=WMS",
+                  "opacity": 1,
+                  "dataCustodian": "[Geoscience Australia](http://www.ga.gov.au/)",
+                  "layers": "Locks",
+                  "id": "q1Bicd",
+                  "shareKeys": [
+                    "Root Group/NEII Data Services – Conformant/Oceans (14)/Dynamic National Map Hydrology and Marine - Points/Locks"
+                  ]
+                },
+                {
+                  "type": "wms",
+                  "name": "Lighthouses",
+                  "url": "http://gaservices.ga.gov.au/site_7/services/NM_Hydrology_and_Marine_Points/MapServer/WMSServer?request=GetCapabilities&service=WMS",
+                  "opacity": 1,
+                  "dataCustodian": "[Geoscience Australia](http://www.ga.gov.au/)",
+                  "layers": "Lighthouses",
+                  "id": "P63shI",
+                  "shareKeys": [
+                    "Root Group/NEII Data Services – Conformant/Oceans (14)/Dynamic National Map Hydrology and Marine - Points/Lighthouses"
+                  ]
+                },
+                {
+                  "type": "wms",
+                  "name": "Offshore Rocks and Wrecks",
+                  "url": "http://gaservices.ga.gov.au/site_7/services/NM_Hydrology_and_Marine_Points/MapServer/WMSServer?request=GetCapabilities&service=WMS",
+                  "opacity": 1,
+                  "dataCustodian": "[Geoscience Australia](http://www.ga.gov.au/)",
+                  "layers": "Offshore_Rocks_And_Wrecks",
+                  "id": "lJtudG",
+                  "shareKeys": [
+                    "Root Group/NEII Data Services – Conformant/Oceans (14)/Dynamic National Map Hydrology and Marine - Points/Offshore Rocks and Wrecks"
+                  ]
+                },
+                {
+                  "type": "wms",
+                  "name": "Water Storage Points - Labels",
+                  "url": "http://gaservices.ga.gov.au/site_7/services/NM_Hydrology_and_Marine_Points/MapServer/WMSServer?request=GetCapabilities&service=WMS",
+                  "opacity": 1,
+                  "dataCustodian": "[Geoscience Australia](http://www.ga.gov.au/)",
+                  "layers": "Dams_and_Tanks_Labels",
+                  "id": "2xexfr",
+                  "shareKeys": [
+                    "Root Group/NEII Data Services – Conformant/Oceans (14)/Dynamic National Map Hydrology and Marine - Points/Water Storage Points - Labels"
+                  ]
+                },
+                {
+                  "type": "wms",
+                  "name": "Natural Water Points - Soaks - Labels",
+                  "url": "http://gaservices.ga.gov.au/site_7/services/NM_Hydrology_and_Marine_Points/MapServer/WMSServer?request=GetCapabilities&service=WMS",
+                  "opacity": 1,
+                  "dataCustodian": "[Geoscience Australia](http://www.ga.gov.au/)",
+                  "layers": "Natural_Water_Points_Soaks_Labels",
+                  "id": "mwyPzr",
+                  "shareKeys": [
+                    "Root Group/NEII Data Services – Conformant/Oceans (14)/Dynamic National Map Hydrology and Marine - Points/Natural Water Points - Soaks - Labels"
+                  ]
+                },
+                {
+                  "type": "wms",
+                  "name": "Natural Water Points - Rockholes - Labels",
+                  "url": "http://gaservices.ga.gov.au/site_7/services/NM_Hydrology_and_Marine_Points/MapServer/WMSServer?request=GetCapabilities&service=WMS",
+                  "opacity": 1,
+                  "dataCustodian": "[Geoscience Australia](http://www.ga.gov.au/)",
+                  "layers": "Natural_Water_Points_Rockholes_Labels",
+                  "id": "2t8V1b",
+                  "shareKeys": [
+                    "Root Group/NEII Data Services – Conformant/Oceans (14)/Dynamic National Map Hydrology and Marine - Points/Natural Water Points - Rockholes - Labels"
+                  ]
+                },
+                {
+                  "type": "wms",
+                  "name": "Natural Water Points - Pools - Labels",
+                  "url": "http://gaservices.ga.gov.au/site_7/services/NM_Hydrology_and_Marine_Points/MapServer/WMSServer?request=GetCapabilities&service=WMS",
+                  "opacity": 1,
+                  "dataCustodian": "[Geoscience Australia](http://www.ga.gov.au/)",
+                  "layers": "Natural_Water_Points_Pools_Labels",
+                  "id": "gStpNf",
+                  "shareKeys": [
+                    "Root Group/NEII Data Services – Conformant/Oceans (14)/Dynamic National Map Hydrology and Marine - Points/Natural Water Points - Pools - Labels"
+                  ]
+                },
+                {
+                  "type": "wms",
+                  "name": "Natural Water Points - Native Wells - Labels",
+                  "url": "http://gaservices.ga.gov.au/site_7/services/NM_Hydrology_and_Marine_Points/MapServer/WMSServer?request=GetCapabilities&service=WMS",
+                  "opacity": 1,
+                  "dataCustodian": "[Geoscience Australia](http://www.ga.gov.au/)",
+                  "layers": "Natural_Water_Points_NativeWells_Labels",
+                  "id": "s8j4XG",
+                  "shareKeys": [
+                    "Root Group/NEII Data Services – Conformant/Oceans (14)/Dynamic National Map Hydrology and Marine - Points/Natural Water Points - Native Wells - Labels"
+                  ]
+                },
+                {
+                  "type": "wms",
+                  "name": "Natural Water Points - Gnamma Holes - Labels",
+                  "url": "http://gaservices.ga.gov.au/site_7/services/NM_Hydrology_and_Marine_Points/MapServer/WMSServer?request=GetCapabilities&service=WMS",
+                  "opacity": 1,
+                  "dataCustodian": "[Geoscience Australia](http://www.ga.gov.au/)",
+                  "layers": "Natural_Water_Points_GnammaHoles_Labels",
+                  "id": "DItgDm",
+                  "shareKeys": [
+                    "Root Group/NEII Data Services – Conformant/Oceans (14)/Dynamic National Map Hydrology and Marine - Points/Natural Water Points - Gnamma Holes - Labels"
+                  ]
+                },
+                {
+                  "type": "wms",
+                  "name": "Bores - Labels",
+                  "url": "http://gaservices.ga.gov.au/site_7/services/NM_Hydrology_and_Marine_Points/MapServer/WMSServer?request=GetCapabilities&service=WMS",
+                  "opacity": 1,
+                  "dataCustodian": "[Geoscience Australia](http://www.ga.gov.au/)",
+                  "layers": "Bores_Labels",
+                  "id": "pvTt7A",
+                  "shareKeys": [
+                    "Root Group/NEII Data Services – Conformant/Oceans (14)/Dynamic National Map Hydrology and Marine - Points/Bores - Labels"
+                  ]
+                },
+                {
+                  "type": "wms",
+                  "name": "Waterholes - Labels",
+                  "url": "http://gaservices.ga.gov.au/site_7/services/NM_Hydrology_and_Marine_Points/MapServer/WMSServer?request=GetCapabilities&service=WMS",
+                  "opacity": 1,
+                  "dataCustodian": "[Geoscience Australia](http://www.ga.gov.au/)",
+                  "layers": "Waterholes_Labels",
+                  "id": "ZZDSmH",
+                  "shareKeys": [
+                    "Root Group/NEII Data Services – Conformant/Oceans (14)/Dynamic National Map Hydrology and Marine - Points/Waterholes - Labels"
+                  ]
+                },
+                {
+                  "type": "wms",
+                  "name": "Springs - Labels",
+                  "url": "http://gaservices.ga.gov.au/site_7/services/NM_Hydrology_and_Marine_Points/MapServer/WMSServer?request=GetCapabilities&service=WMS",
+                  "opacity": 1,
+                  "dataCustodian": "[Geoscience Australia](http://www.ga.gov.au/)",
+                  "layers": "Springs_Labels",
+                  "id": "UhWLFB",
+                  "shareKeys": [
+                    "Root Group/NEII Data Services – Conformant/Oceans (14)/Dynamic National Map Hydrology and Marine - Points/Springs - Labels"
+                  ]
+                },
+                {
+                  "type": "wms",
+                  "name": "Waterfalls - Labels",
+                  "url": "http://gaservices.ga.gov.au/site_7/services/NM_Hydrology_and_Marine_Points/MapServer/WMSServer?request=GetCapabilities&service=WMS",
+                  "opacity": 1,
+                  "dataCustodian": "[Geoscience Australia](http://www.ga.gov.au/)",
+                  "layers": "Waterfalls_Labels",
+                  "id": "ARCJ15",
+                  "shareKeys": [
+                    "Root Group/NEII Data Services – Conformant/Oceans (14)/Dynamic National Map Hydrology and Marine - Points/Waterfalls - Labels"
+                  ]
+                },
+                {
+                  "type": "wms",
+                  "name": "Locks - Labels",
+                  "url": "http://gaservices.ga.gov.au/site_7/services/NM_Hydrology_and_Marine_Points/MapServer/WMSServer?request=GetCapabilities&service=WMS",
+                  "opacity": 1,
+                  "dataCustodian": "[Geoscience Australia](http://www.ga.gov.au/)",
+                  "layers": "Locks_Labels",
+                  "id": "V4YPpC",
+                  "shareKeys": [
+                    "Root Group/NEII Data Services – Conformant/Oceans (14)/Dynamic National Map Hydrology and Marine - Points/Locks - Labels"
+                  ]
+                },
+                {
+                  "type": "wms",
+                  "name": "Lighthouses - Labels",
+                  "url": "http://gaservices.ga.gov.au/site_7/services/NM_Hydrology_and_Marine_Points/MapServer/WMSServer?request=GetCapabilities&service=WMS",
+                  "opacity": 1,
+                  "dataCustodian": "[Geoscience Australia](http://www.ga.gov.au/)",
+                  "layers": "Lighthouses_Labels",
+                  "id": "ezHYbV",
+                  "shareKeys": [
+                    "Root Group/NEII Data Services – Conformant/Oceans (14)/Dynamic National Map Hydrology and Marine - Points/Lighthouses - Labels"
+                  ]
+                },
+                {
+                  "type": "wms",
+                  "name": "Offshore Rocks and Wrecks - Labels",
+                  "url": "http://gaservices.ga.gov.au/site_7/services/NM_Hydrology_and_Marine_Points/MapServer/WMSServer?request=GetCapabilities&service=WMS",
+                  "opacity": 1,
+                  "dataCustodian": "[Geoscience Australia](http://www.ga.gov.au/)",
+                  "layers": "Offshore_Rocks_and_Wrecks_Labels",
+                  "id": "Yjtwer",
+                  "shareKeys": [
+                    "Root Group/NEII Data Services – Conformant/Oceans (14)/Dynamic National Map Hydrology and Marine - Points/Offshore Rocks and Wrecks - Labels"
+                  ]
+                }
+              ],
+              "description": "Geoscience Australia is the custodian of the most comprehensive publicly available Australian airborne magnetic, gamma-ray, seismic, electromagnetic and gravity data sets. The airborne geophysics data set contains approximately 34 million line kilometres of data, which, at current prices, would cost approximately $197 million to acquire. The gravity data set contains more than 1.57 million reliable onshore stations gathered during more than 1800 surveys. The collection also includes a large number of seismic surveys from Australia offshore basins. The data types and access methods for the Offshore and Onshore data are identical.The AusHydro database provides a seamless surface hydrography layer for Australia at a nominal scale of 1:250, 000. It consists of lines, points and polygons representing natural and man-made features such as water courses, lakes, dams and other waterbodies. The natural water course layer consists of a linear network with a consistent topology that provide directional flow paths through the network for hydrological analysis. This network was used to produce the National 9 second Digital Elevation Model (DEM) of  Australia (http://www.ga.gov.au/nmd/products/digidat/dem_9s.jsp). It also provides information on naming, hierarchy and perenniality.",
+              "info": [
+                {
+                  "name": "Data Custodian",
+                  "content": "[Geoscience Australia](http://www.ga.gov.au/)"
+                },
+                {
+                  "name": "Further Information",
+                  "content": "[NEII Catalogue](http://neii.gov.au/catalogue/)"
+                }
+              ],
+              "shareKeys": [
+                "Root Group/NEII Data Services – Conformant/Oceans (14)/Dynamic National Map Hydrology and Marine - Points"
+              ]
+            },
+            {
+              "id": "eX38Sr",
+              "type": "group",
+              "name": "Dynamic National Map Hydrology and Marine",
+              "members": [
+                {
+                  "type": "wms",
+                  "name": "Flats - Saline Coastal Flats",
+                  "url": "http://gaservices.ga.gov.au/site_7/services/NM_Hydrology_and_Marine/MapServer/WMSServer?request=GetCapabilities&service=WMS",
+                  "opacity": 1,
+                  "dataCustodian": "[Geoscience Australia](http://www.ga.gov.au/)",
+                  "layers": "Flats_SalineCoastalFlats",
+                  "id": "viiXNq",
+                  "shareKeys": [
+                    "Root Group/NEII Data Services – Conformant/Oceans (14)/Dynamic National Map Hydrology and Marine/Flats - Saline Coastal Flats"
+                  ]
+                },
+                {
+                  "type": "wms",
+                  "name": "Flats - Land Subject to Inundation",
+                  "url": "http://gaservices.ga.gov.au/site_7/services/NM_Hydrology_and_Marine/MapServer/WMSServer?request=GetCapabilities&service=WMS",
+                  "opacity": 1,
+                  "dataCustodian": "[Geoscience Australia](http://www.ga.gov.au/)",
+                  "layers": "Flats_LandSubjectToInundation",
+                  "id": "xXZhp5",
+                  "shareKeys": [
+                    "Root Group/NEII Data Services – Conformant/Oceans (14)/Dynamic National Map Hydrology and Marine/Flats - Land Subject to Inundation"
+                  ]
+                },
+                {
+                  "type": "wms",
+                  "name": "Flats - Marine Swamps",
+                  "url": "http://gaservices.ga.gov.au/site_7/services/NM_Hydrology_and_Marine/MapServer/WMSServer?request=GetCapabilities&service=WMS",
+                  "opacity": 1,
+                  "dataCustodian": "[Geoscience Australia](http://www.ga.gov.au/)",
+                  "layers": "Flats_MarineSwamps",
+                  "id": "fDMjMM",
+                  "shareKeys": [
+                    "Root Group/NEII Data Services – Conformant/Oceans (14)/Dynamic National Map Hydrology and Marine/Flats - Marine Swamps"
+                  ]
+                },
+                {
+                  "type": "wms",
+                  "name": "Flats - Swamps",
+                  "url": "http://gaservices.ga.gov.au/site_7/services/NM_Hydrology_and_Marine/MapServer/WMSServer?request=GetCapabilities&service=WMS",
+                  "opacity": 1,
+                  "dataCustodian": "[Geoscience Australia](http://www.ga.gov.au/)",
+                  "layers": "Flats_Swamps",
+                  "id": "WRwiDn",
+                  "shareKeys": [
+                    "Root Group/NEII Data Services – Conformant/Oceans (14)/Dynamic National Map Hydrology and Marine/Flats - Swamps"
+                  ]
+                },
+                {
+                  "type": "wms",
+                  "name": "Watercourses - All Watercourse Lines",
+                  "url": "http://gaservices.ga.gov.au/site_7/services/NM_Hydrology_and_Marine/MapServer/WMSServer?request=GetCapabilities&service=WMS",
+                  "opacity": 1,
+                  "dataCustodian": "[Geoscience Australia](http://www.ga.gov.au/)",
+                  "layers": "Watercourses_All_Rivers_Watercourse_Lines",
+                  "id": "WHmhcv",
+                  "shareKeys": [
+                    "Root Group/NEII Data Services – Conformant/Oceans (14)/Dynamic National Map Hydrology and Marine/Watercourses - All Watercourse Lines"
+                  ]
+                },
+                {
+                  "type": "wms",
+                  "name": "Watercourses - All Connector Lines",
+                  "url": "http://gaservices.ga.gov.au/site_7/services/NM_Hydrology_and_Marine/MapServer/WMSServer?request=GetCapabilities&service=WMS",
+                  "opacity": 1,
+                  "dataCustodian": "[Geoscience Australia](http://www.ga.gov.au/)",
+                  "layers": "Watercourses_All_Rivers_Connectors",
+                  "id": "GzXrn2",
+                  "shareKeys": [
+                    "Root Group/NEII Data Services – Conformant/Oceans (14)/Dynamic National Map Hydrology and Marine/Watercourses - All Connector Lines"
+                  ]
+                },
+                {
+                  "type": "wms",
+                  "name": "Watercourses - Major Rivers Scale 1:5,000,000 to 1:300,000",
+                  "url": "http://gaservices.ga.gov.au/site_7/services/NM_Hydrology_and_Marine/MapServer/WMSServer?request=GetCapabilities&service=WMS",
+                  "opacity": 1,
+                  "dataCustodian": "[Geoscience Australia](http://www.ga.gov.au/)",
+                  "layers": "Watercourses_Major_Rivers_Scale_5Million_to_300000_Labels",
+                  "id": "UZzaX1",
+                  "shareKeys": [
+                    "Root Group/NEII Data Services – Conformant/Oceans (14)/Dynamic National Map Hydrology and Marine/Watercourses - Major Rivers Scale 1:5,000,000 to 1:300,000"
+                  ]
+                },
+                {
+                  "type": "wms",
+                  "name": "Watercourses - Major Rivers National Scale to 1:5,000,000",
+                  "url": "http://gaservices.ga.gov.au/site_7/services/NM_Hydrology_and_Marine/MapServer/WMSServer?request=GetCapabilities&service=WMS",
+                  "opacity": 1,
+                  "dataCustodian": "[Geoscience Australia](http://www.ga.gov.au/)",
+                  "layers": "Watercourses_Major_Rivers_National_Scale_to_5Million",
+                  "id": "LmXU8l",
+                  "shareKeys": [
+                    "Root Group/NEII Data Services – Conformant/Oceans (14)/Dynamic National Map Hydrology and Marine/Watercourses - Major Rivers National Scale to 1:5,000,000"
+                  ]
+                },
+                {
+                  "type": "wms",
+                  "name": "Waterbody - Farm Dam Areas",
+                  "url": "http://gaservices.ga.gov.au/site_7/services/NM_Hydrology_and_Marine/MapServer/WMSServer?request=GetCapabilities&service=WMS",
+                  "opacity": 1,
+                  "dataCustodian": "[Geoscience Australia](http://www.ga.gov.au/)",
+                  "layers": "Farm_Dam_Area",
+                  "id": "gTNKpz",
+                  "shareKeys": [
+                    "Root Group/NEII Data Services – Conformant/Oceans (14)/Dynamic National Map Hydrology and Marine/Waterbody - Farm Dam Areas"
+                  ]
+                },
+                {
+                  "type": "wms",
+                  "name": "Waterbody - All Flood Irrigation Storage",
+                  "url": "http://gaservices.ga.gov.au/site_7/services/NM_Hydrology_and_Marine/MapServer/WMSServer?request=GetCapabilities&service=WMS",
+                  "opacity": 1,
+                  "dataCustodian": "[Geoscience Australia](http://www.ga.gov.au/)",
+                  "layers": "Waterbody_All_Flood_Irrigation_Storage",
+                  "id": "pgWnyk",
+                  "shareKeys": [
+                    "Root Group/NEII Data Services – Conformant/Oceans (14)/Dynamic National Map Hydrology and Marine/Waterbody - All Flood Irrigation Storage"
+                  ]
+                },
+                {
+                  "type": "wms",
+                  "name": "Waterbody - All Reservoirs",
+                  "url": "http://gaservices.ga.gov.au/site_7/services/NM_Hydrology_and_Marine/MapServer/WMSServer?request=GetCapabilities&service=WMS",
+                  "opacity": 1,
+                  "dataCustodian": "[Geoscience Australia](http://www.ga.gov.au/)",
+                  "layers": "Waterbody_All_Reservoirs",
+                  "id": "ZjQ5gE",
+                  "shareKeys": [
+                    "Root Group/NEII Data Services – Conformant/Oceans (14)/Dynamic National Map Hydrology and Marine/Waterbody - All Reservoirs"
+                  ]
+                },
+                {
+                  "type": "wms",
+                  "name": "Waterbody - All Lakes",
+                  "url": "http://gaservices.ga.gov.au/site_7/services/NM_Hydrology_and_Marine/MapServer/WMSServer?request=GetCapabilities&service=WMS",
+                  "opacity": 1,
+                  "dataCustodian": "[Geoscience Australia](http://www.ga.gov.au/)",
+                  "layers": "Waterbody_All_Lakes",
+                  "id": "4wcZDb",
+                  "shareKeys": [
+                    "Root Group/NEII Data Services – Conformant/Oceans (14)/Dynamic National Map Hydrology and Marine/Waterbody - All Lakes"
+                  ]
+                },
+                {
+                  "type": "wms",
+                  "name": "Waterbody - Extra Lakes and Reservoirs",
+                  "url": "http://gaservices.ga.gov.au/site_7/services/NM_Hydrology_and_Marine/MapServer/WMSServer?request=GetCapabilities&service=WMS",
+                  "opacity": 1,
+                  "dataCustodian": "[Geoscience Australia](http://www.ga.gov.au/)",
+                  "layers": "Waterbody_Extra_Lakes_and_Reservoirs",
+                  "id": "h31CL2",
+                  "shareKeys": [
+                    "Root Group/NEII Data Services – Conformant/Oceans (14)/Dynamic National Map Hydrology and Marine/Waterbody - Extra Lakes and Reservoirs"
+                  ]
+                },
+                {
+                  "type": "wms",
+                  "name": "Waterbody - Reservoirs National Scale to 1:300,000",
+                  "url": "http://gaservices.ga.gov.au/site_7/services/NM_Hydrology_and_Marine/MapServer/WMSServer?request=GetCapabilities&service=WMS",
+                  "opacity": 1,
+                  "dataCustodian": "[Geoscience Australia](http://www.ga.gov.au/)",
+                  "layers": "Waterbody_Reservoirs_National_Scale_to_300000",
+                  "id": "BE3McU",
+                  "shareKeys": [
+                    "Root Group/NEII Data Services – Conformant/Oceans (14)/Dynamic National Map Hydrology and Marine/Waterbody - Reservoirs National Scale to 1:300,000"
+                  ]
+                },
+                {
+                  "type": "wms",
+                  "name": "Waterbody - Lakes Scale 1:5,000,000 to 1:300,000",
+                  "url": "http://gaservices.ga.gov.au/site_7/services/NM_Hydrology_and_Marine/MapServer/WMSServer?request=GetCapabilities&service=WMS",
+                  "opacity": 1,
+                  "dataCustodian": "[Geoscience Australia](http://www.ga.gov.au/)",
+                  "layers": "Waterbody_Lakes_Scale_5Million_to_300000",
+                  "id": "PuSk1l",
+                  "shareKeys": [
+                    "Root Group/NEII Data Services – Conformant/Oceans (14)/Dynamic National Map Hydrology and Marine/Waterbody - Lakes Scale 1:5,000,000 to 1:300,000"
+                  ]
+                },
+                {
+                  "type": "wms",
+                  "name": "Waterbody - Lakes National Scale to 1:5,000,000",
+                  "url": "http://gaservices.ga.gov.au/site_7/services/NM_Hydrology_and_Marine/MapServer/WMSServer?request=GetCapabilities&service=WMS",
+                  "opacity": 1,
+                  "dataCustodian": "[Geoscience Australia](http://www.ga.gov.au/)",
+                  "layers": "Waterbody_Lakes_National_Scale_to_5Million",
+                  "id": "IXfcSF",
+                  "shareKeys": [
+                    "Root Group/NEII Data Services – Conformant/Oceans (14)/Dynamic National Map Hydrology and Marine/Waterbody - Lakes National Scale to 1:5,000,000"
+                  ]
+                },
+                {
+                  "type": "wms",
+                  "name": "Foreshore Flats",
+                  "url": "http://gaservices.ga.gov.au/site_7/services/NM_Hydrology_and_Marine/MapServer/WMSServer?request=GetCapabilities&service=WMS",
+                  "opacity": 1,
+                  "dataCustodian": "[Geoscience Australia](http://www.ga.gov.au/)",
+                  "layers": "Foreshore_Flats",
+                  "id": "RliVWR",
+                  "shareKeys": [
+                    "Root Group/NEII Data Services – Conformant/Oceans (14)/Dynamic National Map Hydrology and Marine/Foreshore Flats"
+                  ]
+                },
+                {
+                  "type": "wms",
+                  "name": "Pondage Areas - Settling Ponds",
+                  "url": "http://gaservices.ga.gov.au/site_7/services/NM_Hydrology_and_Marine/MapServer/WMSServer?request=GetCapabilities&service=WMS",
+                  "opacity": 1,
+                  "dataCustodian": "[Geoscience Australia](http://www.ga.gov.au/)",
+                  "layers": "Pondage_Areas_Settling_Ponds",
+                  "id": "CPUSSr",
+                  "shareKeys": [
+                    "Root Group/NEII Data Services – Conformant/Oceans (14)/Dynamic National Map Hydrology and Marine/Pondage Areas - Settling Ponds"
+                  ]
+                },
+                {
+                  "type": "wms",
+                  "name": "Pondage Areas - Salt Evaporators",
+                  "url": "http://gaservices.ga.gov.au/site_7/services/NM_Hydrology_and_Marine/MapServer/WMSServer?request=GetCapabilities&service=WMS",
+                  "opacity": 1,
+                  "dataCustodian": "[Geoscience Australia](http://www.ga.gov.au/)",
+                  "layers": "Pondage_Areas_Salt_Evaporators",
+                  "id": "TZcnPZ",
+                  "shareKeys": [
+                    "Root Group/NEII Data Services – Conformant/Oceans (14)/Dynamic National Map Hydrology and Marine/Pondage Areas - Salt Evaporators"
+                  ]
+                },
+                {
+                  "type": "wms",
+                  "name": "Pondage Areas - Aquaculture Areas",
+                  "url": "http://gaservices.ga.gov.au/site_7/services/NM_Hydrology_and_Marine/MapServer/WMSServer?request=GetCapabilities&service=WMS",
+                  "opacity": 1,
+                  "dataCustodian": "[Geoscience Australia](http://www.ga.gov.au/)",
+                  "layers": "PondageArea_AquacultureAreas",
+                  "id": "T8vUek",
+                  "shareKeys": [
+                    "Root Group/NEII Data Services – Conformant/Oceans (14)/Dynamic National Map Hydrology and Marine/Pondage Areas - Aquaculture Areas"
+                  ]
+                },
+                {
+                  "type": "wms",
+                  "name": "Watercourse Areas",
+                  "url": "http://gaservices.ga.gov.au/site_7/services/NM_Hydrology_and_Marine/MapServer/WMSServer?request=GetCapabilities&service=WMS",
+                  "opacity": 1,
+                  "dataCustodian": "[Geoscience Australia](http://www.ga.gov.au/)",
+                  "layers": "Watercourse_Areas",
+                  "id": "WgKkGK",
+                  "shareKeys": [
+                    "Root Group/NEII Data Services – Conformant/Oceans (14)/Dynamic National Map Hydrology and Marine/Watercourse Areas"
+                  ]
+                },
+                {
+                  "type": "wms",
+                  "name": "Rapid Areas",
+                  "url": "http://gaservices.ga.gov.au/site_7/services/NM_Hydrology_and_Marine/MapServer/WMSServer?request=GetCapabilities&service=WMS",
+                  "opacity": 1,
+                  "dataCustodian": "[Geoscience Australia](http://www.ga.gov.au/)",
+                  "layers": "Rapid_Areas",
+                  "id": "MGXfwP",
+                  "shareKeys": [
+                    "Root Group/NEII Data Services – Conformant/Oceans (14)/Dynamic National Map Hydrology and Marine/Rapid Areas"
+                  ]
+                },
+                {
+                  "type": "wms",
+                  "name": "Canal Areas",
+                  "url": "http://gaservices.ga.gov.au/site_7/services/NM_Hydrology_and_Marine/MapServer/WMSServer?request=GetCapabilities&service=WMS",
+                  "opacity": 1,
+                  "dataCustodian": "[Geoscience Australia](http://www.ga.gov.au/)",
+                  "layers": "Canal_Areas",
+                  "id": "JwHc2L",
+                  "shareKeys": [
+                    "Root Group/NEII Data Services – Conformant/Oceans (14)/Dynamic National Map Hydrology and Marine/Canal Areas"
+                  ]
+                },
+                {
+                  "type": "wms",
+                  "name": "Levees",
+                  "url": "http://gaservices.ga.gov.au/site_7/services/NM_Hydrology_and_Marine/MapServer/WMSServer?request=GetCapabilities&service=WMS",
+                  "opacity": 1,
+                  "dataCustodian": "[Geoscience Australia](http://www.ga.gov.au/)",
+                  "layers": "Levees",
+                  "id": "747r7n",
+                  "shareKeys": [
+                    "Root Group/NEII Data Services – Conformant/Oceans (14)/Dynamic National Map Hydrology and Marine/Levees"
+                  ]
+                },
+                {
+                  "type": "wms",
+                  "name": "Spillways",
+                  "url": "http://gaservices.ga.gov.au/site_7/services/NM_Hydrology_and_Marine/MapServer/WMSServer?request=GetCapabilities&service=WMS",
+                  "opacity": 1,
+                  "dataCustodian": "[Geoscience Australia](http://www.ga.gov.au/)",
+                  "layers": "Spillways",
+                  "id": "BPKtQX",
+                  "shareKeys": [
+                    "Root Group/NEII Data Services – Conformant/Oceans (14)/Dynamic National Map Hydrology and Marine/Spillways"
+                  ]
+                },
+                {
+                  "type": "wms",
+                  "name": "Rapid Lines",
+                  "url": "http://gaservices.ga.gov.au/site_7/services/NM_Hydrology_and_Marine/MapServer/WMSServer?request=GetCapabilities&service=WMS",
+                  "opacity": 1,
+                  "dataCustodian": "[Geoscience Australia](http://www.ga.gov.au/)",
+                  "layers": "Rapid_Lines",
+                  "id": "pp3gaG",
+                  "shareKeys": [
+                    "Root Group/NEII Data Services – Conformant/Oceans (14)/Dynamic National Map Hydrology and Marine/Rapid Lines"
+                  ]
+                },
+                {
+                  "type": "wms",
+                  "name": "Dam Walls",
+                  "url": "http://gaservices.ga.gov.au/site_7/services/NM_Hydrology_and_Marine/MapServer/WMSServer?request=GetCapabilities&service=WMS",
+                  "opacity": 1,
+                  "dataCustodian": "[Geoscience Australia](http://www.ga.gov.au/)",
+                  "layers": "Dam_Walls",
+                  "id": "hvHh6G",
+                  "shareKeys": [
+                    "Root Group/NEII Data Services – Conformant/Oceans (14)/Dynamic National Map Hydrology and Marine/Dam Walls"
+                  ]
+                },
+                {
+                  "type": "wms",
+                  "name": "Canal Lines",
+                  "url": "http://gaservices.ga.gov.au/site_7/services/NM_Hydrology_and_Marine/MapServer/WMSServer?request=GetCapabilities&service=WMS",
+                  "opacity": 1,
+                  "dataCustodian": "[Geoscience Australia](http://www.ga.gov.au/)",
+                  "layers": "Canal_Lines",
+                  "id": "mgYCuq",
+                  "shareKeys": [
+                    "Root Group/NEII Data Services – Conformant/Oceans (14)/Dynamic National Map Hydrology and Marine/Canal Lines"
+                  ]
+                },
+                {
+                  "type": "wms",
+                  "name": "Water Storage Points",
+                  "url": "http://gaservices.ga.gov.au/site_7/services/NM_Hydrology_and_Marine/MapServer/WMSServer?request=GetCapabilities&service=WMS",
+                  "opacity": 1,
+                  "dataCustodian": "[Geoscience Australia](http://www.ga.gov.au/)",
+                  "layers": "Dams_and_Tanks",
+                  "id": "Kcb1Bf",
+                  "shareKeys": [
+                    "Root Group/NEII Data Services – Conformant/Oceans (14)/Dynamic National Map Hydrology and Marine/Water Storage Points"
+                  ]
+                },
+                {
+                  "type": "wms",
+                  "name": "Natural Water Points - Soak",
+                  "url": "http://gaservices.ga.gov.au/site_7/services/NM_Hydrology_and_Marine/MapServer/WMSServer?request=GetCapabilities&service=WMS",
+                  "opacity": 1,
+                  "dataCustodian": "[Geoscience Australia](http://www.ga.gov.au/)",
+                  "layers": "Natural_Water_Points_Soak",
+                  "id": "BteSXA",
+                  "shareKeys": [
+                    "Root Group/NEII Data Services – Conformant/Oceans (14)/Dynamic National Map Hydrology and Marine/Natural Water Points - Soak"
+                  ]
+                },
+                {
+                  "type": "wms",
+                  "name": "Natural Water Points - Rockhole",
+                  "url": "http://gaservices.ga.gov.au/site_7/services/NM_Hydrology_and_Marine/MapServer/WMSServer?request=GetCapabilities&service=WMS",
+                  "opacity": 1,
+                  "dataCustodian": "[Geoscience Australia](http://www.ga.gov.au/)",
+                  "layers": "Natural_Water_Points_Rockhole",
+                  "id": "zwQjSc",
+                  "shareKeys": [
+                    "Root Group/NEII Data Services – Conformant/Oceans (14)/Dynamic National Map Hydrology and Marine/Natural Water Points - Rockhole"
+                  ]
+                },
+                {
+                  "type": "wms",
+                  "name": "Natural Water Points - Pool",
+                  "url": "http://gaservices.ga.gov.au/site_7/services/NM_Hydrology_and_Marine/MapServer/WMSServer?request=GetCapabilities&service=WMS",
+                  "opacity": 1,
+                  "dataCustodian": "[Geoscience Australia](http://www.ga.gov.au/)",
+                  "layers": "Natural_Water_Points_Pool",
+                  "id": "szxSm8",
+                  "shareKeys": [
+                    "Root Group/NEII Data Services – Conformant/Oceans (14)/Dynamic National Map Hydrology and Marine/Natural Water Points - Pool"
+                  ]
+                },
+                {
+                  "type": "wms",
+                  "name": "Natural Water Points - Native Well",
+                  "url": "http://gaservices.ga.gov.au/site_7/services/NM_Hydrology_and_Marine/MapServer/WMSServer?request=GetCapabilities&service=WMS",
+                  "opacity": 1,
+                  "dataCustodian": "[Geoscience Australia](http://www.ga.gov.au/)",
+                  "layers": "Natural_Water_Points_NativeWell",
+                  "id": "KD3pdR",
+                  "shareKeys": [
+                    "Root Group/NEII Data Services – Conformant/Oceans (14)/Dynamic National Map Hydrology and Marine/Natural Water Points - Native Well"
+                  ]
+                },
+                {
+                  "type": "wms",
+                  "name": "Natural Water Points - Gnamma Hole",
+                  "url": "http://gaservices.ga.gov.au/site_7/services/NM_Hydrology_and_Marine/MapServer/WMSServer?request=GetCapabilities&service=WMS",
+                  "opacity": 1,
+                  "dataCustodian": "[Geoscience Australia](http://www.ga.gov.au/)",
+                  "layers": "Natural_Water_Points_GnammaHole",
+                  "id": "IaWQPV",
+                  "shareKeys": [
+                    "Root Group/NEII Data Services – Conformant/Oceans (14)/Dynamic National Map Hydrology and Marine/Natural Water Points - Gnamma Hole"
+                  ]
+                },
+                {
+                  "type": "wms",
+                  "name": "Bores",
+                  "url": "http://gaservices.ga.gov.au/site_7/services/NM_Hydrology_and_Marine/MapServer/WMSServer?request=GetCapabilities&service=WMS",
+                  "opacity": 1,
+                  "dataCustodian": "[Geoscience Australia](http://www.ga.gov.au/)",
+                  "layers": "Bores",
+                  "id": "5MlZ1k",
+                  "shareKeys": [
+                    "Root Group/NEII Data Services – Conformant/Oceans (14)/Dynamic National Map Hydrology and Marine/Bores"
+                  ]
+                },
+                {
+                  "type": "wms",
+                  "name": "Waterholes",
+                  "url": "http://gaservices.ga.gov.au/site_7/services/NM_Hydrology_and_Marine/MapServer/WMSServer?request=GetCapabilities&service=WMS",
+                  "opacity": 1,
+                  "dataCustodian": "[Geoscience Australia](http://www.ga.gov.au/)",
+                  "layers": "Waterholes",
+                  "id": "rjENXn",
+                  "shareKeys": [
+                    "Root Group/NEII Data Services – Conformant/Oceans (14)/Dynamic National Map Hydrology and Marine/Waterholes"
+                  ]
+                },
+                {
+                  "type": "wms",
+                  "name": "Springs",
+                  "url": "http://gaservices.ga.gov.au/site_7/services/NM_Hydrology_and_Marine/MapServer/WMSServer?request=GetCapabilities&service=WMS",
+                  "opacity": 1,
+                  "dataCustodian": "[Geoscience Australia](http://www.ga.gov.au/)",
+                  "layers": "Springs",
+                  "id": "U5xTKt",
+                  "shareKeys": [
+                    "Root Group/NEII Data Services – Conformant/Oceans (14)/Dynamic National Map Hydrology and Marine/Springs"
+                  ]
+                },
+                {
+                  "type": "wms",
+                  "name": "Waterfalls",
+                  "url": "http://gaservices.ga.gov.au/site_7/services/NM_Hydrology_and_Marine/MapServer/WMSServer?request=GetCapabilities&service=WMS",
+                  "opacity": 1,
+                  "dataCustodian": "[Geoscience Australia](http://www.ga.gov.au/)",
+                  "layers": "Waterfalls",
+                  "id": "qsUu3s",
+                  "shareKeys": [
+                    "Root Group/NEII Data Services – Conformant/Oceans (14)/Dynamic National Map Hydrology and Marine/Waterfalls"
+                  ]
+                },
+                {
+                  "type": "wms",
+                  "name": "Locks",
+                  "url": "http://gaservices.ga.gov.au/site_7/services/NM_Hydrology_and_Marine/MapServer/WMSServer?request=GetCapabilities&service=WMS",
+                  "opacity": 1,
+                  "dataCustodian": "[Geoscience Australia](http://www.ga.gov.au/)",
+                  "layers": "Locks",
+                  "id": "Gx5xb2",
+                  "shareKeys": [
+                    "Root Group/NEII Data Services – Conformant/Oceans (14)/Dynamic National Map Hydrology and Marine/Locks"
+                  ]
+                },
+                {
+                  "type": "wms",
+                  "name": "Reefs and Shoals",
+                  "url": "http://gaservices.ga.gov.au/site_7/services/NM_Hydrology_and_Marine/MapServer/WMSServer?request=GetCapabilities&service=WMS",
+                  "opacity": 1,
+                  "dataCustodian": "[Geoscience Australia](http://www.ga.gov.au/)",
+                  "layers": "Reefs_And_Shoals",
+                  "id": "Y3pdeA",
+                  "shareKeys": [
+                    "Root Group/NEII Data Services – Conformant/Oceans (14)/Dynamic National Map Hydrology and Marine/Reefs and Shoals"
+                  ]
+                },
+                {
+                  "type": "wms",
+                  "name": "Marine Infrastructure Lines",
+                  "url": "http://gaservices.ga.gov.au/site_7/services/NM_Hydrology_and_Marine/MapServer/WMSServer?request=GetCapabilities&service=WMS",
+                  "opacity": 1,
+                  "dataCustodian": "[Geoscience Australia](http://www.ga.gov.au/)",
+                  "layers": "Marine_Infrastructure_Lines",
+                  "id": "SceaGe",
+                  "shareKeys": [
+                    "Root Group/NEII Data Services – Conformant/Oceans (14)/Dynamic National Map Hydrology and Marine/Marine Infrastructure Lines"
+                  ]
+                },
+                {
+                  "type": "wms",
+                  "name": "Lighthouses",
+                  "url": "http://gaservices.ga.gov.au/site_7/services/NM_Hydrology_and_Marine/MapServer/WMSServer?request=GetCapabilities&service=WMS",
+                  "opacity": 1,
+                  "dataCustodian": "[Geoscience Australia](http://www.ga.gov.au/)",
+                  "layers": "Lighthouses",
+                  "id": "w5QIZu",
+                  "shareKeys": [
+                    "Root Group/NEII Data Services – Conformant/Oceans (14)/Dynamic National Map Hydrology and Marine/Lighthouses"
+                  ]
+                },
+                {
+                  "type": "wms",
+                  "name": "Offshore Rocks and Wrecks",
+                  "url": "http://gaservices.ga.gov.au/site_7/services/NM_Hydrology_and_Marine/MapServer/WMSServer?request=GetCapabilities&service=WMS",
+                  "opacity": 1,
+                  "dataCustodian": "[Geoscience Australia](http://www.ga.gov.au/)",
+                  "layers": "Offshore_Rocks_And_Wrecks",
+                  "id": "svSHpP",
+                  "shareKeys": [
+                    "Root Group/NEII Data Services – Conformant/Oceans (14)/Dynamic National Map Hydrology and Marine/Offshore Rocks and Wrecks"
+                  ]
+                },
+                {
+                  "type": "wms",
+                  "name": "Flats - Marine Swamps - Labels",
+                  "url": "http://gaservices.ga.gov.au/site_7/services/NM_Hydrology_and_Marine/MapServer/WMSServer?request=GetCapabilities&service=WMS",
+                  "opacity": 1,
+                  "dataCustodian": "[Geoscience Australia](http://www.ga.gov.au/)",
+                  "layers": "Flats_MarineSwamps_Labels",
+                  "id": "Pm3whq",
+                  "shareKeys": [
+                    "Root Group/NEII Data Services – Conformant/Oceans (14)/Dynamic National Map Hydrology and Marine/Flats - Marine Swamps - Labels"
+                  ]
+                },
+                {
+                  "type": "wms",
+                  "name": "Flats - Swamps - Labels",
+                  "url": "http://gaservices.ga.gov.au/site_7/services/NM_Hydrology_and_Marine/MapServer/WMSServer?request=GetCapabilities&service=WMS",
+                  "opacity": 1,
+                  "dataCustodian": "[Geoscience Australia](http://www.ga.gov.au/)",
+                  "layers": "Flats_Swamps_Labels",
+                  "id": "nUv2tk",
+                  "shareKeys": [
+                    "Root Group/NEII Data Services – Conformant/Oceans (14)/Dynamic National Map Hydrology and Marine/Flats - Swamps - Labels"
+                  ]
+                },
+                {
+                  "type": "wms",
+                  "name": "Waterbody - All Flood Irrigation Storage - Labels",
+                  "url": "http://gaservices.ga.gov.au/site_7/services/NM_Hydrology_and_Marine/MapServer/WMSServer?request=GetCapabilities&service=WMS",
+                  "opacity": 1,
+                  "dataCustodian": "[Geoscience Australia](http://www.ga.gov.au/)",
+                  "layers": "Waterbody_All_Flood_Irrigation_Storage_Labels",
+                  "id": "73xxdC",
+                  "shareKeys": [
+                    "Root Group/NEII Data Services – Conformant/Oceans (14)/Dynamic National Map Hydrology and Marine/Waterbody - All Flood Irrigation Storage - Labels"
+                  ]
+                },
+                {
+                  "type": "wms",
+                  "name": "Waterbody - All Reservoirs - Labels",
+                  "url": "http://gaservices.ga.gov.au/site_7/services/NM_Hydrology_and_Marine/MapServer/WMSServer?request=GetCapabilities&service=WMS",
+                  "opacity": 1,
+                  "dataCustodian": "[Geoscience Australia](http://www.ga.gov.au/)",
+                  "layers": "Waterbody_All_Reservoirs_Labels",
+                  "id": "Qt4nLV",
+                  "shareKeys": [
+                    "Root Group/NEII Data Services – Conformant/Oceans (14)/Dynamic National Map Hydrology and Marine/Waterbody - All Reservoirs - Labels"
+                  ]
+                },
+                {
+                  "type": "wms",
+                  "name": "Waterbody - All Lakes - Labels",
+                  "url": "http://gaservices.ga.gov.au/site_7/services/NM_Hydrology_and_Marine/MapServer/WMSServer?request=GetCapabilities&service=WMS",
+                  "opacity": 1,
+                  "dataCustodian": "[Geoscience Australia](http://www.ga.gov.au/)",
+                  "layers": "Waterbody_All_Lakes_Labels",
+                  "id": "rLCKY1",
+                  "shareKeys": [
+                    "Root Group/NEII Data Services – Conformant/Oceans (14)/Dynamic National Map Hydrology and Marine/Waterbody - All Lakes - Labels"
+                  ]
+                },
+                {
+                  "type": "wms",
+                  "name": "Waterbody - Extra Lakes and Reservoirs - Labels",
+                  "url": "http://gaservices.ga.gov.au/site_7/services/NM_Hydrology_and_Marine/MapServer/WMSServer?request=GetCapabilities&service=WMS",
+                  "opacity": 1,
+                  "dataCustodian": "[Geoscience Australia](http://www.ga.gov.au/)",
+                  "layers": "Waterbody_Extra_Lakes_and_Reservoirs_Labels",
+                  "id": "XXZaVw",
+                  "shareKeys": [
+                    "Root Group/NEII Data Services – Conformant/Oceans (14)/Dynamic National Map Hydrology and Marine/Waterbody - Extra Lakes and Reservoirs - Labels"
+                  ]
+                },
+                {
+                  "type": "wms",
+                  "name": "Waterbody - Reservoirs Scale 1:10,000,000 to 1:300,000 - Labels",
+                  "url": "http://gaservices.ga.gov.au/site_7/services/NM_Hydrology_and_Marine/MapServer/WMSServer?request=GetCapabilities&service=WMS",
+                  "opacity": 1,
+                  "dataCustodian": "[Geoscience Australia](http://www.ga.gov.au/)",
+                  "layers": "Waterbody_Reservoirs_Scale_10Million_to_300000_Labels",
+                  "id": "WS1qJc",
+                  "shareKeys": [
+                    "Root Group/NEII Data Services – Conformant/Oceans (14)/Dynamic National Map Hydrology and Marine/Waterbody - Reservoirs Scale 1:10,000,000 to 1:300,000 - Labels"
+                  ]
+                },
+                {
+                  "type": "wms",
+                  "name": "Waterbody - Lakes Scale 1:5,000,000 to 1:300,000 - Labels",
+                  "url": "http://gaservices.ga.gov.au/site_7/services/NM_Hydrology_and_Marine/MapServer/WMSServer?request=GetCapabilities&service=WMS",
+                  "opacity": 1,
+                  "dataCustodian": "[Geoscience Australia](http://www.ga.gov.au/)",
+                  "layers": "Waterbody_Lakes_Scale_5Million_to_300000_Labels",
+                  "id": "RxYJFz",
+                  "shareKeys": [
+                    "Root Group/NEII Data Services – Conformant/Oceans (14)/Dynamic National Map Hydrology and Marine/Waterbody - Lakes Scale 1:5,000,000 to 1:300,000 - Labels"
+                  ]
+                },
+                {
+                  "type": "wms",
+                  "name": "Waterbody - Lakes Scale 1:10,000,000 to 1:5,000,000 - Labels",
+                  "url": "http://gaservices.ga.gov.au/site_7/services/NM_Hydrology_and_Marine/MapServer/WMSServer?request=GetCapabilities&service=WMS",
+                  "opacity": 1,
+                  "dataCustodian": "[Geoscience Australia](http://www.ga.gov.au/)",
+                  "layers": "Waterbody_Lakes_Scale_10Million_to_5Million_Labels",
+                  "id": "jq62KT",
+                  "shareKeys": [
+                    "Root Group/NEII Data Services – Conformant/Oceans (14)/Dynamic National Map Hydrology and Marine/Waterbody - Lakes Scale 1:10,000,000 to 1:5,000,000 - Labels"
+                  ]
+                },
+                {
+                  "type": "wms",
+                  "name": "Watercourses - All Rivers - Labels",
+                  "url": "http://gaservices.ga.gov.au/site_7/services/NM_Hydrology_and_Marine/MapServer/WMSServer?request=GetCapabilities&service=WMS",
+                  "opacity": 1,
+                  "dataCustodian": "[Geoscience Australia](http://www.ga.gov.au/)",
+                  "layers": "Watercourses_All_Rivers_Labels",
+                  "id": "SIL5r4",
+                  "shareKeys": [
+                    "Root Group/NEII Data Services – Conformant/Oceans (14)/Dynamic National Map Hydrology and Marine/Watercourses - All Rivers - Labels"
+                  ]
+                },
+                {
+                  "type": "wms",
+                  "name": "Watercourses - Major Rivers Scale 1:10,000,000 to 1:5,000,000 - Labels",
+                  "url": "http://gaservices.ga.gov.au/site_7/services/NM_Hydrology_and_Marine/MapServer/WMSServer?request=GetCapabilities&service=WMS",
+                  "opacity": 1,
+                  "dataCustodian": "[Geoscience Australia](http://www.ga.gov.au/)",
+                  "layers": "Watercourses_Major_Rivers_Scale_10Million_to_5Million_Labels",
+                  "id": "QEA7yg",
+                  "shareKeys": [
+                    "Root Group/NEII Data Services – Conformant/Oceans (14)/Dynamic National Map Hydrology and Marine/Watercourses - Major Rivers Scale 1:10,000,000 to 1:5,000,000 - Labels"
+                  ]
+                },
+                {
+                  "type": "wms",
+                  "name": "Watercourse Areas - Labels",
+                  "url": "http://gaservices.ga.gov.au/site_7/services/NM_Hydrology_and_Marine/MapServer/WMSServer?request=GetCapabilities&service=WMS",
+                  "opacity": 1,
+                  "dataCustodian": "[Geoscience Australia](http://www.ga.gov.au/)",
+                  "layers": "Watercourse_Areas_Labels",
+                  "id": "LF4CUF",
+                  "shareKeys": [
+                    "Root Group/NEII Data Services – Conformant/Oceans (14)/Dynamic National Map Hydrology and Marine/Watercourse Areas - Labels"
+                  ]
+                },
+                {
+                  "type": "wms",
+                  "name": "Dam Walls - Labels",
+                  "url": "http://gaservices.ga.gov.au/site_7/services/NM_Hydrology_and_Marine/MapServer/WMSServer?request=GetCapabilities&service=WMS",
+                  "opacity": 1,
+                  "dataCustodian": "[Geoscience Australia](http://www.ga.gov.au/)",
+                  "layers": "Dam_Walls_Labels",
+                  "id": "3HI21k",
+                  "shareKeys": [
+                    "Root Group/NEII Data Services – Conformant/Oceans (14)/Dynamic National Map Hydrology and Marine/Dam Walls - Labels"
+                  ]
+                },
+                {
+                  "type": "wms",
+                  "name": "Water Storage Points - Labels",
+                  "url": "http://gaservices.ga.gov.au/site_7/services/NM_Hydrology_and_Marine/MapServer/WMSServer?request=GetCapabilities&service=WMS",
+                  "opacity": 1,
+                  "dataCustodian": "[Geoscience Australia](http://www.ga.gov.au/)",
+                  "layers": "Dams_and_Tanks_Labels",
+                  "id": "rhi57V",
+                  "shareKeys": [
+                    "Root Group/NEII Data Services – Conformant/Oceans (14)/Dynamic National Map Hydrology and Marine/Water Storage Points - Labels"
+                  ]
+                },
+                {
+                  "type": "wms",
+                  "name": "Natural Water Points - Soaks - Labels",
+                  "url": "http://gaservices.ga.gov.au/site_7/services/NM_Hydrology_and_Marine/MapServer/WMSServer?request=GetCapabilities&service=WMS",
+                  "opacity": 1,
+                  "dataCustodian": "[Geoscience Australia](http://www.ga.gov.au/)",
+                  "layers": "Natural_Water_Points_Soaks_Labels",
+                  "id": "vFIrmd",
+                  "shareKeys": [
+                    "Root Group/NEII Data Services – Conformant/Oceans (14)/Dynamic National Map Hydrology and Marine/Natural Water Points - Soaks - Labels"
+                  ]
+                },
+                {
+                  "type": "wms",
+                  "name": "Natural Water Points - Rockholes - Labels",
+                  "url": "http://gaservices.ga.gov.au/site_7/services/NM_Hydrology_and_Marine/MapServer/WMSServer?request=GetCapabilities&service=WMS",
+                  "opacity": 1,
+                  "dataCustodian": "[Geoscience Australia](http://www.ga.gov.au/)",
+                  "layers": "Natural_Water_Points_Rockholes_Labels",
+                  "id": "BFt8m5",
+                  "shareKeys": [
+                    "Root Group/NEII Data Services – Conformant/Oceans (14)/Dynamic National Map Hydrology and Marine/Natural Water Points - Rockholes - Labels"
+                  ]
+                },
+                {
+                  "type": "wms",
+                  "name": "Natural Water Points - Pools - Labels",
+                  "url": "http://gaservices.ga.gov.au/site_7/services/NM_Hydrology_and_Marine/MapServer/WMSServer?request=GetCapabilities&service=WMS",
+                  "opacity": 1,
+                  "dataCustodian": "[Geoscience Australia](http://www.ga.gov.au/)",
+                  "layers": "Natural_Water_Points_Pools_Labels",
+                  "id": "e5kY1S",
+                  "shareKeys": [
+                    "Root Group/NEII Data Services – Conformant/Oceans (14)/Dynamic National Map Hydrology and Marine/Natural Water Points - Pools - Labels"
+                  ]
+                },
+                {
+                  "type": "wms",
+                  "name": "Natural Water Points - Native Wells - Labels",
+                  "url": "http://gaservices.ga.gov.au/site_7/services/NM_Hydrology_and_Marine/MapServer/WMSServer?request=GetCapabilities&service=WMS",
+                  "opacity": 1,
+                  "dataCustodian": "[Geoscience Australia](http://www.ga.gov.au/)",
+                  "layers": "Natural_Water_Points_NativeWells_Labels",
+                  "id": "PWYYA6",
+                  "shareKeys": [
+                    "Root Group/NEII Data Services – Conformant/Oceans (14)/Dynamic National Map Hydrology and Marine/Natural Water Points - Native Wells - Labels"
+                  ]
+                },
+                {
+                  "type": "wms",
+                  "name": "Natural Water Points - Gnamma Holes - Labels",
+                  "url": "http://gaservices.ga.gov.au/site_7/services/NM_Hydrology_and_Marine/MapServer/WMSServer?request=GetCapabilities&service=WMS",
+                  "opacity": 1,
+                  "dataCustodian": "[Geoscience Australia](http://www.ga.gov.au/)",
+                  "layers": "Natural_Water_Points_GnammaHoles_Labels",
+                  "id": "SqWBjG",
+                  "shareKeys": [
+                    "Root Group/NEII Data Services – Conformant/Oceans (14)/Dynamic National Map Hydrology and Marine/Natural Water Points - Gnamma Holes - Labels"
+                  ]
+                },
+                {
+                  "type": "wms",
+                  "name": "Bores - Labels",
+                  "url": "http://gaservices.ga.gov.au/site_7/services/NM_Hydrology_and_Marine/MapServer/WMSServer?request=GetCapabilities&service=WMS",
+                  "opacity": 1,
+                  "dataCustodian": "[Geoscience Australia](http://www.ga.gov.au/)",
+                  "layers": "Bores_Labels",
+                  "id": "QarsGy",
+                  "shareKeys": [
+                    "Root Group/NEII Data Services – Conformant/Oceans (14)/Dynamic National Map Hydrology and Marine/Bores - Labels"
+                  ]
+                },
+                {
+                  "type": "wms",
+                  "name": "Waterholes - Labels",
+                  "url": "http://gaservices.ga.gov.au/site_7/services/NM_Hydrology_and_Marine/MapServer/WMSServer?request=GetCapabilities&service=WMS",
+                  "opacity": 1,
+                  "dataCustodian": "[Geoscience Australia](http://www.ga.gov.au/)",
+                  "layers": "Waterholes_Labels",
+                  "id": "daeHhy",
+                  "shareKeys": [
+                    "Root Group/NEII Data Services – Conformant/Oceans (14)/Dynamic National Map Hydrology and Marine/Waterholes - Labels"
+                  ]
+                },
+                {
+                  "type": "wms",
+                  "name": "Springs - Labels",
+                  "url": "http://gaservices.ga.gov.au/site_7/services/NM_Hydrology_and_Marine/MapServer/WMSServer?request=GetCapabilities&service=WMS",
+                  "opacity": 1,
+                  "dataCustodian": "[Geoscience Australia](http://www.ga.gov.au/)",
+                  "layers": "Springs_Labels",
+                  "id": "hSTTzE",
+                  "shareKeys": [
+                    "Root Group/NEII Data Services – Conformant/Oceans (14)/Dynamic National Map Hydrology and Marine/Springs - Labels"
+                  ]
+                },
+                {
+                  "type": "wms",
+                  "name": "Waterfalls - Labels",
+                  "url": "http://gaservices.ga.gov.au/site_7/services/NM_Hydrology_and_Marine/MapServer/WMSServer?request=GetCapabilities&service=WMS",
+                  "opacity": 1,
+                  "dataCustodian": "[Geoscience Australia](http://www.ga.gov.au/)",
+                  "layers": "Waterfalls_Labels",
+                  "id": "y6TzG4",
+                  "shareKeys": [
+                    "Root Group/NEII Data Services – Conformant/Oceans (14)/Dynamic National Map Hydrology and Marine/Waterfalls - Labels"
+                  ]
+                },
+                {
+                  "type": "wms",
+                  "name": "Locks - Labels",
+                  "url": "http://gaservices.ga.gov.au/site_7/services/NM_Hydrology_and_Marine/MapServer/WMSServer?request=GetCapabilities&service=WMS",
+                  "opacity": 1,
+                  "dataCustodian": "[Geoscience Australia](http://www.ga.gov.au/)",
+                  "layers": "Locks_Labels",
+                  "id": "LrvDhM",
+                  "shareKeys": [
+                    "Root Group/NEII Data Services – Conformant/Oceans (14)/Dynamic National Map Hydrology and Marine/Locks - Labels"
+                  ]
+                },
+                {
+                  "type": "wms",
+                  "name": "Reefs and Shoals - Labels",
+                  "url": "http://gaservices.ga.gov.au/site_7/services/NM_Hydrology_and_Marine/MapServer/WMSServer?request=GetCapabilities&service=WMS",
+                  "opacity": 1,
+                  "dataCustodian": "[Geoscience Australia](http://www.ga.gov.au/)",
+                  "layers": "Reefs_and_Shoals_Labels",
+                  "id": "mLFs7T",
+                  "shareKeys": [
+                    "Root Group/NEII Data Services – Conformant/Oceans (14)/Dynamic National Map Hydrology and Marine/Reefs and Shoals - Labels"
+                  ]
+                },
+                {
+                  "type": "wms",
+                  "name": "Lighthouses - Labels",
+                  "url": "http://gaservices.ga.gov.au/site_7/services/NM_Hydrology_and_Marine/MapServer/WMSServer?request=GetCapabilities&service=WMS",
+                  "opacity": 1,
+                  "dataCustodian": "[Geoscience Australia](http://www.ga.gov.au/)",
+                  "layers": "Lighthouses_Labels",
+                  "id": "AeTk67",
+                  "shareKeys": [
+                    "Root Group/NEII Data Services – Conformant/Oceans (14)/Dynamic National Map Hydrology and Marine/Lighthouses - Labels"
+                  ]
+                },
+                {
+                  "type": "wms",
+                  "name": "Offshore Rocks and Wrecks - Labels",
+                  "url": "http://gaservices.ga.gov.au/site_7/services/NM_Hydrology_and_Marine/MapServer/WMSServer?request=GetCapabilities&service=WMS",
+                  "opacity": 1,
+                  "dataCustodian": "[Geoscience Australia](http://www.ga.gov.au/)",
+                  "layers": "Offshore_Rocks_and_Wrecks_Labels",
+                  "id": "88Hkpw",
+                  "shareKeys": [
+                    "Root Group/NEII Data Services – Conformant/Oceans (14)/Dynamic National Map Hydrology and Marine/Offshore Rocks and Wrecks - Labels"
+                  ]
+                }
+              ],
+              "description": "Geoscience Australia is the custodian of the most comprehensive publicly available Australian airborne magnetic, gamma-ray, seismic, electromagnetic and gravity data sets. The airborne geophysics data set contains approximately 34 million line kilometres of data, which, at current prices, would cost approximately $197 million to acquire. The gravity data set contains more than 1.57 million reliable onshore stations gathered during more than 1800 surveys. The collection also includes a large number of seismic surveys from Australia offshore basins. The data types and access methods for the Offshore and Onshore data are identical.The AusHydro database provides a seamless surface hydrography layer for Australia at a nominal scale of 1:250, 000. It consists of lines, points and polygons representing natural and man-made features such as water courses, lakes, dams and other waterbodies. The natural water course layer consists of a linear network with a consistent topology that provide directional flow paths through the network for hydrological analysis. This network was used to produce the National 9 second Digital Elevation Model (DEM) of  Australia (http://www.ga.gov.au/nmd/products/digidat/dem_9s.jsp). It also provides information on naming, hierarchy and perenniality.",
+              "info": [
+                {
+                  "name": "Data Custodian",
+                  "content": "[Geoscience Australia](http://www.ga.gov.au/)"
+                },
+                {
+                  "name": "Further Information",
+                  "content": "[NEII Catalogue](http://neii.gov.au/catalogue/)"
+                }
+              ],
+              "shareKeys": [
+                "Root Group/NEII Data Services – Conformant/Oceans (14)/Dynamic National Map Hydrology and Marine"
+              ]
+            },
+            {
+              "id": "4KYHfW",
+              "type": "group",
+              "name": "Dynamic National Map Hydrology and Marine - Lines",
+              "members": [
+                {
+                  "type": "wms",
+                  "name": "Watercourses - All Watercourse Lines",
+                  "url": "http://gaservices.ga.gov.au/site_7/services/NM_Hydrology_and_Marine_Lines/MapServer/WMSServer?request=GetCapabilities&service=WMS",
+                  "opacity": 1,
+                  "dataCustodian": "[Geoscience Australia](http://www.ga.gov.au/)",
+                  "layers": "Watercourses_All_Rivers_Watercourse_Lines",
+                  "id": "1GsWsz",
+                  "shareKeys": [
+                    "Root Group/NEII Data Services – Conformant/Oceans (14)/Dynamic National Map Hydrology and Marine - Lines/Watercourses - All Watercourse Lines"
+                  ]
+                },
+                {
+                  "type": "wms",
+                  "name": "Watercourses - All Connector Lines",
+                  "url": "http://gaservices.ga.gov.au/site_7/services/NM_Hydrology_and_Marine_Lines/MapServer/WMSServer?request=GetCapabilities&service=WMS",
+                  "opacity": 1,
+                  "dataCustodian": "[Geoscience Australia](http://www.ga.gov.au/)",
+                  "layers": "Watercourses_All_Rivers_Connectors",
+                  "id": "Cb2sJS",
+                  "shareKeys": [
+                    "Root Group/NEII Data Services – Conformant/Oceans (14)/Dynamic National Map Hydrology and Marine - Lines/Watercourses - All Connector Lines"
+                  ]
+                },
+                {
+                  "type": "wms",
+                  "name": "Watercourses - Major Rivers Scale 1:5,000,000 to 1:300,000",
+                  "url": "http://gaservices.ga.gov.au/site_7/services/NM_Hydrology_and_Marine_Lines/MapServer/WMSServer?request=GetCapabilities&service=WMS",
+                  "opacity": 1,
+                  "dataCustodian": "[Geoscience Australia](http://www.ga.gov.au/)",
+                  "layers": "Watercourses_Major_Rivers_Scale_5Million_to_300000_Labels",
+                  "id": "AEUfvv",
+                  "shareKeys": [
+                    "Root Group/NEII Data Services – Conformant/Oceans (14)/Dynamic National Map Hydrology and Marine - Lines/Watercourses - Major Rivers Scale 1:5,000,000 to 1:300,000"
+                  ]
+                },
+                {
+                  "type": "wms",
+                  "name": "Watercourses - Major Rivers National Scale to 1:5,000,000",
+                  "url": "http://gaservices.ga.gov.au/site_7/services/NM_Hydrology_and_Marine_Lines/MapServer/WMSServer?request=GetCapabilities&service=WMS",
+                  "opacity": 1,
+                  "dataCustodian": "[Geoscience Australia](http://www.ga.gov.au/)",
+                  "layers": "Watercourses_Major_Rivers_National_Scale_to_5Million",
+                  "id": "3bq1ZS",
+                  "shareKeys": [
+                    "Root Group/NEII Data Services – Conformant/Oceans (14)/Dynamic National Map Hydrology and Marine - Lines/Watercourses - Major Rivers National Scale to 1:5,000,000"
+                  ]
+                },
+                {
+                  "type": "wms",
+                  "name": "Levees",
+                  "url": "http://gaservices.ga.gov.au/site_7/services/NM_Hydrology_and_Marine_Lines/MapServer/WMSServer?request=GetCapabilities&service=WMS",
+                  "opacity": 1,
+                  "dataCustodian": "[Geoscience Australia](http://www.ga.gov.au/)",
+                  "layers": "Levees",
+                  "id": "uBFTb6",
+                  "shareKeys": [
+                    "Root Group/NEII Data Services – Conformant/Oceans (14)/Dynamic National Map Hydrology and Marine - Lines/Levees"
+                  ]
+                },
+                {
+                  "type": "wms",
+                  "name": "Spillways",
+                  "url": "http://gaservices.ga.gov.au/site_7/services/NM_Hydrology_and_Marine_Lines/MapServer/WMSServer?request=GetCapabilities&service=WMS",
+                  "opacity": 1,
+                  "dataCustodian": "[Geoscience Australia](http://www.ga.gov.au/)",
+                  "layers": "Spillways",
+                  "id": "LmvD54",
+                  "shareKeys": [
+                    "Root Group/NEII Data Services – Conformant/Oceans (14)/Dynamic National Map Hydrology and Marine - Lines/Spillways"
+                  ]
+                },
+                {
+                  "type": "wms",
+                  "name": "Rapid Lines",
+                  "url": "http://gaservices.ga.gov.au/site_7/services/NM_Hydrology_and_Marine_Lines/MapServer/WMSServer?request=GetCapabilities&service=WMS",
+                  "opacity": 1,
+                  "dataCustodian": "[Geoscience Australia](http://www.ga.gov.au/)",
+                  "layers": "Rapid_Lines",
+                  "id": "TAhJBp",
+                  "shareKeys": [
+                    "Root Group/NEII Data Services – Conformant/Oceans (14)/Dynamic National Map Hydrology and Marine - Lines/Rapid Lines"
+                  ]
+                },
+                {
+                  "type": "wms",
+                  "name": "Dam Walls",
+                  "url": "http://gaservices.ga.gov.au/site_7/services/NM_Hydrology_and_Marine_Lines/MapServer/WMSServer?request=GetCapabilities&service=WMS",
+                  "opacity": 1,
+                  "dataCustodian": "[Geoscience Australia](http://www.ga.gov.au/)",
+                  "layers": "Dam_Walls",
+                  "id": "sc6qNx",
+                  "shareKeys": [
+                    "Root Group/NEII Data Services – Conformant/Oceans (14)/Dynamic National Map Hydrology and Marine - Lines/Dam Walls"
+                  ]
+                },
+                {
+                  "type": "wms",
+                  "name": "Canal Lines",
+                  "url": "http://gaservices.ga.gov.au/site_7/services/NM_Hydrology_and_Marine_Lines/MapServer/WMSServer?request=GetCapabilities&service=WMS",
+                  "opacity": 1,
+                  "dataCustodian": "[Geoscience Australia](http://www.ga.gov.au/)",
+                  "layers": "Canal_Lines",
+                  "id": "hViqkV",
+                  "shareKeys": [
+                    "Root Group/NEII Data Services – Conformant/Oceans (14)/Dynamic National Map Hydrology and Marine - Lines/Canal Lines"
+                  ]
+                },
+                {
+                  "type": "wms",
+                  "name": "Marine Infrastructure Lines",
+                  "url": "http://gaservices.ga.gov.au/site_7/services/NM_Hydrology_and_Marine_Lines/MapServer/WMSServer?request=GetCapabilities&service=WMS",
+                  "opacity": 1,
+                  "dataCustodian": "[Geoscience Australia](http://www.ga.gov.au/)",
+                  "layers": "Marine_Infrastructure_Lines",
+                  "id": "CfUfxE",
+                  "shareKeys": [
+                    "Root Group/NEII Data Services – Conformant/Oceans (14)/Dynamic National Map Hydrology and Marine - Lines/Marine Infrastructure Lines"
+                  ]
+                },
+                {
+                  "type": "wms",
+                  "name": "Watercourses - All Rivers - Labels",
+                  "url": "http://gaservices.ga.gov.au/site_7/services/NM_Hydrology_and_Marine_Lines/MapServer/WMSServer?request=GetCapabilities&service=WMS",
+                  "opacity": 1,
+                  "dataCustodian": "[Geoscience Australia](http://www.ga.gov.au/)",
+                  "layers": "Watercourses_All_Rivers_Labels",
+                  "id": "IM7nWK",
+                  "shareKeys": [
+                    "Root Group/NEII Data Services – Conformant/Oceans (14)/Dynamic National Map Hydrology and Marine - Lines/Watercourses - All Rivers - Labels"
+                  ]
+                },
+                {
+                  "type": "wms",
+                  "name": "Watercourses - Major Rivers Scale 1:10,000,000 to 1:5,000,000 - Labels",
+                  "url": "http://gaservices.ga.gov.au/site_7/services/NM_Hydrology_and_Marine_Lines/MapServer/WMSServer?request=GetCapabilities&service=WMS",
+                  "opacity": 1,
+                  "dataCustodian": "[Geoscience Australia](http://www.ga.gov.au/)",
+                  "layers": "Watercourses_Major_Rivers_Scale_10Million_to_5Million_Labels",
+                  "id": "PuVMzY",
+                  "shareKeys": [
+                    "Root Group/NEII Data Services – Conformant/Oceans (14)/Dynamic National Map Hydrology and Marine - Lines/Watercourses - Major Rivers Scale 1:10,000,000 to 1:5,000,000 - Labels"
+                  ]
+                },
+                {
+                  "type": "wms",
+                  "name": "Dam Walls - Labels",
+                  "url": "http://gaservices.ga.gov.au/site_7/services/NM_Hydrology_and_Marine_Lines/MapServer/WMSServer?request=GetCapabilities&service=WMS",
+                  "opacity": 1,
+                  "dataCustodian": "[Geoscience Australia](http://www.ga.gov.au/)",
+                  "layers": "Dam_Walls_Labels",
+                  "id": "QpJcY2",
+                  "shareKeys": [
+                    "Root Group/NEII Data Services – Conformant/Oceans (14)/Dynamic National Map Hydrology and Marine - Lines/Dam Walls - Labels"
+                  ]
+                }
+              ],
+              "description": "Geoscience Australia is the custodian of the most comprehensive publicly available Australian airborne magnetic, gamma-ray, seismic, electromagnetic and gravity data sets. The airborne geophysics data set contains approximately 34 million line kilometres of data, which, at current prices, would cost approximately $197 million to acquire. The gravity data set contains more than 1.57 million reliable onshore stations gathered during more than 1800 surveys. The collection also includes a large number of seismic surveys from Australia offshore basins. The data types and access methods for the Offshore and Onshore data are identical.The AusHydro database provides a seamless surface hydrography layer for Australia at a nominal scale of 1:250, 000. It consists of lines, points and polygons representing natural and man-made features such as water courses, lakes, dams and other waterbodies. The natural water course layer consists of a linear network with a consistent topology that provide directional flow paths through the network for hydrological analysis. This network was used to produce the National 9 second Digital Elevation Model (DEM) of  Australia (http://www.ga.gov.au/nmd/products/digidat/dem_9s.jsp). It also provides information on naming, hierarchy and perenniality.",
+              "info": [
+                {
+                  "name": "Data Custodian",
+                  "content": "[Geoscience Australia](http://www.ga.gov.au/)"
+                },
+                {
+                  "name": "Further Information",
+                  "content": "[NEII Catalogue](http://neii.gov.au/catalogue/)"
+                }
+              ],
+              "shareKeys": [
+                "Root Group/NEII Data Services – Conformant/Oceans (14)/Dynamic National Map Hydrology and Marine - Lines"
+              ]
+            },
+            {
+              "id": "25Xgm4",
+              "type": "group",
+              "name": "Dynamic National Map Hydrology and Marine - Polygons",
+              "members": [
+                {
+                  "type": "wms",
+                  "name": "Flats - Saline Coastal Flats",
+                  "url": "http://gaservices.ga.gov.au/site_7/services/NM_Hydrology_and_Marine_Polygons/MapServer/WMSServer?request=GetCapabilities&service=WMS",
+                  "opacity": 1,
+                  "dataCustodian": "[Geoscience Australia](http://www.ga.gov.au/)",
+                  "layers": "Flats_SalineCoastalFlats",
+                  "id": "VWPnSB",
+                  "shareKeys": [
+                    "Root Group/NEII Data Services – Conformant/Oceans (14)/Dynamic National Map Hydrology and Marine - Polygons/Flats - Saline Coastal Flats"
+                  ]
+                },
+                {
+                  "type": "wms",
+                  "name": "Flats - Land Subject to Inundation",
+                  "url": "http://gaservices.ga.gov.au/site_7/services/NM_Hydrology_and_Marine_Polygons/MapServer/WMSServer?request=GetCapabilities&service=WMS",
+                  "opacity": 1,
+                  "dataCustodian": "[Geoscience Australia](http://www.ga.gov.au/)",
+                  "layers": "Flats_LandSubjectToInundation",
+                  "id": "WXflXQ",
+                  "shareKeys": [
+                    "Root Group/NEII Data Services – Conformant/Oceans (14)/Dynamic National Map Hydrology and Marine - Polygons/Flats - Land Subject to Inundation"
+                  ]
+                },
+                {
+                  "type": "wms",
+                  "name": "Flats - Marine Swamps",
+                  "url": "http://gaservices.ga.gov.au/site_7/services/NM_Hydrology_and_Marine_Polygons/MapServer/WMSServer?request=GetCapabilities&service=WMS",
+                  "opacity": 1,
+                  "dataCustodian": "[Geoscience Australia](http://www.ga.gov.au/)",
+                  "layers": "Flats_MarineSwamps",
+                  "id": "njwDhD",
+                  "shareKeys": [
+                    "Root Group/NEII Data Services – Conformant/Oceans (14)/Dynamic National Map Hydrology and Marine - Polygons/Flats - Marine Swamps"
+                  ]
+                },
+                {
+                  "type": "wms",
+                  "name": "Flats - Swamps",
+                  "url": "http://gaservices.ga.gov.au/site_7/services/NM_Hydrology_and_Marine_Polygons/MapServer/WMSServer?request=GetCapabilities&service=WMS",
+                  "opacity": 1,
+                  "dataCustodian": "[Geoscience Australia](http://www.ga.gov.au/)",
+                  "layers": "Flats_Swamps",
+                  "id": "5VsLQE",
+                  "shareKeys": [
+                    "Root Group/NEII Data Services – Conformant/Oceans (14)/Dynamic National Map Hydrology and Marine - Polygons/Flats - Swamps"
+                  ]
+                },
+                {
+                  "type": "wms",
+                  "name": "Waterbody - Farm Dam Areas",
+                  "url": "http://gaservices.ga.gov.au/site_7/services/NM_Hydrology_and_Marine_Polygons/MapServer/WMSServer?request=GetCapabilities&service=WMS",
+                  "opacity": 1,
+                  "dataCustodian": "[Geoscience Australia](http://www.ga.gov.au/)",
+                  "layers": "Farm_Dam_Area",
+                  "id": "V6F7Wa",
+                  "shareKeys": [
+                    "Root Group/NEII Data Services – Conformant/Oceans (14)/Dynamic National Map Hydrology and Marine - Polygons/Waterbody - Farm Dam Areas"
+                  ]
+                },
+                {
+                  "type": "wms",
+                  "name": "Waterbody - All Flood Irrigation Storage",
+                  "url": "http://gaservices.ga.gov.au/site_7/services/NM_Hydrology_and_Marine_Polygons/MapServer/WMSServer?request=GetCapabilities&service=WMS",
+                  "opacity": 1,
+                  "dataCustodian": "[Geoscience Australia](http://www.ga.gov.au/)",
+                  "layers": "Waterbody_All_Flood_Irrigation_Storage",
+                  "id": "GWDWzn",
+                  "shareKeys": [
+                    "Root Group/NEII Data Services – Conformant/Oceans (14)/Dynamic National Map Hydrology and Marine - Polygons/Waterbody - All Flood Irrigation Storage"
+                  ]
+                },
+                {
+                  "type": "wms",
+                  "name": "Waterbody - All Reservoirs",
+                  "url": "http://gaservices.ga.gov.au/site_7/services/NM_Hydrology_and_Marine_Polygons/MapServer/WMSServer?request=GetCapabilities&service=WMS",
+                  "opacity": 1,
+                  "dataCustodian": "[Geoscience Australia](http://www.ga.gov.au/)",
+                  "layers": "Waterbody_All_Reservoirs",
+                  "id": "7RNyLA",
+                  "shareKeys": [
+                    "Root Group/NEII Data Services – Conformant/Oceans (14)/Dynamic National Map Hydrology and Marine - Polygons/Waterbody - All Reservoirs"
+                  ]
+                },
+                {
+                  "type": "wms",
+                  "name": "Waterbody - All Lakes",
+                  "url": "http://gaservices.ga.gov.au/site_7/services/NM_Hydrology_and_Marine_Polygons/MapServer/WMSServer?request=GetCapabilities&service=WMS",
+                  "opacity": 1,
+                  "dataCustodian": "[Geoscience Australia](http://www.ga.gov.au/)",
+                  "layers": "Waterbody_All_Lakes",
+                  "id": "WEmjlu",
+                  "shareKeys": [
+                    "Root Group/NEII Data Services – Conformant/Oceans (14)/Dynamic National Map Hydrology and Marine - Polygons/Waterbody - All Lakes"
+                  ]
+                },
+                {
+                  "type": "wms",
+                  "name": "Waterbody - Extra Lakes and Reservoirs",
+                  "url": "http://gaservices.ga.gov.au/site_7/services/NM_Hydrology_and_Marine_Polygons/MapServer/WMSServer?request=GetCapabilities&service=WMS",
+                  "opacity": 1,
+                  "dataCustodian": "[Geoscience Australia](http://www.ga.gov.au/)",
+                  "layers": "Waterbody_Extra_Lakes_and_Reservoirs",
+                  "id": "qyP1y8",
+                  "shareKeys": [
+                    "Root Group/NEII Data Services – Conformant/Oceans (14)/Dynamic National Map Hydrology and Marine - Polygons/Waterbody - Extra Lakes and Reservoirs"
+                  ]
+                },
+                {
+                  "type": "wms",
+                  "name": "Waterbody - Reservoirs National Scale to 1:300,000",
+                  "url": "http://gaservices.ga.gov.au/site_7/services/NM_Hydrology_and_Marine_Polygons/MapServer/WMSServer?request=GetCapabilities&service=WMS",
+                  "opacity": 1,
+                  "dataCustodian": "[Geoscience Australia](http://www.ga.gov.au/)",
+                  "layers": "Waterbody_Reservoirs_National_Scale_to_300000",
+                  "id": "pdSaKi",
+                  "shareKeys": [
+                    "Root Group/NEII Data Services – Conformant/Oceans (14)/Dynamic National Map Hydrology and Marine - Polygons/Waterbody - Reservoirs National Scale to 1:300,000"
+                  ]
+                },
+                {
+                  "type": "wms",
+                  "name": "Waterbody - Lakes Scale 1:5,000,000 to 1:300,000",
+                  "url": "http://gaservices.ga.gov.au/site_7/services/NM_Hydrology_and_Marine_Polygons/MapServer/WMSServer?request=GetCapabilities&service=WMS",
+                  "opacity": 1,
+                  "dataCustodian": "[Geoscience Australia](http://www.ga.gov.au/)",
+                  "layers": "Waterbody_Lakes_Scale_5Million_to_300000",
+                  "id": "JwAUNY",
+                  "shareKeys": [
+                    "Root Group/NEII Data Services – Conformant/Oceans (14)/Dynamic National Map Hydrology and Marine - Polygons/Waterbody - Lakes Scale 1:5,000,000 to 1:300,000"
+                  ]
+                },
+                {
+                  "type": "wms",
+                  "name": "Waterbody - Lakes National Scale to 1:5,000,000",
+                  "url": "http://gaservices.ga.gov.au/site_7/services/NM_Hydrology_and_Marine_Polygons/MapServer/WMSServer?request=GetCapabilities&service=WMS",
+                  "opacity": 1,
+                  "dataCustodian": "[Geoscience Australia](http://www.ga.gov.au/)",
+                  "layers": "Waterbody_Lakes_National_Scale_to_5Million",
+                  "id": "uLecH8",
+                  "shareKeys": [
+                    "Root Group/NEII Data Services – Conformant/Oceans (14)/Dynamic National Map Hydrology and Marine - Polygons/Waterbody - Lakes National Scale to 1:5,000,000"
+                  ]
+                },
+                {
+                  "type": "wms",
+                  "name": "Foreshore Flats",
+                  "url": "http://gaservices.ga.gov.au/site_7/services/NM_Hydrology_and_Marine_Polygons/MapServer/WMSServer?request=GetCapabilities&service=WMS",
+                  "opacity": 1,
+                  "dataCustodian": "[Geoscience Australia](http://www.ga.gov.au/)",
+                  "layers": "Foreshore_Flats",
+                  "id": "Eiek77",
+                  "shareKeys": [
+                    "Root Group/NEII Data Services – Conformant/Oceans (14)/Dynamic National Map Hydrology and Marine - Polygons/Foreshore Flats"
+                  ]
+                },
+                {
+                  "type": "wms",
+                  "name": "Pondage Areas - Settling Ponds",
+                  "url": "http://gaservices.ga.gov.au/site_7/services/NM_Hydrology_and_Marine_Polygons/MapServer/WMSServer?request=GetCapabilities&service=WMS",
+                  "opacity": 1,
+                  "dataCustodian": "[Geoscience Australia](http://www.ga.gov.au/)",
+                  "layers": "Pondage_Areas_Settling_Ponds",
+                  "id": "JNUxzQ",
+                  "shareKeys": [
+                    "Root Group/NEII Data Services – Conformant/Oceans (14)/Dynamic National Map Hydrology and Marine - Polygons/Pondage Areas - Settling Ponds"
+                  ]
+                },
+                {
+                  "type": "wms",
+                  "name": "Pondage Areas - Salt Evaporators",
+                  "url": "http://gaservices.ga.gov.au/site_7/services/NM_Hydrology_and_Marine_Polygons/MapServer/WMSServer?request=GetCapabilities&service=WMS",
+                  "opacity": 1,
+                  "dataCustodian": "[Geoscience Australia](http://www.ga.gov.au/)",
+                  "layers": "Pondage_Areas_Salt_Evaporators",
+                  "id": "Sg4AzC",
+                  "shareKeys": [
+                    "Root Group/NEII Data Services – Conformant/Oceans (14)/Dynamic National Map Hydrology and Marine - Polygons/Pondage Areas - Salt Evaporators"
+                  ]
+                },
+                {
+                  "type": "wms",
+                  "name": "Pondage Areas - Aquaculture Areas",
+                  "url": "http://gaservices.ga.gov.au/site_7/services/NM_Hydrology_and_Marine_Polygons/MapServer/WMSServer?request=GetCapabilities&service=WMS",
+                  "opacity": 1,
+                  "dataCustodian": "[Geoscience Australia](http://www.ga.gov.au/)",
+                  "layers": "PondageArea_AquacultureAreas",
+                  "id": "cjwykv",
+                  "shareKeys": [
+                    "Root Group/NEII Data Services – Conformant/Oceans (14)/Dynamic National Map Hydrology and Marine - Polygons/Pondage Areas - Aquaculture Areas"
+                  ]
+                },
+                {
+                  "type": "wms",
+                  "name": "Watercourse Areas",
+                  "url": "http://gaservices.ga.gov.au/site_7/services/NM_Hydrology_and_Marine_Polygons/MapServer/WMSServer?request=GetCapabilities&service=WMS",
+                  "opacity": 1,
+                  "dataCustodian": "[Geoscience Australia](http://www.ga.gov.au/)",
+                  "layers": "Watercourse_Areas",
+                  "id": "GF6Uht",
+                  "shareKeys": [
+                    "Root Group/NEII Data Services – Conformant/Oceans (14)/Dynamic National Map Hydrology and Marine - Polygons/Watercourse Areas"
+                  ]
+                },
+                {
+                  "type": "wms",
+                  "name": "Rapid Areas",
+                  "url": "http://gaservices.ga.gov.au/site_7/services/NM_Hydrology_and_Marine_Polygons/MapServer/WMSServer?request=GetCapabilities&service=WMS",
+                  "opacity": 1,
+                  "dataCustodian": "[Geoscience Australia](http://www.ga.gov.au/)",
+                  "layers": "Rapid_Areas",
+                  "id": "iA6ce4",
+                  "shareKeys": [
+                    "Root Group/NEII Data Services – Conformant/Oceans (14)/Dynamic National Map Hydrology and Marine - Polygons/Rapid Areas"
+                  ]
+                },
+                {
+                  "type": "wms",
+                  "name": "Canal Areas",
+                  "url": "http://gaservices.ga.gov.au/site_7/services/NM_Hydrology_and_Marine_Polygons/MapServer/WMSServer?request=GetCapabilities&service=WMS",
+                  "opacity": 1,
+                  "dataCustodian": "[Geoscience Australia](http://www.ga.gov.au/)",
+                  "layers": "Canal_Areas",
+                  "id": "LDaJHl",
+                  "shareKeys": [
+                    "Root Group/NEII Data Services – Conformant/Oceans (14)/Dynamic National Map Hydrology and Marine - Polygons/Canal Areas"
+                  ]
+                },
+                {
+                  "type": "wms",
+                  "name": "Reefs and Shoals",
+                  "url": "http://gaservices.ga.gov.au/site_7/services/NM_Hydrology_and_Marine_Polygons/MapServer/WMSServer?request=GetCapabilities&service=WMS",
+                  "opacity": 1,
+                  "dataCustodian": "[Geoscience Australia](http://www.ga.gov.au/)",
+                  "layers": "Reefs_And_Shoals",
+                  "id": "XYVeki",
+                  "shareKeys": [
+                    "Root Group/NEII Data Services – Conformant/Oceans (14)/Dynamic National Map Hydrology and Marine - Polygons/Reefs and Shoals"
+                  ]
+                },
+                {
+                  "type": "wms",
+                  "name": "Flats - Marine Swamps - Labels",
+                  "url": "http://gaservices.ga.gov.au/site_7/services/NM_Hydrology_and_Marine_Polygons/MapServer/WMSServer?request=GetCapabilities&service=WMS",
+                  "opacity": 1,
+                  "dataCustodian": "[Geoscience Australia](http://www.ga.gov.au/)",
+                  "layers": "Flats_MarineSwamps_Labels",
+                  "id": "aXerTQ",
+                  "shareKeys": [
+                    "Root Group/NEII Data Services – Conformant/Oceans (14)/Dynamic National Map Hydrology and Marine - Polygons/Flats - Marine Swamps - Labels"
+                  ]
+                },
+                {
+                  "type": "wms",
+                  "name": "Flats - Swamps - Labels",
+                  "url": "http://gaservices.ga.gov.au/site_7/services/NM_Hydrology_and_Marine_Polygons/MapServer/WMSServer?request=GetCapabilities&service=WMS",
+                  "opacity": 1,
+                  "dataCustodian": "[Geoscience Australia](http://www.ga.gov.au/)",
+                  "layers": "Flats_Swamps_Labels",
+                  "id": "WEYbSY",
+                  "shareKeys": [
+                    "Root Group/NEII Data Services – Conformant/Oceans (14)/Dynamic National Map Hydrology and Marine - Polygons/Flats - Swamps - Labels"
+                  ]
+                },
+                {
+                  "type": "wms",
+                  "name": "Waterbody - All Flood Irrigation Storage - Labels",
+                  "url": "http://gaservices.ga.gov.au/site_7/services/NM_Hydrology_and_Marine_Polygons/MapServer/WMSServer?request=GetCapabilities&service=WMS",
+                  "opacity": 1,
+                  "dataCustodian": "[Geoscience Australia](http://www.ga.gov.au/)",
+                  "layers": "Waterbody_All_Flood_Irrigation_Storage_Labels",
+                  "id": "LJsX2e",
+                  "shareKeys": [
+                    "Root Group/NEII Data Services – Conformant/Oceans (14)/Dynamic National Map Hydrology and Marine - Polygons/Waterbody - All Flood Irrigation Storage - Labels"
+                  ]
+                },
+                {
+                  "type": "wms",
+                  "name": "Waterbody - All Reservoirs - Labels",
+                  "url": "http://gaservices.ga.gov.au/site_7/services/NM_Hydrology_and_Marine_Polygons/MapServer/WMSServer?request=GetCapabilities&service=WMS",
+                  "opacity": 1,
+                  "dataCustodian": "[Geoscience Australia](http://www.ga.gov.au/)",
+                  "layers": "Waterbody_All_Reservoirs_Labels",
+                  "id": "5lbI1X",
+                  "shareKeys": [
+                    "Root Group/NEII Data Services – Conformant/Oceans (14)/Dynamic National Map Hydrology and Marine - Polygons/Waterbody - All Reservoirs - Labels"
+                  ]
+                },
+                {
+                  "type": "wms",
+                  "name": "Waterbody - All Lakes - Labels",
+                  "url": "http://gaservices.ga.gov.au/site_7/services/NM_Hydrology_and_Marine_Polygons/MapServer/WMSServer?request=GetCapabilities&service=WMS",
+                  "opacity": 1,
+                  "dataCustodian": "[Geoscience Australia](http://www.ga.gov.au/)",
+                  "layers": "Waterbody_All_Lakes_Labels",
+                  "id": "Frmwpd",
+                  "shareKeys": [
+                    "Root Group/NEII Data Services – Conformant/Oceans (14)/Dynamic National Map Hydrology and Marine - Polygons/Waterbody - All Lakes - Labels"
+                  ]
+                },
+                {
+                  "type": "wms",
+                  "name": "Waterbody - Extra Lakes and Reservoirs - Labels",
+                  "url": "http://gaservices.ga.gov.au/site_7/services/NM_Hydrology_and_Marine_Polygons/MapServer/WMSServer?request=GetCapabilities&service=WMS",
+                  "opacity": 1,
+                  "dataCustodian": "[Geoscience Australia](http://www.ga.gov.au/)",
+                  "layers": "Waterbody_Extra_Lakes_and_Reservoirs_Labels",
+                  "id": "lSX4kI",
+                  "shareKeys": [
+                    "Root Group/NEII Data Services – Conformant/Oceans (14)/Dynamic National Map Hydrology and Marine - Polygons/Waterbody - Extra Lakes and Reservoirs - Labels"
+                  ]
+                },
+                {
+                  "type": "wms",
+                  "name": "Waterbody - Reservoirs Scale 1:10,000,000 to 1:300,000 - Labels",
+                  "url": "http://gaservices.ga.gov.au/site_7/services/NM_Hydrology_and_Marine_Polygons/MapServer/WMSServer?request=GetCapabilities&service=WMS",
+                  "opacity": 1,
+                  "dataCustodian": "[Geoscience Australia](http://www.ga.gov.au/)",
+                  "layers": "Waterbody_Reservoirs_Scale_10Million_to_300000_Labels",
+                  "id": "crBNy4",
+                  "shareKeys": [
+                    "Root Group/NEII Data Services – Conformant/Oceans (14)/Dynamic National Map Hydrology and Marine - Polygons/Waterbody - Reservoirs Scale 1:10,000,000 to 1:300,000 - Labels"
+                  ]
+                },
+                {
+                  "type": "wms",
+                  "name": "Waterbody - Lakes Scale 1:5,000,000 to 1:300,000 - Labels",
+                  "url": "http://gaservices.ga.gov.au/site_7/services/NM_Hydrology_and_Marine_Polygons/MapServer/WMSServer?request=GetCapabilities&service=WMS",
+                  "opacity": 1,
+                  "dataCustodian": "[Geoscience Australia](http://www.ga.gov.au/)",
+                  "layers": "Waterbody_Lakes_Scale_5Million_to_300000_Labels",
+                  "id": "z1dsnt",
+                  "shareKeys": [
+                    "Root Group/NEII Data Services – Conformant/Oceans (14)/Dynamic National Map Hydrology and Marine - Polygons/Waterbody - Lakes Scale 1:5,000,000 to 1:300,000 - Labels"
+                  ]
+                },
+                {
+                  "type": "wms",
+                  "name": "Waterbody - Lakes Scale 1:10,000,000 to 1:5,000,000 - Labels",
+                  "url": "http://gaservices.ga.gov.au/site_7/services/NM_Hydrology_and_Marine_Polygons/MapServer/WMSServer?request=GetCapabilities&service=WMS",
+                  "opacity": 1,
+                  "dataCustodian": "[Geoscience Australia](http://www.ga.gov.au/)",
+                  "layers": "Waterbody_Lakes_Scale_10Million_to_5Million_Labels",
+                  "id": "GZbLjd",
+                  "shareKeys": [
+                    "Root Group/NEII Data Services – Conformant/Oceans (14)/Dynamic National Map Hydrology and Marine - Polygons/Waterbody - Lakes Scale 1:10,000,000 to 1:5,000,000 - Labels"
+                  ]
+                },
+                {
+                  "type": "wms",
+                  "name": "Watercourse Areas - Labels",
+                  "url": "http://gaservices.ga.gov.au/site_7/services/NM_Hydrology_and_Marine_Polygons/MapServer/WMSServer?request=GetCapabilities&service=WMS",
+                  "opacity": 1,
+                  "dataCustodian": "[Geoscience Australia](http://www.ga.gov.au/)",
+                  "layers": "Watercourse_Areas_Labels",
+                  "id": "jkGarh",
+                  "shareKeys": [
+                    "Root Group/NEII Data Services – Conformant/Oceans (14)/Dynamic National Map Hydrology and Marine - Polygons/Watercourse Areas - Labels"
+                  ]
+                },
+                {
+                  "type": "wms",
+                  "name": "Reefs and Shoals - Labels",
+                  "url": "http://gaservices.ga.gov.au/site_7/services/NM_Hydrology_and_Marine_Polygons/MapServer/WMSServer?request=GetCapabilities&service=WMS",
+                  "opacity": 1,
+                  "dataCustodian": "[Geoscience Australia](http://www.ga.gov.au/)",
+                  "layers": "Reefs_and_Shoals_Labels",
+                  "id": "meB3Pl",
+                  "shareKeys": [
+                    "Root Group/NEII Data Services – Conformant/Oceans (14)/Dynamic National Map Hydrology and Marine - Polygons/Reefs and Shoals - Labels"
+                  ]
+                }
+              ],
+              "description": "Geoscience Australia is the custodian of the most comprehensive publicly available Australian airborne magnetic, gamma-ray, seismic, electromagnetic and gravity data sets. The airborne geophysics data set contains approximately 34 million line kilometres of data, which, at current prices, would cost approximately $197 million to acquire. The gravity data set contains more than 1.57 million reliable onshore stations gathered during more than 1800 surveys. The collection also includes a large number of seismic surveys from Australia offshore basins. The data types and access methods for the Offshore and Onshore data are identical.The AusHydro database provides a seamless surface hydrography layer for Australia at a nominal scale of 1:250, 000. It consists of lines, points and polygons representing natural and man-made features such as water courses, lakes, dams and other waterbodies. The natural water course layer consists of a linear network with a consistent topology that provide directional flow paths through the network for hydrological analysis. This network was used to produce the National 9 second Digital Elevation Model (DEM) of  Australia (http://www.ga.gov.au/nmd/products/digidat/dem_9s.jsp). It also provides information on naming, hierarchy and perenniality.",
+              "info": [
+                {
+                  "name": "Data Custodian",
+                  "content": "[Geoscience Australia](http://www.ga.gov.au/)"
+                },
+                {
+                  "name": "Further Information",
+                  "content": "[NEII Catalogue](http://neii.gov.au/catalogue/)"
+                }
+              ],
+              "shareKeys": [
+                "Root Group/NEII Data Services – Conformant/Oceans (14)/Dynamic National Map Hydrology and Marine - Polygons"
+              ]
+            },
+            {
+              "type": "esri-mapServer",
+              "name": "Geomorphic Features of Australia's Marine Jurisdiction (GA)",
+              "url": "http://services.ga.gov.au/gis/rest/services/Marine_Geomorphic_Features/MapServer/0",
+              "id": "cF76jp",
+              "shareKeys": [
+                "Root Group/NEII Data Services – Conformant/Oceans (14)/Geomorphic Features of Australia's Marine Jurisdiction (GA)"
+              ]
+            }
+          ],
+          "shareKeys": [
+            "Root Group/NEII Data Services – Conformant/Oceans (14)"
+          ]
+        }
+      ],
+      "isOpen": false,
+      "shareKeys": [
+        "Root Group/NEII Data Services – Conformant"
+      ]
+    }
+  ],
+  "homeCamera": {
+    "west": 112,
+    "south": -48,
+    "east": 155,
+    "north": -5
+  }
+}

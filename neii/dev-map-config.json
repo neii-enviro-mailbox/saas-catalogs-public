@@ -187,13 +187,13 @@
         "showWelcomeMessage": true
       },
       "v7initializationUrls": [
-        "https://raw.githubusercontent.com/TerriaJS/neii-viewer/master/wwwroot/init/neii-oceans.json",
-        "https://raw.githubusercontent.com/TerriaJS/neii-viewer/master/wwwroot/init/neii-water.json",
-        "https://raw.githubusercontent.com/TerriaJS/neii-viewer/master/wwwroot/init/neii-air.json",
-        "https://raw.githubusercontent.com/TerriaJS/neii-viewer/master/wwwroot/init/neii-biota.json",
-        "https://raw.githubusercontent.com/TerriaJS/neii-viewer/master/wwwroot/init/neii-land.json",
-        "https://raw.githubusercontent.com/TerriaJS/neii-viewer/master/wwwroot/init/neii-other.json",
-        "proxy/_60s/http://neii.bom.gov.au/cgi-bin/nemsr/get_viewer_config.json"
+        "https://raw.githubusercontent.com/TerriaJS/saas-catalogs-public/main/neii/oceans/dev.json",
+        "https://raw.githubusercontent.com/TerriaJS/saas-catalogs-public/main/neii/water/dev.json",
+        "https://raw.githubusercontent.com/TerriaJS/saas-catalogs-public/main/neii/air/dev.json",
+        "https://raw.githubusercontent.com/TerriaJS/saas-catalogs-public/main/neii/biota/dev.json",
+        "https://raw.githubusercontent.com/TerriaJS/saas-catalogs-public/main/neii/land/dev.json",
+        "https://raw.githubusercontent.com/TerriaJS/saas-catalogs-public/main/neii/other/dev.json",
+        "https://raw.githubusercontent.com/TerriaJS/saas-catalogs-public/main/neii/nemsr/dev.json"
       ]
     },
     "group": {

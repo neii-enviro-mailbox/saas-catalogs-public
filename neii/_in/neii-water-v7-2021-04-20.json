@@ -1,0 +1,1797 @@
+{
+  "catalog": [
+    {
+      "name": "NEII Data Services – Conformant",
+      "type": "group",
+      "isOpen": false,
+      "items": [
+        {
+          "name": "Water (7)",
+          "type": "group",
+          "items": [
+            {
+              "name": "Geofabric (BoM)",
+              "type": "group",
+              "description": "The Australian Hydrological Geospatial Fabric (Geofabric) is a specialised Geographic Information System (GIS). It registers the spatial relationships between important hydrological features such as rivers, water bodies, aquifers and monitoring points.\n\nBy detailing the spatial dimensions of these hydrofeatures and how they are connected, it is possible to analyse how water is stored, transported and used through the landscape.</p><p>The quality of the spatial data and attribution is largely based upon the input data from AusHydro and ANUDEM Streams and the National Catchment Boundaries. Additional post-processing of these feature classes creates the resulting feature classes within the Geofabric products.",
+              "info": [
+                {
+                  "name": "Data Custodian",
+                  "content": "[Bureau of Meteorology](http://www.bom.gov.au/)"
+                },
+                {
+                  "name": "Further Information",
+                  "content": "[NEII Catalogue](http://neii.gov.au/catalogue/)"
+                }
+              ],
+              "items": [
+                {
+                  "name": "Surface Hydrology - Stream Cartography",
+                  "type": "group",
+                  "items": [
+                    {
+                      "name": "Canal Line",
+                      "layers": "ahgf_shcarto:AHGFCanalLine",
+                      "description": "Man-made open channels for water (mapped)",
+                      "dataCustodian": "[Bureau of Meteorology](http://www.bom.gov.au/)",
+                      "url": "http://geofabric.bom.gov.au/simplefeatures/ows",
+                      "type": "wms",
+                      "rectangle": [
+                        "100.0",
+                        "-44.0",
+                        "159.0",
+                        "-4.0"
+                      ]
+                    },
+                    {
+                      "name": "Dams",
+                      "layers": "ahgf_shcarto:AHGFDam",
+                      "description": "Water stored behind a constructed barrier (mapped)",
+                      "dataCustodian": "[Bureau of Meteorology](http://www.bom.gov.au/)",
+                      "url": "http://geofabric.bom.gov.au/simplefeatures/ows",
+                      "type": "wms",
+                      "rectangle": [
+                        "100.0",
+                        "-44.0",
+                        "159.0",
+                        "-4.0"
+                      ]
+                    },
+                    {
+                      "name": "Estuaries",
+                      "layers": "ahgf_shcarto:AHGFEstuary",
+                      "description": "Partly enclosed coastal body of water (mapped)",
+                      "dataCustodian": "[Bureau of Meteorology](http://www.bom.gov.au/)",
+                      "url": "http://geofabric.bom.gov.au/simplefeatures/ows",
+                      "type": "wms",
+                      "rectangle": [
+                        "100.0",
+                        "-44.0",
+                        "159.0",
+                        "-4.0"
+                      ]
+                    },
+                    {
+                      "name": "Hydro-Area",
+                      "layers": "ahgf_shcarto:AHGFHydroArea",
+                      "description": "Types of mapped areal water features",
+                      "dataCustodian": "[Bureau of Meteorology](http://www.bom.gov.au/)",
+                      "url": "http://geofabric.bom.gov.au/simplefeatures/ows",
+                      "type": "wms",
+                      "rectangle": [
+                        "100.0",
+                        "-44.0",
+                        "159.0",
+                        "-4.0"
+                      ]
+                    },
+                    {
+                      "name": "Hydro-Line",
+                      "layers": "ahgf_shcarto:AHGFHydroLine",
+                      "description": "Types of mapped linear water features",
+                      "dataCustodian": "[Bureau of Meteorology](http://www.bom.gov.au/)",
+                      "url": "http://geofabric.bom.gov.au/simplefeatures/ows",
+                      "type": "wms",
+                      "rectangle": [
+                        "100.0",
+                        "-44.0",
+                        "159.0",
+                        "-4.0"
+                      ]
+                    },
+                    {
+                      "name": "Hydro-Point",
+                      "layers": "ahgf_shcarto:AHGFHydroPoint",
+                      "description": "Types of mapped points representing water features",
+                      "dataCustodian": "[Bureau of Meteorology](http://www.bom.gov.au/)",
+                      "url": "http://geofabric.bom.gov.au/simplefeatures/ows",
+                      "type": "wms",
+                      "rectangle": [
+                        "100.0",
+                        "-44.0",
+                        "159.0",
+                        "-4.0"
+                      ]
+                    },
+                    {
+                      "name": "Mapped Nodes",
+                      "layers": "ahgf_shcarto:AHGFMappedNode",
+                      "description": "Node types derived from mapped (digitised) streams",
+                      "dataCustodian": "[Bureau of Meteorology](http://www.bom.gov.au/)",
+                      "url": "http://geofabric.bom.gov.au/simplefeatures/ows",
+                      "type": "wms",
+                      "rectangle": [
+                        "100.0",
+                        "-44.0",
+                        "159.0",
+                        "-4.0"
+                      ]
+                    },
+                    {
+                      "name": "Mapped Streams",
+                      "layers": "ahgf_shcarto:AHGFMappedStream",
+                      "description": "Types of mapped (digitised) stream segments",
+                      "dataCustodian": "[Bureau of Meteorology](http://www.bom.gov.au/)",
+                      "url": "http://geofabric.bom.gov.au/simplefeatures/ows",
+                      "type": "wms",
+                      "rectangle": [
+                        "100.0",
+                        "-44.0",
+                        "159.0",
+                        "-4.0"
+                      ]
+                    },
+                    {
+                      "name": "Sea",
+                      "layers": "ahgf_shcarto:AHGFSea",
+                      "description": "Water areas surrounding the Australian continent (mapped)",
+                      "dataCustodian": "[Bureau of Meteorology](http://www.bom.gov.au/)",
+                      "url": "http://geofabric.bom.gov.au/simplefeatures/ows",
+                      "type": "wms",
+                      "rectangle": [
+                        "100.0",
+                        "-44.0",
+                        "159.0",
+                        "-4.0"
+                      ]
+                    },
+                    {
+                      "name": "Water Pipeline",
+                      "layers": "ahgf_shcarto:AHGFWaterPipeline",
+                      "description": "Man-made pipelines used for transporting water (mapped)",
+                      "dataCustodian": "[Bureau of Meteorology](http://www.bom.gov.au/)",
+                      "url": "http://geofabric.bom.gov.au/simplefeatures/ows",
+                      "type": "wms",
+                      "rectangle": [
+                        "100.0",
+                        "-44.0",
+                        "159.0",
+                        "-4.0"
+                      ]
+                    },
+                    {
+                      "name": "Structure",
+                      "layers": "ahgf_shcarto:AHGFStructure",
+                      "description": "Types of water structures (mapped)",
+                      "dataCustodian": "[Bureau of Meteorology](http://www.bom.gov.au/)",
+                      "url": "http://geofabric.bom.gov.au/simplefeatures/ows",
+                      "type": "wms",
+                      "rectangle": [
+                        "100.0",
+                        "-44.0",
+                        "159.0",
+                        "-4.0"
+                      ]
+                    },
+                    {
+                      "name": "Terrain Break Lines",
+                      "layers": "ahgf_shcarto:AHGFTerrainBreakLine",
+                      "description": "Abrubt changes in elevation (terrain based)",
+                      "dataCustodian": "[Bureau of Meteorology](http://www.bom.gov.au/)",
+                      "url": "http://geofabric.bom.gov.au/simplefeatures/ows",
+                      "type": "wms",
+                      "rectangle": [
+                        "100.0",
+                        "-44.0",
+                        "159.0",
+                        "-4.0"
+                      ]
+                    },
+                    {
+                      "name": "Water Bodies",
+                      "layers": "ahgf_shcarto:AHGFWaterbody",
+                      "description": "Types of surface waterbodies (mapped)",
+                      "dataCustodian": "[Bureau of Meteorology](http://www.bom.gov.au/)",
+                      "url": "http://geofabric.bom.gov.au/simplefeatures/ows",
+                      "type": "wms",
+                      "rectangle": [
+                        "100.0",
+                        "-44.0",
+                        "159.0",
+                        "-4.0"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "Surface Hydrology - Stream Network",
+                  "type": "group",
+                  "items": [
+                    {
+                      "name": "Network Nodes",
+                      "layers": "ahgf_shn:AHGFNetworkNode",
+                      "description": "Node types derived from network (terrain based) streams",
+                      "dataCustodian": "[Bureau of Meteorology](http://www.bom.gov.au/)",
+                      "url": "http://geofabric.bom.gov.au/simplefeatures/ows",
+                      "type": "wms",
+                      "rectangle": [
+                        "100.0",
+                        "-44.0",
+                        "159.0",
+                        "-4.0"
+                      ]
+                    },
+                    {
+                      "name": "Network Streams",
+                      "layers": "ahgf_shn:AHGFNetworkStream",
+                      "description": "Types of network (terrain based) stream segments",
+                      "dataCustodian": "[Bureau of Meteorology](http://www.bom.gov.au/)",
+                      "url": "http://geofabric.bom.gov.au/simplefeatures/ows",
+                      "type": "wms",
+                      "rectangle": [
+                        "100.0",
+                        "-44.0",
+                        "159.0",
+                        "-4.0"
+                      ]
+                    },
+                    {
+                      "name": "Major Network Streams",
+                      "layers": "ahgf_shn:AHGFNetworkStreamsMajor",
+                      "description": "Major Network Streams",
+                      "dataCustodian": "[Bureau of Meteorology](http://www.bom.gov.au/)",
+                      "url": "http://geofabric.bom.gov.au/simplefeatures/ows",
+                      "type": "wms",
+                      "rectangle": [
+                        "100.0",
+                        "-44.0",
+                        "159.0",
+                        "-4.0"
+                      ]
+                    },
+                    {
+                      "name": "Water Bodies",
+                      "layers": "ahgf_shn:AHGFWaterbody",
+                      "description": "Types of surface waterbodies (mapped)",
+                      "dataCustodian": "[Bureau of Meteorology](http://www.bom.gov.au/)",
+                      "url": "http://geofabric.bom.gov.au/simplefeatures/ows",
+                      "type": "wms",
+                      "rectangle": [
+                        "100.0",
+                        "-44.0",
+                        "159.0",
+                        "-4.0"
+                      ]
+                    },
+                    {
+                      "name": "Water Storage Water Bodies",
+                      "layers": "ahgf_shn:AHGFWaterbodyWaterStorage",
+                      "description": "Water Storage Water Bodies",
+                      "dataCustodian": "[Bureau of Meteorology](http://www.bom.gov.au/)",
+                      "url": "http://geofabric.bom.gov.au/simplefeatures/ows",
+                      "type": "wms",
+                      "rectangle": [
+                        "100.0",
+                        "-44.0",
+                        "159.0",
+                        "-4.0"
+                      ]
+                    },
+                    {
+                      "name": "Catchments",
+                      "layers": "ahgf_shcatch:AHGFCatchment",
+                      "description": "Surface water drainage area (terrain based)",
+                      "dataCustodian": "[Bureau of Meteorology](http://www.bom.gov.au/)",
+                      "url": "http://geofabric.bom.gov.au/simplefeatures/ows",
+                      "type": "wms",
+                      "rectangle": [
+                        "100.0",
+                        "-44.0",
+                        "159.0",
+                        "-4.0"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "Surface Hydrology - Catchments",
+                  "type": "group",
+                  "items": [
+                    {
+                      "name": "Catchments",
+                      "layers": "ahgf_shcatch:AHGFCatchment",
+                      "description": "Surface water drainage area (terrain based)",
+                      "dataCustodian": "[Bureau of Meteorology](http://www.bom.gov.au/)",
+                      "url": "http://geofabric.bom.gov.au/simplefeatures/ows",
+                      "type": "wms",
+                      "rectangle": [
+                        "100.0",
+                        "-44.0",
+                        "159.0",
+                        "-4.0"
+                      ]
+                    },
+                    {
+                      "name": "Level 1 Drainage Division",
+                      "layers": "ahgf_shcatch:NCBLevel1DrainageDivision",
+                      "description": "Level 1 Drainage Division",
+                      "dataCustodian": "[Bureau of Meteorology](http://www.bom.gov.au/)",
+                      "url": "http://geofabric.bom.gov.au/simplefeatures/ows",
+                      "type": "wms",
+                      "rectangle": [
+                        "100.0",
+                        "-44.0",
+                        "159.0",
+                        "-4.0"
+                      ]
+                    },
+                    {
+                      "name": "Level 2 Drainage Basin Group",
+                      "layers": "ahgf_shcatch:NCBLevel2DrainageBasinGroup",
+                      "description": "Level 2 Drainage Basin Group",
+                      "dataCustodian": "[Bureau of Meteorology](http://www.bom.gov.au/)",
+                      "url": "http://geofabric.bom.gov.au/simplefeatures/ows",
+                      "type": "wms",
+                      "rectangle": [
+                        "100.0",
+                        "-44.0",
+                        "159.0",
+                        "-4.0"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "Hydrogeology - Groundwater Cartography",
+                  "type": "group",
+                  "items": [
+                    {
+                      "name": "Aquifer Boundaries",
+                      "layers": "ahgf_gwc:AHGFAquiferBoundary",
+                      "description": "Boundaries of underlying, outcropping and subcropping aquifers",
+                      "dataCustodian": "[Bureau of Meteorology](http://www.bom.gov.au/)",
+                      "url": "http://geofabric.bom.gov.au/simplefeatures/ows",
+                      "type": "wms",
+                      "rectangle": [
+                        "100.0",
+                        "-44.0",
+                        "159.0",
+                        "-4.0"
+                      ]
+                    },
+                    {
+                      "name": "Aquifer Contours",
+                      "layers": "ahgf_gwc:AHGFAquiferContour",
+                      "description": "Subtypes of aquifer surface contours",
+                      "dataCustodian": "[Bureau of Meteorology](http://www.bom.gov.au/)",
+                      "url": "http://geofabric.bom.gov.au/simplefeatures/ows",
+                      "type": "wms",
+                      "rectangle": [
+                        "100.0",
+                        "-44.0",
+                        "159.0",
+                        "-4.0"
+                      ]
+                    },
+                    {
+                      "name": "Aquifer Contour Top",
+                      "layers": "ahgf_gwc:AHGFAquiferContourTop",
+                      "description": "  TBA   ",
+                      "dataCustodian": "[Bureau of Meteorology](http://www.bom.gov.au/)",
+                      "url": "http://geofabric.bom.gov.au/simplefeatures/ows",
+                      "type": "wms",
+                      "rectangle": [
+                        "100.0",
+                        "-44.0",
+                        "159.0",
+                        "-4.0"
+                      ]
+                    },
+                    {
+                      "name": "Aquifer Contour Bottom",
+                      "layers": "ahgf_gwc:AHGFAquiferContourBottom",
+                      "description": "   TBA    ",
+                      "dataCustodian": "[Bureau of Meteorology](http://www.bom.gov.au/)",
+                      "url": "http://geofabric.bom.gov.au/simplefeatures/ows",
+                      "type": "wms",
+                      "rectangle": [
+                        "100.0",
+                        "-44.0",
+                        "159.0",
+                        "-4.0"
+                      ]
+                    },
+                    {
+                      "name": "Aquifer Contour Bedrock",
+                      "layers": "ahgf_gwc:AHGFAquiferContourBedrock",
+                      "description": "   TBA     ",
+                      "dataCustodian": "[Bureau of Meteorology](http://www.bom.gov.au/)",
+                      "url": "http://geofabric.bom.gov.au/simplefeatures/ows",
+                      "type": "wms",
+                      "rectangle": [
+                        "100.0",
+                        "-44.0",
+                        "159.0",
+                        "-4.0"
+                      ]
+                    },
+                    {
+                      "name": "Aquifer Outcrops",
+                      "layers": "ahgf_gwc:AHGFAquiferOutcrop",
+                      "description": "Outcrop areas of aquifers",
+                      "dataCustodian": "[Bureau of Meteorology](http://www.bom.gov.au/)",
+                      "url": "http://geofabric.bom.gov.au/simplefeatures/ows",
+                      "type": "wms",
+                      "rectangle": [
+                        "100.0",
+                        "-44.0",
+                        "159.0",
+                        "-4.0"
+                      ]
+                    },
+                    {
+                      "name": "Surficial Hydrological Units",
+                      "layers": "ahgf_gwc:AHGFSurficialHydrogeologicUnit",
+                      "description": "Surficial units of similar hydrogeologic properties",
+                      "dataCustodian": "[Bureau of Meteorology](http://www.bom.gov.au/)",
+                      "url": "http://geofabric.bom.gov.au/simplefeatures/ows",
+                      "type": "wms",
+                      "rectangle": [
+                        "100.0",
+                        "-44.0",
+                        "159.0",
+                        "-4.0"
+                      ]
+                    },
+                    {
+                      "name": "Water Table Aquifers",
+                      "layers": "ahgf_gwc:AHGFWaterTableAquifer",
+                      "description": "Water table units of similar hydrogeologic properties",
+                      "dataCustodian": "[Bureau of Meteorology](http://www.bom.gov.au/)",
+                      "url": "http://geofabric.bom.gov.au/simplefeatures/ows",
+                      "type": "wms",
+                      "rectangle": [
+                        "100.0",
+                        "-44.0",
+                        "159.0",
+                        "-4.0"
+                      ]
+                    },
+                    {
+                      "name": "Aquifer Salinity",
+                      "layers": "ahgf_gwc:IGWAquiferSalinity",
+                      "description": "Aquifer Salinity",
+                      "dataCustodian": "[Bureau of Meteorology](http://www.bom.gov.au/)",
+                      "url": "http://geofabric.bom.gov.au/simplefeatures/ows",
+                      "type": "wms",
+                      "rectangle": [
+                        "100.0",
+                        "-44.0",
+                        "159.0",
+                        "-4.0"
+                      ]
+                    },
+                    {
+                      "name": "Aquifer Yields",
+                      "layers": "ahgf_gwc:IGWAquiferYield",
+                      "description": "Aquifer Yields",
+                      "dataCustodian": "[Bureau of Meteorology](http://www.bom.gov.au/)",
+                      "url": "http://geofabric.bom.gov.au/simplefeatures/ows",
+                      "type": "wms",
+                      "rectangle": [
+                        "100.0",
+                        "-44.0",
+                        "159.0",
+                        "-4.0"
+                      ]
+                    },
+                    {
+                      "name": "Water Table Hydraulic Conductivity",
+                      "layers": "ahgf_gwc:IGWWaterTableHydraulicConductivity",
+                      "description": "Water table hydraulic conductivity",
+                      "dataCustodian": "[Bureau of Meteorology](http://www.bom.gov.au/)",
+                      "url": "http://geofabric.bom.gov.au/simplefeatures/ows",
+                      "type": "wms",
+                      "rectangle": [
+                        "100.0",
+                        "-44.0",
+                        "159.0",
+                        "-4.0"
+                      ]
+                    },
+                    {
+                      "name": "Water Table Salinity",
+                      "layers": "ahgf_gwc:IGWWaterTableSalinity",
+                      "description": "Water Table Salinity",
+                      "dataCustodian": "[Bureau of Meteorology](http://www.bom.gov.au/)",
+                      "url": "http://geofabric.bom.gov.au/simplefeatures/ows",
+                      "type": "wms",
+                      "rectangle": [
+                        "100.0",
+                        "-44.0",
+                        "159.0",
+                        "-4.0"
+                      ]
+                    },
+                    {
+                      "name": "Water Table Yield",
+                      "layers": "ahgf_gwc:IGWWaterTableYield",
+                      "description": "Water table yield",
+                      "dataCustodian": "[Bureau of Meteorology](http://www.bom.gov.au/)",
+                      "url": "http://geofabric.bom.gov.au/simplefeatures/ows",
+                      "type": "wms",
+                      "rectangle": [
+                        "100.0",
+                        "-44.0",
+                        "159.0",
+                        "-4.0"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "Reporting Catchments and Regions",
+                  "type": "group",
+                  "items": [
+                    {
+                      "name": "Contracted Catchments",
+                      "layers": "ahgf_hrc:AHGFContractedCatchment",
+                      "description": "Types of contracted catchment areas",
+                      "dataCustodian": "[Bureau of Meteorology](http://www.bom.gov.au/)",
+                      "url": "http://geofabric.bom.gov.au/simplefeatures/ows",
+                      "type": "wms",
+                      "rectangle": [
+                        "100.0",
+                        "-44.0",
+                        "159.0",
+                        "-4.0"
+                      ]
+                    },
+                    {
+                      "name": "Contracted Catchment Links",
+                      "layers": "ahgf_hrc:AHGFLink",
+                      "description": "Surface water geoschematic link (terrain based)",
+                      "dataCustodian": "[Bureau of Meteorology](http://www.bom.gov.au/)",
+                      "url": "http://geofabric.bom.gov.au/simplefeatures/ows",
+                      "type": "wms",
+                      "rectangle": [
+                        "100.0",
+                        "-44.0",
+                        "159.0",
+                        "-4.0"
+                      ]
+                    },
+                    {
+                      "name": "Contracted Catchment nodes",
+                      "layers": "ahgf_hrc:AHGFNode",
+                      "description": "Node types derived from network (terrain based) streams",
+                      "dataCustodian": "[Bureau of Meteorology](http://www.bom.gov.au/)",
+                      "url": "http://geofabric.bom.gov.au/simplefeatures/ows",
+                      "type": "wms",
+                      "rectangle": [
+                        "100.0",
+                        "-44.0",
+                        "159.0",
+                        "-4.0"
+                      ]
+                    },
+                    {
+                      "name": "Drainage Divisions",
+                      "layers": "ahgf_hrr:AWRADrainageDivision",
+                      "description": "Drainage Divisions",
+                      "dataCustodian": "[Bureau of Meteorology](http://www.bom.gov.au/)",
+                      "url": "http://geofabric.bom.gov.au/simplefeatures/ows",
+                      "type": "wms",
+                      "rectangle": [
+                        "100.0",
+                        "-44.0",
+                        "159.0",
+                        "-4.0"
+                      ]
+                    },
+                    {
+                      "name": "River Regions",
+                      "layers": "ahgf_hrr:RiverRegion",
+                      "description": "River regions",
+                      "dataCustodian": "[Bureau of Meteorology](http://www.bom.gov.au/)",
+                      "url": "http://geofabric.bom.gov.au/simplefeatures/ows",
+                      "type": "wms",
+                      "rectangle": [
+                        "100.0",
+                        "-44.0",
+                        "159.0",
+                        "-4.0"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Water Regulations Data (BoM)",
+              "type": "group",
+              "description": "The Bureau of Meteorology (Bureau) receives water data, measured at stations around Australia, from organisations named in the Water Regulations (2008).\nA large proportion of the Water Regulations (2008) data given to the Bureau is made available to the public via Sensor Observation Service (SOS2) web services, providing nationally consistent, up to date and historical water data (and related information).  Time series data collected from approximately 6500 measurement stations across Australia are available.  NEII uses these web services to present the following eight data subcategories:\n<ul><li>Watercourse Level (Water Regulations subcategory 1a)</li><li>Watercourse Discharge (Water Regulations subcategory 1b)</li><li>Storage Level (Water Regulations subcategory 3a)</li><li>Storage Volume (Water Regulations subcategory 3b)</li><li>Electrical Conductivity of surface water @ 25C (Water Regulations subcategory 9a)</li><li>Turbidity of surface water (Water Regulations subcategory 9d)</li><li>pH of surface water (Water Regulations subcategory 9g)</li><li>Temperature of surface water (Water Regulations subcategory 9h)</li></ul>\nThe above data subcategories are also available in the <a href=\"http://www.bom.gov.au/waterdata/\">Water Data Online</a> product.  There may be more stations available on the 'Water Regulations Data (BoM)' network as it updates automatically using web services and includes all stations for which the subcategory of data has been delivered to the Bureau, not just the quality assured ones.  Water Data Online only provides access to data that has undergone the Bureau of Meteorology's data quality assurance processes.",
+              "custodian": "Bureau of Meteorology",
+              "isOpen": false,
+              "items": [
+                {
+                  "name": "Watercourse Level",
+                  "url": "http://www.bom.gov.au/waterdata/services",
+                  "type": "sos",
+                  "proceduresName": "Frequency",
+                  "description": "Watercourse level, as defined by subcategory 1a of the Water Regulations 2008 – refer to [Subcategories of Water Information](http://www.bom.gov.au/water/regulations/subCategoriesWaterAuxNav.shtml#surfWater). This data is shown as provided to the Bureau of Meteorology by data owner organisations and is subject to their terms and conditions of use. Please refer to Copyright on the [Water Data Online](http://www.bom.gov.au/waterdata/) website, and [Disclaimer](http://www.bom.gov.au/other/disclaimer.shtml) statements relating to the use of Bureau of Meteorology material.\nThe stations represented by the 'Water Regulations Data (BoM)', and the 'Water Data Online (BoM)' networks in the Environmental Monitoring Sites Register on the NEII viewer are essentially the same.  Stations are only released onto the 'Water Data Online (BoM)' networks once a series of high level checks have been completed.  There may be more stations available on the 'Water Regulations Data (BoM)' network as it updates automatically using web services and includes all stations for which the subcategory of data has been delivered to the Bureau, not just the quality assured ones.",
+                  "featureInfoTemplate": "# {{name}}\n\n|||\n|-------|-------|\n|Station Name|{{name}}|\n|SOS2 Feature Type|{{type}}|\n|SOS2 ID|{{id}}|\n|Latitude|{{lat}}|\n|Longitude|{{lon}}|\n\n{{chart}}",
+                  "observablePropertiesName": "Observation type",
+                  "startDate": "1980-01-01T00:00:00+10",
+                  "filterByProcedures": false,
+                  "procedures": [
+                    {
+                      "identifier": "http://bom.gov.au/waterdata/services/tstypes/Pat3_C_B_1_YearlyMean",
+                      "title": "Annual average",
+                      "defaultDuration": "40y"
+                    },
+                    {
+                      "identifier": "http://bom.gov.au/waterdata/services/tstypes/Pat3_C_B_1_MonthlyMean",
+                      "title": "Monthly average",
+                      "defaultDuration": "3y"
+                    },
+                    {
+                      "identifier": "http://bom.gov.au/waterdata/services/tstypes/Pat3_C_B_1_DailyMean",
+                      "title": "Daily average",
+                      "defaultDuration": "32d"
+                    },
+                    {
+                      "identifier": "http://bom.gov.au/waterdata/services/tstypes/Pat3_C_B_1_DailyMin",
+                      "title": "Daily minimum",
+                      "defaultDuration": "32d"
+                    },
+                    {
+                      "identifier": "http://bom.gov.au/waterdata/services/tstypes/Pat3_C_B_1_DailyMax",
+                      "title": "Daily maximum",
+                      "defaultDuration": "32d"
+                    },
+                    {
+                      "identifier": "http://bom.gov.au/waterdata/services/tstypes/Pat3_C_B_1_HourlyMean",
+                      "title": "Hourly average",
+                      "defaultDuration": "48h"
+                    }
+                  ],
+                  "observableProperties": [
+                    {
+                      "identifier": "http://bom.gov.au/waterdata/services/parameters/Water Course Level",
+                      "title": "Water Course Level",
+                      "units": "metres"
+                    }
+                  ]
+                },
+                {
+                  "name": "Watercourse Discharge",
+                  "url": "http://www.bom.gov.au/waterdata/services",
+                  "type": "sos",
+                  "proceduresName": "Frequency",
+                  "description": "Watercourse discharge, as defined by subcategory 1b of the Water Regulations 2008 – refer to [Subcategories of Water Information](http://www.bom.gov.au/water/regulations/subCategoriesWaterAuxNav.shtml#surfWater). This data is shown as provided to the Bureau of Meteorology by data owner organisations and is subject to their terms and conditions of use. Please refer to Copyright on the [Water Data Online](http://www.bom.gov.au/waterdata/) website, and [Disclaimer](http://www.bom.gov.au/other/disclaimer.shtml) statements relating to the use of Bureau of Meteorology material.\nThe stations represented by the 'Water Regulations Data (BoM)', and the 'Water Data Online (BoM)' networks in the Environmental Monitoring Sites Register on the NEII viewer are essentially the same.  Stations are only released onto the 'Water Data Online (BoM)' networks once a series of high level checks have been completed.  There may be more stations available on the 'Water Regulations Data (BoM)' network as it updates automatically using web services and includes all stations for which the subcategory of data has been delivered to the Bureau, not just the quality assured ones.",
+                  "featureInfoTemplate": "# {{name}}\n\n|||\n|-------|-------|\n|Station Name|{{name}}|\n|SOS2 Feature Type|{{type}}|\n|SOS2 ID|{{id}}|\n|Latitude|{{lat}}|\n|Longitude|{{lon}}|\n\n{{chart}}",
+                  "observablePropertiesName": "Observation type",
+                  "startDate": "1980-01-01T00:00:00+10",
+                  "filterByProcedures": false,
+                  "procedures": [
+                    {
+                      "identifier": "http://bom.gov.au/waterdata/services/tstypes/Pat4_C_B_1_YearlyMean",
+                      "title": "Annual average",
+                      "defaultDuration": "40y"
+                    },
+                    {
+                      "identifier": "http://bom.gov.au/waterdata/services/tstypes/Pat4_C_B_1_MonthlyMean",
+                      "title": "Monthly average",
+                      "defaultDuration": "3y"
+                    },
+                    {
+                      "identifier": "http://bom.gov.au/waterdata/services/tstypes/Pat4_C_B_1_DailyMean",
+                      "title": "Daily average",
+                      "defaultDuration": "32d"
+                    },
+                    {
+                      "identifier": "http://bom.gov.au/waterdata/services/tstypes/Pat4_C_B_1_DailyMin",
+                      "title": "Daily minimum",
+                      "defaultDuration": "32d"
+                    },
+                    {
+                      "identifier": "http://bom.gov.au/waterdata/services/tstypes/Pat4_C_B_1_DailyMax",
+                      "title": "Daily maximum",
+                      "defaultDuration": "32d"
+                    },
+                    {
+                      "identifier": "http://bom.gov.au/waterdata/services/tstypes/Pat4_C_B_1_HourlyMean",
+                      "title": "Hourly average",
+                      "defaultDuration": "48h"
+                    }
+                  ],
+                  "observableProperties": [
+                    {
+                      "identifier": "http://bom.gov.au/waterdata/services/parameters/Water Course Discharge",
+                      "title": "Water Course Discharge",
+                      "units": "cubic m/s"
+                    }
+                  ]
+                },
+		{
+		  "name": "Storage Level",
+                  "url": "http://www.bom.gov.au/waterdata/services",
+		  "type": "sos",
+		  "proceduresName": "Frequency",
+		  "description": "Storage level, as defined by subcategory 3a of the Water Regulations 2008 – refer to [Subcategories of Water Information](http://www.bom.gov.au/water/regulations/subCategoriesWaterAuxNav.shtml#waterStorage). This data is shown as provided to the Bureau of Meteorology by data owner organisations and is subject to their terms and conditions of use. Please refer to Copyright on the [Water Data Online](http://www.bom.gov.au/waterdata/) website, and [Disclaimer](http://www.bom.gov.au/other/disclaimer.shtml) statements relating to the use of Bureau of Meteorology material.\nThe stations represented by the 'Water Regulations Data (BoM)', and the 'Water Data Online (BoM)' networks in the Environmental Monitoring Sites Register on the NEII viewer are essentially the same.  Stations are only released onto the 'Water Data Online (BoM)' networks once a series of high level checks have been completed.  There may be more stations available on the 'Water Regulations Data (BoM)' network as it updates automatically using web services and includes all stations for which the subcategory of data has been delivered to the Bureau, not just the quality assured ones",
+                  "featureInfoTemplate": "# {{name}}\n\n|||\n|-------|-------|\n|Station Name|{{name}}|\n|SOS2 Feature Type|{{type}}|\n|SOS2 ID|{{id}}|\n|Latitude|{{lat}}|\n|Longitude|{{lon}}|\n\n{{chart}}",
+                  "observablePropertiesName": "Observation type",
+                  "startDate": "1980-01-01T00:00:00+10",
+		  "filterByProcedures": false,
+		  "procedures": [
+                    {
+                      "identifier": "http://bom.gov.au/waterdata/services/tstypes/Pat7_C_B_1_YearlyMean",
+                      "title": "Annual average",
+                      "defaultDuration": "40y"
+                    },
+                    {
+                      "identifier": "http://bom.gov.au/waterdata/services/tstypes/Pat7_C_B_1_MonthlyMean",
+                      "title": "Monthly average",
+                      "defaultDuration": "3y"
+                    },
+                    {
+                      "identifier": "http://bom.gov.au/waterdata/services/tstypes/Pat7_C_B_1_DailyMean",
+                      "title": "Daily average",
+                      "defaultDuration": "32d"
+                    },
+                    {
+                      "identifier": "http://bom.gov.au/waterdata/services/tstypes/Pat7_C_B_1_DailyMin",
+                      "title": "Daily minimum",
+                      "defaultDuration": "32d"
+                    },
+                    {
+                      "identifier": "http://bom.gov.au/waterdata/services/tstypes/Pat7_C_B_1_DailyMax",
+                      "title": "Daily maximum",
+                      "defaultDuration": "32d"
+                    },
+                    {
+                      "identifier": "http://bom.gov.au/waterdata/services/tstypes/Pat7_C_B_1_HourlyMean",
+                      "title": "Hourly average",
+                      "defaultDuration": "48h"
+                    }
+		  ],
+		  "observableProperties": [
+		    {
+		      "identifier": "http://bom.gov.au/waterdata/services/parameters/Storage Level",
+		      "title": "Storage Level",
+		      "units": "m"
+		    }
+		  ]
+		},
+		{
+		  "name": "Storage Volume",
+                  "url": "http://www.bom.gov.au/waterdata/services",
+		  "type": "sos",
+		  "proceduresName": "Frequency",
+		  "description": "Storage volume, as defined by subcategory 3b of the Water Regulations 2008 – refer to [Subcategories of Water Information](http://www.bom.gov.au/water/regulations/subCategoriesWaterAuxNav.shtml#waterStorage). This data is shown as provided to the Bureau of Meteorology by data owner organisations and is subject to their terms and conditions of use. Please refer to Copyright on the [Water Data Online](http://www.bom.gov.au/waterdata/) website, and [Disclaimer](http://www.bom.gov.au/other/disclaimer.shtml) statements relating to the use of Bureau of Meteorology material.\nThe stations represented by the 'Water Regulations Data (BoM)', and the 'Water Data Online (BoM)' networks in the Environmental Monitoring Sites Register on the NEII viewer are essentially the same.  Stations are only released onto the 'Water Data Online (BoM)' networks once a series of high level checks have been completed.  There may be more stations available on the 'Water Regulations Data (BoM)' network as it updates automatically using web services and includes all stations for which the subcategory of data has been delivered to the Bureau, not just the quality assured ones.",
+                  "featureInfoTemplate": "# {{name}}\n\n|||\n|-------|-------|\n|Station Name|{{name}}|\n|SOS2 Feature Type|{{type}}|\n|SOS2 ID|{{id}}|\n|Latitude|{{lat}}|\n|Longitude|{{lon}}|\n\n{{chart}}",
+                  "observablePropertiesName": "Observation type",
+                  "startDate": "1980-01-01T00:00:00+10",
+                  "filterByProcedures": false,
+		  "procedures": [
+                    {
+                      "identifier": "http://bom.gov.au/waterdata/services/tstypes/Pat6_C_B_1_YearlyMean",
+                      "title": "Annual average",
+                      "defaultDuration": "40y"
+                    },
+                    {
+                      "identifier": "http://bom.gov.au/waterdata/services/tstypes/Pat6_C_B_1_MonthlyMean",
+                      "title": "Monthly average",
+                      "defaultDuration": "3y"
+                    },
+                    {
+                      "identifier": "http://bom.gov.au/waterdata/services/tstypes/Pat6_C_B_1_DailyMean",
+                      "title": "Daily average",
+                      "defaultDuration": "32d"
+                    },
+                    {
+                      "identifier": "http://bom.gov.au/waterdata/services/tstypes/Pat6_C_B_1_DailyMin",
+                      "title": "Daily minimum",
+                      "defaultDuration": "32d"
+                    },
+                    {
+                      "identifier": "http://bom.gov.au/waterdata/services/tstypes/Pat6_C_B_1_DailyMax",
+                      "title": "Daily maximum",
+                      "defaultDuration": "32d"
+                    },
+                    {
+                      "identifier": "http://bom.gov.au/waterdata/services/tstypes/Pat6_C_B_1_HourlyMean",
+                      "title": "Hourly average",
+                      "defaultDuration": "48h"
+                    }
+		  ],
+		  "observableProperties": [
+		    {
+		      "identifier": "http://bom.gov.au/waterdata/services/parameters/Storage Volume",
+		      "title": "Storage Volume",
+		      "units": "ML"
+		    }
+		  ]
+		},
+		{
+		  "name": "pH",
+                  "url": "http://www.bom.gov.au/waterdata/services",
+		  "type": "sos",
+		  "proceduresName": "Frequency",
+		  "description": "Water pH, as defined by subcategory 9g of the Water Regulations 2008 – refer to [Subcategories of Water Information](http://www.bom.gov.au/water/regulations/subCategoriesWaterAuxNav.shtml#waterQuality). This data is shown as provided to the Bureau of Meteorology by data owner organisations and is subject to their terms and conditions of use. Please refer to Copyright on the [Water Data Online](http://www.bom.gov.au/waterdata/) website, and [Disclaimer](http://www.bom.gov.au/other/disclaimer.shtml) statements relating to the use of Bureau of Meteorology material.\nThe stations represented by the 'Water Regulations Data (BoM)', and the 'Water Data Online (BoM)' networks in the Environmental Monitoring Sites Register on the NEII viewer are essentially the same.  Stations are only released onto the 'Water Data Online (BoM)' networks once a series of high level checks have been completed.  There may be more stations available on the 'Water Regulations Data (BoM)' network as it updates automatically using web services and includes all stations for which the subcategory of data has been delivered to the Bureau, not just the quality assured ones.",
+                  "featureInfoTemplate": "# {{name}}\n\n|||\n|-------|-------|\n|Station Name|{{name}}|\n|SOS2 Feature Type|{{type}}|\n|SOS2 ID|{{id}}|\n|Latitude|{{lat}}|\n|Longitude|{{lon}}|\n\n{{chart}}",
+                  "observablePropertiesName": "Observation type",
+                  "startDate": "1980-01-01T00:00:00+10",
+                  "filterByProcedures": false,
+		  "procedures": [
+                    {
+                      "identifier": "http://bom.gov.au/waterdata/services/tstypes/Pat1_C_B_1_YearlyMean",
+                      "title": "Annual average",
+                      "defaultDuration": "40y"
+                    },
+                    {
+                      "identifier": "http://bom.gov.au/waterdata/services/tstypes/Pat1_C_B_1_MonthlyMean",
+                      "title": "Monthly average",
+                      "defaultDuration": "3y"
+                    },
+                    {
+                      "identifier": "http://bom.gov.au/waterdata/services/tstypes/Pat1_C_B_1_DailyMean",
+                      "title": "Daily average",
+                      "defaultDuration": "32d"
+                    },
+                    {
+                      "identifier": "http://bom.gov.au/waterdata/services/tstypes/Pat1_C_B_1_DailyMin",
+                      "title": "Daily minimum",
+                      "defaultDuration": "32d"
+                    },
+                    {
+                      "identifier": "http://bom.gov.au/waterdata/services/tstypes/Pat1_C_B_1_DailyMax",
+                      "title": "Daily maximum",
+                      "defaultDuration": "32d"
+                    }
+		  ],
+		  "observableProperties": [
+		    {
+		      "identifier": "http://bom.gov.au/waterdata/services/parameters/pH",
+		      "title": "pH",
+		      "units": "pH"
+		    }
+		  ]
+		},
+		{
+		  "name": "Turbidity",
+                  "url": "http://www.bom.gov.au/waterdata/services",
+		  "type": "sos",
+		  "proceduresName": "Frequency",
+		  "description": "Turbidity, as defined by subcategory 9d of the Water Regulations 2008 – refer to [Subcategories of Water Information](http://www.bom.gov.au/water/regulations/subCategoriesWaterAuxNav.shtml#waterQuality). This data is shown as provided to the Bureau of Meteorology by data owner organisations and is subject to their terms and conditions of use. Please refer to Copyright on the [Water Data Online](http://www.bom.gov.au/waterdata/) website, and [Disclaimer](http://www.bom.gov.au/other/disclaimer.shtml) statements relating to the use of Bureau of Meteorology material.\nThe stations represented by the 'Water Regulations Data (BoM)', and the 'Water Data Online (BoM)' networks in the Environmental Monitoring Sites Register on the NEII viewer are essentially the same.  Stations are only released onto the 'Water Data Online (BoM)' networks once a series of high level checks have been completed.  There may be more stations available on the 'Water Regulations Data (BoM)' network as it updates automatically using web services and includes all stations for which the subcategory of data has been delivered to the Bureau, not just the quality assured ones.",
+                  "featureInfoTemplate": "# {{name}}\n\n|||\n|-------|-------|\n|Station Name|{{name}}|\n|SOS2 Feature Type|{{type}}|\n|SOS2 ID|{{id}}|\n|Latitude|{{lat}}|\n|Longitude|{{lon}}|\n\n{{chart}}",
+                  "observablePropertiesName": "Observation type",
+                  "startDate": "1980-01-01T00:00:00+10",
+		  "filterByProcedures": false,
+		  "procedures": [
+                    {
+                      "identifier": "http://bom.gov.au/waterdata/services/tstypes/Pat1_C_B_1_YearlyMean",
+                      "title": "Annual average",
+                      "defaultDuration": "40y"
+                    },
+                    {
+                      "identifier": "http://bom.gov.au/waterdata/services/tstypes/Pat1_C_B_1_MonthlyMean",
+                      "title": "Monthly average",
+                      "defaultDuration": "3y"
+                    },
+                    {
+                      "identifier": "http://bom.gov.au/waterdata/services/tstypes/Pat1_C_B_1_DailyMean",
+                      "title": "Daily average",
+                      "defaultDuration": "32d"
+                    },
+                    {
+                      "identifier": "http://bom.gov.au/waterdata/services/tstypes/Pat1_C_B_1_DailyMin",
+                      "title": "Daily minimum",
+                      "defaultDuration": "32d"
+                    },
+                    {
+                      "identifier": "http://bom.gov.au/waterdata/services/tstypes/Pat1_C_B_1_DailyMax",
+                      "title": "Daily maximum",
+                      "defaultDuration": "32d"
+                    }
+		  ],
+		  "observableProperties": [
+		    {
+		      "identifier": "http://bom.gov.au/waterdata/services/parameters/Turbidity",
+		      "title": "Turbidity",
+		      "units": "NTU"
+		    }
+		  ]
+		},
+		{
+		  "name": "Water Temperature",
+                  "url": "http://www.bom.gov.au/waterdata/services",
+		  "type": "sos",
+		  "proceduresName": "Frequency",
+		  "description": "Water Temperature, as defined by subcategory 9h of the Water Regulations 2008 – refer to [Subcategories of Water Information](http://www.bom.gov.au/water/regulations/subCategoriesWaterAuxNav.shtml#waterQuality). This data is shown as provided to the Bureau of Meteorology by data owner organisations and is subject to their terms and conditions of use. Please refer to Copyright on the [Water Data Online](http://www.bom.gov.au/waterdata/) website, and [Disclaimer](http://www.bom.gov.au/other/disclaimer.shtml) statements relating to the use of Bureau of Meteorology material.\nThe stations represented by the 'Water Regulations Data (BoM)', and the 'Water Data Online (BoM)' networks in the Environmental Monitoring Sites Register on the NEII viewer are essentially the same.  Stations are only released onto the 'Water Data Online (BoM)' networks once a series of high level checks have been completed.  There may be more stations available on the 'Water Regulations Data (BoM)' network as it updates automatically using web services and includes all stations for which the subcategory of data has been delivered to the Bureau, not just the quality assured ones.",
+                  "featureInfoTemplate": "# {{name}}\n\n|||\n|-------|-------|\n|Station Name|{{name}}|\n|SOS2 Feature Type|{{type}}|\n|SOS2 ID|{{id}}|\n|Latitude|{{lat}}|\n|Longitude|{{lon}}|\n\n{{chart}}",
+                  "observablePropertiesName": "Observation type",
+                  "startDate": "1980-01-01T00:00:00+10",
+                  "filterByProcedures": false,
+		  "procedures": [
+                    {
+                      "identifier": "http://bom.gov.au/waterdata/services/tstypes/Pat1_C_B_1_YearlyMean",
+                      "title": "Annual average",
+                      "defaultDuration": "40y"
+                    },
+                    {
+                      "identifier": "http://bom.gov.au/waterdata/services/tstypes/Pat1_C_B_1_MonthlyMean",
+                      "title": "Monthly average",
+                      "defaultDuration": "3y"
+                    },
+                    {
+                      "identifier": "http://bom.gov.au/waterdata/services/tstypes/Pat1_C_B_1_DailyMean",
+                      "title": "Daily average",
+                      "defaultDuration": "32d"
+                    },
+                    {
+                      "identifier": "http://bom.gov.au/waterdata/services/tstypes/Pat1_C_B_1_DailyMin",
+                      "title": "Daily minimum",
+                      "defaultDuration": "32d"
+                    },
+                    {
+                      "identifier": "http://bom.gov.au/waterdata/services/tstypes/Pat1_C_B_1_DailyMax",
+                      "title": "Daily maximum",
+                      "defaultDuration": "32d"
+                    }
+		  ],
+		  "observableProperties": [
+		    {
+		      "identifier": "http://bom.gov.au/waterdata/services/parameters/Water Temperature",
+		      "title": "Water Temperature",
+		      "units": "Celsius"
+		    }
+		  ]
+		},
+		{
+		  "name": "Electrical Conductivity @ 25C",
+                  "url": "http://www.bom.gov.au/waterdata/services",
+		  "type": "sos",
+		  "proceduresName": "Frequency",
+		  "description": "Electrical conductivity, as defined by subcategory 9a of the Water Regulations 2008 – refer to [Subcategories of Water Information](http://www.bom.gov.au/water/regulations/subCategoriesWaterAuxNav.shtml#waterQuality). This data is shown as provided to the Bureau of Meteorology by data owner organisations and is subject to their terms and conditions of use. Please refer to Copyright on the [Water Data Online](http://www.bom.gov.au/waterdata/) website, and [Disclaimer](http://www.bom.gov.au/other/disclaimer.shtml) statements relating to the use of Bureau of Meteorology material.\nThe stations represented by the 'Water Regulations Data (BoM)', and the 'Water Data Online (BoM)' networks in the Environmental Monitoring Sites Register on the NEII viewer are essentially the same.  Stations are only released onto the 'Water Data Online (BoM)' networks once a series of high level checks have been completed.  There may be more stations available on the 'Water Regulations Data (BoM)' network as it updates automatically using web services and includes all stations for which the subcategory of data has been delivered to the Bureau, not just the quality assured ones.",
+                  "featureInfoTemplate": "# {{name}}\n\n|||\n|-------|-------|\n|Station Name|{{name}}|\n|SOS2 Feature Type|{{type}}|\n|SOS2 ID|{{id}}|\n|Latitude|{{lat}}|\n|Longitude|{{lon}}|\n\n{{chart}}",
+                  "observablePropertiesName": "Observation type",
+                  "startDate": "1980-01-01T00:00:00+10",
+                  "filterByProcedures": false,
+		  "procedures": [
+                    {
+                      "identifier": "http://bom.gov.au/waterdata/services/tstypes/Pat1_C_B_1_YearlyMean",
+                      "title": "Annual average",
+                      "defaultDuration": "40y"
+                    },
+                    {
+                      "identifier": "http://bom.gov.au/waterdata/services/tstypes/Pat1_C_B_1_MonthlyMean",
+                      "title": "Monthly average",
+                      "defaultDuration": "3y"
+                    },
+                    {
+                      "identifier": "http://bom.gov.au/waterdata/services/tstypes/Pat1_C_B_1_DailyMean",
+                      "title": "Daily average",
+                      "defaultDuration": "32d"
+                    },
+                    {
+                      "identifier": "http://bom.gov.au/waterdata/services/tstypes/Pat1_C_B_1_DailyMin",
+                      "title": "Daily minimum",
+                      "defaultDuration": "32d"
+                    },
+                    {
+                      "identifier": "http://bom.gov.au/waterdata/services/tstypes/Pat1_C_B_1_DailyMax",
+                      "title": "Daily maximum",
+                      "defaultDuration": "32d"
+                    }
+		  ],
+		  "observableProperties": [
+		    {
+		      "identifier": "http://bom.gov.au/waterdata/services/parameters/Electrical Conductivity @ 25C",
+		      "title": "Electrical Conductivity @ 25C",
+		      "units": "micro S/cm"
+		    }
+		  ]
+		}
+              ]
+            },
+  	    {
+	      "name": "Hydrogeology (GA)",
+              "type": "group",
+              "description": "Hydrogeology (GA)",
+              "info": [
+                {
+                  "name": "Data Custodian",
+                  "content": "[Geoscience Australia](http://www.ga.gov.au/)"
+                },
+                {
+                  "name": "Further Information",
+                  "content": "[NEII Catalogue](http://neii.gov.au/catalogue/)"
+                }
+              ],
+              "items": [
+                {
+                  "name": "Hydrogeology",
+                  "dataCustodian": "[Geoscience Australia](http://www.ga.gov.au/)",
+                  "url": "http://services.ga.gov.au/gis/services/Hydrogeology_of_Australia/MapServer/WmsServer?request=GetCapabilities&service=WMS",
+                  "layers": "Hydrogeology",
+                  "type": "wms",
+                  "opacity": 1
+                }
+			  ]
+	},
+	{
+              "name": "Australian Surface Hydrology (Web Mercator)",
+              "type": "group",
+              "description": "Australian Surface Hydrology (Web Mercator)",
+              "info": [
+                {
+                  "name": "Data Custodian",
+                  "content": "[Geoscience Australia](http://www.ga.gov.au/)"
+                },
+                {
+                  "name": "Further Information",
+                  "content": "[NEII Catalogue](http://neii.gov.au/catalogue/)"
+                }
+              ],
+              "items": [
+                {
+                  "name": "Basins",
+                  "dataCustodian": "[Geoscience Australia](http://www.ga.gov.au/)",
+		  "url": "https://services.ga.gov.au/gis/rest/services/Surface_Hydrology/MapServer/7",
+		  "type": "esri-mapServer",
+		  "metadataUrl": "https://ecat.ga.gov.au/geonetwork/srv/eng/catalog.search#/metadata/73079"
+                },
+		{
+		  "name": "Catchments",
+                  "dataCustodian": "[Geoscience Australia](http://www.ga.gov.au/)",
+		  "url": "https://services.ga.gov.au/gis/rest/services/Surface_Hydrology/MapServer/6",
+		  "type": "esri-mapServer",
+		  "metadataUrl": "https://ecat.ga.gov.au/geonetwork/srv/eng/catalog.search#/metadata/73078"
+		},
+		{
+		  "name": "Surface HydroLines Regional",
+                  "dataCustodian": "[Geoscience Australia](http://www.ga.gov.au/)",
+		  "url": "https://services.ga.gov.au/gis/rest/services/Surface_Hydrology/MapServer/3",
+                  "type": "esri-mapServer",
+		  "metadataUrl": "https://ecat.ga.gov.au/geonetwork/srv/eng/catalog.search#/metadata/83107"
+		},
+		{
+		  "name": "Surface HydroPolys Regional",
+                  "dataCustodian": "[Geoscience Australia](http://www.ga.gov.au/)",
+		  "url": "https://services.ga.gov.au/gis/rest/services/Surface_Hydrology/MapServer/5",
+		  "type": "esri-mapServer",
+		  "metadataUrl": "https://ecat.ga.gov.au/geonetwork/srv/eng/catalog.search#/metadata/83134"
+		},
+		{
+		  "name": "Surface HydroPoints Regional",
+                  "dataCustodian": "[Geoscience Australia](http://www.ga.gov.au/)",
+		  "url": "https://services.ga.gov.au/gis/rest/services/Surface_Hydrology/MapServer/1",
+		  "type": "esri-mapServer",
+		  "metadataUrl": "https://ecat.ga.gov.au/geonetwork/srv/eng/catalog.search#/metadata/83132"
+		},
+		{
+		  "name": "Surface HydroLines National",
+                  "dataCustodian": "[Geoscience Australia](http://www.ga.gov.au/)",
+		  "url": "https://services.ga.gov.au/gis/rest/services/Surface_Hydrology/MapServer/2",
+		  "type": "esri-mapServer",
+		  "metadataUrl": "https://ecat.ga.gov.au/geonetwork/srv/eng/catalog.search#/metadata/83130"
+		},
+		{
+		  "name": "Surface HydroPolys National",
+                  "dataCustodian": "[Geoscience Australia](http://www.ga.gov.au/)",
+		  "url": "https://services.ga.gov.au/gis/rest/services/Surface_Hydrology/MapServer/4",
+		  "type": "esri-mapServer",
+		  "metadataUrl": "https://ecat.ga.gov.au/geonetwork/srv/eng/catalog.search#/metadata/83135"
+		},
+		{
+		  "name": "Surface HydroPoints National",
+                  "dataCustodian": "[Geoscience Australia](http://www.ga.gov.au/)",
+		  "url": "https://services.ga.gov.au/gis/rest/services/Surface_Hydrology/MapServer/0",
+		  "type": "esri-mapServer",
+		  "metadataUrl": "https://ecat.ga.gov.au/geonetwork/srv/eng/catalog.search#/metadata/83149"
+		}
+	  ]
+	},
+	{
+	      "name": "Queensland watercourse and water area web map service (Department of Natural Resources, Mines and Energy, Queensland Government)",
+              "type": "group",
+              "preserveOrder": true,
+              "description": "This web map service displays the watercourse network and areas of inland surface water in Queensland. Water areas include lakes,reservoir and man-made canals. This service is limited to display at scales between 1:4,513 and 1:1, and is designed to be used in conjunction with the WaterCoursesAndBodiesCache service for small scale levels from 1:4,622,325 to 1:4514",
+              "items": [
+                {
+                  "name": "Canal",
+                  "type": "group",
+                  "preserveOrder": true,
+                  "items": [
+                    {
+                      "name": "Canal area",
+                      "type": "wms",
+                      "layers": "Canal area",
+                      "url": "https://gisservices.information.qld.gov.au/arcgis/services/InlandWaters/WaterCoursesAndBodies/MapServer/WMSServer?request=GetCapabilities&service=WMS",
+                      "legendUrl": "https://gisservices.information.qld.gov.au/arcgis/services/InlandWaters/WaterCoursesAndBodies/MapServer/WMSServer?request=GetLegendGraphic%26version=1.3.0%26format=image/png%26layer=Canal area",
+		      "info": [
+		        {
+			  "name": "Copyright",
+			  "content": "&copy; State of Queensland (Department of Natural Resources, Mines and Energy) 2020."
+			}
+		      ]
+                    },
+                    {
+                      "name": "Canal line",
+                      "type": "wms",
+                      "layers": "Canal line",
+                      "url": "https://gisservices.information.qld.gov.au/arcgis/services/InlandWaters/WaterCoursesAndBodies/MapServer/WMSServer?request=GetCapabilities&service=WMS",
+                      "legendUrl": "https://gisservices.information.qld.gov.au/arcgis/services/InlandWaters/WaterCoursesAndBodies/MapServer/WMSServer?request=GetLegendGraphic%26version=1.3.0%26format=image/png%26layer=Canal line",
+		      "info": [
+		        {
+			  "name": "Copyright",
+			  "content": "&copy; State of Queensland (Department of Natural Resources, Mines and Energy) 2020."
+			}
+		      ]
+                    }
+                  ]
+                },
+		{
+                  "name": "Watercourse",
+                  "type": "group",
+                  "items": [
+                    {
+                      "name": "Watercourse area",
+                      "type": "wms",
+                      "layers": "Watercourse area",
+                      "url": "https://gisservices.information.qld.gov.au/arcgis/services/InlandWaters/WaterCoursesAndBodies/MapServer/WMSServer?request=GetCapabilities&service=WMS",
+                      "legendUrl": "https://gisservices.information.qld.gov.au/arcgis/services/InlandWaters/WaterCoursesAndBodies/MapServer/WMSServer?request=GetLegendGraphic%26version=1.3.0%26format=image/png%26layer=Watercourse area",
+		      "info": [
+		        {
+			  "name": "Copyright",
+			  "content": "&copy; State of Queensland (Department of Natural Resources, Mines and Energy) 2020."
+			}
+		      ]
+                    },
+                    {
+                      "name": "Watercourse line",
+                      "type": "wms",
+                      "layers": "Watercourse line",
+                      "url": "https://gisservices.information.qld.gov.au/arcgis/services/InlandWaters/WaterCoursesAndBodies/MapServer/WMSServer?request=GetCapabilities&service=WMS",
+                      "legendUrl": "https://gisservices.information.qld.gov.au/arcgis/services/InlandWaters/WaterCoursesAndBodies/MapServer/WMSServer?request=GetLegendGraphic%26version=1.3.0%26format=image/png%26layer=Watercourse line",
+		      "info": [
+		        {
+			  "name": "Copyright",
+			  "content": "&copy; State of Queensland (Department of Natural Resources, Mines and Energy) 2020."
+			}
+		      ]
+                    },
+                    {
+                      "name": "Watercourse stream order",
+                      "type": "wms",
+                      "layers": "Watercourse stream order",
+                      "url": "https://gisservices.information.qld.gov.au/arcgis/services/InlandWaters/WaterCoursesAndBodies/MapServer/WMSServer?request=GetCapabilities&service=WMS",
+                      "legendUrl": "https://gisservices.information.qld.gov.au/arcgis/services/InlandWaters/WaterCoursesAndBodies/MapServer/WMSServer?request=GetLegendGraphic%26version=1.3.0%26format=image/png%26layer=Watercourse stream order",
+		      "info": [
+		        {
+			  "name": "Copyright",
+			  "content": "&copy; State of Queensland (Department of Natural Resources, Mines and Energy) 2020."
+			}
+		      ]
+                    }
+                  ]
+                },
+		{
+                  "name": "Coastline",
+                  "type": "wms",
+                  "layers": "Coastline",
+                  "url": "https://gisservices.information.qld.gov.au/arcgis/services/InlandWaters/WaterCoursesAndBodies/MapServer/WMSServer?request=GetCapabilities&service=WMS",
+                  "legendUrl": "https://gisservices.information.qld.gov.au/arcgis/services/InlandWaters/WaterCoursesAndBodies/MapServer/WMSServer?request=GetLegendGraphic%26version=1.3.0%26format=image/png%26layer=Coastline",
+		  "info": [
+		    {
+		      "name": "Copyright",
+		      "content": "&copy; State of Queensland (Department of Natural Resources, Mines and Energy) 2020."
+		    }
+		  ]
+                },
+                {
+                  "name": "Dam",
+                  "type": "wms",
+                  "layers": "Dam",
+                  "url": "https://gisservices.information.qld.gov.au/arcgis/services/InlandWaters/WaterCoursesAndBodies/MapServer/WMSServer?request=GetCapabilities&service=WMS",
+                  "legendUrl": "https://gisservices.information.qld.gov.au/arcgis/services/InlandWaters/WaterCoursesAndBodies/MapServer/WMSServer?request=GetLegendGraphic%26version=1.3.0%26format=image/png%26layer=Dam",
+		  "info": [
+		    {
+		      "name": "Copyright",
+		      "content": "&copy; State of Queensland (Department of Natural Resources, Mines and Energy) 2020."
+		    }
+		  ]
+                },
+                {
+                  "name": "Flat or swamp",
+                  "type": "wms",
+                  "layers": "Flat or swamp",
+                  "url": "https://gisservices.information.qld.gov.au/arcgis/services/InlandWaters/WaterCoursesAndBodies/MapServer/WMSServer?request=GetCapabilities&service=WMS",
+                  "legendUrl": "https://gisservices.information.qld.gov.au/arcgis/services/InlandWaters/WaterCoursesAndBodies/MapServer/WMSServer?request=GetLegendGraphic%26version=1.3.0%26format=image/png%26layer=Flat or swamp",
+		  "info": [
+		    {
+		      "name": "Copyright",
+		      "content": "&copy; State of Queensland (Department of Natural Resources, Mines and Energy) 2020."
+		    }
+		  ]
+                },
+		{
+                  "name": "Lake",
+                  "type": "wms",
+                  "layers": "Lake",
+                  "url": "https://gisservices.information.qld.gov.au/arcgis/services/InlandWaters/WaterCoursesAndBodies/MapServer/WMSServer?request=GetCapabilities&service=WMS",
+                  "legendUrl": "https://gisservices.information.qld.gov.au/arcgis/services/InlandWaters/WaterCoursesAndBodies/MapServer/WMSServer?request=GetLegendGraphic%26version=1.3.0%26format=image/png%26layer=Lake",
+		  "info": [
+		    {
+		      "name": "Copyright",
+		      "content": "&copy; State of Queensland (Department of Natural Resources, Mines and Energy) 2020."
+		    }
+		  ]
+                },
+                {
+                  "name": "Pondage area",
+                  "type": "wms",
+                  "layers": "Pondage area",
+                  "url": "https://gisservices.information.qld.gov.au/arcgis/services/InlandWaters/WaterCoursesAndBodies/MapServer/WMSServer?request=GetCapabilities&service=WMS",
+                  "legendUrl": "https://gisservices.information.qld.gov.au/arcgis/services/InlandWaters/WaterCoursesAndBodies/MapServer/WMSServer?request=GetLegendGraphic%26version=1.3.0%26format=image/png%26layer=Pondage area",
+		  "info": [
+		    {
+		      "name": "Copyright",
+		      "content": "&copy; State of Queensland (Department of Natural Resources, Mines and Energy) 2020."
+		    }
+		  ]
+                },
+                {
+                  "name": "Reservoir",
+                  "type": "wms",
+                  "layers": "Reservoir",
+                  "url": "https://gisservices.information.qld.gov.au/arcgis/services/InlandWaters/WaterCoursesAndBodies/MapServer/WMSServer?request=GetCapabilities&service=WMS",
+                  "legendUrl": "https://gisservices.information.qld.gov.au/arcgis/services/InlandWaters/WaterCoursesAndBodies/MapServer/WMSServer?request=GetLegendGraphic%26version=1.3.0%26format=image/png%26layer=Reservoir",
+		  "info": [
+		    {
+		      "name": "Copyright",
+		      "content": "&copy; State of Queensland (Department of Natural Resources, Mines and Energy) 2020."
+		    }
+		  ]
+                },
+                {
+                  "name": "Rockpool or rockhole",
+                  "type": "wms",
+                  "layers": "Rockpool or rockhole",
+                  "url": "https://gisservices.information.qld.gov.au/arcgis/services/InlandWaters/WaterCoursesAndBodies/MapServer/WMSServer?request=GetCapabilities&service=WMS",
+                  "legendUrl": "https://gisservices.information.qld.gov.au/arcgis/services/InlandWaters/WaterCoursesAndBodies/MapServer/WMSServer?request=GetLegendGraphic%26version=1.3.0%26format=image/png%26layer=Rockpool or rockhole",
+		  "info": [
+		    {
+		      "name": "Copyright",
+		      "content": "&copy; State of Queensland (Department of Natural Resources, Mines and Energy) 2020."
+		    }
+		  ]
+                },
+		{
+                  "name": "Water area edge",
+                  "type": "wms",
+                  "layers": "Water area edge",
+                  "url": "https://gisservices.information.qld.gov.au/arcgis/services/InlandWaters/WaterCoursesAndBodies/MapServer/WMSServer?request=GetCapabilities&service=WMS",
+                  "legendUrl": "https://gisservices.information.qld.gov.au/arcgis/services/InlandWaters/WaterCoursesAndBodies/MapServer/WMSServer?request=GetLegendGraphic%26version=1.3.0%26format=image/png%26layer=Water area edge",
+		  "info": [
+		    {
+		      "name": "Copyright",
+		      "content": "&copy; State of Queensland (Department of Natural Resources, Mines and Energy) 2020."
+		    }
+		  ]
+                },
+                {
+                  "name": "Waterfall",
+                  "type": "wms",
+                  "layers": "Waterfall",
+                  "url": "https://gisservices.information.qld.gov.au/arcgis/services/InlandWaters/WaterCoursesAndBodies/MapServer/WMSServer?request=GetCapabilities&service=WMS",
+                  "legendUrl": "https://gisservices.information.qld.gov.au/arcgis/services/InlandWaters/WaterCoursesAndBodies/MapServer/WMSServer?request=GetLegendGraphic%26version=1.3.0%26format=image/png%26layer=Waterfall",
+		  "info": [
+		    {
+		      "name": "Copyright",
+		      "content": "&copy; State of Queensland (Department of Natural Resources, Mines and Energy) 2020."
+		    }
+		  ]
+                },
+                {
+                  "name": "Waterhole",
+                  "type": "wms",
+                  "layers": "Waterhole",
+                  "url": "https://gisservices.information.qld.gov.au/arcgis/services/InlandWaters/WaterCoursesAndBodies/MapServer/WMSServer?request=GetCapabilities&service=WMS",
+                  "legendUrl": "https://gisservices.information.qld.gov.au/arcgis/services/InlandWaters/WaterCoursesAndBodies/MapServer/WMSServer?request=GetLegendGraphic%26version=1.3.0%26format=image/png%26layer=Waterhole",
+		  "info": [
+		    {
+		      "name": "Copyright",
+		      "content": "&copy; State of Queensland (Department of Natural Resources, Mines and Energy) 2020."
+		    }
+		  ]
+                }
+              ]
+	},
+	{
+	  "name": "Great Artesian Basin Watertable elevation",
+	  "type": "wms",
+	  "layers": "Great_Artesian_Basin_Water_Table_Elevation",
+	  "url": "https://services.ga.gov.au/gis/services/Great_Artesian_Basin_water_table_elevation/MapServer/WMSServer?request=GetCapabilities&service=WMS"
+	},
+	{
+	  "name": "Great Artesian Basin Digital Data (Geoscience Australia)",
+	  "type": "group",
+          "preserveOrder": true,
+	  "description": "This web service provides access to geological, hydrogeological and hydrochemical digital datasets that have been published by Geoscience Australia for the Great Artesian Basin (GAB).",
+	  "items": [
+		  {
+		    "name": "Basement Inliers",
+	            "type": "wms",
+	            "layers": "gab:basement_inliers",
+		    "url": "https://services.ga.gov.au/gis/great-artesian-basin/wms?REQUEST=GetCapabilities&SERVICE=WMS"
+		  },
+		  {
+		    "name": "Geomorphology",
+	            "type": "wms",
+	            "layers": "gab:geomorphology",
+		    "url": "https://services.ga.gov.au/gis/great-artesian-basin/wms?REQUEST=GetCapabilities&SERVICE=WMS"
+		  },
+		  {
+		    "name": "Groundwater Recharge Estimates",
+	            "type": "wms",
+	            "layers": "gab:gw_recharge_estimates",
+		    "url": "https://services.ga.gov.au/gis/great-artesian-basin/wms?REQUEST=GetCapabilities&SERVICE=WMS"
+		  },
+		  {
+		    "name": "Hydrogeological Basement Units",
+	            "type": "wms",
+	            "layers": "gab:hydrogeol_base_units",
+		    "url": "https://services.ga.gov.au/gis/great-artesian-basin/wms?REQUEST=GetCapabilities&SERVICE=WMS"
+		  },
+		  {
+		    "name": "Major Geological Structural Elements",
+	            "type": "wms",
+	            "layers": "gab:geol_structural_elements",
+		    "url": "https://services.ga.gov.au/gis/great-artesian-basin/wms?REQUEST=GetCapabilities&SERVICE=WMS"
+		  },
+		  {
+	            "name": "Aquifer Groundwater Chemistry",
+		    "type": "group",
+		    "preserveOrder": true,
+		    "description": "Chemical parameter concentrations and isotopic variations in groundwater in the Great Artesian Basin for the following aquifers: Adori Sandstone; Cadna-owie - Hooray and equivalents; Hutton Sandstone and Winton-Mackunda Formation.",
+		    "items": [
+		      {
+		        "name": "Adori Alkalinity",
+			"type": "wms",
+			"url": "https://services.ga.gov.au/gis/great-artesian-basin/wms?REQUEST=GetCapabilities&SERVICE=WMS",
+			"layers": "gab:ADORI_ALK",
+			"legendUrls": [ "https://services.ga.gov.au/gis/great-artesian-basin/styles/gab/legends/gw_chem_alk_blue-red_legend.png", "https://services.ga.gov.au/gis/great-artesian-basin/styles/gab/legends/gw_chem_alk_grayscale_legend.png"]
+		      },
+		      {
+			"name": "Adori Flouride",
+			"type": "wms",
+			"url": "https://services.ga.gov.au/gis/great-artesian-basin/wms?REQUEST=GetCapabilities&SERVICE=WMS",
+			"layers": "gab:ADORI_FLU",
+			"legendUrls": [ "https://services.ga.gov.au/gis/great-artesian-basin/styles/gab/legends/gw_chem_flu_blue-red_legend.png", "https://services.ga.gov.au/gis/great-artesian-basin/styles/gab/legends/gw_chem_flu_grayscale_legend.png"]
+		      },
+		      {
+			"name": "Adori Sodium Adsorption Ratio",
+			"type": "wms",
+			"url": "https://services.ga.gov.au/gis/great-artesian-basin/wms?REQUEST=GetCapabilities&SERVICE=WMS",
+			"layers": "gab:ADORI_SAR",
+			"legendUrls": [ "https://services.ga.gov.au/gis/great-artesian-basin/styles/gab/legends/gw_chem_sar_blue-red_legend.png", "https://services.ga.gov.au/gis/great-artesian-basin/styles/gab/legends/gw_chem_sar_grayscale_legend.png"]
+		      },
+		      {
+			"name": "Adori Sulphate",
+			"type": "wms",
+			"url": "https://services.ga.gov.au/gis/great-artesian-basin/wms?REQUEST=GetCapabilities&SERVICE=WMS",
+			"layers": "gab:ADORI_SO4",
+			"legendUrls": [ "https://services.ga.gov.au/gis/great-artesian-basin/styles/gab/legends/gw_chem_so4_blue-red_legend.png", "https://services.ga.gov.au/gis/great-artesian-basin/styles/gab/legends/gw_chem_so4_grayscale_legend.png"]
+		      },
+		      {
+			"name": "Adori Total Dissolved Solids",
+			"type": "wms",
+			"url": "https://services.ga.gov.au/gis/great-artesian-basin/wms?REQUEST=GetCapabilities&SERVICE=WMS",
+			"layers": "gab:ADORI_TDS",
+			"legendUrls": [ "https://services.ga.gov.au/gis/great-artesian-basin/styles/gab/legends/gw_chem_tds_blue-red_legend.png", "https://services.ga.gov.au/gis/great-artesian-basin/styles/gab/legends/gw_chem_tds_grayscale_legend.png"]
+		      },
+		      {
+			"name": "Cadna-owie - Hooray Alkalinity",
+			"type": "wms",
+			"url": "https://services.ga.gov.au/gis/great-artesian-basin/wms?REQUEST=GetCapabilities&SERVICE=WMS",
+			"layers": "gab:CAD-HOOR_ALK",
+			"legendUrls": [ "https://services.ga.gov.au/gis/great-artesian-basin/styles/gab/legends/gw_chem_alk_blue-red_legend.png", "https://services.ga.gov.au/gis/great-artesian-basin/styles/gab/legends/gw_chem_alk_grayscale_legend.png"]
+		      },
+		      {
+			"name": "Cadna-owie - Hooray Carbon-14 Variation",
+			"type": "wms",
+			"url": "https://services.ga.gov.au/gis/great-artesian-basin/wms?REQUEST=GetCapabilities&SERVICE=WMS",
+			"layers": "gab:TP-RS_14C_CH",
+			"legendUrls": ["https://services.ga.gov.au/gis/great-artesian-basin/styles/gab/legends/tp-rs_14c_ch_red-blue_legend.png", "https://services.ga.gov.au/gis/great-artesian-basin/styles/gab/legends/tp-rs_14c_ch_grayscale_legend.png"]
+		      },
+		      {
+			"name": "Cadna-owie - Hooray Flouride",
+			"type": "wms",
+			"url": "https://services.ga.gov.au/gis/great-artesian-basin/wms?REQUEST=GetCapabilities&SERVICE=WMS",
+			"layers": "gab:CAD-HOOR_FLU",
+			"legendUrls": ["https://services.ga.gov.au/gis/great-artesian-basin/styles/gab/legends/gw_chem_flu_blue-red_legend.png", "https://services.ga.gov.au/gis/great-artesian-basin/styles/gab/legends/gw_chem_flu_grayscale_legend.png"]
+		      },
+		      {
+			"name": "Cadna-owie – Hooray Chlorine-36 to chloride ratio",
+			"type": "wms",
+			"url": "https://services.ga.gov.au/gis/great-artesian-basin/wms?REQUEST=GetCapabilities&SERVICE=WMS",
+			"layers": "gab:T-RS_36CLR_CH",
+			"legendUrls": ["https://services.ga.gov.au/gis/great-artesian-basin/styles/gab/legends/t-rs_36clr_ch_red-blue_legend.png", "https://services.ga.gov.au/gis/great-artesian-basin/styles/gab/legends/t-rs_36clr_ch_grayscale_legend.png"]
+		      },
+		      {
+			"name": "Cadna-owie – Hooray Sodium Adsorption Ratio",
+			"type": "wms",
+			"url": "https://services.ga.gov.au/gis/great-artesian-basin/wms?REQUEST=GetCapabilities&SERVICE=WMS",
+			"layers": "gab:CAD-HOOR_SAR",
+			"legendUrls": ["https://services.ga.gov.au/gis/great-artesian-basin/styles/gab/legends/gw_chem_sar_blue-red_legend.png", "https://services.ga.gov.au/gis/great-artesian-basin/styles/gab/legends/gw_chem_sar_grayscale_legend.png"]
+		      },
+		      {
+			"name": "Cadna-owie – Hooray Stable Carbon Isotope Variations",
+			"type": "wms",
+			"url": "https://services.ga.gov.au/gis/great-artesian-basin/wms?REQUEST=GetCapabilities&SERVICE=WMS",
+			"layers": "gab:CAD-HOOR_TP-RS_13C_CH",
+			"legendUrls": ["https://services.ga.gov.au/gis/great-artesian-basin/styles/gab/legends/tp-rs_13c_red-blue_legend.png", "https://services.ga.gov.au/gis/great-artesian-basin/styles/gab/legends/tp-rs_13c_grayscale_legend.png"]
+		      },
+		      {
+			"name": "Cadna-owie – Hooray Sulphate",
+			"type": "wms",
+			"url": "https://services.ga.gov.au/gis/great-artesian-basin/wms?REQUEST=GetCapabilities&SERVICE=WMS",
+			"layers": "gab:CAD-HOOR_SO4",
+			"legendUrls": ["https://services.ga.gov.au/gis/great-artesian-basin/styles/gab/legends/gw_chem_so4_blue-red_legend.png", "https://services.ga.gov.au/gis/great-artesian-basin/styles/gab/legends/gw_chem_so4_grayscale_legend.png"]
+		      },
+		      {
+			"name": "Cadna-owie – Hooray Total Dissolved Solids",
+			"type": "wms",
+			"url": "https://services.ga.gov.au/gis/great-artesian-basin/wms?REQUEST=GetCapabilities&SERVICE=WMS",
+			"layers": "gab:CAD-HOOR_TDS",
+			"legendUrls": ["https://services.ga.gov.au/gis/great-artesian-basin/styles/gab/legends/gw_chem_tds_blue-red_legend.png", "https://services.ga.gov.au/gis/great-artesian-basin/styles/gab/legends/gw_chem_tds_grayscale_legend.png"]
+		      },
+		      {
+			"name": "Hutton Alkalinity",
+			"type": "wms",
+			"url": "https://services.ga.gov.au/gis/great-artesian-basin/wms?REQUEST=GetCapabilities&SERVICE=WMS",
+			"layers": "gab:HUTTON_ALK",
+			"legendUrls": ["https://services.ga.gov.au/gis/great-artesian-basin/styles/gab/legends/gw_chem_alk_blue-red_legend.png", "https://services.ga.gov.au/gis/great-artesian-basin/styles/gab/legends/gw_chem_alk_grayscale_legend.png"]
+		      },
+		      {
+			"name": "Hutton Flouride",
+			"type": "wms",
+			"url": "https://services.ga.gov.au/gis/great-artesian-basin/wms?REQUEST=GetCapabilities&SERVICE=WMS",
+			"layers": "gab:HUTTON_FLU",
+			"legendUrls": ["https://services.ga.gov.au/gis/great-artesian-basin/styles/gab/legends/gw_chem_flu_blue-red_legend.png", "https://services.ga.gov.au/gis/great-artesian-basin/styles/gab/legends/gw_chem_flu_grayscale_legend.png"]
+		      },
+		      {
+			"name": "Hutton Sodium Adsorption Ratio",
+			"type": "wms",
+			"url": "https://services.ga.gov.au/gis/great-artesian-basin/wms?REQUEST=GetCapabilities&SERVICE=WMS",
+			"layers": "gab:HUTTON_SAR",
+			"legendUrls": ["https://services.ga.gov.au/gis/great-artesian-basin/styles/gab/legends/gw_chem_sar_blue-red_legend.png", "https://services.ga.gov.au/gis/great-artesian-basin/styles/gab/legends/gw_chem_sar_grayscale_legend.png"]
+		      },
+		      {
+			"name": "Hutton Sulphate",
+			"type": "wms",
+			"url": "https://services.ga.gov.au/gis/great-artesian-basin/wms?REQUEST=GetCapabilities&SERVICE=WMS",
+			"layers": "gab:HUTTON_SO4",
+			"legendUrls": ["https://services.ga.gov.au/gis/great-artesian-basin/styles/gab/legends/gw_chem_so4_blue-red_legend.png", "https://services.ga.gov.au/gis/great-artesian-basin/styles/gab/legends/gw_chem_so4_grayscale_legend.png"]
+		      },
+		      {
+			"name": "Hutton Total Dissolved Solids",
+			"type": "wms",
+			"url": "https://services.ga.gov.au/gis/great-artesian-basin/wms?REQUEST=GetCapabilities&SERVICE=WMS",
+			"layers": "gab:HUTTON_TDS",
+			"legendUrls": ["https://services.ga.gov.au/gis/great-artesian-basin/styles/gab/legends/gw_chem_tds_blue-red_legend.png", "https://services.ga.gov.au/gis/great-artesian-basin/styles/gab/legends/gw_chem_tds_grayscale_legend.png"]
+		      },
+		      {
+			"name": "Winton – Mackunda Alkalinity",
+			"type": "wms",
+			"url": "https://services.ga.gov.au/gis/great-artesian-basin/wms?REQUEST=GetCapabilities&SERVICE=WMS",
+			"layers": "gab:WINT-MACK_ALK",
+			"legendUrls": ["https://services.ga.gov.au/gis/great-artesian-basin/styles/gab/legends/gw_chem_alk_blue-red_legend.png", "https://services.ga.gov.au/gis/great-artesian-basin/styles/gab/legends/gw_chem_alk_grayscale_legend.png"]
+		      },
+		      {
+			"name": "Winton – Mackunda Flouride",
+			"type": "wms",
+			"url": "https://services.ga.gov.au/gis/great-artesian-basin/wms?REQUEST=GetCapabilities&SERVICE=WMS",
+			"layers": "gab:WINT-MACK_FLU",
+			"legendUrls": ["https://services.ga.gov.au/gis/great-artesian-basin/styles/gab/legends/gw_chem_flu_blue-red_legend.png", "https://services.ga.gov.au/gis/great-artesian-basin/styles/gab/legends/gw_chem_flu_grayscale_legend.png"]
+		      },
+		      {
+			"name": "Winton – Mackunda Sodium Adsorption Ratio",
+			"type": "wms",
+			"url": "https://services.ga.gov.au/gis/great-artesian-basin/wms?REQUEST=GetCapabilities&SERVICE=WMS",
+			"layers": "gab:WINT-MACK_SAR",
+			"legendUrls": ["https://services.ga.gov.au/gis/great-artesian-basin/styles/gab/legends/gw_chem_sar_blue-red_legend.png", "https://services.ga.gov.au/gis/great-artesian-basin/styles/gab/legends/gw_chem_sar_grayscale_legend.png"]
+		      },
+		      {
+			"name": "Winton – Mackunda Sulphate",
+			"type": "wms",
+			"url": "https://services.ga.gov.au/gis/great-artesian-basin/wms?REQUEST=GetCapabilities&SERVICE=WMS",
+			"layers": "gab:WINT-MACK_SO4",
+			"legendUrls": ["https://services.ga.gov.au/gis/great-artesian-basin/styles/gab/legends/gw_chem_so4_blue-red_legend.png", "https://services.ga.gov.au/gis/great-artesian-basin/styles/gab/legends/gw_chem_so4_grayscale_legend.png"]
+		      },
+		      {
+			"name": "Winton – Mackunda Total Dissolved Solids",
+			"type": "wms",
+			"url": "https://services.ga.gov.au/gis/great-artesian-basin/wms?REQUEST=GetCapabilities&SERVICE=WMS",
+			"layers": "gab:WINT-MACK_TDS",
+			"legendUrls": ["https://services.ga.gov.au/gis/great-artesian-basin/styles/gab/legends/gw_chem_tds_blue-red_legend.png", "https://services.ga.gov.au/gis/great-artesian-basin/styles/gab/legends/gw_chem_tds_grayscale_legend.png"]
+		      }
+		    ]
+		  },
+		  {
+		    "name": "Geological Formation Contact Surfaces",
+		    "type": "group",
+		    "preserveOrder": true,
+		    "description": "Contact surfaces between geological formations containing major aquifers and aquitards in the Great Artesian Basin.",
+		    "items": [
+		      {
+		        "name": "3-second Digital Elevation Model",
+			"type": "wms",
+			"url": "https://services.ga.gov.au/gis/great-artesian-basin/wms?REQUEST=GetCapabilities&SERVICE=WMS",
+			"layers": "gab:3DVIS_LAYER01_3SEC_DEM",
+			"legendUrls": ["https://services.ga.gov.au/gis/great-artesian-basin/styles/gab/legends/3SEC_DEM_min-max_legend.png", "https://services.ga.gov.au/gis/great-artesian-basin/styles/gab/legends/3SEC_DEM_hist_equal_legend.png"]
+		      },
+		      {
+		        "name": "Base of Algebuckina Sandstone",
+			"type": "wms",
+			"url": "https://services.ga.gov.au/gis/great-artesian-basin/wms?REQUEST=GetCapabilities&SERVICE=WMS",
+			"layers": "gab:3DVIS_LAYER05-07_BASE_ALGEBUCKINA_SANDSTONE",
+			"legendUrls": [ "https://services.ga.gov.au/gis/great-artesian-basin/styles/gab/legends/3SEC_DEM_min-max_legend.png", "https://services.ga.gov.au/gis/great-artesian-basin/styles/gab/legends/3SEC_DEM_hist_equal_legend.png"]
+		      },
+		      {
+		        "name": "Base of Cenozoic",
+			"type": "wms",
+			"url": "https://services.ga.gov.au/gis/great-artesian-basin/wms?REQUEST=GetCapabilities&SERVICE=WMS",
+			"layers": "gab:3DVIS_LAYER02_BASE_CENOZOIC",
+			"legendUrls": ["https://services.ga.gov.au/gis/great-artesian-basin/styles/gab/legends/3SEC_DEM_min-max_legend.png", "https://services.ga.gov.au/gis/great-artesian-basin/styles/gab/legends/3SEC_DEM_hist_equal_legend.png"]
+		      },
+		      {
+		        "name": "Base of Evergreen and Marburg Formations",
+			"type": "wms",
+			"url": "https://services.ga.gov.au/gis/great-artesian-basin/wms?REQUEST=GetCapabilities&SERVICE=WMS",
+			"layers": "gab:3DVIS_LAYER08a_BASE_EVERGREEN_MARBURG_FORMATION",
+			"legendUrls": ["https://services.ga.gov.au/gis/great-artesian-basin/styles/gab/legends/3SEC_DEM_min-max_legend.png", "https://services.ga.gov.au/gis/great-artesian-basin/styles/gab/legends/3SEC_DEM_hist_equal_legend.png"]
+		      },
+		      {
+		        "name": "Base of Hooray Sandstone and Equivalents",
+			"type": "wms",
+			"url": "https://services.ga.gov.au/gis/great-artesian-basin/wms?REQUEST=GetCapabilities&SERVICE=WMS",
+			"layers": "gab:3DVIS_LAYER05_BASE_HOORAY_SANDSTONE",
+			"legendUrls": ["https://services.ga.gov.au/gis/great-artesian-basin/styles/gab/legends/3SEC_DEM_min-max_legend.png", "https://services.ga.gov.au/gis/great-artesian-basin/styles/gab/legends/3SEC_DEM_hist_equal_legend.png"]
+		      },
+		      {
+		        "name": "Base of Hutton Sandstone",
+			"type": "wms",
+			"url": "https://services.ga.gov.au/gis/great-artesian-basin/wms?REQUEST=GetCapabilities&SERVICE=WMS",
+			"layers": "gab:3DVIS_LAYER07_BASE_HUTTON_SANDSTONE",
+			"legendUrls": ["https://services.ga.gov.au/gis/great-artesian-basin/styles/gab/legends/3SEC_DEM_min-max_legend.png", "https://services.ga.gov.au/gis/great-artesian-basin/styles/gab/legends/3SEC_DEM_hist_equal_legend.png"]
+		      },
+		      {
+		        "name": "Base of Injune Creek Group",
+			"type": "wms",
+			"url": "https://services.ga.gov.au/gis/great-artesian-basin/wms?REQUEST=GetCapabilities&SERVICE=WMS",
+			"layers": "gab:3DVIS_LAYER06_BASE_INJUNE_CREEK_GROUP",
+			"legendUrls": ["https://services.ga.gov.au/gis/great-artesian-basin/styles/gab/legends/3SEC_DEM_min-max_legend.png", "https://services.ga.gov.au/gis/great-artesian-basin/styles/gab/legends/3SEC_DEM_hist_equal_legend.png"]
+		      },
+		      {
+		        "name": "Base of Jurassic-Cretaceous Sequence",
+			"type": "wms",
+			"url": "https://services.ga.gov.au/gis/great-artesian-basin/wms?REQUEST=GetCapabilities&SERVICE=WMS",
+			"layers": "gab:3DVIS_LAYER10_BASE_ASSESSMENT",
+			"legendUrls": ["https://services.ga.gov.au/gis/great-artesian-basin/styles/gab/legends/3SEC_DEM_min-max_legend.png", "https://services.ga.gov.au/gis/great-artesian-basin/styles/gab/legends/3SEC_DEM_hist_equal_legend.png"]
+		      },
+		      {
+		        "name": "Base of Mackunda Formation and Equivalents",
+			"type": "wms",
+			"url": "https://services.ga.gov.au/gis/great-artesian-basin/wms?REQUEST=GetCapabilities&SERVICE=WMS",
+			"layers": "gab:3DVIS_LAYER03_BASE_MACKUNDA_FORMATION",
+			"legendUrls": ["https://services.ga.gov.au/gis/great-artesian-basin/styles/gab/legends/3SEC_DEM_min-max_legend.png", "https://services.ga.gov.au/gis/great-artesian-basin/styles/gab/legends/3SEC_DEM_hist_equal_legend.png"]
+		      },
+		      {
+		        "name": "Base of Poolowanna Formation",
+			"type": "wms",
+			"url": "https://services.ga.gov.au/gis/great-artesian-basin/wms?REQUEST=GetCapabilities&SERVICE=WMS",
+			"layers": "gab:3DVIS_LAYER08b_BASE_POOLOWANNA_FORMATION",
+			"legendUrls": ["https://services.ga.gov.au/gis/great-artesian-basin/styles/gab/legends/3SEC_DEM_min-max_legend.png", "https://services.ga.gov.au/gis/great-artesian-basin/styles/gab/legends/3SEC_DEM_hist_equal_legend.png"]
+		      },
+		      {
+		        "name": "Base of Precipice Sandstone and Equivalents",
+			"type": "wms",
+			"url": "https://services.ga.gov.au/gis/great-artesian-basin/wms?REQUEST=GetCapabilities&SERVICE=WMS",
+			"layers": "gab:3DVIS_LAYER09_BASE_PRECIPICE_SANDSTONE",
+			"legendUrls": ["https://services.ga.gov.au/gis/great-artesian-basin/styles/gab/legends/3SEC_DEM_min-max_legend.png", "https://services.ga.gov.au/gis/great-artesian-basin/styles/gab/legends/3SEC_DEM_hist_equal_legend.png"]
+		      },
+		      {
+		        "name": "Base of Rolling Downs Group",
+			"type": "wms",
+			"url": "https://services.ga.gov.au/gis/great-artesian-basin/wms?REQUEST=GetCapabilities&SERVICE=WMS",
+			"layers": "gab:04_GABWRA_Base_RollingDowns_grid",
+			"legendUrls": ["https://services.ga.gov.au/gis/great-artesian-basin/styles/gab/legends/3SEC_DEM_min-max_legend.png", "https://services.ga.gov.au/gis/great-artesian-basin/styles/gab/legends/3SEC_DEM_hist_equal_legend.png"]
+		      }
+		    ]
+		  },
+		  {
+		    "name": "Potentiometric Surfaces",
+		    "type": "group",
+		    "preserveOrder": true,
+		    "description": "Potentiometric surface of the Cadna-owie - Hooray Aquifer in the Great Artesian Basin at 20 year intervals from 1900-2010.",
+		    "items": [
+		      {
+		        "name": "Potentiometric Surface 1900-1920",
+			"type": "wms",
+			"url": "https://services.ga.gov.au/gis/great-artesian-basin/wms?REQUEST=GetCapabilities&SERVICE=WMS",
+			"layers": "gab:POTENTIOMETRIC_SURFACE_1900-1920",
+			"legendUrls": [
+			    {
+				"mimeType": "image/png",
+				"url": "https://services.ga.gov.au/gis/great-artesian-basin/ows?service=WMS&request=GetLegendGraphic&format=image%2Fpng&width=20&height=20&layer=gab%3APOTENTIOMETRIC_SURFACE_1900-1920"
+			    },
+			    "https://services.ga.gov.au/gis/great-artesian-basin/styles/gab/legends/potentiometric_surface_grayscale_legend.png"
+			]
+		      },
+		      {
+		        "name": "Potentiometric Surface 1900-1920 without faults",
+			"type": "wms",
+			"url": "https://services.ga.gov.au/gis/great-artesian-basin/wms?REQUEST=GetCapabilities&SERVICE=WMS",
+			"layers": "gab:POTENTIOMETRIC_SURFACE_1900-1920_nf",
+			"legendUrls": [
+			    {
+				"mimeType": "image/png",
+				"url": "https://services.ga.gov.au/gis/great-artesian-basin/ows?service=WMS&request=GetLegendGraphic&format=image%2Fpng&width=20&height=20&layer=gab%3APOTENTIOMETRIC_SURFACE_1900-1920_nf"
+			    },
+			    "https://services.ga.gov.au/gis/great-artesian-basin/styles/gab/legends/potentiometric_surface_grayscale_legend.png"
+			]
+		      },
+		      {
+		        "name": "Potentiometric Surface 1920-1940",
+			"type": "wms",
+			"url": "https://services.ga.gov.au/gis/great-artesian-basin/wms?REQUEST=GetCapabilities&SERVICE=WMS",
+			"layers": "gab:POTENTIOMETRIC_SURFACE_1920-1940",
+			"legendUrls": [
+			    {
+				"mimeType": "image/png",
+				"url": "https://services.ga.gov.au/gis/great-artesian-basin/ows?service=WMS&request=GetLegendGraphic&format=image%2Fpng&width=20&height=20&layer=gab%3APOTENTIOMETRIC_SURFACE_1920-1940"
+			    },
+			    "https://services.ga.gov.au/gis/great-artesian-basin/styles/gab/legends/potentiometric_surface_grayscale_legend.png"
+			]
+		      },
+		      {
+		        "name": "Potentiometric Surface 1940-1960",
+			"type": "wms",
+			"url": "https://services.ga.gov.au/gis/great-artesian-basin/wms?REQUEST=GetCapabilities&SERVICE=WMS",
+			"layers": "gab:POTENTIOMETRIC_SURFACE_1940-1960",
+			"legendUrls": [
+			    {
+				"mimeType": "image/png",
+				"url": "https://services.ga.gov.au/gis/great-artesian-basin/ows?service=WMS&request=GetLegendGraphic&format=image%2Fpng&width=20&height=20&layer=gab%3APOTENTIOMETRIC_SURFACE_1940-1960"
+			    },
+			    "https://services.ga.gov.au/gis/great-artesian-basin/styles/gab/legends/potentiometric_surface_grayscale_legend.png"
+			]
+		      },
+		      {
+		        "name": "Potentiometric Surface 1960-1980",
+			"type": "wms",
+			"url": "https://services.ga.gov.au/gis/great-artesian-basin/wms?REQUEST=GetCapabilities&SERVICE=WMS",
+			"layers": "gab:POTENTIOMETRIC_SURFACE_1960-1980",
+			"legendUrls": [
+			    {
+				"mimeType": "image/png",
+				"url": "https://services.ga.gov.au/gis/great-artesian-basin/ows?service=WMS&request=GetLegendGraphic&format=image%2Fpng&width=20&height=20&layer=gab%3APOTENTIOMETRIC_SURFACE_1960-1980"
+			    },
+			    "https://services.ga.gov.au/gis/great-artesian-basin/styles/gab/legends/potentiometric_surface_grayscale_legend.png"
+			]
+		      },
+		      {
+		        "name": "Potentiometric Surface 1980-2000",
+			"type": "wms",
+			"url": "https://services.ga.gov.au/gis/great-artesian-basin/wms?REQUEST=GetCapabilities&SERVICE=WMS",
+			"layers": "gab:POTENTIOMETRIC_SURFACE_1980-2000",
+			"legendUrls": [
+                            {
+                                "mimeType": "image/png",
+                                "url": "https://services.ga.gov.au/gis/great-artesian-basin/ows?service=WMS&request=GetLegendGraphic&format=image%2Fpng&width=20&height=20&layer=gab%3APOTENTIOMETRIC_SURFACE_1980-2000"
+                            },
+                            "https://services.ga.gov.au/gis/great-artesian-basin/styles/gab/legends/potentiometric_surface_grayscale_legend.png"
+                        ]
+		      },
+		      {
+		        "name": "Potentiometric Surface 2000-2010",
+			"type": "wms",
+			"url": "https://services.ga.gov.au/gis/great-artesian-basin/wms?REQUEST=GetCapabilities&SERVICE=WMS",
+			"layers": "gab:POTENTIOMETRIC_SURFACE_2000-2010",
+			"legendUrls": [
+                            {
+                                "mimeType": "image/png",
+                                "url": "https://services.ga.gov.au/gis/great-artesian-basin/ows?service=WMS&request=GetLegendGraphic&format=image%2Fpng&width=20&height=20&layer=gab%3APOTENTIOMETRIC_SURFACE_2000-2010"
+                            },
+                            "https://services.ga.gov.au/gis/great-artesian-basin/styles/gab/legends/potentiometric_surface_grayscale_legend.png"
+                        ]
+		      },
+		      {
+		        "name": "Potentiometric Surface 2000-2010 without faults",
+			"type": "wms",
+			"url": "https://services.ga.gov.au/gis/great-artesian-basin/wms?REQUEST=GetCapabilities&SERVICE=WMS",
+			"layers": "gab:POTENTIOMETRIC_SURFACE_2000-2010_nf",
+			"legendUrls": [
+                            {
+                                "mimeType": "image/png",
+                                "url": "https://services.ga.gov.au/gis/great-artesian-basin/ows?service=WMS&request=GetLegendGraphic&format=image%2Fpng&width=20&height=20&layer=gab%3APOTENTIOMETRIC_SURFACE_2000-2010_nf"
+                            },
+                            "https://services.ga.gov.au/gis/great-artesian-basin/styles/gab/legends/potentiometric_surface_grayscale_legend.png"
+                        ]
+		      }
+		    ]
+		  },
+		  {
+	            "name": "Polygonal Faulting",
+		    "type": "group",
+		    "preserveOrder": true,
+		    "description": "Extent of identified polygonal faulting in the Great Artesian Basin.",
+		    "items": [
+		      {
+		        "name": "Polygonal Faulting Evident In Seismic Transects",
+			"type": "wms",
+			"url": "https://services.ga.gov.au/gis/great-artesian-basin/wms?REQUEST=GetCapabilities&SERVICE=WMS",
+			"layers": "gab:poly_faulting_seismic"
+		      },
+		      {
+		        "name": "Surface Polygonal Faulting",
+			"type": "wms",
+			"url": "https://services.ga.gov.au/gis/great-artesian-basin/wms?REQUEST=GetCapabilities&SERVICE=WMS",
+			"layers": "gab:surface_poly_faulting"
+		      }
+		    ]
+		  },
+		  {
+		    "name": "Watertable Elevation",
+		    "type": "group",
+		    "preserveOrder": true,
+		    "description": "Watertable elevation of the Great Artesian Basin.",
+		    "items": [
+		      {
+	                "name": "Alluvium Water Level and GAB Watertable Relationships",
+		        "type": "wms",
+		        "url": "https://services.ga.gov.au/gis/great-artesian-basin/wms?REQUEST=GetCapabilities&SERVICE=WMS",
+		        "layers": "gab:alluvium_water_level_gab_wt_relationships"
+		      },
+		      {
+	                "name": "Alluvium Watertable Elevation Contours",
+		        "type": "wms",
+		        "url": "https://services.ga.gov.au/gis/great-artesian-basin/wms?REQUEST=GetCapabilities&SERVICE=WMS",
+		        "layers": "gab:alluvium_wt_contours"
+		      },
+		      {
+	                "name": "Watertable Elevation Contours",
+		        "type": "wms",
+		        "url": "https://services.ga.gov.au/gis/great-artesian-basin/wms?REQUEST=GetCapabilities&SERVICE=WMS",
+		        "layers": "gab:wt_contours"
+		      },
+		      {
+	                "name": "Watertable Elevation Grid",
+		        "type": "wms",
+		        "url": "https://services.ga.gov.au/gis/great-artesian-basin/wms?REQUEST=GetCapabilities&SERVICE=WMS",
+		        "layers": "gab:wt_grid",
+		        "legendUrl": "https://services.ga.gov.au/gis/great-artesian-basin/styles/gab/legends/wt_grid_red-blue_legend.png"
+		      }
+	            ]
+	          }
+	      ]
+	    }
+          ]
+        }
+      ]
+    }
+  ]
+}
