@@ -62,7 +62,7 @@
     },
     "terria-config": {
       "initializationUrls": [
-        "https://raw.githubusercontent.com/TerriaJS/RaPPMap/next/wwwroot/init/geoglam-v8.json"
+        "https://raw.githubusercontent.com/TerriaJS/saas-catalogs-public/main/geo-rapp/dev.json"
       ],
       "parameters": {
         "appName": "GEOGLAM RAPP",
