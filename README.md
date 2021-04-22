@@ -8,12 +8,15 @@ Catalogs for SaaS (until we come up with something better)
 
 ## Format
 
-Each map has a directory, in that directory there is:
+Each map has a directory. The directory name should map to it's `map-config` ID stored in Magda (eg `pacificmap` folder maps to `map-config-pacificmap`).
+
+The structure should follow:
 
 - an `in` folder for old v7/v8 catalogs
-- `dev-map-config.json` - dev map-config
-- `test-map-config.json` - test map-config
-- `prod-map-config.json` - prod map-config
+- an `map-config` folder
+- `map-config/dev.json` - dev map-config
+- `map-config/test.json` - test map-config
+- `map-config/prod.json` - prod map-config
 - `dev.json` - dev catalog
 - `test.json` - test catalog
 - `prod.json` - prod catalog
@@ -22,13 +25,7 @@ A map may have a few levels of catalogs - for example `de-australia`:
 
 `de-australia/`
 
-- `in/`
-- `dev-map-config.json`
-- `test-map-config.json`
-- `prod-map-config.json`
-- `dev.json`
-- `test.json`
-- `prod.json`
+- ...
 - `terria-cube/`
   - `in/`
   - `dev.json`
