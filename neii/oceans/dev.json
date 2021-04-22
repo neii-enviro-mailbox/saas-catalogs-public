@@ -26,12 +26,6 @@
                 }
               ],
               "url": "https://spatial.industry.nsw.gov.au/arcgis/services/PUBLIC/Marine_Protected_Areas/MapServer/WFSServer",
-              "rectangle": {
-                "west": 100,
-                "south": -44,
-                "east": 159,
-                "north": -4
-              },
               "id": "uAajHZ",
               "shareKeys": [
                 "Root Group/NEII Data Services – Conformant/Oceans (14)/ NSW Marine protected areas (NSW DPI)"
