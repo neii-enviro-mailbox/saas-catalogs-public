@@ -2,7 +2,8 @@
 
 Converted on 22/04/2021
 
-I have renamed `get_viewer_config-v7-2021-04-20.json` to `nemsr/(dev | test | prod).json`
+- I have renamed `get_viewer_config-v7-2021-04-20.json` to `nemsr/(dev | test | prod).json`
+- I manually set ID for `NEII Data Services – Conformant` groups
 
 ## Aggregated errors
 
