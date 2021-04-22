@@ -20,10 +20,10 @@
     },
     "terria-config": {
       "initializationUrls": [
-        "https://raw.githubusercontent.com/TerriaJS/saas-catalogs-public/main/neii/oceans/dev.json",
-        "https://raw.githubusercontent.com/TerriaJS/saas-catalogs-public/main/neii/water/dev.json",
         "https://raw.githubusercontent.com/TerriaJS/saas-catalogs-public/main/neii/air/dev.json",
         "https://raw.githubusercontent.com/TerriaJS/saas-catalogs-public/main/neii/biota/dev.json",
+        "https://raw.githubusercontent.com/TerriaJS/saas-catalogs-public/main/neii/oceans/dev.json",
+        "https://raw.githubusercontent.com/TerriaJS/saas-catalogs-public/main/neii/water/dev.json",
         "https://raw.githubusercontent.com/TerriaJS/saas-catalogs-public/main/neii/land/dev.json",
         "https://raw.githubusercontent.com/TerriaJS/saas-catalogs-public/main/neii/other/dev.json",
         "https://raw.githubusercontent.com/TerriaJS/saas-catalogs-public/main/neii/nemsr/dev.json",

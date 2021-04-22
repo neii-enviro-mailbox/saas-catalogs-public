@@ -924,9 +924,9 @@
               "name": "Dynamic National Map Hydrology and Marine - Points",
               "members": [
                 {
-                  "type": "wms",
+                  "type": "esri-mapServer",
                   "name": "Water Storage Points",
-                  "url": "http://gaservices.ga.gov.au/site_7/services/NM_Hydrology_and_Marine_Points/MapServer/WMSServer?request=GetCapabilities&service=WMS",
+                  "url": "http://services.ga.gov.au/gis/rest/services/NM_Hydrology_and_Marine_Points/MapServer",
                   "opacity": 1,
                   "dataCustodian": "[Geoscience Australia](http://www.ga.gov.au/)",
                   "layers": "Dams_and_Tanks",
@@ -936,9 +936,9 @@
                   ]
                 },
                 {
-                  "type": "wms",
+                  "type": "esri-mapServer",
                   "name": "Natural Water Points - Soak",
-                  "url": "http://gaservices.ga.gov.au/site_7/services/NM_Hydrology_and_Marine_Points/MapServer/WMSServer?request=GetCapabilities&service=WMS",
+                  "url": "http://services.ga.gov.au/gis/rest/services/NM_Hydrology_and_Marine_Points/MapServer",
                   "opacity": 1,
                   "dataCustodian": "[Geoscience Australia](http://www.ga.gov.au/)",
                   "layers": "Natural_Water_Points_Soak",
@@ -948,9 +948,9 @@
                   ]
                 },
                 {
-                  "type": "wms",
+                  "type": "esri-mapServer",
                   "name": "Natural Water Points - Rockhole",
-                  "url": "http://gaservices.ga.gov.au/site_7/services/NM_Hydrology_and_Marine_Points/MapServer/WMSServer?request=GetCapabilities&service=WMS",
+                  "url": "http://services.ga.gov.au/gis/rest/services/NM_Hydrology_and_Marine_Points/MapServer",
                   "opacity": 1,
                   "dataCustodian": "[Geoscience Australia](http://www.ga.gov.au/)",
                   "layers": "Natural_Water_Points_Rockhole",
@@ -960,9 +960,9 @@
                   ]
                 },
                 {
-                  "type": "wms",
+                  "type": "esri-mapServer",
                   "name": "Natural Water Points - Pool",
-                  "url": "http://gaservices.ga.gov.au/site_7/services/NM_Hydrology_and_Marine_Points/MapServer/WMSServer?request=GetCapabilities&service=WMS",
+                  "url": "http://services.ga.gov.au/gis/rest/services/NM_Hydrology_and_Marine_Points/MapServer",
                   "opacity": 1,
                   "dataCustodian": "[Geoscience Australia](http://www.ga.gov.au/)",
                   "layers": "Natural_Water_Points_Pool",
@@ -972,9 +972,9 @@
                   ]
                 },
                 {
-                  "type": "wms",
+                  "type": "esri-mapServer",
                   "name": "Natural Water Points - Native Well",
-                  "url": "http://gaservices.ga.gov.au/site_7/services/NM_Hydrology_and_Marine_Points/MapServer/WMSServer?request=GetCapabilities&service=WMS",
+                  "url": "http://services.ga.gov.au/gis/rest/services/NM_Hydrology_and_Marine_Points/MapServer",
                   "opacity": 1,
                   "dataCustodian": "[Geoscience Australia](http://www.ga.gov.au/)",
                   "layers": "Natural_Water_Points_NativeWell",
@@ -984,9 +984,9 @@
                   ]
                 },
                 {
-                  "type": "wms",
+                  "type": "esri-mapServer",
                   "name": "Natural Water Points - Gnamma Hole",
-                  "url": "http://gaservices.ga.gov.au/site_7/services/NM_Hydrology_and_Marine_Points/MapServer/WMSServer?request=GetCapabilities&service=WMS",
+                  "url": "http://services.ga.gov.au/gis/rest/services/NM_Hydrology_and_Marine_Points/MapServer",
                   "opacity": 1,
                   "dataCustodian": "[Geoscience Australia](http://www.ga.gov.au/)",
                   "layers": "Natural_Water_Points_GnammaHole",
@@ -996,9 +996,9 @@
                   ]
                 },
                 {
-                  "type": "wms",
+                  "type": "esri-mapServer",
                   "name": "Bores",
-                  "url": "http://gaservices.ga.gov.au/site_7/services/NM_Hydrology_and_Marine_Points/MapServer/WMSServer?request=GetCapabilities&service=WMS",
+                  "url": "http://services.ga.gov.au/gis/rest/services/NM_Hydrology_and_Marine_Points/MapServer",
                   "opacity": 1,
                   "dataCustodian": "[Geoscience Australia](http://www.ga.gov.au/)",
                   "layers": "Bores",
@@ -1008,9 +1008,9 @@
                   ]
                 },
                 {
-                  "type": "wms",
+                  "type": "esri-mapServer",
                   "name": "Waterholes",
-                  "url": "http://gaservices.ga.gov.au/site_7/services/NM_Hydrology_and_Marine_Points/MapServer/WMSServer?request=GetCapabilities&service=WMS",
+                  "url": "http://services.ga.gov.au/gis/rest/services/NM_Hydrology_and_Marine_Points/MapServer",
                   "opacity": 1,
                   "dataCustodian": "[Geoscience Australia](http://www.ga.gov.au/)",
                   "layers": "Waterholes",
@@ -1020,9 +1020,9 @@
                   ]
                 },
                 {
-                  "type": "wms",
+                  "type": "esri-mapServer",
                   "name": "Springs",
-                  "url": "http://gaservices.ga.gov.au/site_7/services/NM_Hydrology_and_Marine_Points/MapServer/WMSServer?request=GetCapabilities&service=WMS",
+                  "url": "http://services.ga.gov.au/gis/rest/services/NM_Hydrology_and_Marine_Points/MapServer",
                   "opacity": 1,
                   "dataCustodian": "[Geoscience Australia](http://www.ga.gov.au/)",
                   "layers": "Springs",
@@ -1032,9 +1032,9 @@
                   ]
                 },
                 {
-                  "type": "wms",
+                  "type": "esri-mapServer",
                   "name": "Waterfalls",
-                  "url": "http://gaservices.ga.gov.au/site_7/services/NM_Hydrology_and_Marine_Points/MapServer/WMSServer?request=GetCapabilities&service=WMS",
+                  "url": "http://services.ga.gov.au/gis/rest/services/NM_Hydrology_and_Marine_Points/MapServer",
                   "opacity": 1,
                   "dataCustodian": "[Geoscience Australia](http://www.ga.gov.au/)",
                   "layers": "Waterfalls",
@@ -1044,9 +1044,9 @@
                   ]
                 },
                 {
-                  "type": "wms",
+                  "type": "esri-mapServer",
                   "name": "Locks",
-                  "url": "http://gaservices.ga.gov.au/site_7/services/NM_Hydrology_and_Marine_Points/MapServer/WMSServer?request=GetCapabilities&service=WMS",
+                  "url": "http://services.ga.gov.au/gis/rest/services/NM_Hydrology_and_Marine_Points/MapServer",
                   "opacity": 1,
                   "dataCustodian": "[Geoscience Australia](http://www.ga.gov.au/)",
                   "layers": "Locks",
@@ -1056,9 +1056,9 @@
                   ]
                 },
                 {
-                  "type": "wms",
+                  "type": "esri-mapServer",
                   "name": "Lighthouses",
-                  "url": "http://gaservices.ga.gov.au/site_7/services/NM_Hydrology_and_Marine_Points/MapServer/WMSServer?request=GetCapabilities&service=WMS",
+                  "url": "http://services.ga.gov.au/gis/rest/services/NM_Hydrology_and_Marine_Points/MapServer",
                   "opacity": 1,
                   "dataCustodian": "[Geoscience Australia](http://www.ga.gov.au/)",
                   "layers": "Lighthouses",
@@ -1068,9 +1068,9 @@
                   ]
                 },
                 {
-                  "type": "wms",
+                  "type": "esri-mapServer",
                   "name": "Offshore Rocks and Wrecks",
-                  "url": "http://gaservices.ga.gov.au/site_7/services/NM_Hydrology_and_Marine_Points/MapServer/WMSServer?request=GetCapabilities&service=WMS",
+                  "url": "http://services.ga.gov.au/gis/rest/services/NM_Hydrology_and_Marine_Points/MapServer",
                   "opacity": 1,
                   "dataCustodian": "[Geoscience Australia](http://www.ga.gov.au/)",
                   "layers": "Offshore_Rocks_And_Wrecks",
@@ -1080,9 +1080,9 @@
                   ]
                 },
                 {
-                  "type": "wms",
+                  "type": "esri-mapServer",
                   "name": "Water Storage Points - Labels",
-                  "url": "http://gaservices.ga.gov.au/site_7/services/NM_Hydrology_and_Marine_Points/MapServer/WMSServer?request=GetCapabilities&service=WMS",
+                  "url": "http://services.ga.gov.au/gis/rest/services/NM_Hydrology_and_Marine_Points/MapServer",
                   "opacity": 1,
                   "dataCustodian": "[Geoscience Australia](http://www.ga.gov.au/)",
                   "layers": "Dams_and_Tanks_Labels",
@@ -1092,9 +1092,9 @@
                   ]
                 },
                 {
-                  "type": "wms",
+                  "type": "esri-mapServer",
                   "name": "Natural Water Points - Soaks - Labels",
-                  "url": "http://gaservices.ga.gov.au/site_7/services/NM_Hydrology_and_Marine_Points/MapServer/WMSServer?request=GetCapabilities&service=WMS",
+                  "url": "http://services.ga.gov.au/gis/rest/services/NM_Hydrology_and_Marine_Points/MapServer",
                   "opacity": 1,
                   "dataCustodian": "[Geoscience Australia](http://www.ga.gov.au/)",
                   "layers": "Natural_Water_Points_Soaks_Labels",
@@ -1104,9 +1104,9 @@
                   ]
                 },
                 {
-                  "type": "wms",
+                  "type": "esri-mapServer",
                   "name": "Natural Water Points - Rockholes - Labels",
-                  "url": "http://gaservices.ga.gov.au/site_7/services/NM_Hydrology_and_Marine_Points/MapServer/WMSServer?request=GetCapabilities&service=WMS",
+                  "url": "http://services.ga.gov.au/gis/rest/services/NM_Hydrology_and_Marine_Points/MapServer",
                   "opacity": 1,
                   "dataCustodian": "[Geoscience Australia](http://www.ga.gov.au/)",
                   "layers": "Natural_Water_Points_Rockholes_Labels",
@@ -1116,9 +1116,9 @@
                   ]
                 },
                 {
-                  "type": "wms",
+                  "type": "esri-mapServer",
                   "name": "Natural Water Points - Pools - Labels",
-                  "url": "http://gaservices.ga.gov.au/site_7/services/NM_Hydrology_and_Marine_Points/MapServer/WMSServer?request=GetCapabilities&service=WMS",
+                  "url": "http://services.ga.gov.au/gis/rest/services/NM_Hydrology_and_Marine_Points/MapServer",
                   "opacity": 1,
                   "dataCustodian": "[Geoscience Australia](http://www.ga.gov.au/)",
                   "layers": "Natural_Water_Points_Pools_Labels",
@@ -1128,9 +1128,9 @@
                   ]
                 },
                 {
-                  "type": "wms",
+                  "type": "esri-mapServer",
                   "name": "Natural Water Points - Native Wells - Labels",
-                  "url": "http://gaservices.ga.gov.au/site_7/services/NM_Hydrology_and_Marine_Points/MapServer/WMSServer?request=GetCapabilities&service=WMS",
+                  "url": "http://services.ga.gov.au/gis/rest/services/NM_Hydrology_and_Marine_Points/MapServer",
                   "opacity": 1,
                   "dataCustodian": "[Geoscience Australia](http://www.ga.gov.au/)",
                   "layers": "Natural_Water_Points_NativeWells_Labels",
@@ -1140,9 +1140,9 @@
                   ]
                 },
                 {
-                  "type": "wms",
+                  "type": "esri-mapServer",
                   "name": "Natural Water Points - Gnamma Holes - Labels",
-                  "url": "http://gaservices.ga.gov.au/site_7/services/NM_Hydrology_and_Marine_Points/MapServer/WMSServer?request=GetCapabilities&service=WMS",
+                  "url": "http://services.ga.gov.au/gis/rest/services/NM_Hydrology_and_Marine_Points/MapServer",
                   "opacity": 1,
                   "dataCustodian": "[Geoscience Australia](http://www.ga.gov.au/)",
                   "layers": "Natural_Water_Points_GnammaHoles_Labels",
@@ -1152,9 +1152,9 @@
                   ]
                 },
                 {
-                  "type": "wms",
+                  "type": "esri-mapServer",
                   "name": "Bores - Labels",
-                  "url": "http://gaservices.ga.gov.au/site_7/services/NM_Hydrology_and_Marine_Points/MapServer/WMSServer?request=GetCapabilities&service=WMS",
+                  "url": "http://services.ga.gov.au/gis/rest/services/NM_Hydrology_and_Marine_Points/MapServer",
                   "opacity": 1,
                   "dataCustodian": "[Geoscience Australia](http://www.ga.gov.au/)",
                   "layers": "Bores_Labels",
@@ -1164,9 +1164,9 @@
                   ]
                 },
                 {
-                  "type": "wms",
+                  "type": "esri-mapServer",
                   "name": "Waterholes - Labels",
-                  "url": "http://gaservices.ga.gov.au/site_7/services/NM_Hydrology_and_Marine_Points/MapServer/WMSServer?request=GetCapabilities&service=WMS",
+                  "url": "http://services.ga.gov.au/gis/rest/services/NM_Hydrology_and_Marine_Points/MapServer",
                   "opacity": 1,
                   "dataCustodian": "[Geoscience Australia](http://www.ga.gov.au/)",
                   "layers": "Waterholes_Labels",
@@ -1176,9 +1176,9 @@
                   ]
                 },
                 {
-                  "type": "wms",
+                  "type": "esri-mapServer",
                   "name": "Springs - Labels",
-                  "url": "http://gaservices.ga.gov.au/site_7/services/NM_Hydrology_and_Marine_Points/MapServer/WMSServer?request=GetCapabilities&service=WMS",
+                  "url": "http://services.ga.gov.au/gis/rest/services/NM_Hydrology_and_Marine_Points/MapServer",
                   "opacity": 1,
                   "dataCustodian": "[Geoscience Australia](http://www.ga.gov.au/)",
                   "layers": "Springs_Labels",
@@ -1188,9 +1188,9 @@
                   ]
                 },
                 {
-                  "type": "wms",
+                  "type": "esri-mapServer",
                   "name": "Waterfalls - Labels",
-                  "url": "http://gaservices.ga.gov.au/site_7/services/NM_Hydrology_and_Marine_Points/MapServer/WMSServer?request=GetCapabilities&service=WMS",
+                  "url": "http://services.ga.gov.au/gis/rest/services/NM_Hydrology_and_Marine_Points/MapServer",
                   "opacity": 1,
                   "dataCustodian": "[Geoscience Australia](http://www.ga.gov.au/)",
                   "layers": "Waterfalls_Labels",
@@ -1200,9 +1200,9 @@
                   ]
                 },
                 {
-                  "type": "wms",
+                  "type": "esri-mapServer",
                   "name": "Locks - Labels",
-                  "url": "http://gaservices.ga.gov.au/site_7/services/NM_Hydrology_and_Marine_Points/MapServer/WMSServer?request=GetCapabilities&service=WMS",
+                  "url": "http://services.ga.gov.au/gis/rest/services/NM_Hydrology_and_Marine_Points/MapServer",
                   "opacity": 1,
                   "dataCustodian": "[Geoscience Australia](http://www.ga.gov.au/)",
                   "layers": "Locks_Labels",
@@ -1212,9 +1212,9 @@
                   ]
                 },
                 {
-                  "type": "wms",
+                  "type": "esri-mapServer",
                   "name": "Lighthouses - Labels",
-                  "url": "http://gaservices.ga.gov.au/site_7/services/NM_Hydrology_and_Marine_Points/MapServer/WMSServer?request=GetCapabilities&service=WMS",
+                  "url": "http://services.ga.gov.au/gis/rest/services/NM_Hydrology_and_Marine_Points/MapServer",
                   "opacity": 1,
                   "dataCustodian": "[Geoscience Australia](http://www.ga.gov.au/)",
                   "layers": "Lighthouses_Labels",
@@ -1224,9 +1224,9 @@
                   ]
                 },
                 {
-                  "type": "wms",
+                  "type": "esri-mapServer",
                   "name": "Offshore Rocks and Wrecks - Labels",
-                  "url": "http://gaservices.ga.gov.au/site_7/services/NM_Hydrology_and_Marine_Points/MapServer/WMSServer?request=GetCapabilities&service=WMS",
+                  "url": "http://services.ga.gov.au/gis/rest/services/NM_Hydrology_and_Marine_Points/MapServer",
                   "opacity": 1,
                   "dataCustodian": "[Geoscience Australia](http://www.ga.gov.au/)",
                   "layers": "Offshore_Rocks_and_Wrecks_Labels",
