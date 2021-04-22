@@ -1,11 +1,13 @@
-# NEII catalogs
+# NEII catalog change log
 
-Converted on 22/04/2021
-
+- Converted on 22/04/2021 (see notes)
 - I have renamed `get_viewer_config-v7-2021-04-20.json` to `nemsr/(dev | test | prod).json`
 - I manually set ID for `NEII Data Services – Conformant` groups
+- Update `NEII Data Services – Conformant/Oceans (14)/Dynamic National Map Hydrology and Marine - Points/*` to use ArcGisMapServer instead of WMS
 
-## Aggregated errors
+## Conversion Notes (22/04/2021)
+
+### Aggregated errors
 
 ```json
 Unknown types: {
