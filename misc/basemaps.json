@@ -9,6 +9,38 @@
   "baseMapId": "basemap-bing-aerial-with-labels",
   "previewBaseMapId": "basemap-positron",
   "baseMaps": [
+    // BING MAPS WITH BINGMAPSKEY
+    {
+      "item": {
+        "id": "basemap-bing-aerial-with-labels",
+        "name": "Bing Maps Aerial with Labels",
+        "type": "bing-maps",
+        "mapStyle": "AerialWithLabelsOnDemand",
+        "opacity": 1.0
+      },
+      "image": "images/basemaps/bing-aerial-labels.png"
+    },
+    {
+      "item": {
+        "id": "basemap-bing-aerial",
+        "name": "Bing Maps Aerial",
+        "type": "bing-maps",
+        "mapStyle": "Aerial",
+        "opacity": 1.0
+      },
+      "image": "images/basemaps/bing-aerial.png"
+    },
+    {
+      "item": {
+        "id": "basemap-bing-roads",
+        "name": "Bing Maps Roads",
+        "type": "bing-maps",
+        "mapStyle": "RoadOnDemand",
+        "opacity": 1.0
+      },
+      "image": "images/basemaps/bing-maps-roads.png"
+    },
+    // BING MAPS FROM CESIUM ION
     {
       "item": {
         "id": "basemap-bing-aerial-with-labels",
