@@ -154,7 +154,11 @@
                     "thresholdBeforeDisablingItem": 100000
                   },
                   "opacity": 1,
-                  "timeFilterPropertyName": "data_available_for_dates"
+                  "timeFilterPropertyName": "data_available_for_dates",
+                  "id": "Jf2dfn",
+                  "shareKeys": [
+                    "Root Group/Satellite images/Surface reflectance/Annual/Annual GeoMAD (Sentinel-2)"
+                  ]
                 },
                 {
                   "type": "wms",
