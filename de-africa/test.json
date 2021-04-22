@@ -143,6 +143,24 @@
               "name": "Annual",
               "members": [
                 {
+                  "name": "Annual GeoMAD (Sentinel-2)",
+                  "type": "wms",
+                  "layers": "gm_s2_annual",
+                  "url": "https://ows-af.digitalearth.africa/",
+                  "linkedWcsUrl": "https://ows-af.digitalearth.africa/",
+                  "linkedWcsCoverage": "gm_s2_annual",
+                  "tileErrorHandlingOptions": {
+                    "ignoreUnknownTileErrors": true,
+                    "thresholdBeforeDisablingItem": 100000
+                  },
+                  "opacity": 1,
+                  "timeFilterPropertyName": "data_available_for_dates",
+                  "id": "Jf2dfn",
+                  "shareKeys": [
+                    "Root Group/Satellite images/Surface reflectance/Annual/Annual GeoMAD (Sentinel-2)"
+                  ]
+                },
+                {
                   "type": "wms",
                   "name": "Annual geomedian (Landsat 8)",
                   "url": "https://ows.digitalearth.africa/",
