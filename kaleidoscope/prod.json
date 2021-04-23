@@ -6,7 +6,7 @@
           "layers": "Queensland_Marinas_Points_V4",
           "name": "Queensland Marinas (2020)",
           "type": "wms",
-          "url": "http://www.cmar.csiro.au/geoserver/kscope-amrsma/ows",
+          "url": "https://www.cmar.csiro.au/geoserver/kscope-amrsma/ows",
           "metadataUrls": [
             {
               "title": "MARLIN Metadata"
@@ -17,7 +17,7 @@
           "name": "Queensland Marinas (2020) - data",
           "type": "wfs",
           "typeNames": "Queensland_Marinas_Points_V4",
-          "url": "http://www.cmar.csiro.au/geoserver/kscope-amrsma/wfs",
+          "url": "https://www.cmar.csiro.au/geoserver/kscope-amrsma/wfs",
           "metadataUrls": [
             {
               "title": "MARLIN Metadata"
@@ -31,7 +31,7 @@
     {
       "name": "QLD - Fishery Management - Trawl Closures",
       "type": "wms-group",
-      "url": "http://www.cmar.csiro.au/geoserver/kscope-amrsma/ows",
+      "url": "https://www.cmar.csiro.au/geoserver/kscope-amrsma/ows",
       "itemProperties": {
         "metadataUrls": [
           {
@@ -50,7 +50,7 @@
       },
       "name": "CMAR",
       "type": "wms-group",
-      "url": "http://www.cmar.csiro.au/geoserver/cmar/ows"
+      "url": "https://www.cmar.csiro.au/geoserver/cmar/ows"
     },
     {
       "description": "Here is a generic description about NERP",
@@ -63,7 +63,7 @@
       },
       "name": "NERP",
       "type": "wms-group",
-      "url": "http://www.cmar.csiro.au/geoserver/nerp/ows"
+      "url": "https://www.cmar.csiro.au/geoserver/nerp/ows"
     },
     {
       "description": "Sample Data",
@@ -76,7 +76,7 @@
       },
       "name": "Sample",
       "type": "wms-group",
-      "url": "http://www.cmar.csiro.au/geoserver/kscope/ows"
+      "url": "https://www.cmar.csiro.au/geoserver/kscope/ows"
     }
   ],
   "homeCamera": {
