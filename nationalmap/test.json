@@ -18380,7 +18380,7 @@
                           "defaultStyle": {
                             "time": {
                               "idColumns": [
-                                "year"
+                                "energy_asset"
                               ]
                             },
                             "color": {
@@ -18607,7 +18607,7 @@
                           "defaultStyle": {
                             "time": {
                               "idColumns": [
-                                "year"
+                                "energy_asset"
                               ],
                               "timeColumn": "Year",
                               "isSampled": true
