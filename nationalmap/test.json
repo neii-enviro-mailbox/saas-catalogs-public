@@ -39094,6 +39094,23 @@
         "opacity": 1
       },
       "image": "images/basemaps/dark-matter.png"
+    },
+    {
+      "item": {
+        "id": "basemap-voyager",
+        "type": "open-street-map",
+        "name": "Voyager",
+        "url": "https://global.ssl.fastly.net/rastertiles/voyager/",
+        "attribution": "© OpenStreetMap contributors ODbL, © CartoDB CC-BY 3.0",
+        "opacity": 1.0,
+        "subdomains": [
+          "cartodb-basemaps-a",
+          "cartodb-basemaps-b",
+          "cartodb-basemaps-c",
+          "cartodb-basemaps-d"
+        ]
+      },
+      "image": "images/dea-basemaps/voyager.png"
     }
   ]
 }
