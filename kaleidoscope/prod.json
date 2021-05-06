@@ -66,6 +66,19 @@
       "url": "https://www.cmar.csiro.au/geoserver/nerp/ows"
     },
     {
+      "name": "IMOS",
+      "description": "Integrated Marine Observing Data",
+      "type": "wms-group",
+      "url": "https://www.cmar.csiro.au/geoserver/imos/ows",
+      "itemProperties": {
+        "metadataUrls": [
+          {
+            "title": "MARLIN Metadata"
+          }
+        ]
+      }
+    },
+    {
       "description": "Sample Data",
       "itemProperties": {
         "metadataUrls": [
