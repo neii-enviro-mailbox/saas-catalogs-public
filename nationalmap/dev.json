@@ -3210,7 +3210,7 @@
               "type": "wms",
               "name": "Radio Licenses - ACMA",
               "id": "54a553a0",
-              "url": "http://gis.aremi.data61.io/acma/wms",
+              "url": "https://gis.aremi.data61.io/acma/wms",
               "opacity": 1,
               "dataCustodian": "[Australian Communications and Media Authority](http://www.acma.gov.au/)",
               "layers": "acma_licenses,acma_sites",
@@ -3221,11 +3221,6 @@
                 "name": "{{#LICENCE_NO}}Licence: {{{LICENSEE}}}, {{PRETTY_FREQ}}{{/LICENCE_NO}}{{^LICENCE_NO}}Site: {{{SITE_NAME}}}{{/LICENCE_NO}}",
                 "template": "{{#LICENCE_NO}}<strong><a href='http://web.acma.gov.au/pls/radcom/client_search.client_lookup?pCLIENT_NO={{CLIENT_NO}}'>{{LICENSEE}}</a></strong><br/><small><a href='http://web.acma.gov.au/pls/radcom/site_search.site_lookup?pSITE_ID={{SITE_ID}}'>{{LOCATION}}</a></small><br/><table>    <tr><td>Freq.</td>              <td>{{PRETTY_FREQ}} {{#ANT_BAND}}({{ANT_BAND}} Band){{/ANT_BAND}}</td></tr>    {{#PRETTY_CAR}}    <tr><td>FM Carrier Freq.</td>   <td>{{PRETTY_CAR}}</td></tr>    {{/PRETTY_CAR}}    <tr><td>TX Power</td>           <td>{{TX_POWER}}W ({{MODE}}X)</td></tr>    <tr><td>Height</td>             <td>{{ANT_HGT}}</td></tr>    <tr><td>Antenna type</td>       <td>{{ANT_TYPE}}</td></tr>    <tr><td>EIRP</td>               <td>{{EIRP}}</td></tr>    <tr><td>Licence No.</td>        <td><a href='http://web.acma.gov.au/pls/radcom/licence_search.licence_lookup?pSOURCE=RADCOM&pLICENCE_NO={{LICENCE_NO}}'>{{LICENCE_NO}}</a></td></tr></table>{{/LICENCE_NO}}{{^LICENCE_NO}}<strong><a href='http://web.acma.gov.au/pls/radcom/site_search.site_lookup?pSITE_ID={{SITE_ID}}'>{{SITE_NAME}}</a></strong><br/>Licences at site: {{Num_Licenses}}<br/>WGS84 Coords: {{WGS84_LAT}} {{WGS84_LON}}<br/>Precision: {{PRECISION}}{{/LICENCE_NO}}"
               },
-              "legends": [
-                {
-                  "url": "http://geo-prototype1.aremi.d61.io/acma/wms?service=WMS&request=GetLegendGraphic&width=20&height=20&layer=acma_sites&format=image%2Fpng&.png"
-                }
-              ],
               "shareKeys": [
                 "Root Group/National Datasets/Communications/Radio Licenses - ACMA"
               ]
@@ -16058,35 +16053,6 @@
                           "shareKeys": [
                             "Root Group/Renewable Energy/Marine/Australian Marine Energy Atlas/Analysis Study Area"
                           ]
-                        },
-                        {
-                          "type": "wps-getCapabilities",
-                          "name": "Analysis Tools",
-                          "id": "b766d7c6",
-                          "description": "This group contains the analysis tools that operate on marine energy data.",
-                          "url": "http://oa-gis.csiro.au/wps",
-                          "cacheDuration": "0s",
-                          "itemProperties": {
-                            "cacheDuration": "0s"
-                          },
-                          "shareKeys": [
-                            "Root Group/Renewable Energy/Marine/Australian Marine Energy Atlas/Analysis Tools"
-                          ]
-                        },
-                        {
-                          "type": "csw-group",
-                          "name": "Marine Energy Context Layers",
-                          "id": "c2f37440",
-                          "description": "This group contains marine energy layers and other layers that can be used for decisions relating to marine energy devices.",
-                          "url": "http://oa-gis.csiro.au/geonetwork/srv/eng/csw",
-                          "domainSpecification": {
-                            "domainPropertyName": "awavea",
-                            "hierarchySeparator": " | ",
-                            "queryPropertyName": "subject"
-                          },
-                          "shareKeys": [
-                            "Root Group/Renewable Energy/Marine/Australian Marine Energy Atlas/Marine Energy Context Layers"
-                          ]
                         }
                       ],
                       "description": "<h1>Australian Marine Energy Atlas</h1><p>The Australian Marine Energy Atlas has been compiled by CSIRO Oceans and Atmosphere. The Atlas provides interactive maps of wave and tidal energy resources for Australia’s marine estate, with further available information on supporting infrastructure and spatial constraints in the marine domain. The Atlas compiles output from several projects. Notably the CSIRO led Australian Wave Energy Atlas Project, and the University of Tasmania led Australian Tidal Energy (AUSTEn) project, both supported by the Australian Renewable Energy Agency (ARENA), building on prior CSIRO assessments of Australia's marine energy resources. The Atlas makes it easier to assess the feasibility of potential marine energy projects. The online Atlas has used data from weather mapping, satellites, in-situ measuring stations and a variety of other sources, which have supported development of marine and hydrodynamic modelling applications.</p><p>The online Atlas has 3 main components:<ol><li>Multiple use layers - which contains geographic information on other uses of the marine domain, including supporting, complementary and potentially competing requirements (e.g., Ports, Shipping and Fishing information);</li><li>Wave Energy Resource - includes geographic layers reflecting characteristics of Australia’s wave energy resource, and analysis tools for further data interrogation;</li><li>Tidal Energy Resource - includes geographic layers reflecting characteristics of Australia’s tidal energy resource, and analysis tools for further data interrogation.</li></ol></p><p>The analysis tools of the Australian Marine Energy Atlas provides unique functionality in AREMI. Below are the steps to access and query the Atlas information:<ul><li>Click on 'Analysis Tools' and then scroll down to select a type of analysis;</li><li>Once the type of analysis has been selected, to enable a query, a location needs to be selected; either by clicking on point within the 'Analysis Study Area' highlighted in grey or by typing the exact lat/long;</li><li>Once the location point has been selected, click on 'Run Analysis'; an image with the analysis results will appear in the workbench.</li></ul></p>",
@@ -21019,17 +20985,17 @@
                     {
                       "type": "ckan-item",
                       "name": "WAT4b Australian rainfall deciles, 2013",
-                      "id": "7babb413-c021-441b-8116-46330960297a",
+                      "id": "aa7c374c-d440-4086-911f-66bd451bee5a",
                       "url": "proxy/_60s/https://data.gov.au",
                       "cacheDuration": "1h",
-                      "datasetId": "2016-soe-inw-rainfall-deciles-2014",
-                      "resourceId": "7babb413-c021-441b-8116-46330960297a",
+                      "datasetId": "2016-soe-inw-rainfall-deciles-2013",
+                      "resourceId": "aa7c374c-d440-4086-911f-66bd451bee5a",
                       "itemProperties": {
                         "hideSource": true,
                         "info": [
                           {
                             "name": "Metadata and Data Source",
-                            "content": "https://data.gov.au/dataset/2016-soe-inw-rainfall-deciles-2014"
+                            "content": "https://data.gov.au/dataset/2016-soe-inw-rainfall-deciles-2013"
                           }
                         ],
                         "cacheDuration": "1h"
@@ -21042,17 +21008,17 @@
                     {
                       "type": "ckan-item",
                       "name": "WAT4b Australian rainfall deciles, 2013",
-                      "id": "aa7c374c-d440-4086-911f-66bd451bee5a",
+                      "id": "7babb413-c021-441b-8116-46330960297a",
                       "url": "proxy/_60s/https://data.gov.au",
                       "cacheDuration": "1h",
-                      "datasetId": "2016-soe-inw-rainfall-deciles-2013",
-                      "resourceId": "aa7c374c-d440-4086-911f-66bd451bee5a",
+                      "datasetId": "2016-soe-inw-rainfall-deciles-2014",
+                      "resourceId": "7babb413-c021-441b-8116-46330960297a",
                       "itemProperties": {
                         "hideSource": true,
                         "info": [
                           {
                             "name": "Metadata and Data Source",
-                            "content": "https://data.gov.au/dataset/2016-soe-inw-rainfall-deciles-2013"
+                            "content": "https://data.gov.au/dataset/2016-soe-inw-rainfall-deciles-2014"
                           }
                         ],
                         "cacheDuration": "1h"
@@ -23071,7 +23037,7 @@
             {
               "type": "csv",
               "name": "Australia Post Locations",
-              "url": "data/auspost-locations.csv",
+              "url": "https://tiles.terria.io/static/auspost-locations.csv",
               "activeStyle": "State",
               "id": "YUeesYKH",
               "shareKeys": [
@@ -39060,6 +39026,38 @@
     },
     {
       "item": {
+        "id": "basemap-bing-roads",
+        "name": "Bing Maps Roads",
+        "type": "bing-maps",
+        "mapStyle": "RoadOnDemand",
+        "opacity": 1
+      },
+      "image": "images/basemaps/bing-maps-roads.png"
+    },
+    {
+      "item": {
+        "id": "basemap-natural-earth-II",
+        "name": "Natural Earth II",
+        "type": "wms",
+        "url": "http://geoserver.nationalmap.nicta.com.au/imagery/natural-earth-ii/wms",
+        "layers": "NE2_HR_LC_SR_W_DR",
+        "opacity": 1
+      },
+      "image": "images/basemaps/natural-earth.png"
+    },
+    {
+      "item": {
+        "id": "basemap-black-marble",
+        "name": "NASA Black Marble",
+        "type": "wms",
+        "url": "http://geoserver.nationalmap.nicta.com.au/imagery/nasa-black-marble/wms",
+        "layers": "nasa-black-marble:dnb_land_ocean_ice.2012.54000x27000_geo",
+        "opacity": 1
+      },
+      "image": "images/basemaps/black-marble.png"
+    },
+    {
+      "item": {
         "id": "basemap-positron",
         "name": "Positron (Light)",
         "type": "open-street-map",
@@ -39091,23 +39089,6 @@
         "opacity": 1
       },
       "image": "images/basemaps/dark-matter.png"
-    },
-    {
-      "item": {
-        "id": "basemap-voyager",
-        "type": "open-street-map",
-        "name": "Voyager",
-        "url": "https://global.ssl.fastly.net/rastertiles/voyager/",
-        "attribution": "© OpenStreetMap contributors ODbL, © CartoDB CC-BY 3.0",
-        "opacity": 1,
-        "subdomains": [
-          "cartodb-basemaps-a",
-          "cartodb-basemaps-b",
-          "cartodb-basemaps-c",
-          "cartodb-basemaps-d"
-        ]
-      },
-      "image": "https://raw.githubusercontent.com/TerriaJS/saas-catalogs-public/main/misc/basemaps/icons/voyager-aus.png"
     }
   ]
 }
