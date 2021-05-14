@@ -235,6 +235,15 @@
             "title": "Share & Story migration"
           }
         ],
+        "languageConfiguration": {
+          "enabled": true,
+          "debug": false,
+          "languages": {
+            "en": "English",
+            "fr": "French"
+          },
+          "fallbackLanguage": "en"
+        },
         "mobileDefaultViewerMode": "2d",
         "showWelcomeMessage": true,
         "supportEmail": "info@terria.io",
