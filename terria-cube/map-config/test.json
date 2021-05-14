@@ -1,17 +1,6 @@
 {
   "aspects": {
-    "terria-init": {
-      "homeCamera": {
-        "east": 158,
-        "north": -8,
-        "south": -45,
-        "west": 109
-      }
-    },
     "terria-config": {
-      "v7initializationUrls": [
-        "https://raw.githubusercontent.com/GeoscienceAustralia/dea-config/master/dev/terria/dea.json"
-      ],
       "initializationUrls": [
         "https://raw.githubusercontent.com/TerriaJS/saas-catalogs-public/main/de-australia/terria-cube/test.json"
       ],
@@ -19,7 +8,7 @@
         "appName": "Terria Cube",
         "bingMapsKey": "AkaOmRFtjAb71cXgLwAGtLbj2RpkPKtVqAIroFQsocfurCBILxIeAWPkil7hhRy_",
         "brandBarElements": [
-          "<a target=\"_blank\" href=\"http://terria.io\" style=\"text-decoration: none;\"><span style=\"color: white;font-weight: bolder;font-size: 34px;text-transform: uppercase;text-shadow: rgb(126 135 146) 0.5px 0.5px, rgb(126 135 146) 1px 1px, rgb(126 135 146) 1.5px 1.5px, rgb(126 135 146) 2px 2px, rgb(126 135 146) 2.5px 2.5px, rgb(126 135 146) 3px 3px;\">Terria-Cube</span></a>",
+          "<a target=\"_blank\" href=\"http://terria.io\" style=\"text-decoration: none;\"><span style=\"color: white;font-size: 52px;text-transform: uppercase;text-shadow: rgb(126 135 146) 0.5px 0.5px, rgb(126 135 146) 1px 1px, rgb(126 135 146) 1.5px 1.5px, rgb(126 135 146) 2px 2px, rgb(126 135 146) 2.5px 2.5px, rgb(126 135 146) 3px 3px, rgb(126 135 146) 3.5px 3.5px, rgb(126 135 146) 4px 4px;font-family: VT323, monospace;\">Terria-Cube</span></a>",
           "<a id='secondary-logo' href='https://data61.csiro.au/' target='_blank'><img class='right' style=\"width:65px;\" src='https://saas.terria.io/api/v0/storage/terria/de-australia/data61-csiro.svg' alt='Data61 logo' title='Data61 logo'/></a>",
           ""
         ],
@@ -52,6 +41,7 @@
           "colorSplitter": "#ff6f00",
           "compassWidth": "56",
           "dark": "#3f4854",
+          "fontImports": "/* vietnamese */@font-face {  font-family: 'VT323';  font-style: normal;  font-weight: 400;  font-display: swap;  src: url(https://fonts.gstatic.com/s/vt323/v12/pxiKyp0ihIEF2isQFJXGdg.woff2) format('woff2');  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;}/* latin-ext */@font-face {  font-family: 'VT323';  font-style: normal;  font-weight: 400;  font-display: swap;  src: url(https://fonts.gstatic.com/s/vt323/v12/pxiKyp0ihIEF2isRFJXGdg.woff2) format('woff2');  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;}/* latin */@font-face {  font-family: 'VT323';  font-style: normal;  font-weight: 400;  font-display: swap;  src: url(https://fonts.gstatic.com/s/vt323/v12/pxiKyp0ihIEF2isfFJU.woff2) format('woff2');  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}",
           "frontComponentZIndex": "99",
           "grey": "#888888",
           "greyLighter": "#ddd",
@@ -80,6 +70,17 @@
           "textLightDimmed": "#bbbbbb",
           "workbenchWidth": "350"
         }
+      },
+      "v7initializationUrls": [
+        "https://raw.githubusercontent.com/GeoscienceAustralia/dea-config/master/dev/terria/dea.json"
+      ]
+    },
+    "terria-init": {
+      "homeCamera": {
+        "east": 158,
+        "north": -8,
+        "south": -45,
+        "west": 109
       }
     }
   },
