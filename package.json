@@ -1,0 +1,11 @@
+{
+  "name": "saas-catalogs",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Nick Forbes-Smith <nick.forbes-smith@data61.csiro.au>",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "@actions/core": "^1.3.0",
+    "@actions/github": "^5.0.0"
+  }
+}
