@@ -2,13 +2,15 @@ const core = require("@actions/core");
 const github = require("@actions/github");
 
 try {
-  const changedFiles = core.getInput("changed-files");
+  const addedFiles = (process.env.ADDED_FILES ?? "").split(",") ?? [];
+  const changedFiles = (process.env.CHANGED_FILES ?? "").split(",") ?? [];
+
+  console.log(addedFiles);
   console.log(changedFiles);
 
-  core.setOutput("test", changedFiles);
-  // Get the JSON webhook payload for the event that triggered the workflow
-  const payload = JSON.stringify(github.context.payload, undefined, 2);
-  console.log(`The event payload: ${payload}`);
+  // X-Magda-API-Key-Id & X-Magda-API-Key headers
+
+  // core.setOutput("test", JSON.stringify(changedFiles));
 } catch (error) {
   core.setFailed(error.message);
 }
