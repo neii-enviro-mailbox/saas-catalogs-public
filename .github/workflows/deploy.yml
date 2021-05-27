@@ -9,9 +9,6 @@ on:
 jobs:
   publish-map-config:
     runs-on: ubuntu-latest
-    # env:
-    #   MAGDA_FQDN: prod-stable
-    #   CLUSTER_ZONE: australia-southeast1
 
     name: Publish map-config
     steps:
@@ -27,11 +24,13 @@ jobs:
         id: runJs
         run: node index.js
         env:
+          # This is used to find map-config files from `map-configs.json`
           ENVIRONMENT_TAG: "dev"
           MAGDA_FQDN: ${{ secrets.DEV_MAGDA_FQDN }}
           MAGDA_API_ID: ${{ secrets.DEV_MAGDA_API_ID }}
           MAGDA_API_KEY: ${{ secrets.DEV_MAGDA_API_KEY }}
           ADDED_FILES: "${{ steps.files.outputs.added }}"
           MODIFIED_FILES: "${{ steps.files.outputs.modified }}"
+          # These are not used at the moment
           # REMOVED_FILES: "${{ steps.files.outputs.removed }}"
           # RENAMED_FILES: "${{ steps.files.outputs.renamed }}"
