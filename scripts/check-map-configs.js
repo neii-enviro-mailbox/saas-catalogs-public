@@ -1,6 +1,14 @@
-import core from "@actions/core";
-import mapConfigs from "../map-configs.json";
-import { readFile } from "./util";
+const core = require("@actions/core");
+const mapConfigs = require("../map-configs.json");
+
+async function readFile(path) {
+  try {
+    const file = await fsPromises.readFile(path, "utf8");
+    return file;
+  } catch (error) {
+    throw `ERROR reading file ${path} with encoding utf8: ${error}`;
+  }
+}
 
 (async () => {
   // We will aprove the PR if it only makes changes to dev map-configs
