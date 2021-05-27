@@ -6,7 +6,7 @@ const mapConfigs = [
   { id: "map-config-de-australia", file: "de-australia/map-config/dev.json" },
 ];
 
-export async function readFile(path) {
+async function readFile(path) {
   if (!(await fileExists(path))) {
     throw `ERROR JSON file does not exist at ${path}`;
   }
