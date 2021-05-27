@@ -6,7 +6,7 @@ There are three pieces:
 
 - The `map-configs.json` file [./map-configs.json](https://github.com/TerriaJS/saas-catalogs-public/blob/main/map-configs.json)
 - The workflow: [.github/workflows/publish-dev.yml](https://github.com/TerriaJS/saas-catalogs-public/blob/main/.github/workflows/publish-dev.yml)
-- The JavaScript file: [./index.js](https://github.com/TerriaJS/saas-catalogs-public/blob/main/index.js)
+- The TypeScript file: [./publish-map-configs.ts](https://github.com/TerriaJS/saas-catalogs-public/blob/main/publish-map-configs.ts)
 
 ### The `map-configs.json` file
 
@@ -30,7 +30,7 @@ In `dev` will publish `de-australia/map-config/dev.json` to record ID `map-confi
 1. Uses `jitterbit/get-changed-files@v1` action to create a list of files which have changed in the current commit
 2. Checks out this repo
 3. `yarn install` for JS script
-4. Runs JS script - `node index.js` + and adds env vars from secrets
+4. Runs JS script - `node publish-map-configs.js` + and adds env vars from secrets
 
 #### Workflow env vars
 
@@ -48,3 +48,7 @@ Different values for dev, test or prod environments
 1. Looks at which files have changed in a commit to `main` branch
 2. Matches them with map-config from `map-configs.json`
 3. Publish records to Magda
+
+## `pr-check-map-configs`
+
+This workflow will check map-config files in a similar way to `publish-(dev | test | prod)` - but it will automatically approve a PR if it **only** touches dev map-config files (i.e. it **doesn't** touch test of prod).

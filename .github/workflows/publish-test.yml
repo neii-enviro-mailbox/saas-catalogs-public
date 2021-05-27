@@ -1,4 +1,4 @@
-name: dev-publish-map-config
+name: test-publish-map-config
 
 on:
   push:
@@ -6,10 +6,10 @@ on:
       - main
 
 jobs:
-  dev-publish-map-config:
+  test-publish-map-config:
     runs-on: ubuntu-latest
 
-    name: DEV publish map-config
+    name: TEST publish map-config
     steps:
       - id: files
         uses: jitterbit/get-changed-files@v1
@@ -24,10 +24,10 @@ jobs:
         run: node publish-map-configs.js
         env:
           # This is used to find map-config files from `map-configs.json`
-          ENVIRONMENT_TAG: "dev"
-          MAGDA_FQDN: ${{ secrets.DEV_MAGDA_FQDN }}
-          MAGDA_API_ID: ${{ secrets.DEV_MAGDA_API_ID }}
-          MAGDA_API_KEY: ${{ secrets.DEV_MAGDA_API_KEY }}
+          ENVIRONMENT_TAG: "test"
+          MAGDA_FQDN: ${{ secrets.TEST_MAGDA_FQDN }}
+          MAGDA_API_ID: ${{ secrets.TEST_MAGDA_API_ID }}
+          MAGDA_API_KEY: ${{ secrets.TEST_MAGDA_API_KEY }}
           ADDED_FILES: "${{ steps.files.outputs.added }}"
           MODIFIED_FILES: "${{ steps.files.outputs.modified }}"
           # These are not used at the moment
