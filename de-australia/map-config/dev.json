@@ -185,7 +185,7 @@
         "supportEmail": "info@terria.io",
         "theme": {
           "charcoalGrey": "#3f4854",
-          "colorPrimary": "#00a1de",
+          "colorPrimary": "#00ff00",
           "colorSplitter": "#ff6f00",
           "compassWidth": "56",
           "dark": "#3f4854",
@@ -201,7 +201,7 @@
           "modalHighlight": "#00a1de",
           "overlay": "rgba(255, 255, 255, 0.15)",
           "overlayInvert": "rgba(255, 255, 255, 0.85)",
-          "primary": "#00a1de",
+          "primary": "#00ff00",
           "radius40Button": "20",
           "radiusLarge": "4px",
           "radiusSmall": "2px",
