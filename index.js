@@ -16,7 +16,7 @@ try {
 
   // mapConfigs.forEach((map) => {});
 
-  console.log("new test");
+  console.log("new test 3");
 
   // X-Magda-API-Key-Id & X-Magda-API-Key headers
 
