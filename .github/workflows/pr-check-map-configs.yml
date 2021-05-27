@@ -1,4 +1,4 @@
-name: changed-files
+name: pr-check-map-configs
 
 on:
   pull_request:
@@ -6,10 +6,10 @@ on:
       - main
 
 jobs:
-  changed-files:
+  pr-check-map-configs:
     runs-on: ubuntu-latest
 
-    name: DEV dif map-config
+    name: pr-check-map-configs
     steps:
       - id: files
         uses: jitterbit/get-changed-files@v1

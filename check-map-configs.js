@@ -1,5 +1,6 @@
 const core = require("@actions/core");
 const mapConfigs = require("./map-configs.json");
+const fsPromises = require("fs/promises");
 
 async function readFile(path) {
   try {
@@ -39,6 +40,7 @@ async function readFile(path) {
           try {
             (await readFile(mapConfigFile)).toString();
           } catch (error) {
+            approvePr = false;
             console.log(error);
             core.setFailed(error.message);
             return;

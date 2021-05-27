@@ -1,6 +1,7 @@
 const core = require("@actions/core");
 const fetch = require("node-fetch");
 const mapConfigs = require("./map-configs.json");
+const fsPromises = require("fs/promises");
 
 async function readFile(path) {
   try {
