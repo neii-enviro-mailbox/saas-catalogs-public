@@ -7,9 +7,6 @@ const mapConfigs = [
 ];
 
 async function readFile(path) {
-  if (!(await fileExists(path))) {
-    throw `ERROR JSON file does not exist at ${path}`;
-  }
   try {
     const file = await fsPromises.readFile(path, "utf8");
     return file;
