@@ -21,7 +21,7 @@ jobs:
         run: yarn install --frozen-lockfile
       - name: Show changed files
         id: runJs
-        run: node-ts check-map-configs.ts
+        run: node check-map-configs.js
         env:
           ADDED_FILES: "${{ steps.files.outputs.added }}"
           MODIFIED_FILES: "${{ steps.files.outputs.modified }}"

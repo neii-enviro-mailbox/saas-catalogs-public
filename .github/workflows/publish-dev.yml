@@ -22,7 +22,7 @@ jobs:
         run: yarn install --frozen-lockfile
       - name: Publish changed files
         id: runJs
-        run: node-ts publish-map-configs.ts
+        run: node publish-map-configs.js
         env:
           # This is used to find map-config files from `map-configs.json`
           ENVIRONMENT_TAG: "dev"

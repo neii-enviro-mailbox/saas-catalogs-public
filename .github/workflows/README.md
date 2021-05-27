@@ -30,7 +30,7 @@ In `dev` will publish `de-australia/map-config/dev.json` to record ID `map-confi
 1. Uses `jitterbit/get-changed-files@v1` action to create a list of files which have changed in the current commit
 2. Checks out this repo
 3. `yarn install` for JS script
-4. Runs JS script - `node-ts publish-map-configs.ts` + and adds env vars from secrets
+4. Runs JS script - `node publish-map-configs.js` + and adds env vars from secrets
 
 #### Workflow env vars
 
