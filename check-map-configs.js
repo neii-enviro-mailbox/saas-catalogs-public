@@ -1,5 +1,5 @@
 const core = require("@actions/core");
-const mapConfigs = require("../map-configs.json");
+const mapConfigs = require("./map-configs.json");
 
 async function readFile(path) {
   try {
