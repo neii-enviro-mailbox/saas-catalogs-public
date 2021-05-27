@@ -1,22 +1,19 @@
-name: test
+name: publish-map-config
 
 on:
   push:
     branches:
       - main
-  #   paths:
-  #   - 'environments/prod/values.prod.yaml'
-  #   - 'environments/prod/saas-app-prod/**'
   workflow_dispatch:
 
 jobs:
-  test:
+  publish-map-config:
     runs-on: ubuntu-latest
     # env:
     #   MAGDA_FQDN: prod-stable
     #   CLUSTER_ZONE: australia-southeast1
 
-    name: Test job
+    name: Publish map-config
     steps:
       - id: files
         uses: jitterbit/get-changed-files@v1
@@ -30,7 +27,9 @@ jobs:
         id: runJs
         run: node index.js
         env:
+          DEV_MAGDA_FQDN: ${{ secrets.DEV_MAGDA_FQDN }}
           DEV_MAGDA_API_ID: ${{ secrets.DEV_MAGDA_API_ID }}
+          DEV_MAGDA_API_KEY: ${{ secrets.DEV_MAGDA_API_KEY }}
           ADDED_FILES: "${{ steps.files.outputs.added }}"
           MODIFIED_FILES: "${{ steps.files.outputs.modified }}"
           # REMOVED_FILES: "${{ steps.files.outputs.removed }}"
