@@ -1,6 +1,7 @@
 const core = require("@actions/core");
 const github = require("@actions/github");
 const fsPromises = require("fs/promises");
+const fetch = require("node-fetch");
 
 const mapConfigs = [
   { id: "map-config-de-australia", file: "de-australia/map-config/dev.json" },
