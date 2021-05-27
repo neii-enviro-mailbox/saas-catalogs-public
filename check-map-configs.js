@@ -11,21 +11,35 @@ async function readFile(path) {
   }
 }
 
+const core = require("@actions/core");
+const { GitHub, context } = require("@actions/github");
+
+// The follow function is adapted from https://github.com/juliangruber/approve-pull-request-action/blob/master/index.js (MIT License - Copyright Julian Gruber - https://github.com/juliangruber 2021)
+async function createPrApprovalReview() {
+  const token = core.getInput("github-token");
+  const octokit = new GitHub(token);
+
+  await octokit.pulls.createReview({
+    ...context.repo,
+    pull_number: context.payload.pull_request.number,
+    event: "APPROVE",
+  });
+}
+
 (async () => {
   // We will aprove the PR if it only makes changes to dev map-configs
   let approvePr = true;
 
+  const addedFiles = (process.env.ADDED_FILES ?? "").split(",") ?? [];
+  const modifiedFiles = (process.env.MODIFIED_FILES ?? "").split(",") ?? [];
+
+  const changedFiles = [...addedFiles, ...modifiedFiles];
+
+  console.log("Files changed:");
+  console.log(changedFiles);
+
   await Promise.all(
     ["dev", "test", "prod"].map(async (envTag) => {
-      // Get changed files from env variables - these are used to push to magda (if they match with a map-config in `./map-configs.json`)
-      const addedFiles = (process.env.ADDED_FILES ?? "").split(",") ?? [];
-      const modifiedFiles = (process.env.MODIFIED_FILES ?? "").split(",") ?? [];
-
-      const changedFiles = [...addedFiles, ...modifiedFiles];
-
-      console.log("Files changed:");
-      console.log(changedFiles);
-
       for (let i = 0; i < mapConfigs.length; i++) {
         const mapConfig = mapConfigs[i];
 
@@ -54,5 +68,8 @@ async function readFile(path) {
     })
   );
 
-  console.log(approvePr ? "APPROVE" : "DENIED");
+  if (approvePr) {
+    await createPrApprovalReview();
+    console.log("Approved PR");
+  }
 })();

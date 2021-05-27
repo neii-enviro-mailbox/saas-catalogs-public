@@ -23,6 +23,7 @@ jobs:
         id: runJs
         run: node check-map-configs.js
         env:
+          GITHUB_TOKEN: "${{ secrets.GITHUB_TOKEN }}"
           ADDED_FILES: "${{ steps.files.outputs.added }}"
           MODIFIED_FILES: "${{ steps.files.outputs.modified }}"
           # These are not used at the moment
