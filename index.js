@@ -16,6 +16,8 @@ try {
 
   // mapConfigs.forEach((map) => {});
 
+  console.log("new test");
+
   // X-Magda-API-Key-Id & X-Magda-API-Key headers
 
   // core.setOutput("test", JSON.stringify(changedFiles));
