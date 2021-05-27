@@ -69,5 +69,7 @@ async function createPrApprovalReview() {
   if (approvePr) {
     await createPrApprovalReview();
     console.log("Approved PR");
+  } else {
+    console.log("Did not approve PR");
   }
 })();
