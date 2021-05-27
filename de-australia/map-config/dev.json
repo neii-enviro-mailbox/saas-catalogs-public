@@ -201,7 +201,7 @@
           "modalHighlight": "#00a1de",
           "overlay": "rgba(255, 255, 255, 0.15)",
           "overlayInvert": "rgba(255, 255, 255, 0.85)",
-          "primary": "#ff00ff",
+          "primary": "#ff00fa",
           "radius40Button": "20",
           "radiusLarge": "4px",
           "radiusSmall": "2px",
