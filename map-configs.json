@@ -1,8 +1,56 @@
 [
   {
+    "id": "map-config-de-africa",
+    "dev": "de-africa/map-config/dev.json",
+    "test": "de-africa/map-config/test.json",
+    "prod": "de-africa/map-config/prod.json"
+  },
+  {
     "id": "map-config-de-australia",
     "dev": "de-australia/map-config/dev.json",
     "test": "de-australia/map-config/test.json",
     "prod": "de-australia/map-config/prod.json"
+  },
+  {
+    "id": "map-config-geo-rapp",
+    "dev": "geo-rapp/map-config/dev.json",
+    "test": "geo-rapp/map-config/test.json",
+    "prod": "geo-rapp/map-config/prod.json"
+  },
+  {
+    "id": "map-config-kaleidoscope",
+    "dev": "kaleidoscope/map-config/dev.json",
+    "test": "kaleidoscope/map-config/test.json",
+    "prod": "kaleidoscope/map-config/prod.json"
+  },
+  {
+    "id": "map-config-nationalmap",
+    "dev": "nationalmap/map-config/dev.json",
+    "test": "nationalmap/map-config/test.json",
+    "prod": "nationalmap/map-config/prod.json"
+  },
+  {
+    "id": "map-config-neii",
+    "dev": "neii/map-config/dev.json",
+    "test": "neii/map-config/test.json",
+    "prod": "neii/map-config/prod.json"
+  },
+  {
+    "id": "map-config-pacificmap",
+    "dev": "pacificmap/map-config/dev.json",
+    "test": "pacificmap/map-config/test.json",
+    "prod": "pacificmap/map-config/prod.json"
+  },
+  {
+    "id": "map-config-terria-cube",
+    "dev": "terria-cube/map-config/dev.json",
+    "test": "terria-cube/map-config/test.json",
+    "prod": "terria-cube/map-config/prod.json"
+  },
+  {
+    "id": "map-config-terria-io",
+    "dev": "terria-io/map-config/dev.json",
+    "test": "terria-io/map-config/test.json",
+    "prod": "terria-io/map-config/prod.json"
   }
 ]
