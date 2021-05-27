@@ -48,3 +48,7 @@ Different values for dev, test or prod environments
 1. Looks at which files have changed in a commit to `main` branch
 2. Matches them with map-config from `map-configs.json`
 3. Publish records to Magda
+
+## `pr-check-map-configs`
+
+This workflow will check map-config files in a similar way to `publish-(dev | test | prod)` - but it will automatically approve a PR if it **only** touches dev map-config files (i.e. it **doesn't** touch test of prod).
