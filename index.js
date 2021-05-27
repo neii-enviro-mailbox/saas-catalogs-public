@@ -37,7 +37,7 @@ async function readFile(path) {
       if (changedFiles.includes(mapConfigFile)) {
         const devJson = (await readFile(mapConfigFile)).toString();
         console.log(
-          `Updating \`${mapConfigId}\` from path \`${mapConfigFile}\` (in ${process.env.MAGDA_FQDN})`
+          `Updating \`${mapConfigId}\` from path \`${mapConfigFile}\` (**${envTag}** environment)`
         );
         await fetch(
           `https://${process.env.MAGDA_FQDN}/api/v0/registry-auth/records/${mapConfigId}`,
