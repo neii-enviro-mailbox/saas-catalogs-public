@@ -37,29 +37,23 @@ async function readFile(path) {
       if (changedFiles.includes(mapConfigFile)) {
         const mapConfigJson = (await readFile(mapConfigFile)).toString();
 
-        if (process.env.SKIP_PUSH) {
-          console.log(
-            `Will update \`${mapConfigId}\` from path \`${mapConfigFile}\` (**${envTag}** environment)`
-          );
-        } else {
-          console.log(
-            `Updating \`${mapConfigId}\` from path \`${mapConfigFile}\` (**${envTag}** environment)`
-          );
-          await fetch(
-            `https://${process.env.MAGDA_FQDN}/api/v0/registry-auth/records/${mapConfigId}`,
-            {
-              headers: {
-                "X-Magda-API-Key-Id": process.env.MAGDA_API_ID,
-                "X-Magda-API-Key": process.env.MAGDA_API_KEY,
-                "Content-Type": "application/json",
-              },
-              body: mapConfigJson,
-              method: "PUT",
-            }
-          );
+        console.log(
+          `Updating \`${mapConfigId}\` from path \`${mapConfigFile}\` (**${envTag}** environment)`
+        );
+        await fetch(
+          `https://${process.env.MAGDA_FQDN}/api/v0/registry-auth/records/${mapConfigId}`,
+          {
+            headers: {
+              "X-Magda-API-Key-Id": process.env.MAGDA_API_ID,
+              "X-Magda-API-Key": process.env.MAGDA_API_KEY,
+              "Content-Type": "application/json",
+            },
+            body: mapConfigJson,
+            method: "PUT",
+          }
+        );
 
-          console.log(`SUCCESSFULLY updated \`${mapConfigId}\``);
-        }
+        console.log(`SUCCESSFULLY updated \`${mapConfigId}\``);
       }
     }
   } catch (error) {

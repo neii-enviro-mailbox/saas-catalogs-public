@@ -1,0 +1,36 @@
+name: prod-publish-map-config
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  prod-publish-map-config:
+    runs-on: ubuntu-latest
+
+    name: PROD publish map-config
+    steps:
+      - id: files
+        uses: jitterbit/get-changed-files@v1
+        with:
+          format: "csv"
+      - name: Checkout repo
+        uses: actions/checkout@v2
+      - name: yarn install
+        run: yarn install --frozen-lockfile
+      - name: Publish changed files
+        id: runJs
+        run: node publish-map-configs.js
+        env:
+          # This is used to find map-config files from `map-configs.json`
+          ENVIRONMENT_TAG: "prod"
+          MAGDA_FQDN: ${{ secrets.PROD_MAGDA_FQDN }}
+          MAGDA_API_ID: ${{ secrets.PROD_MAGDA_API_ID }}
+          MAGDA_API_KEY: ${{ secrets.PROD_MAGDA_API_KEY }}
+          ADDED_FILES: "${{ steps.files.outputs.added }}"
+          MODIFIED_FILES: "${{ steps.files.outputs.modified }}"
+          # These are not used at the moment
+          # REMOVED_FILES: "${{ steps.files.outputs.removed }}"
+          # RENAMED_FILES: "${{ steps.files.outputs.renamed }}"
