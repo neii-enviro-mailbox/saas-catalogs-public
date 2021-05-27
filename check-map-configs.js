@@ -1,4 +1,5 @@
 const core = require("@actions/core");
+const { GitHub, context } = require("@actions/github");
 const mapConfigs = require("./map-configs.json");
 const fsPromises = require("fs/promises");
 
@@ -10,9 +11,6 @@ async function readFile(path) {
     throw `ERROR reading file ${path} with encoding utf8: ${error}`;
   }
 }
-
-const core = require("@actions/core");
-const { GitHub, context } = require("@actions/github");
 
 // The follow function is adapted from https://github.com/juliangruber/approve-pull-request-action/blob/master/index.js (MIT License - Copyright Julian Gruber - https://github.com/juliangruber 2021)
 async function createPrApprovalReview() {
