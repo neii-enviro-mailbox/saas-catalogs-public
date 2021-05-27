@@ -14,8 +14,7 @@ async function readFile(path) {
 
 // The follow function is adapted from https://github.com/juliangruber/approve-pull-request-action/blob/master/index.js (MIT License - Copyright Julian Gruber - https://github.com/juliangruber 2021)
 async function createPrApprovalReview() {
-  const token = core.getInput("github-token");
-  const octokit = getOctokit(token);
+  const octokit = getOctokit(process.env.GITHUB_TOKEN);
 
   await octokit.pulls.createReview({
     ...context.repo,
