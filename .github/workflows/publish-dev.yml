@@ -1,4 +1,4 @@
-name: publish-map-config
+name: dev-publish-map-config
 
 on:
   push:
@@ -7,10 +7,10 @@ on:
   workflow_dispatch:
 
 jobs:
-  publish-map-config:
+  dev-publish-map-config:
     runs-on: ubuntu-latest
 
-    name: Publish map-config
+    name: DEV publish map-config
     steps:
       - id: files
         uses: jitterbit/get-changed-files@v1
