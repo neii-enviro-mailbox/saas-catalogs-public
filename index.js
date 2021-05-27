@@ -34,7 +34,7 @@ async function readFile(path) {
           `Updating \`${mapConfig.id}\` from path \`${mapConfig.file}\` (in ${process.env.DEV_MAGDA_FQDN})`
         );
         const response = await fetch(
-          `https://${process.env.DEV_MAGDA_FQDN}/api/v0/registry-auth/records/${mapConfig.file}`,
+          `https://${process.env.DEV_MAGDA_FQDN}/api/v0/registry-auth/records/${mapConfig.id}`,
           {
             headers: {
               "X-Magda-API-Key-Id": process.env.DEV_MAGDA_API_ID,
@@ -46,7 +46,6 @@ async function readFile(path) {
           }
         );
         console.log(`SUCCESSFULLY updated \`${mapConfig.id}\``);
-        console.log(response);
       }
     }
   } catch (error) {
