@@ -1,17 +1,7 @@
-const core = require("@actions/core");
-const github = require("@actions/github");
-const fsPromises = require("fs/promises");
-const fetch = require("node-fetch");
-const mapConfigs = require("./map-configs.json");
-
-async function readFile(path) {
-  try {
-    const file = await fsPromises.readFile(path, "utf8");
-    return file;
-  } catch (error) {
-    throw `ERROR reading file ${path} with encoding utf8: ${error}`;
-  }
-}
+import core from "@actions/core";
+import fetch from "node-fetch";
+import mapConfigs from "../map-configs.json";
+import { readFile } from "./util";
 
 (async () => {
   try {

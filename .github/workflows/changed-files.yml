@@ -1,4 +1,4 @@
-name: dev-dif-map-config
+name: changed-files
 
 on:
   pull_request:
@@ -6,7 +6,7 @@ on:
       - main
 
 jobs:
-  dev-dif-map-config:
+  changed-files:
     runs-on: ubuntu-latest
 
     name: DEV dif map-config
@@ -21,11 +21,8 @@ jobs:
         run: yarn install --frozen-lockfile
       - name: Show changed files
         id: runJs
-        run: node index.js
+        run: node-ts check-map-configs.ts
         env:
-          # This is used to find map-config files from `map-configs.json`
-          ENVIRONMENT_TAG: "dev"
-          SKIP_PUSH: true
           ADDED_FILES: "${{ steps.files.outputs.added }}"
           MODIFIED_FILES: "${{ steps.files.outputs.modified }}"
           # These are not used at the moment
