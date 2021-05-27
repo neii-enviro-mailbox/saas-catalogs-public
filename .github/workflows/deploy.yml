@@ -27,9 +27,10 @@ jobs:
         id: runJs
         run: node index.js
         env:
-          DEV_MAGDA_FQDN: ${{ secrets.DEV_MAGDA_FQDN }}
-          DEV_MAGDA_API_ID: ${{ secrets.DEV_MAGDA_API_ID }}
-          DEV_MAGDA_API_KEY: ${{ secrets.DEV_MAGDA_API_KEY }}
+          ENVIRONMENT_TAG: "dev"
+          MAGDA_FQDN: ${{ secrets.DEV_MAGDA_FQDN }}
+          MAGDA_API_ID: ${{ secrets.DEV_MAGDA_API_ID }}
+          MAGDA_API_KEY: ${{ secrets.DEV_MAGDA_API_KEY }}
           ADDED_FILES: "${{ steps.files.outputs.added }}"
           MODIFIED_FILES: "${{ steps.files.outputs.modified }}"
           # REMOVED_FILES: "${{ steps.files.outputs.removed }}"

@@ -1,0 +1,8 @@
+[
+  {
+    "id": "map-config-de-australia",
+    "dev": "de-australia/map-config/dev.json",
+    "test": "de-australia/map-config/test.json",
+    "prod": "de-australia/map-config/prod.json"
+  }
+]
