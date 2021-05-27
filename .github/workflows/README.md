@@ -36,7 +36,7 @@ In `dev` will publish `de-australia/map-config/dev.json` to record ID `map-confi
 
 Different values for dev, test or prod environments
 
-- `ENVIRONMENT_TAG`: `dev`, `test` or `prod`
+- `ENVIRONMENT_TAG`: `dev`, `test` or `prod` (this is used to get file-paths from `map-configs.json`)
 - `MAGDA_FQDN`: Github secret `DEV_MAGDA_FQDN`, `TEST_MAGDA_FQDN` or `PROD_MAGDA_FQDN`
 - `MAGDA_API_ID`: Github secret `DEV_MAGDA_API_ID`, `TEST_MAGDA_API_ID` or `PROD_MAGDA_API_ID`
 - `MAGDA_API_KEY`: Github secret `DEV_MAGDA_API_KEY`, `TEST_MAGDA_API_KEY` or `PROD_MAGDA_API_KEY`
