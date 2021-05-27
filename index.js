@@ -31,7 +31,7 @@ async function readFile(path) {
     for (let i = 0; i < mapConfigs.length; i++) {
       const mapConfig = mapConfigs[i];
       if (changedFiles.includes(mapConfig.file)) {
-        const devJson = (await readFile(path)).toString();
+        const devJson = (await readFile(mapConfig.file)).toString();
         console.log(
           `Updating \`${mapConfig.id}\` from path \`${mapConfig.file}\` (in ${process.env.DEV_MAGDA_FQDN})`
         );
