@@ -38,13 +38,14 @@ async function readFile(path) {
       if (changedFiles.includes(mapConfigFile)) {
         const mapConfigJson = (await readFile(mapConfigFile)).toString();
 
-        console.log(
-          `Updating \`${mapConfigId}\` from path \`${mapConfigFile}\` (**${envTag}** environment)`
-        );
-
         if (process.env.SKIP_PUSH) {
-          console.log("Skipping push to Magda - because `SKIP_PUSH` is `true");
+          console.log(
+            `Will update \`${mapConfigId}\` from path \`${mapConfigFile}\` (**${envTag}** environment)`
+          );
         } else {
+          console.log(
+            `Updating \`${mapConfigId}\` from path \`${mapConfigFile}\` (**${envTag}** environment)`
+          );
           await fetch(
             `https://${process.env.MAGDA_FQDN}/api/v0/registry-auth/records/${mapConfigId}`,
             {
