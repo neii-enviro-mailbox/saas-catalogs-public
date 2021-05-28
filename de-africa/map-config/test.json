@@ -3,9 +3,7 @@
     "terria-saas": {},
     "terria": {
       "definition": {
-        "members": [
-          "__User-Added_Data__"
-        ]
+        "members": ["__User-Added_Data__"]
       },
       "id": "map-config-de-africa",
       "type": "group"
@@ -237,13 +235,13 @@
           }
         ],
         "languageConfiguration": {
-          "enabled": true,
           "debug": false,
+          "enabled": true,
+          "fallbackLanguage": "en",
           "languages": {
             "en": "English",
             "fr": "French"
-          },
-          "fallbackLanguage": "en"
+          }
         },
         "mobileDefaultViewerMode": "2d",
         "showWelcomeMessage": true,
