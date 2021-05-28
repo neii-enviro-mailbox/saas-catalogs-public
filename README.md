@@ -37,6 +37,10 @@ A map may have a few levels of catalogs - for example `de-australia`:
 
 ### Random notes
 
+The data inside map-config should correspond to the following GET request:
+
+`GET https://<magdaApiFQDN>/api/v0/registry/records/<magdaConfigRecordId>?optionalAspect=terria-group&optionalAspect=terria-init&optionalAspect=group&optionalAspect=terria&optionalAspect=terria-config-backup&optionalAspect=terria-config&optionalAspect=terria-saas-about-pages&optionalAspect=terria-saas`
+
 #### `group-DISABLED` or similar properties in `map-config`
 
 These are just holding the old `group` aspect - which contains IDs to Magda records. They are remnants of older maps which used catalog-editor - I left them here if they ever need to be resurrected.
