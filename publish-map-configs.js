@@ -1,8 +1,7 @@
 const core = require("@actions/core");
-const github = require("@actions/github");
-const fsPromises = require("fs/promises");
 const fetch = require("node-fetch");
 const mapConfigs = require("./map-configs.json");
+const fsPromises = require("fs/promises");
 
 async function readFile(path) {
   try {
@@ -36,12 +35,11 @@ async function readFile(path) {
 
       // Has a map-config file changed for the currentMapConfig?
       if (changedFiles.includes(mapConfigFile)) {
+        const mapConfigJson = (await readFile(mapConfigFile)).toString();
+
         console.log(
           `Updating \`${mapConfigId}\` from path \`${mapConfigFile}\` (**${envTag}** environment)`
         );
-
-        const mapConfigJson = (await readFile(mapConfigFile)).toString();
-
         await fetch(
           `https://${process.env.MAGDA_FQDN}/api/v0/registry-auth/records/${mapConfigId}`,
           {

@@ -2,10 +2,12 @@
 
 Catalogs for SaaS (until we come up with something better)
 
-**Map-config JSON files are pushed to Magda from `main` branch** - See [GitHub actions README.md](https://github.com/TerriaJS/saas-catalogs-public/tree/main/.github/workflows) for more info
+**Map-config JSON files are pushed to Magda from `main` branch** - See [GitHub actions README.md](https://github.com/TerriaJS/saas-catalogs-public/tree/main/.github/workflows) for more info.
 
-- Pushes to `dev` are automatic
-- Pushes to `test` and `prod` must be triggered manually
+To update `map-config` files you must create a PR:
+
+- Pushes to `dev` will be automatically approved
+- Pushes to `test` and `prod` must be approved by someone
 
 **Catalog JSON files are hosted here (in GitHub)** for example `https://raw.githubusercontent.com/TerriaJS/saas-catalogs-public/main/kaleidoscope/prod.json`
 
