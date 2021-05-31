@@ -25,7 +25,7 @@
       ],
       "parameters": {
         "appName": "NationalMap",
-        "bingMapsKey": "Ar4AdyLIOra8xQjP0Wt8yEQBZMmxz0eQgV00wIYsTulBXXe02q1hEA9D_rfpo5Dd",
+        "bingMapsKey": "AqicKfZDvtrSavEisBqSNS7fQ5nDFRujCfLhuvthctS1Jk2BK3TOdlIg1ZpBmzdS",
         "brandBarElements": [
           "<a target=\"_blank\" href=\"about.html\"><img src=\"https://nationalmap.gov.au/images/NationalMap-logo-only.png\" height=\"50\" alt=\"National Map\" title=\"Version: {{version}}\" /></a>",
           "<a target=\"_blank\" href=\"about.html\"><img src=\"https://nationalmap.gov.au/images/NationalMap-text-only.png\" height=\"50\" alt=\"National Map\" title=\"Version: {{version}}\" /></a>",
