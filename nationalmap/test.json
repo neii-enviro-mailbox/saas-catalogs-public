@@ -39056,8 +39056,8 @@
       "item": {
         "id": "basemap-bing-aerial-with-labels",
         "name": "Bing Maps Aerial with Labels",
-        "type": "bing-maps",
-        "mapStyle": "AerialWithLabelsOnDemand",
+        "type": "ion-imagery",
+        "ionAssetId": 3,
         "opacity": 1
       },
       "image": "images/basemaps/bing-aerial-labels.png"
@@ -39066,8 +39066,8 @@
       "item": {
         "id": "basemap-bing-aerial",
         "name": "Bing Maps Aerial",
-        "type": "bing-maps",
-        "mapStyle": "Aerial",
+        "type": "ion-imagery",
+        "ionAssetId": 2,
         "opacity": 1
       },
       "image": "images/basemaps/bing-aerial.png"
