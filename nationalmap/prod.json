@@ -39031,16 +39031,6 @@
     },
     {
       "item": {
-        "id": "basemap-bing-roads",
-        "name": "Bing Maps Roads",
-        "type": "bing-maps",
-        "mapStyle": "RoadOnDemand",
-        "opacity": 1
-      },
-      "image": "images/basemaps/bing-maps-roads.png"
-    },
-    {
-      "item": {
         "id": "basemap-natural-earth-II",
         "name": "Natural Earth II",
         "type": "wms",
