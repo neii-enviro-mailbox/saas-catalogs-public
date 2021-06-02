@@ -30,6 +30,7 @@
         },
         "experimentalFeatures": true,
         "feedbackUrl": "feedback",
+        "googleAnalyticsKey": "UA-63280156-18",
         "helpContent": [
           {
             "icon": "video",
