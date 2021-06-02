@@ -26,11 +26,11 @@
       ],
       "parameters": {
         "appName": "Kaleidoscope",
-        "bingMapsKey": "AkaOmRFtjAb71cXgLwAGtLbj2RpkPKtVqAIroFQsocfurCBILxIeAWPkil7hhRy_",
+        "bingMapsKey": "AgmJygh8_xlynBeLoOW-BXsnrTE-duzeSiXRdpGujYUpRJT_xbmix6vyi-RHkCDy",
         "brandBarElements": [
           "<a id='primary-logo' target='_blank' rel='noreferrer noopener' style=\"vertical-align:top;\"><img src='https://saas.terria.io/api/v0/storage/terria/kaleidoscope/kLogo.png' class='left' style=\"padding-top: 5px; padding-left: 5px;\" alt='Kaleidoscope Logo' title='Version: {{version}}'/></a>"
         ],
-        "cesiumIonAccessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiI3NDU1NGQ4NC1iOWQ3LTRiYjgtYjNkNi1iZDdlZWY4ZTU4NjQiLCJpZCI6Mjk5MiwiaWF0IjoxNTM3NDQ1NzYxfQ.fjQUGky7Y4XZhBk1I6SyvzNlVufeEUJXQNHmNz8Ikiw",
+        "cesiumIonAccessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiJhNDQwYThjZS0wYzM3LTQyNDAtODgzNy0yZmQxZjNmNGVjODIiLCJpZCI6Mjk5MiwiaWF0IjoxNjIyNTA1NTA2fQ.ngBQb8q0O8eEIS7hud33Mds7TSij8FYJD1N2wczQ-LI",
         "developerAttribution": {
           "link": "https://terria.io",
           "text": "Terria Team at CSIRO's Data61"

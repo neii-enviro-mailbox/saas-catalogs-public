@@ -66,11 +66,11 @@
       ],
       "parameters": {
         "appName": "GEOGLAM RAPP",
-        "bingMapsKey": "Ar4AdyLIOra8xQjP0Wt8yEQBZMmxz0eQgV00wIYsTulBXXe02q1hEA9D_rfpo5Dd",
+        "bingMapsKey": "AqZBgyPamHmFVpS4c3bU6yyCVU-2Kk2C75wDHciaDmsZy4l-c-4Sx0YrM44AdxTP",
         "brandBarElements": [
           "<a target=\"_blank\" href=\"http://www.geo-rapp.org/\"><img class=\"rapp\" src=\"https://saas.terria.io/api/v0/storage/terria/geo-rapp/images/rapp_logo.svg\" height=\"75px\" alt=\"GEOGLAM RAPP\" title=\"Version: {{version}}\"/></a>"
         ],
-        "cesiumIonAccessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiJkNTI1OTFjMi1mYzQ0LTRhNjktYTc2ZS1kYjg4MDRkMTRkMmIiLCJpZCI6Mjk5Miwic2NvcGVzIjpbImFzciIsImdjIl0sImlhdCI6MTUzODExMzA1OX0.tlv1I2M2CGZiSZ-8X0OacBbirAVzj1lqa69-rDPim98",
+        "cesiumIonAccessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiI1NDY2M2E5OC0xM2I5LTRiZDItOTdhNi1hM2ZiOWVjNDlmYWYiLCJpZCI6Mjk5MiwiaWF0IjoxNjIyNTA0OTYzfQ.ya4Z8IBDUAUn8txdMdyYgqGCPd-6tbi0fzKmLFNCsnc",
         "developerAttribution": {
           "link": "https://data61.csiro.au/",
           "text": "DATA61"

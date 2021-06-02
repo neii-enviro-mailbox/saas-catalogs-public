@@ -31,14 +31,14 @@
       ],
       "parameters": {
         "appName": "NEII Viewer ",
-        "bingMapsKey": "Ar4AdyLIOra8xQjP0Wt8yEQBZMmxz0eQgV00wIYsTulBXXe02q1hEA9D_rfpo5Dd",
+        "bingMapsKey": "AsC9M3UGk_RcZ0eBZ78prcrLunhNXbmjsPyxJxeAyxwcgGlsb4z487-4kj2DWJNI",
         "brandBarElements": [
           "<span style=\"background: url(https://saas.terria.io/api/v0/storage/terria/neii/bg_1_col.jpg); font-weight: 300; font-size: 26px; padding-top: 2px; padding-left: 6px;width: 100%; color: white; background-size: 30%; background-repeat: no-repeat; background-position: top right;\" title=\"Version: {{version}}\">National Environmental<br/> Information Infrastructure</span>"
         ],
         "brandBarSmallElements": [
           "<span style=\"font-weight: 300;font-size: 18px; width: 100%;color: white; line-height: 39px;\">National Environmental Information Infrastructure</span>"
         ],
-        "cesiumIonAccessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiJmMGVmYWQyNy1hMTgxLTQ0NzgtYjJmYi05MWVlODdlN2M2YmEiLCJpZCI6MzU1Mywic2NvcGVzIjpbImFzciIsImdjIl0sImlhdCI6MTUzODAyNTgzN30.nW2jknU2nTfaZPhaefYPQ6L28FGMRHwLuixeU8uQu24",
+        "cesiumIonAccessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiJiNDI4ZTljZS1mN2VkLTRhZjctODdiMi05OTFkNTkwMWVhZmMiLCJpZCI6Mjk5MiwiaWF0IjoxNjIyNTA1NTI1fQ.yKUYegUXv4p8OiPBU0wAau2I35-YM7Nz9tdATQuxs1A",
         "developerAttribution": {
           "link": "https://terria.io",
           "text": "Terria Team at CSIRO's Data61"
