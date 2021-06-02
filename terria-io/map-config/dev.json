@@ -153,7 +153,8 @@
           "textLightDimmed": "#bbbbbb",
           "trainerHeight": "64",
           "workbenchWidth": "350"
-        }
+        },
+        "useCesiumIonBingImagery": true
       }
     }
   },
