@@ -7478,7 +7478,7 @@
                         "height": 550,
                         "confirmText": "I Agree"
                       },
-                      "url": "https://network-opportunity-maps.s3-ap-southeast-2.amazonaws.com/constraints/published-initial/deferral_values_timeseries.csv",
+                      "url": "https://network-opportunity-maps.s3-ap-southeast-2.amazonaws.com/constraints/surge/deferral_values_timeseries.csv",
                       "cacheDuration": "1h",
                       "rectangle": {
                         "west": 132,
@@ -7573,7 +7573,7 @@
                         "height": 550,
                         "confirmText": "I Agree"
                       },
-                      "url": "https://network-opportunity-maps.s3-ap-southeast-2.amazonaws.com/constraints/published-initial/available_capacity_timeseries.csv",
+                      "url": "https://network-opportunity-maps.s3-ap-southeast-2.amazonaws.com/constraints/surge/available_capacity_timeseries.csv",
                       "cacheDuration": "1h",
                       "rectangle": {
                         "west": 132,
@@ -8543,7 +8543,7 @@
                         "height": 550,
                         "confirmText": "I Agree"
                       },
-                      "url": "https://network-opportunity-maps.s3-ap-southeast-2.amazonaws.com/constraints/published-initial/peak_day.csv",
+                      "url": "https://network-opportunity-maps.s3-ap-southeast-2.amazonaws.com/constraints/surge/peak_day.csv",
                       "cacheDuration": "1h",
                       "rectangle": {
                         "west": 132,
@@ -8635,7 +8635,7 @@
                         "height": 550,
                         "confirmText": "I Agree"
                       },
-                      "url": "https://network-opportunity-maps.s3-ap-southeast-2.amazonaws.com/constraints/published-initial/proposed_investment.csv",
+                      "url": "https://network-opportunity-maps.s3-ap-southeast-2.amazonaws.com/constraints/surge/proposed_investment.csv",
                       "cacheDuration": "1h",
                       "rectangle": {
                         "west": 132,
