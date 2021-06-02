@@ -620,7 +620,7 @@
     {
       "item": {
         "id": "basemap-darkmatter",
-        "name": "Dark Matter (test)",
+        "name": "Dark Matter",
         "type": "open-street-map",
         "url": "https://basemaps.cartocdn.com/dark_all/",
         "attribution": "© <a href='https://www.openstreetmap.org/copyright'>OpenStreetMap</a>, © <a href='https://carto.com/about-carto/'>CARTO</a>",
