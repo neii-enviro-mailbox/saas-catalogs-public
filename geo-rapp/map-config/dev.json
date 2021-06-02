@@ -233,7 +233,8 @@
           "textLight": "#ffffff",
           "textLightDimmed": "#bbbbbb",
           "workbenchWidth": "350"
-        }
+        },
+        "useCesiumIonBingImagery": true
       },
       "proxyDomains": [
         "geoglam.ternlandscapes.net.au",
