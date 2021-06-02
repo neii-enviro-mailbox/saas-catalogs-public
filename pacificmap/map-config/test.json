@@ -55,13 +55,13 @@
       ],
       "parameters": {
         "appName": "PacificMap",
-        "bingMapsKey": "AkaOmRFtjAb71cXgLwAGtLbj2RpkPKtVqAIroFQsocfurCBILxIeAWPkil7hhRy_",
+        "bingMapsKey": "AkvokU3bNQqowYd3y9JbhfrYagiuUAbAvVMliflZgApEHmP_MR39sjuIiD9b-i-L",
         "brandBarElements": [
           "<img style=\"width:110px; padding-left: 5px\" src=\"https://saas.terria.io/api/v0/storage/terria/pacificmap/PacificMap.svg\" title=\"Version: {{version}}\" alt=\"PacificMap Logo\"/>",
           "<a target=\"_blank\" href=\"https://pacificdata.org\"><img style=\"width:100px; padding-left: 20px\" src=\"https://saas.terria.io/api/v0/storage/terria/pacificmap/spc_data_hub_logo.svg\" title=\"Version: {{version}}\" alt=\"PacificDataHub Logo\"/></a>",
           "<a target=\"_blank\" href=\"https://data61.csiro.au/\"><img style=\"width:60px; float: right\" src=\"https://saas.terria.io/api/v0/storage/terria/pacificmap/data61-csiro.svg\" alt=\"CSIRO's Data61 Logo\"/></a>"
         ],
-        "cesiumIonAccessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiI3NDU1NGQ4NC1iOWQ3LTRiYjgtYjNkNi1iZDdlZWY4ZTU4NjQiLCJpZCI6Mjk5MiwiaWF0IjoxNTM3NDQ1NzYxfQ.fjQUGky7Y4XZhBk1I6SyvzNlVufeEUJXQNHmNz8Ikiw",
+        "cesiumIonAccessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiI2NzE3NWVlYy00YWIzLTQ3ZDItOTJhOS1hYTRhN2ExMTFlYmYiLCJpZCI6Mjk5MiwiaWF0IjoxNjIyNTA1NjExfQ.CusV1Gnck16-WTZZjcR35EBGj1jWwGxOaomjytK60SA",
         "developerAttribution": {
           "link": "https://terria.io",
           "text": "Terria Team at CSIRO's Data61"
