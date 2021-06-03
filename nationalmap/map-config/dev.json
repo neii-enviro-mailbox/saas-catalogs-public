@@ -137,7 +137,7 @@
           }
         ],
         "mobileDefaultViewerMode": "2d",
-        "regionMappingDefinitionsUrl": "https://raw.githubusercontent.com/TerriaJS/saas-catalogs-public/update-nom/nationalmap/regionMapping-2021-06-02.json",
+        "regionMappingDefinitionsUrl": "https://raw.githubusercontent.com/TerriaJS/saas-catalogs-public/main/nationalmap/regionMapping-2021-06-02.json",
         "showWelcomeMessage": true,
         "supportEmail": "info@terria.io",
         "theme": {
