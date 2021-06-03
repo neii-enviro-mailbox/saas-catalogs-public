@@ -61,7 +61,7 @@
       ],
       "parameters": {
         "appName": "Digital Earth Australia Map",
-        "bingMapsKey": "AkaOmRFtjAb71cXgLwAGtLbj2RpkPKtVqAIroFQsocfurCBILxIeAWPkil7hhRy_",
+        "bingMapsKey": "AmJvcHPPKE0wqqvRbBRWYiVJXQmwpizXbrgjqmZ3vIJWt77xSDCDL80etIvU6kH9",
         "brandBarElements": [
           "",
           "<a target=\"_blank\" href=\"http://terria.io\"><img src=\"https://saas.terria.io/api/v0/storage/terria/de-australia/DE-Australia-logo.png\" height=\"52\" title=\"Version: {{version}}\" /></a>",
@@ -69,7 +69,7 @@
           "<a id='tertiary-logo' target='https://www.ga.gov.au/' rel='noreferrer noopener'><img src='https://saas.terria.io/api/v0/storage/terria/de-australia/geoscience_stacked.svg' style=\"width: 80px;\"  alt='Geoscience Australia logo' title='Geoscience Australia logo'/></a>",
           ""
         ],
-        "cesiumIonAccessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiI3NDU1NGQ4NC1iOWQ3LTRiYjgtYjNkNi1iZDdlZWY4ZTU4NjQiLCJpZCI6Mjk5MiwiaWF0IjoxNTM3NDQ1NzYxfQ.fjQUGky7Y4XZhBk1I6SyvzNlVufeEUJXQNHmNz8Ikiw",
+        "cesiumIonAccessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiIyNWQ4OGM2Mi1hNmNkLTRlZjUtYWY4ZC0zMGFmYTZkMDYwMDciLCJpZCI6Mjk5MiwiaWF0IjoxNjIyNTA1Mzk1fQ.MJ2CWlrO5IjHGyT6VuFfFuEpTY9FnnkEZ2sp2K9x96c",
         "developerAttribution": {
           "link": "https://terria.io",
           "text": "Terria Team at CSIRO's Data61"

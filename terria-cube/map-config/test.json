@@ -6,13 +6,13 @@
       ],
       "parameters": {
         "appName": "Terria Cube",
-        "bingMapsKey": "AkaOmRFtjAb71cXgLwAGtLbj2RpkPKtVqAIroFQsocfurCBILxIeAWPkil7hhRy_",
+        "bingMapsKey": "AsBv-JL-O5GS1uu5GvIRxpgBcJRGVWAWPLxoChvqc5Tw8ATegnK5LCfT-BXOsjzL",
         "brandBarElements": [
           "<a target=\"_blank\" href=\"http://terria.io\" style=\"text-decoration: none;\"><span style=\"color: white;font-size: 52px;text-transform: uppercase;text-shadow: rgb(126 135 146) 0.5px 0.5px, rgb(126 135 146) 1px 1px, rgb(126 135 146) 1.5px 1.5px, rgb(126 135 146) 2px 2px, rgb(126 135 146) 2.5px 2.5px, rgb(126 135 146) 3px 3px, rgb(126 135 146) 3.5px 3.5px, rgb(126 135 146) 4px 4px;font-family: VT323, monospace;\">Terria-Cube</span></a>",
           "<a id='secondary-logo' href='https://data61.csiro.au/' target='_blank'><img class='right' style=\"width:65px;\" src='https://saas.terria.io/api/v0/storage/terria/de-australia/data61-csiro.svg' alt='Data61 logo' title='Data61 logo'/></a>",
           ""
         ],
-        "cesiumIonAccessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiI3NDU1NGQ4NC1iOWQ3LTRiYjgtYjNkNi1iZDdlZWY4ZTU4NjQiLCJpZCI6Mjk5MiwiaWF0IjoxNTM3NDQ1NzYxfQ.fjQUGky7Y4XZhBk1I6SyvzNlVufeEUJXQNHmNz8Ikiw",
+        "cesiumIonAccessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiI2MzY3YTEwNS0wZTE0LTQzZTQtOGJjNy0wZGYwZTczOWI4ZjIiLCJpZCI6Mjk5MiwiaWF0IjoxNjIyNTA1Njc3fQ.gv6jmQdAHhtrgBDvuHz7v2TLghEKJ38EHUu6upeatpI",
         "developerAttribution": {
           "link": "https://terria.io",
           "text": "Terria Team at CSIRO's Data61"

@@ -57,6 +57,7 @@
           "prodHostRegex": "gov.\\.au$",
           "title": "Disclaimer"
         },
+        "googleAnalyticsKey": "UA-62048953-2",
         "helpContent": [
           {
             "icon": "video",

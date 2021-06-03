@@ -3,7 +3,9 @@
     "terria-saas": {},
     "terria": {
       "definition": {
-        "members": ["__User-Added_Data__"]
+        "members": [
+          "__User-Added_Data__"
+        ]
       },
       "id": "map-config-de-africa",
       "type": "group"

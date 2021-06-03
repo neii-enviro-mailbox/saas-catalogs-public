@@ -14,12 +14,11 @@
       ],
       "parameters": {
         "appName": "TerriaMap",
-        "bingMapsKey": "Ar4AdyLIOra8xQjP0Wt8yEQBZMmxz0eQgV00wIYsTulBXXe02q1hEA9D_rfpo5Dd",
         "brandBarElements": [
           "<a target=\"_blank\" href=\"http://terria.io\"><img src=\"images/terria_logo.png\" height=\"46px\" title=\"Version: {{ version }}\" /></a>",
           "<a href='https://data61.csiro.au/' target='_blank'><img height=\"46px\" src='https://saas.terria.io/api/v0/storage/terria/de-australia/data61-csiro.svg' alt='Data61 logo' title='Data61 logo'/></a>"
         ],
-        "cesiumIonAccessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiI3NDU1NGQ4NC1iOWQ3LTRiYjgtYjNkNi1iZDdlZWY4ZTU4NjQiLCJpZCI6Mjk5MiwiaWF0IjoxNTM3NDQ1NzYxfQ.fjQUGky7Y4XZhBk1I6SyvzNlVufeEUJXQNHmNz8Ikiw",
+        "cesiumIonAccessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiI2ZGE1NWZkZC04OTI5LTRmODktOGNjNi1lOTcxNjdkMjU2NWIiLCJpZCI6Mjk5MiwiaWF0IjoxNjIyNTA1NjkxfQ.CyQCXZGJp4F-iVMRCKjinc8Ut-7FFRpFGVzA1wnScVs",
         "developerAttribution": {
           "link": "https://terria.io",
           "text": "Terria Team at CSIRO's Data61"
@@ -154,7 +153,8 @@
           "textLightDimmed": "#bbbbbb",
           "trainerHeight": "64",
           "workbenchWidth": "350"
-        }
+        },
+        "useCesiumIonBingImagery": true
       }
     }
   },
