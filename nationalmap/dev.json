@@ -5361,7 +5361,7 @@
                       "url": "https://nsw-digital-twin-data.terria.io/geoserver/ows",
                       "cacheDuration": "1d",
                       "opacity": 1,
-                      "layers": "cite:Cables",
+                      "layers": "cite:Cables_20210415",
                       "featureInfoTemplate": {
                         "template": "<h2>{{network}} Conductor</h2> <dl class='isf-info'> {{#network}}<dt> Network  </dt><dd> {{network}} </dd> {{/network}} {{#asset_id}}<dt> Asset ID  </dt><dd> {{asset_id}} </dd> {{/asset_id}} {{#voltage}}<dt> Voltage (kV)  </dt><dd> {{voltage}} </dd> {{/voltage}} {{#phases}}<dt> Number of Phases  </dt><dd> {{phases}} </dd> {{/phases}} {{#oriented}}<dt> Orientation  </dt><dd> {{oriented}} </dd> {{/oriented}} {{#feeder}}<dt> HV feeder name  </dt><dd> {{feeder}} </dd> {{/feeder}} {{#status}}<dt> Service Status  </dt><dd> {{status}} </dd> {{/status}} {{#type}}<dt> Conductor type  </dt><dd> {{type}} </dd> {{/type}} {{#owner}}<dt> Owner  </dt><dd> {{owner}} </dd> {{/owner}} {{#descript}}<dt> Description  </dt><dd> {{descript}} </dd> {{/descript}} </dl>"
                       },
@@ -5405,7 +5405,7 @@
                       "url": "https://nsw-digital-twin-data.terria.io/geoserver/ows",
                       "cacheDuration": "1d",
                       "opacity": 1,
-                      "layers": "cite:Substations",
+                      "layers": "cite:Substations_20210415",
                       "featureInfoTemplate": {
                         "name": "{{capacity}} kVA",
                         "template": "<h2>{{network}} Substation</h2> <dl class='isf-info'> {{#network}}<dt> Network  </dt><dd> {{network}} </dd> {{/network}} {{#asset_id}}<dt> Asset ID  </dt><dd> {{asset_id}} </dd> {{/asset_id}} {{#other_ids}}<dt> Other identifiers  </dt><dd> {{other_ids}} </dd> {{/other_ids}} {{#prim_v}}<dt> Primary voltage (kV)  </dt><dd> {{prim_v}} </dd> {{/prim_v}} {{#second_v}}<dt> Secondary voltage (kV)  </dt><dd> {{second_v}} </dd> {{/second_v}} {{#capacity}}<dt> Capacity (kVA)  </dt><dd> {{capacity}} </dd> {{/capacity}} {{#oriented}}<dt> Orientation  </dt><dd> {{oriented}} </dd> {{/oriented}} {{#phases}}<dt> Number of Phases  </dt><dd> {{phases}} </dd> {{/phases}} {{#status}}<dt> Service status  </dt><dd> {{status}} </dd> {{/status}} {{#norm_state}}<dt> Normal status  </dt><dd> {{norm_state}} </dd> {{/norm_state}} {{#feeder}}<dt> HV feeder name  </dt><dd> {{feeder}} </dd> {{/feeder}} {{#sub_type}}<dt> Substation type  </dt><dd> {{sub_type}} </dd> {{/sub_type}} {{#conductor}}<dt> Conductor Type  </dt><dd> {{conductor}} </dd> {{/conductor}} {{#conductor2}}<dt> Secondary conductor type  </dt><dd> {{conductor2}} </dd> {{/conductor2}} {{#const_type}}<dt> Hardware type  </dt><dd> {{const_type}} </dd> {{/const_type}} {{#owned_by}}<dt> Owner  </dt><dd> {{owned_by}} </dd> {{/owned_by}} </dl>"
@@ -8886,7 +8886,7 @@
                           "url": "https://nsw-digital-twin-data.terria.io/geoserver/ows",
                           "cacheDuration": "1d",
                           "opacity": 1,
-                          "layers": "cite:Cables",
+                          "layers": "cite:Cables_20210415",
                           "featureInfoTemplate": {
                             "template": "<h2>{{network}} Conductor</h2> <dl class='isf-info'> {{#network}}<dt> Network  </dt><dd> {{network}} </dd> {{/network}} {{#asset_id}}<dt> Asset ID  </dt><dd> {{asset_id}} </dd> {{/asset_id}} {{#voltage}}<dt> Voltage (kV)  </dt><dd> {{voltage}} </dd> {{/voltage}} {{#phases}}<dt> Number of Phases  </dt><dd> {{phases}} </dd> {{/phases}} {{#oriented}}<dt> Orientation  </dt><dd> {{oriented}} </dd> {{/oriented}} {{#feeder}}<dt> HV feeder name  </dt><dd> {{feeder}} </dd> {{/feeder}} {{#status}}<dt> Service Status  </dt><dd> {{status}} </dd> {{/status}} {{#type}}<dt> Conductor type  </dt><dd> {{type}} </dd> {{/type}} {{#owner}}<dt> Owner  </dt><dd> {{owner}} </dd> {{/owner}} {{#descript}}<dt> Description  </dt><dd> {{descript}} </dd> {{/descript}} </dl>"
                           },
@@ -8930,7 +8930,7 @@
                           "url": "https://nsw-digital-twin-data.terria.io/geoserver/ows",
                           "cacheDuration": "1d",
                           "opacity": 1,
-                          "layers": "cite:Substations",
+                          "layers": "cite:Substations_20210415",
                           "featureInfoTemplate": {
                             "name": "{{capacity}} kVA",
                             "template": "<h2>{{network}} Substation</h2> <dl class='isf-info'> {{#network}}<dt> Network  </dt><dd> {{network}} </dd> {{/network}} {{#asset_id}}<dt> Asset ID  </dt><dd> {{asset_id}} </dd> {{/asset_id}} {{#other_ids}}<dt> Other identifiers  </dt><dd> {{other_ids}} </dd> {{/other_ids}} {{#prim_v}}<dt> Primary voltage (kV)  </dt><dd> {{prim_v}} </dd> {{/prim_v}} {{#second_v}}<dt> Secondary voltage (kV)  </dt><dd> {{second_v}} </dd> {{/second_v}} {{#capacity}}<dt> Capacity (kVA)  </dt><dd> {{capacity}} </dd> {{/capacity}} {{#oriented}}<dt> Orientation  </dt><dd> {{oriented}} </dd> {{/oriented}} {{#phases}}<dt> Number of Phases  </dt><dd> {{phases}} </dd> {{/phases}} {{#status}}<dt> Service status  </dt><dd> {{status}} </dd> {{/status}} {{#norm_state}}<dt> Normal status  </dt><dd> {{norm_state}} </dd> {{/norm_state}} {{#feeder}}<dt> HV feeder name  </dt><dd> {{feeder}} </dd> {{/feeder}} {{#sub_type}}<dt> Substation type  </dt><dd> {{sub_type}} </dd> {{/sub_type}} {{#conductor}}<dt> Conductor Type  </dt><dd> {{conductor}} </dd> {{/conductor}} {{#conductor2}}<dt> Secondary conductor type  </dt><dd> {{conductor2}} </dd> {{/conductor2}} {{#const_type}}<dt> Hardware type  </dt><dd> {{const_type}} </dd> {{/const_type}} {{#owned_by}}<dt> Owner  </dt><dd> {{owned_by}} </dd> {{/owned_by}} </dl>"
