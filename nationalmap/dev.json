@@ -14045,7 +14045,7 @@
                           "type": "ckan-item",
                           "name": "Cereal straw",
                           "id": "306dd5a9",
-                          "url": "https://catalogue.data.wa.gov.au.au",
+                          "url": "https://catalogue.data.wa.gov.au",
                           "dataCustodian": "[Department of Agriculture and Food, Western Australia](https://www.agric.wa.gov.au/)",
                           "datasetId": "cereal-straw-residues",
                           "itemProperties": {
@@ -14266,7 +14266,7 @@
                           "type": "ckan-item",
                           "name": "Grape Marc",
                           "id": "f3203139",
-                          "url": "https://catalogue.data.wa.gov.au.au",
+                          "url": "https://catalogue.data.wa.gov.au",
                           "dataCustodian": "[Department of Agriculture and Food, Western Australia](https://www.agric.wa.gov.au/)",
                           "datasetId": "grape-marc-estimate",
                           "itemProperties": {
@@ -14853,7 +14853,7 @@
                           "type": "ckan-item",
                           "name": "Oil Mallee stems",
                           "id": "7dd49cd8",
-                          "url": "https://catalogue.data.wa.gov.au.au",
+                          "url": "https://catalogue.data.wa.gov.au",
                           "dataCustodian": "[Department of Agriculture and Food, Western Australia](https://www.agric.wa.gov.au/)",
                           "datasetId": "oil-mallee-stems-planted-per-shire",
                           "itemProperties": {
@@ -15156,7 +15156,7 @@
                           "type": "ckan-item",
                           "name": "Seaweed Wrack",
                           "id": "9f041004",
-                          "url": "https://catalogue.data.wa.gov.au.au",
+                          "url": "https://catalogue.data.wa.gov.au",
                           "dataCustodian": "[Department of Agriculture and Food, Western Australia](https://www.agric.wa.gov.au/)",
                           "datasetId": "seaweed-wrack",
                           "itemProperties": {
@@ -39355,7 +39355,7 @@
             {
               "type": "ckan-group",
               "name": "Perth",
-              "url": "https://catalogue.data.wa.gov.au.au",
+              "url": "https://catalogue.data.wa.gov.au",
               "filterQuery": [
                 {
                   "fq": "(organization:city-of-perth AND res_format:(geojson OR GeoJSON OR kml OR KML OR kmz OR KMZ OR wms OR WMS OR CSV-GEO-AU OR csv-geo-au OR aus-geo-csv OR \"Esri REST\"))"
@@ -39370,7 +39370,7 @@
             {
               "type": "ckan-group",
               "name": "Swan",
-              "url": "https://catalogue.data.wa.gov.au.au",
+              "url": "https://catalogue.data.wa.gov.au",
               "filterQuery": [
                 {
                   "fq": "(organization:city-of-swan AND res_format:(geojson OR GeoJSON OR kml OR KML OR kmz OR KMZ OR wms OR WMS OR CSV-GEO-AU OR csv-geo-au OR aus-geo-csv OR \"Esri REST\"))"
@@ -39385,7 +39385,7 @@
             {
               "type": "ckan-group",
               "name": "Wanneroo",
-              "url": "https://catalogue.data.wa.gov.au.au",
+              "url": "https://catalogue.data.wa.gov.au",
               "filterQuery": [
                 {
                   "fq": "(organization:city-of-wanneroo AND res_format:(geojson OR GeoJSON OR kml OR KML OR kmz OR KMZ OR wms OR WMS OR CSV-GEO-AU OR csv-geo-au OR aus-geo-csv OR \"Esri REST\"))"
@@ -39400,7 +39400,7 @@
             {
               "type": "ckan-group",
               "name": "Joondalup",
-              "url": "https://catalogue.data.wa.gov.au.au",
+              "url": "https://catalogue.data.wa.gov.au",
               "filterQuery": [
                 {
                   "fq": "(organization:city-of-joondalup AND res_format:(geojson OR GeoJSON OR kml OR KML OR kmz OR KMZ OR wms OR WMS OR CSV-GEO-AU OR csv-geo-au OR aus-geo-csv OR \"Esri REST\"))"
