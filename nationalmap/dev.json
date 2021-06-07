@@ -7506,6 +7506,7 @@
                             "nullColor": "rgba(3,154,206,1)",
                             "nullLabel": "MVAr support required",
                             "binMaximums": [
+                              0,
                               100,
                               200,
                               300,
