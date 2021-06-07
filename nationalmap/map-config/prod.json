@@ -25,14 +25,14 @@
       ],
       "parameters": {
         "appName": "NationalMap",
-        "bingMapsKey": "AqicKfZDvtrSavEisBqSNS7fQ5nDFRujCfLhuvthctS1Jk2BK3TOdlIg1ZpBmzdS",
+        "bingMapsKey": "AgergQsoIobjiLxsLVbB0ER_6qoEIRMv98uSzAoLttVKU3vtInLB7bhEInQAbxdB",
         "brandBarElements": [
           "<a target=\"_blank\" href=\"about.html\"><img src=\"https://nationalmap.gov.au/images/NationalMap-logo-only.png\" height=\"50\" alt=\"National Map\" title=\"Version: {{version}}\" /></a>",
           "<a target=\"_blank\" href=\"about.html\"><img src=\"https://nationalmap.gov.au/images/NationalMap-text-only.png\" height=\"50\" alt=\"National Map\" title=\"Version: {{version}}\" /></a>",
           "<a target=\"_blank\" href=\"http://www.gov.au/\"><img src=\"https://nationalmap.gov.au/images/AG-Rvsd-Stacked-Press.png\" height=\"45\" alt=\"Australian Government\" /></a>"
         ],
         "displayOneBrand": 1,
-        "cesiumIonAccessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiI3NDU1NGQ4NC1iOWQ3LTRiYjgtYjNkNi1iZDdlZWY4ZTU4NjQiLCJpZCI6Mjk5MiwiaWF0IjoxNTM3NDQ1NzYxfQ.fjQUGky7Y4XZhBk1I6SyvzNlVufeEUJXQNHmNz8Ikiw",
+        "cesiumIonAccessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiI2NzYxZjdkNi1mZmUyLTQ3YjMtOTdiMC00N2Y0ZTg0NWM3Y2EiLCJpZCI6Mjk5MiwiaWF0IjoxNjIyNTA0ODY0fQ.yOdPU8vWbX_dVDbofVpjMMCP59ZA1MKZInIuHV59bRo",
         "developerAttribution": {
           "link": "https://terria.io",
           "text": "Terria Team at CSIRO's Data61"

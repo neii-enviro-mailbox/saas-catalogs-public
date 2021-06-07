@@ -210,11 +210,11 @@
       ],
       "parameters": {
         "appName": "Digital Earth Africa Map",
-        "bingMapsKey": "Ar4AdyLIOra8xQjP0Wt8yEQBZMmxz0eQgV00wIYsTulBXXe02q1hEA9D_rfpo5Dd",
+        "bingMapsKey": "AqGvDQC1KQg8xtFo7EIyjR_qDI-IFV52af3enY73VxyALmMbMcs-1QQTHdC-V9y7",
         "brandBarElements": [
           "<a id='tertiary-logo' target='_blank' rel='noreferrer noopener'><img src='https://dev.saas.terria.io/api/v0/storage/terria/de-africa/de-africa-logo.svg' alt='DE Africa logo' title='DE Africa logo' height='60px'/></a>"
         ],
-        "cesiumIonAccessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiI3NDU1NGQ4NC1iOWQ3LTRiYjgtYjNkNi1iZDdlZWY4ZTU4NjQiLCJpZCI6Mjk5MiwiaWF0IjoxNTM3NDQ1NzYxfQ.fjQUGky7Y4XZhBk1I6SyvzNlVufeEUJXQNHmNz8Ikiw",
+        "cesiumIonAccessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiI3ZWY2YWZlOS1mYjUxLTRiZDctOGQ0Ny0wNGVlODhkMjkwMzYiLCJpZCI6Mjk5MiwiaWF0IjoxNjIyNTA1Mzg0fQ.K6mg1L75TLKwLTnst1lGYLpG2xl6h5dNTk80wZovDlw",
         "developerAttribution": {
           "link": "https://terria.io",
           "text": "Terria Team at CSIRO's Data61"
