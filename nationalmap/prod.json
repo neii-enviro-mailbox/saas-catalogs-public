@@ -3210,7 +3210,7 @@
               "type": "wms",
               "name": "Radio Licenses - ACMA",
               "id": "54a553a0",
-              "url": "http://gis.aremi.data61.io/acma/wms",
+              "url": "https://gis.aremi.data61.io/acma/wms",
               "opacity": 1,
               "dataCustodian": "[Australian Communications and Media Authority](http://www.acma.gov.au/)",
               "layers": "acma_licenses,acma_sites",
@@ -3221,11 +3221,6 @@
                 "name": "{{#LICENCE_NO}}Licence: {{{LICENSEE}}}, {{PRETTY_FREQ}}{{/LICENCE_NO}}{{^LICENCE_NO}}Site: {{{SITE_NAME}}}{{/LICENCE_NO}}",
                 "template": "{{#LICENCE_NO}}<strong><a href='http://web.acma.gov.au/pls/radcom/client_search.client_lookup?pCLIENT_NO={{CLIENT_NO}}'>{{LICENSEE}}</a></strong><br/><small><a href='http://web.acma.gov.au/pls/radcom/site_search.site_lookup?pSITE_ID={{SITE_ID}}'>{{LOCATION}}</a></small><br/><table>    <tr><td>Freq.</td>              <td>{{PRETTY_FREQ}} {{#ANT_BAND}}({{ANT_BAND}} Band){{/ANT_BAND}}</td></tr>    {{#PRETTY_CAR}}    <tr><td>FM Carrier Freq.</td>   <td>{{PRETTY_CAR}}</td></tr>    {{/PRETTY_CAR}}    <tr><td>TX Power</td>           <td>{{TX_POWER}}W ({{MODE}}X)</td></tr>    <tr><td>Height</td>             <td>{{ANT_HGT}}</td></tr>    <tr><td>Antenna type</td>       <td>{{ANT_TYPE}}</td></tr>    <tr><td>EIRP</td>               <td>{{EIRP}}</td></tr>    <tr><td>Licence No.</td>        <td><a href='http://web.acma.gov.au/pls/radcom/licence_search.licence_lookup?pSOURCE=RADCOM&pLICENCE_NO={{LICENCE_NO}}'>{{LICENCE_NO}}</a></td></tr></table>{{/LICENCE_NO}}{{^LICENCE_NO}}<strong><a href='http://web.acma.gov.au/pls/radcom/site_search.site_lookup?pSITE_ID={{SITE_ID}}'>{{SITE_NAME}}</a></strong><br/>Licences at site: {{Num_Licenses}}<br/>WGS84 Coords: {{WGS84_LAT}} {{WGS84_LON}}<br/>Precision: {{PRECISION}}{{/LICENCE_NO}}"
               },
-              "legends": [
-                {
-                  "url": "http://geo-prototype1.aremi.d61.io/acma/wms?service=WMS&request=GetLegendGraphic&width=20&height=20&layer=acma_sites&format=image%2Fpng&.png"
-                }
-              ],
               "shareKeys": [
                 "Root Group/National Datasets/Communications/Radio Licenses - ACMA"
               ]
@@ -7474,6 +7469,15 @@
                         "Plain English Disclaimer",
                         "Full Legal Disclaimer"
                       ],
+                      "initialMessage": {
+                        "key": "initialMessage.dance3",
+                        "title": "Network Opportunities Disclaimer",
+                        "content": "<strong>Plain English Disclaimer</strong><p><p>These maps are intended to make data on electricity network planning and investment more accessible and consistent. These maps should not be used to make investment decisions, and should only be used to assist in discussions with the local Network Service Provider (see list below). You are free to use the data but do so at your own risk. By accessing or using the maps and data the user agrees to irrevocably release the creators, authors, publishers and contributors to the maps, who include Network Service Providers, UTS and Energy Networks Australia (Providers), from all claims, actions, damages, judgments, losses, remedies or matters whether in tort, contract or under statute or otherwise, relating to the data. By proceeding, the user releases the Providers from all liability, and accepts the terms of this Disclaimer and the Full Legal Disclaimer shown below.</p><p><strong>Full Legal Disclaimer</strong><p><p>The Providers of these maps do not make any representations, guarantees or warranties as to the accuracy, reliability, completeness or currency of the data and content of the maps or that reasonable care has or will be taken by the Providers in compiling preparing or updating the maps.  Except to the extent not permitted by statute or any law, the Providers accept no liability (whether in negligence or tort, by contract or under statute or otherwise) for any error or omission, and specifically disclaim any liability for any costs, losses, claims, demands or liabilities of any kind suffered or incurred by any person by reason of or in connection with the maps or by any purported reliance on information contained in the maps.</p><p>While due care and attention has been taken in the presentation and transformation of available data and to verify the accuracy of the material published, the maps are not intended to be used as the basis for any investment decision.</p><p>Users should make their own detailed investigations as to the reliability and suitability of the content of the maps for any use to which the user intends to put it, and initiate dialogue with the relevant Network Service Provider before considering any investment relating to the subject matter of the maps. </p><p>In particular, users should note that Annual Deferral Values are indicative estimates which are subject to change as circumstances change, options are developed and more detailed investigation is done. Annual Deferral Values are not what the Network Service Provider is willing to pay for demand management support.  Refer to the Network Service Provider’s Demand Side Engagement Document for details on how they assess non-network solutions and determine payment levels.</p><p>Data supplied by Network Service Providers and other parties used in the formulation of the maps has been provided, compiled and assessed with due care, but may be incomplete and is subject to errors and to change over time as the network situation changes, load projections are amended and operational and technical matters affect network performance and investment. Such changes are likely but not guaranteed to have occurred both prior to and after publication of the maps. </p><p>A “Network Service Provider” referred to above is a person who engages in the activity of owning, controlling or operating a transmission or distribution system in the National Electricity Market and who is registered by AEMO as a Network Service Provider under Chapter 2 of the National Electricity Rules, and includes Electranet, SA Power Networks, TasNetworks, AEMO, United Energy Distribution, Ausnet Services, Jemena, Citipower-Powercor, Evoenergy, Transgrid, Ausgrid, Essential Energy, Endeavour Energy, Powerlink, Ergon Energy, Energex, Western Power, Horizon Power and Power and Water Corporation.</p>",
+                        "confirmation": true,
+                        "width": 600,
+                        "height": 550,
+                        "confirmText": "I Agree"
+                      },
                       "url": "https://network-opportunity-maps.s3-ap-southeast-2.amazonaws.com/constraints/published-initial/deferral_values_timeseries.csv",
                       "cacheDuration": "1h",
                       "rectangle": {
@@ -7560,6 +7564,15 @@
                         "Plain English Disclaimer",
                         "Full Legal Disclaimer"
                       ],
+                      "initialMessage": {
+                        "key": "initialMessage.dance3",
+                        "title": "Network Opportunities Disclaimer",
+                        "content": "<strong>Plain English Disclaimer</strong><p><p>These maps are intended to make data on electricity network planning and investment more accessible and consistent. These maps should not be used to make investment decisions, and should only be used to assist in discussions with the local Network Service Provider (see list below). You are free to use the data but do so at your own risk. By accessing or using the maps and data the user agrees to irrevocably release the creators, authors, publishers and contributors to the maps, who include Network Service Providers, UTS and Energy Networks Australia (Providers), from all claims, actions, damages, judgments, losses, remedies or matters whether in tort, contract or under statute or otherwise, relating to the data. By proceeding, the user releases the Providers from all liability, and accepts the terms of this Disclaimer and the Full Legal Disclaimer shown below.</p><p><strong>Full Legal Disclaimer</strong><p><p>The Providers of these maps do not make any representations, guarantees or warranties as to the accuracy, reliability, completeness or currency of the data and content of the maps or that reasonable care has or will be taken by the Providers in compiling preparing or updating the maps.  Except to the extent not permitted by statute or any law, the Providers accept no liability (whether in negligence or tort, by contract or under statute or otherwise) for any error or omission, and specifically disclaim any liability for any costs, losses, claims, demands or liabilities of any kind suffered or incurred by any person by reason of or in connection with the maps or by any purported reliance on information contained in the maps.</p><p>While due care and attention has been taken in the presentation and transformation of available data and to verify the accuracy of the material published, the maps are not intended to be used as the basis for any investment decision.</p><p>Users should make their own detailed investigations as to the reliability and suitability of the content of the maps for any use to which the user intends to put it, and initiate dialogue with the relevant Network Service Provider before considering any investment relating to the subject matter of the maps. </p><p>In particular, users should note that Annual Deferral Values are indicative estimates which are subject to change as circumstances change, options are developed and more detailed investigation is done. Annual Deferral Values are not what the Network Service Provider is willing to pay for demand management support.  Refer to the Network Service Provider’s Demand Side Engagement Document for details on how they assess non-network solutions and determine payment levels.</p><p>Data supplied by Network Service Providers and other parties used in the formulation of the maps has been provided, compiled and assessed with due care, but may be incomplete and is subject to errors and to change over time as the network situation changes, load projections are amended and operational and technical matters affect network performance and investment. Such changes are likely but not guaranteed to have occurred both prior to and after publication of the maps. </p><p>A “Network Service Provider” referred to above is a person who engages in the activity of owning, controlling or operating a transmission or distribution system in the National Electricity Market and who is registered by AEMO as a Network Service Provider under Chapter 2 of the National Electricity Rules, and includes Electranet, SA Power Networks, TasNetworks, AEMO, United Energy Distribution, Ausnet Services, Jemena, Citipower-Powercor, Evoenergy, Transgrid, Ausgrid, Essential Energy, Endeavour Energy, Powerlink, Ergon Energy, Energex, Western Power, Horizon Power and Power and Water Corporation.</p>",
+                        "confirmation": true,
+                        "width": 600,
+                        "height": 550,
+                        "confirmText": "I Agree"
+                      },
                       "url": "https://network-opportunity-maps.s3-ap-southeast-2.amazonaws.com/constraints/published-initial/available_capacity_timeseries.csv",
                       "cacheDuration": "1h",
                       "rectangle": {
@@ -7592,6 +7605,7 @@
                       "activeStyle": "available_capacity",
                       "defaultStyle": {
                         "color": {
+                          "numberOfBins": 9,
                           "colorPalette": "RdYlGn"
                         }
                       },
@@ -7647,6 +7661,15 @@
                                 "Plain English Disclaimer",
                                 "Full Legal Disclaimer"
                               ],
+                              "initialMessage": {
+                                "key": "initialMessage.dance3",
+                                "title": "Network Opportunities Disclaimer",
+                                "content": "<h4>Plain English Disclaimer</h4> These maps are intended to make data on electricity network planning and investment more accessible and consistent. These maps should not be used to make investment decisions, and should only be used to assist in discussions with the local Network Service Provider. You are free to use the data but do so at your own risk. <em>By accessing or using the data the user agrees to irrevocably release Network Service Providers, UTS and Energy Networks Australia from all claims, actions, damages, judgments, losses, remedies or matters whether in tort, contract or under statute or otherwise, relating to the data.</em> By proceeding, the user agrees and accepts the terms of the Full Legal Disclaimer shown below. <h4>Full Legal Disclaimer</h4> UTS, the authors, Energy Networks Australia and the Network Service Providers do not make any representations, guarantees or warranties as to the accuracy, reliability, completeness or currency of the data and content of the maps or that reasonable care has or will be taken by UTS and Energy Networks Australia, the authors and the Network Service Providers in compiling preparing or updating the maps.  Except to the extent not permitted by statute or any law, no liability (whether in negligence or tort, by contract or under statute or otherwise) for any error or omission is accepted by UTS, the authors, Energy Networks Australia and the Network Service Providers, and UTS, the authors, Energy Networks Australia and Network Service Providers specifically disclaim any liability for any costs, losses, claims, demands or liabilities of any kind suffered or incurred by any person by reason of or in connection with the maps or by any purported reliance on information contained in the maps.<p>While due care and attention has been taken in the presentation and transformation of available data and to verify the accuracy of the material published, the maps are not intended to be used as the basis for any investment decision. Users should make their own detailed investigations as to the reliability and suitability of the content of the maps for any use to which the user intends to put it, and initiate dialogue with the relevant Network Service Provider before considering any investment relating to the subject matter of the maps. <p>Data supplied by Network Service Providers and other parties used in the formulation of the maps has been provided, compiled and assessed in good faith, but may be incomplete and is subject to errors and to change over time as the network situation changes, load projections are amended and operational and technical matters affect network performance and investment. Such changes are likely but not guaranteed to have occurred both prior to and after publication of the maps. By accessing or using the data the user agrees to irrevocably release Network Service Providers, Energy Networks Australia and UTS from all claims, actions, damages, judgments, losses, remedies or matters whether in tort, contract or under statute or otherwise relating to the data.<p>A “Network Service Provider” referred to above is a person who engages in the activity of owning, controlling or operating a transmission or distribution system in the National Electricity Market and who is registered by AEMO as a Network Service Provider under Chapter 2 of the National Electricity Rules and includes Electranet, SA Power Networks, TasNetworks, United Energy Distribution, Ausnet Services, Jemena, Citipower-Powercor, ActewAGL, Transgrid, Ausgrid, Essential Energy, Endeavour Energy, Powerlink, Energex and Ergon Energy, Power and Water, Horizon Power, Western Power; and also includes AEMO.",
+                                "confirmation": true,
+                                "width": 600,
+                                "height": 550,
+                                "confirmText": "I Agree"
+                              },
                               "url": "https://uts-nom.herokuapp.com/capacity/published/combined-distribution-powerlines.geojson",
                               "cacheDuration": "5m",
                               "featureInfoTemplate": {
@@ -7696,6 +7719,15 @@
                                 "Plain English Disclaimer",
                                 "Full Legal Disclaimer"
                               ],
+                              "initialMessage": {
+                                "key": "initialMessage.dance3",
+                                "title": "Network Opportunities Disclaimer",
+                                "content": "<h4>Plain English Disclaimer</h4> These maps are intended to make data on electricity network planning and investment more accessible and consistent. These maps should not be used to make investment decisions, and should only be used to assist in discussions with the local Network Service Provider. You are free to use the data but do so at your own risk. <em>By accessing or using the data the user agrees to irrevocably release Network Service Providers, UTS and Energy Networks Australia from all claims, actions, damages, judgments, losses, remedies or matters whether in tort, contract or under statute or otherwise, relating to the data.</em> By proceeding, the user agrees and accepts the terms of the Full Legal Disclaimer shown below. <h4>Full Legal Disclaimer</h4> UTS, the authors, Energy Networks Australia and the Network Service Providers do not make any representations, guarantees or warranties as to the accuracy, reliability, completeness or currency of the data and content of the maps or that reasonable care has or will be taken by UTS and Energy Networks Australia, the authors and the Network Service Providers in compiling preparing or updating the maps.  Except to the extent not permitted by statute or any law, no liability (whether in negligence or tort, by contract or under statute or otherwise) for any error or omission is accepted by UTS, the authors, Energy Networks Australia and the Network Service Providers, and UTS, the authors, Energy Networks Australia and Network Service Providers specifically disclaim any liability for any costs, losses, claims, demands or liabilities of any kind suffered or incurred by any person by reason of or in connection with the maps or by any purported reliance on information contained in the maps.<p>While due care and attention has been taken in the presentation and transformation of available data and to verify the accuracy of the material published, the maps are not intended to be used as the basis for any investment decision. Users should make their own detailed investigations as to the reliability and suitability of the content of the maps for any use to which the user intends to put it, and initiate dialogue with the relevant Network Service Provider before considering any investment relating to the subject matter of the maps. <p>Data supplied by Network Service Providers and other parties used in the formulation of the maps has been provided, compiled and assessed in good faith, but may be incomplete and is subject to errors and to change over time as the network situation changes, load projections are amended and operational and technical matters affect network performance and investment. Such changes are likely but not guaranteed to have occurred both prior to and after publication of the maps. By accessing or using the data the user agrees to irrevocably release Network Service Providers, Energy Networks Australia and UTS from all claims, actions, damages, judgments, losses, remedies or matters whether in tort, contract or under statute or otherwise relating to the data.<p>A “Network Service Provider” referred to above is a person who engages in the activity of owning, controlling or operating a transmission or distribution system in the National Electricity Market and who is registered by AEMO as a Network Service Provider under Chapter 2 of the National Electricity Rules and includes Electranet, SA Power Networks, TasNetworks, United Energy Distribution, Ausnet Services, Jemena, Citipower-Powercor, ActewAGL, Transgrid, Ausgrid, Essential Energy, Endeavour Energy, Powerlink, Energex and Ergon Energy, Power and Water, Horizon Power, Western Power; and also includes AEMO.",
+                                "confirmation": true,
+                                "width": 600,
+                                "height": 550,
+                                "confirmText": "I Agree"
+                              },
                               "url": "https://uts-nom.herokuapp.com/capacity/published/combined-distribution-substations.csv",
                               "cacheDuration": "5m",
                               "columns": [
@@ -8066,6 +8098,15 @@
                                 "Plain English Disclaimer",
                                 "Full Legal Disclaimer"
                               ],
+                              "initialMessage": {
+                                "key": "initialMessage.dance3",
+                                "title": "Network Opportunities Disclaimer",
+                                "content": "<h4>Plain English Disclaimer</h4> These maps are intended to make data on electricity network planning and investment more accessible and consistent. These maps should not be used to make investment decisions, and should only be used to assist in discussions with the local Network Service Provider. You are free to use the data but do so at your own risk. <em>By accessing or using the data the user agrees to irrevocably release Network Service Providers, UTS and Energy Networks Australia from all claims, actions, damages, judgments, losses, remedies or matters whether in tort, contract or under statute or otherwise, relating to the data.</em> By proceeding, the user agrees and accepts the terms of the Full Legal Disclaimer shown below. <h4>Full Legal Disclaimer</h4> UTS, the authors, Energy Networks Australia and the Network Service Providers do not make any representations, guarantees or warranties as to the accuracy, reliability, completeness or currency of the data and content of the maps or that reasonable care has or will be taken by UTS and Energy Networks Australia, the authors and the Network Service Providers in compiling preparing or updating the maps.  Except to the extent not permitted by statute or any law, no liability (whether in negligence or tort, by contract or under statute or otherwise) for any error or omission is accepted by UTS, the authors, Energy Networks Australia and the Network Service Providers, and UTS, the authors, Energy Networks Australia and Network Service Providers specifically disclaim any liability for any costs, losses, claims, demands or liabilities of any kind suffered or incurred by any person by reason of or in connection with the maps or by any purported reliance on information contained in the maps.<p>While due care and attention has been taken in the presentation and transformation of available data and to verify the accuracy of the material published, the maps are not intended to be used as the basis for any investment decision. Users should make their own detailed investigations as to the reliability and suitability of the content of the maps for any use to which the user intends to put it, and initiate dialogue with the relevant Network Service Provider before considering any investment relating to the subject matter of the maps. <p>Data supplied by Network Service Providers and other parties used in the formulation of the maps has been provided, compiled and assessed in good faith, but may be incomplete and is subject to errors and to change over time as the network situation changes, load projections are amended and operational and technical matters affect network performance and investment. Such changes are likely but not guaranteed to have occurred both prior to and after publication of the maps. By accessing or using the data the user agrees to irrevocably release Network Service Providers, Energy Networks Australia and UTS from all claims, actions, damages, judgments, losses, remedies or matters whether in tort, contract or under statute or otherwise relating to the data.<p>A “Network Service Provider” referred to above is a person who engages in the activity of owning, controlling or operating a transmission or distribution system in the National Electricity Market and who is registered by AEMO as a Network Service Provider under Chapter 2 of the National Electricity Rules and includes Electranet, SA Power Networks, TasNetworks, United Energy Distribution, Ausnet Services, Jemena, Citipower-Powercor, ActewAGL, Transgrid, Ausgrid, Essential Energy, Endeavour Energy, Powerlink, Energex and Ergon Energy, Power and Water, Horizon Power, Western Power; and also includes AEMO.",
+                                "confirmation": true,
+                                "width": 600,
+                                "height": 550,
+                                "confirmText": "I Agree"
+                              },
                               "url": "https://network-opportunity-maps.s3-ap-southeast-2.amazonaws.com/capacity/test/combined-transmission-powerlines.geojson",
                               "cacheDuration": "5m",
                               "featureInfoTemplate": {
@@ -8115,6 +8156,15 @@
                                 "Plain English Disclaimer",
                                 "Full Legal Disclaimer"
                               ],
+                              "initialMessage": {
+                                "key": "initialMessage.dance3",
+                                "title": "Network Opportunities Disclaimer",
+                                "content": "<h4>Plain English Disclaimer</h4> These maps are intended to make data on electricity network planning and investment more accessible and consistent. These maps should not be used to make investment decisions, and should only be used to assist in discussions with the local Network Service Provider. You are free to use the data but do so at your own risk. <em>By accessing or using the data the user agrees to irrevocably release Network Service Providers, UTS and Energy Networks Australia from all claims, actions, damages, judgments, losses, remedies or matters whether in tort, contract or under statute or otherwise, relating to the data.</em> By proceeding, the user agrees and accepts the terms of the Full Legal Disclaimer shown below. <h4>Full Legal Disclaimer</h4> UTS, the authors, Energy Networks Australia and the Network Service Providers do not make any representations, guarantees or warranties as to the accuracy, reliability, completeness or currency of the data and content of the maps or that reasonable care has or will be taken by UTS and Energy Networks Australia, the authors and the Network Service Providers in compiling preparing or updating the maps.  Except to the extent not permitted by statute or any law, no liability (whether in negligence or tort, by contract or under statute or otherwise) for any error or omission is accepted by UTS, the authors, Energy Networks Australia and the Network Service Providers, and UTS, the authors, Energy Networks Australia and Network Service Providers specifically disclaim any liability for any costs, losses, claims, demands or liabilities of any kind suffered or incurred by any person by reason of or in connection with the maps or by any purported reliance on information contained in the maps.<p>While due care and attention has been taken in the presentation and transformation of available data and to verify the accuracy of the material published, the maps are not intended to be used as the basis for any investment decision. Users should make their own detailed investigations as to the reliability and suitability of the content of the maps for any use to which the user intends to put it, and initiate dialogue with the relevant Network Service Provider before considering any investment relating to the subject matter of the maps. <p>Data supplied by Network Service Providers and other parties used in the formulation of the maps has been provided, compiled and assessed in good faith, but may be incomplete and is subject to errors and to change over time as the network situation changes, load projections are amended and operational and technical matters affect network performance and investment. Such changes are likely but not guaranteed to have occurred both prior to and after publication of the maps. By accessing or using the data the user agrees to irrevocably release Network Service Providers, Energy Networks Australia and UTS from all claims, actions, damages, judgments, losses, remedies or matters whether in tort, contract or under statute or otherwise relating to the data.<p>A “Network Service Provider” referred to above is a person who engages in the activity of owning, controlling or operating a transmission or distribution system in the National Electricity Market and who is registered by AEMO as a Network Service Provider under Chapter 2 of the National Electricity Rules and includes Electranet, SA Power Networks, TasNetworks, United Energy Distribution, Ausnet Services, Jemena, Citipower-Powercor, ActewAGL, Transgrid, Ausgrid, Essential Energy, Endeavour Energy, Powerlink, Energex and Ergon Energy, Power and Water, Horizon Power, Western Power; and also includes AEMO.",
+                                "confirmation": true,
+                                "width": 600,
+                                "height": 550,
+                                "confirmText": "I Agree"
+                              },
                               "url": "https://uts-nom.herokuapp.com/capacity/published/combined-transmission-substations.csv",
                               "cacheDuration": "5m",
                               "columns": [
@@ -8484,6 +8534,15 @@
                         "Plain English Disclaimer",
                         "Full Legal Disclaimer"
                       ],
+                      "initialMessage": {
+                        "key": "initialMessage.dance3",
+                        "title": "Network Opportunities Disclaimer",
+                        "content": "<strong>Plain English Disclaimer</strong><p><p>These maps are intended to make data on electricity network planning and investment more accessible and consistent. These maps should not be used to make investment decisions, and should only be used to assist in discussions with the local Network Service Provider (see list below). You are free to use the data but do so at your own risk. By accessing or using the maps and data the user agrees to irrevocably release the creators, authors, publishers and contributors to the maps, who include Network Service Providers, UTS and Energy Networks Australia (Providers), from all claims, actions, damages, judgments, losses, remedies or matters whether in tort, contract or under statute or otherwise, relating to the data. By proceeding, the user releases the Providers from all liability, and accepts the terms of this Disclaimer and the Full Legal Disclaimer shown below.</p><p><strong>Full Legal Disclaimer</strong><p><p>The Providers of these maps do not make any representations, guarantees or warranties as to the accuracy, reliability, completeness or currency of the data and content of the maps or that reasonable care has or will be taken by the Providers in compiling preparing or updating the maps.  Except to the extent not permitted by statute or any law, the Providers accept no liability (whether in negligence or tort, by contract or under statute or otherwise) for any error or omission, and specifically disclaim any liability for any costs, losses, claims, demands or liabilities of any kind suffered or incurred by any person by reason of or in connection with the maps or by any purported reliance on information contained in the maps.</p><p>While due care and attention has been taken in the presentation and transformation of available data and to verify the accuracy of the material published, the maps are not intended to be used as the basis for any investment decision.</p><p>Users should make their own detailed investigations as to the reliability and suitability of the content of the maps for any use to which the user intends to put it, and initiate dialogue with the relevant Network Service Provider before considering any investment relating to the subject matter of the maps. </p><p>In particular, users should note that Annual Deferral Values are indicative estimates which are subject to change as circumstances change, options are developed and more detailed investigation is done. Annual Deferral Values are not what the Network Service Provider is willing to pay for demand management support.  Refer to the Network Service Provider’s Demand Side Engagement Document for details on how they assess non-network solutions and determine payment levels.</p><p>Data supplied by Network Service Providers and other parties used in the formulation of the maps has been provided, compiled and assessed with due care, but may be incomplete and is subject to errors and to change over time as the network situation changes, load projections are amended and operational and technical matters affect network performance and investment. Such changes are likely but not guaranteed to have occurred both prior to and after publication of the maps. </p><p>A “Network Service Provider” referred to above is a person who engages in the activity of owning, controlling or operating a transmission or distribution system in the National Electricity Market and who is registered by AEMO as a Network Service Provider under Chapter 2 of the National Electricity Rules, and includes Electranet, SA Power Networks, TasNetworks, AEMO, United Energy Distribution, Ausnet Services, Jemena, Citipower-Powercor, Evoenergy, Transgrid, Ausgrid, Essential Energy, Endeavour Energy, Powerlink, Ergon Energy, Energex, Western Power, Horizon Power and Power and Water Corporation.</p>",
+                        "confirmation": true,
+                        "width": 600,
+                        "height": 550,
+                        "confirmText": "I Agree"
+                      },
                       "url": "https://network-opportunity-maps.s3-ap-southeast-2.amazonaws.com/constraints/published-initial/peak_day.csv",
                       "cacheDuration": "1h",
                       "rectangle": {
@@ -8567,6 +8626,15 @@
                         "Plain English Disclaimer",
                         "Full Legal Disclaimer"
                       ],
+                      "initialMessage": {
+                        "key": "initialMessage.dance3",
+                        "title": "Network Opportunities Disclaimer",
+                        "content": "<strong>Plain English Disclaimer</strong><p><p>These maps are intended to make data on electricity network planning and investment more accessible and consistent. These maps should not be used to make investment decisions, and should only be used to assist in discussions with the local Network Service Provider (see list below). You are free to use the data but do so at your own risk. By accessing or using the maps and data the user agrees to irrevocably release the creators, authors, publishers and contributors to the maps, who include Network Service Providers, UTS and Energy Networks Australia (Providers), from all claims, actions, damages, judgments, losses, remedies or matters whether in tort, contract or under statute or otherwise, relating to the data. By proceeding, the user releases the Providers from all liability, and accepts the terms of this Disclaimer and the Full Legal Disclaimer shown below.</p><p><strong>Full Legal Disclaimer</strong><p><p>The Providers of these maps do not make any representations, guarantees or warranties as to the accuracy, reliability, completeness or currency of the data and content of the maps or that reasonable care has or will be taken by the Providers in compiling preparing or updating the maps.  Except to the extent not permitted by statute or any law, the Providers accept no liability (whether in negligence or tort, by contract or under statute or otherwise) for any error or omission, and specifically disclaim any liability for any costs, losses, claims, demands or liabilities of any kind suffered or incurred by any person by reason of or in connection with the maps or by any purported reliance on information contained in the maps.</p><p>While due care and attention has been taken in the presentation and transformation of available data and to verify the accuracy of the material published, the maps are not intended to be used as the basis for any investment decision.</p><p>Users should make their own detailed investigations as to the reliability and suitability of the content of the maps for any use to which the user intends to put it, and initiate dialogue with the relevant Network Service Provider before considering any investment relating to the subject matter of the maps. </p><p>In particular, users should note that Annual Deferral Values are indicative estimates which are subject to change as circumstances change, options are developed and more detailed investigation is done. Annual Deferral Values are not what the Network Service Provider is willing to pay for demand management support.  Refer to the Network Service Provider’s Demand Side Engagement Document for details on how they assess non-network solutions and determine payment levels.</p><p>Data supplied by Network Service Providers and other parties used in the formulation of the maps has been provided, compiled and assessed with due care, but may be incomplete and is subject to errors and to change over time as the network situation changes, load projections are amended and operational and technical matters affect network performance and investment. Such changes are likely but not guaranteed to have occurred both prior to and after publication of the maps. </p><p>A “Network Service Provider” referred to above is a person who engages in the activity of owning, controlling or operating a transmission or distribution system in the National Electricity Market and who is registered by AEMO as a Network Service Provider under Chapter 2 of the National Electricity Rules, and includes Electranet, SA Power Networks, TasNetworks, AEMO, United Energy Distribution, Ausnet Services, Jemena, Citipower-Powercor, Evoenergy, Transgrid, Ausgrid, Essential Energy, Endeavour Energy, Powerlink, Ergon Energy, Energex, Western Power, Horizon Power and Power and Water Corporation.</p>",
+                        "confirmation": true,
+                        "width": 600,
+                        "height": 550,
+                        "confirmText": "I Agree"
+                      },
                       "url": "https://network-opportunity-maps.s3-ap-southeast-2.amazonaws.com/constraints/published-initial/proposed_investment.csv",
                       "cacheDuration": "1h",
                       "rectangle": {
@@ -10178,7 +10246,8 @@
                     {
                       "id": "technology",
                       "color": {
-                        "colorPalette": "9-class Set1"
+                        "numberOfBins": 9,
+                        "colorPalette": "Set1"
                       }
                     }
                   ],
@@ -14119,6 +14188,65 @@
                           ]
                         },
                         {
+                          "type": "ckan-item",
+                          "name": "Grape Marc",
+                          "id": "f3203139",
+                          "url": "https://catalogue.data.wa.gov.au",
+                          "dataCustodian": "[Department of Agriculture and Food, Western Australia](https://www.agric.wa.gov.au/)",
+                          "datasetId": "grape-marc-estimate",
+                          "itemProperties": {
+                            "info": [
+                              {
+                                "name": "Licensing, Terms & Conditions",
+                                "content": "Copyright © Western Australia Agriculture Authority, 2016"
+                              },
+                              {
+                                "name": "Disclaimer",
+                                "content": "While all reasonable care has been taken in the preparation of the material in this file, the Western Australian Government and its officers accept no responsibility for any errors or omissions it may contain, whether caused by negligence, or otherwise, or for any loss, however caused, sustained by any person who relies on it."
+                              }
+                            ],
+                            "columns": [
+                              {
+                                "name": "PERIOD",
+                                "type": "hidden"
+                              },
+                              {
+                                "name": "RESIDUE_UNIT",
+                                "type": "hidden"
+                              },
+                              {
+                                "name": "LOCATION",
+                                "type": "hidden"
+                              }
+                            ],
+                            "defaultStyle": {
+                              "color": {
+                                "binColors": [
+                                  "rgb(224,236,244)",
+                                  "rgb(140,150,199)",
+                                  "rgb(77,0,75)"
+                                ],
+                                "numberOfBins": 3
+                              }
+                            },
+                            "featureInfoTemplate": {
+                              "name": "{{Location}} {{Estimated Tonnes / year wet weight Grape Marc}} t/y"
+                            }
+                          },
+                          "supportedResourceFormats": [
+                            {
+                              "id": "CSV",
+                              "formatRegex": "CSV",
+                              "definition": {
+                                "type": "csv"
+                              }
+                            }
+                          ],
+                          "shareKeys": [
+                            "Root Group/Renewable Energy/Bioenergy/Western Australia/Grape Marc"
+                          ]
+                        },
+                        {
                           "id": "jrJBgw",
                           "type": "group",
                           "name": "Horticulture",
@@ -14650,7 +14778,7 @@
                           "type": "ckan-item",
                           "name": "Oil Mallee stems",
                           "id": "7dd49cd8",
-                          "url": "http://catalogue.data.wa.gov.au.au",
+                          "url": "https://catalogue.data.wa.gov.au",
                           "dataCustodian": "[Department of Agriculture and Food, Western Australia](https://www.agric.wa.gov.au/)",
                           "datasetId": "oil-mallee-stems-planted-per-shire",
                           "itemProperties": {
@@ -14953,7 +15081,7 @@
                           "type": "ckan-item",
                           "name": "Seaweed Wrack",
                           "id": "9f041004",
-                          "url": "http://catalogue.data.wa.gov.au.au",
+                          "url": "https://catalogue.data.wa.gov.au",
                           "dataCustodian": "[Department of Agriculture and Food, Western Australia](https://www.agric.wa.gov.au/)",
                           "datasetId": "seaweed-wrack",
                           "itemProperties": {
@@ -15983,6 +16111,14 @@
                               "content": "None of the PHES sites discussed in this study have been the subject of geological, hydrological, environmental and other studies, and it is not known whether any particular site would be suitable.<p>Please refer to the ANU 100% Renewable Energy website for additional information:</p><p><a href='http://re100.eng.anu.edu.au/'>http://re100.eng.anu.edu.au/</a></p><p>There has been no investigation of land tenure apart from exclusion of national parks and urban areas, and no discussions with land owners and managers. Nothing in this list of potential site locations implies any rights for development of these locations.</p><p>The commercial feasibility of developing these sites is unknown. As with all major engineering projects, diligent attention to quality assurance would be required for safety and efficacy.</p>"
                             }
                           ],
+                          "initialMessage": {
+                            "title": "Australia Upper Reservoir Locations Disclaimer",
+                            "content": "None of the PHES sites discussed in this study have been the subject of geological, hydrological, environmental and other studies, and it is not known whether any particular site would be suitable.<p>Please refer to the ANU 100% Renewable Energy website for additional information:</p><p><a href='http://re100.eng.anu.edu.au/'>http://re100.eng.anu.edu.au/</a></p><p>There has been no investigation of land tenure apart from exclusion of national parks and urban areas, and no discussions with land owners and managers. Nothing in this list of potential site locations implies any rights for development of these locations.</p><p>The commercial feasibility of developing these sites is unknown. As with all major engineering projects, diligent attention to quality assurance would be required for safety and efficacy.</p>",
+                            "confirmation": true,
+                            "width": 600,
+                            "height": 550,
+                            "confirmText": "I Agree"
+                          },
                           "url": "https://gis.aremi.data61.io/ANU_STORES/wms",
                           "opacity": 1,
                           "rectangle": {
@@ -16057,6 +16193,35 @@
                           },
                           "shareKeys": [
                             "Root Group/Renewable Energy/Marine/Australian Marine Energy Atlas/Analysis Study Area"
+                          ]
+                        },
+                        {
+                          "type": "wps-getCapabilities",
+                          "name": "Analysis Tools",
+                          "id": "b766d7c6",
+                          "description": "This group contains the analysis tools that operate on marine energy data.",
+                          "url": "http://oa-gis.csiro.au/wps",
+                          "cacheDuration": "0s",
+                          "itemProperties": {
+                            "cacheDuration": "0s"
+                          },
+                          "shareKeys": [
+                            "Root Group/Renewable Energy/Marine/Australian Marine Energy Atlas/Analysis Tools"
+                          ]
+                        },
+                        {
+                          "type": "csw-group",
+                          "name": "Marine Energy Context Layers",
+                          "id": "c2f37440",
+                          "description": "This group contains marine energy layers and other layers that can be used for decisions relating to marine energy devices.",
+                          "url": "http://oa-gis.csiro.au/geonetwork/srv/eng/csw",
+                          "domainSpecification": {
+                            "domainPropertyName": "awavea",
+                            "hierarchySeparator": " | ",
+                            "queryPropertyName": "subject"
+                          },
+                          "shareKeys": [
+                            "Root Group/Renewable Energy/Marine/Australian Marine Energy Atlas/Marine Energy Context Layers"
                           ]
                         }
                       ],
@@ -16521,6 +16686,15 @@
                           "content": "<strong>LEGAL DISCLAIMER AND CONDITIONS APPLICABLE TO MATERIAL PROVIDED BY DNV GL (TOGETHER “CONDITIONS”)</strong><p><strong>1.  Introduction</strong><p>(a) The Australian Renewable Energy Mapping Infrastructure (“AREMI”) project consists of a website designed and created by National ICT Australia (“NICTA”) (which may be hosted by a third party) which provides the public with on-line access to material (“On-line Material”). AREMI is hosted by Geoscience Australia.<p>(b) These Conditions come into effect when access is granted to On-line Material that is identified as being provided to NICTA by or otherwise originates from DNV GL (such material being “DNV GL Material”).<p>(c) These Conditions supplement any other terms and conditions applying to the On-line Material, but shall prevail (with respect to the DNV GL Material) to the extent of any inconsistency. Garrad Hassan Pacific Pty. Ltd. (trading as DNV GL) is a company registered in Australia with ABN 19 094 520 760.  “DNV GL Group” refers to any entity that directly or indirectly controls, is controlled by, or is under common control with DNV GL.<p><p><strong>2.  Copyright Notice</strong><p>The DNV GL Material including the design, text, graphics, their selection and arrangement are Copyright © 2015, Garrad Hassan Pacific Pty Ltd (registered in Australia) (DNV GL) or its licensors. ALL RIGHTS INCLUDING COPYRIGHT AND DATABASE RIGHTS RESERVED, and all moral rights are asserted and reserved.<p><p><strong>3.  Use and Access of DNV GL Material</strong><p>(a) You are permitted to print and download extracts of the DNV GL Material from the AREMI website for your own use on the following basis:<p style='margin-left: 4em'>(a) no documents or related graphics in the DNV GL Material are modified in any way;<p><p style='margin-left: 4em'>(b) no graphics in the DNV GL Material are used separately from the corresponding text; and<p><p style='margin-left: 4em'>(c) DNV GL’s copyright and trade mark notices and this permission notice appear in all copies.<p><p>(b) Unless otherwise stated, the copyright and other intellectual property rights in the DNV GL Material (including without limitation photographs and graphical images) are owned by DNV GL or its licensors. For the purposes of this legal notice, any use of extracts from the DNV GL Material other than in accordance with the foregoing for any purpose is prohibited.  Notwithstanding anything to the contrary you may never sell or use extracts from the DNV GL Material or any information contained therein to receive any payment or direct remuneration.  If you breach any of the terms in this legal notice, your permission to use the DNV GL Material automatically terminates and you must immediately destroy any downloaded or printed extracts of the DNV GL Material.<p>(c) Subject to foregoing, no part of the DNV GL Material may be reproduced or stored in any other website or included in any public or private electronic retrieval system or service without DNV GL’s prior written permission. Any rights not expressly granted in these terms are reserved.<p>(d) Save in respect of any liability which by law cannot be limited, DNV GL does not warrant the accuracy and completeness of the material on the website. DNV GL may make changes to the material on the website, or to the information described in it, at any time without notice. The material on the website may be out of date, and DNV GL makes no commitment to update such material.<p>(e) The DNV GL Material is provided “as is”, without any conditions, warranties or other terms of any kind. Accordingly, to the maximum extent permitted by law, you are provided with the DNV GL Material on the basis that DNV GL excludes all representations, warranties, conditions and other terms (including, without limitation all conditions implied by law of which, but for this legal notice, might have effect in relation to the website and/or the DNV GL Material).<p>(f) DNV GL and any of the members of DNV GL Group and the officers, directors, employees, shareholders or agents of any of them, exclude, to the extent permitted by law, all liability and responsibility for any amount or kind of loss or damage that may result to you or a third party (including without limitation, any direct, indirect, punitive or consequential loss or damages, or any loss of income, profits, goodwill, data, contracts, use of money, or loss or damages arising from or connected in any way to business interruption, and whether in tort (including without limitation negligence), contract or otherwise) in connection with the DNV GL Material or the website in any way or in connection with the use, inability to use the DNV GL Material or the website, any websites linked to the website or the material on such websites, including but not limited to loss or damage due to viruses that may infect your computer equipment, software, data or other property on account of your access to, use of, or browsing the DNV GL Material or the website or your downloading of any material (including the DNV GL Material) from the website or any websites linked to the website.<p>(g) DNV GL Material may not be used for commercial purposes or relied on by you or any third parties (including without limitation use or disclosure in any public offering memorandum or in connection with any financing or investment) without the express written consent of DNV GL. If you or any third party intends to use DNV GL Materials for commercial purpose or to use DNV GL Materials on reliance basis, you or such 3rd party shall contact DNV GL directly to request for DNV GL’s permission for such use subject to a separated agreement to be signed between you or 3rd party and DNV GL.<p>(h) DNV GL Material has been compiled using historical records and, where applicable, contains information relating to dates and periods which may be referred to in the DNV GL Material. Provision of DNV GL Material does not imply that any information is not subject to change, which may occur due to changes in circumstances, operations, conditions, prospects, status or affairs of any matter or entity whether or not expressly referred to in the DNV GL Material.<p><strong>4.  Limited Licence</strong><p>The sole use for which you are permitted to use the DNV GL Material is for your own internal business purposes but not otherwise, and in doing so you agree to act as principal and not as agent for any other entity.  The licence created by these Conditions is personal to you and shall automatically terminate if access to the AREMI website is restricted or the AREMI website is removed (or, if earlier, the withdrawal of the DNV GL Material by DNV GL or NICTA). You may not transfer, sublicense, time-share or electronically share access to any DNV GL Material.<p><strong>5.  General</strong><p>(a) These Conditions may be varied at any time upon notice to you (which may be by notice displayed on the AREMI website). You will be deemed to have accepted such amendment if you continue to access the AREMI website.  No member of the DNV GL Group, NICTA, Geoscience Australia or ARENA will be liable to you or to any third party for any modification, suspension or discontinuance of the AREMI website or access to the DNV GL Material.<p>(b) The provision of the DNV GL Material to you is subject to all applicable laws and regulations and codes of practice to which DNV GL is subject (collectively, \"applicable regulations\"). If any conflict arises between these Conditions and any applicable regulations, the latter shall prevail. No member of the DNV GL Group is required to do anything or refrain from doing anything which would infringe any applicable regulations and may do whatever it considers necessary to comply with them.<p>(c) If any provision of these Conditions shall be found by any court or administrative body of competent jurisdiction to be invalid or unenforceable, such invalidity or unenforceability shall not affect the other provisions of these Conditions which shall remain in full force and effect.<p>(d) You may not assign, transfer, charge or deal in any other manner with these Conditions or any rights hereunder.<p><p><strong>6.  GOVERNING LAW AND JURISDICTION</strong><p>THESE CONDITIONS (AND ANY NON-CONTRACTUAL OBLIGATIONS ARISING OUT OF OR IN RELATION TO THE SAME) ARE GOVERNED BY AND SHALL BE CONSTRUED IN ACCORDANCE WITH VICTORIAN LAW. YOU IRREVOCABLY SUBMIT TO THE EXCLUSIVE JURISDICTION OF THE VICTORIAN COURTS TO SETTLE ANY SUIT, ACTION OR OTHER PROCEEDINGS RELATING TO THESE CONDITIONS (\"PROCEEDINGS\"). NOTHING IN THESE CONDITIONS SHALL PREVENT DNV GL FROM BRINGING PROCEEDINGS AGAINST YOU IN ANY JURISDICTION.<p>You irrevocably agree to waive any objection which you may have at any time to the laying or venue of any Proceedings brought in the Victorian courts and agree not to claim that such Proceedings have been brought in an inconvenient forum or that such court does not have jurisdiction over it."
                         }
                       ],
+                      "initialMessage": {
+                        "key": "initialMessage.dnvgl.100m",
+                        "title": "DNV GL Wind Atlas Disclaimer",
+                        "content": "<center><a target='_blank' href='https://www.dnvgl.com/'><img width='50%' src='http://static.aremi.data61.io/resources/dnvgl/DNV_GL_LOGO_RGB-01.jpg'/></a></center> <p> <strong>LEGAL DISCLAIMER AND CONDITIONS APPLICABLE TO MATERIAL PROVIDED BY DNV GL (TOGETHER “CONDITIONS”)</strong><p><strong>1.  Introduction</strong><p>(a) The Australian Renewable Energy Mapping Infrastructure (“AREMI”) project consists of a website designed and created by National ICT Australia (“NICTA”) (which may be hosted by a third party) which provides the public with on-line access to material (“On-line Material”). AREMI is hosted by Geoscience Australia.<p>(b) These Conditions come into effect when access is granted to On-line Material that is identified as being provided to NICTA by or otherwise originates from DNV GL (such material being “DNV GL Material”).<p>(c) These Conditions supplement any other terms and conditions applying to the On-line Material, but shall prevail (with respect to the DNV GL Material) to the extent of any inconsistency. Garrad Hassan Pacific Pty. Ltd. (trading as DNV GL) is a company registered in Australia with ABN 19 094 520 760.  “DNV GL Group” refers to any entity that directly or indirectly controls, is controlled by, or is under common control with DNV GL.<p><p><strong>2.  Copyright Notice</strong><p>The DNV GL Material including the design, text, graphics, their selection and arrangement are Copyright © 2015, Garrad Hassan Pacific Pty Ltd (registered in Australia) (DNV GL) or its licensors. ALL RIGHTS INCLUDING COPYRIGHT AND DATABASE RIGHTS RESERVED, and all moral rights are asserted and reserved.<p><p><strong>3.  Use and Access of DNV GL Material</strong><p>(a) You are permitted to print and download extracts of the DNV GL Material from the AREMI website for your own use on the following basis:<p style='margin-left: 4em'>(a) no documents or related graphics in the DNV GL Material are modified in any way;<p><p style='margin-left: 4em'>(b) no graphics in the DNV GL Material are used separately from the corresponding text; and<p><p style='margin-left: 4em'>(c) DNV GL’s copyright and trade mark notices and this permission notice appear in all copies.<p><p>(b) Unless otherwise stated, the copyright and other intellectual property rights in the DNV GL Material (including without limitation photographs and graphical images) are owned by DNV GL or its licensors. For the purposes of this legal notice, any use of extracts from the DNV GL Material other than in accordance with the foregoing for any purpose is prohibited.  Notwithstanding anything to the contrary you may never sell or use extracts from the DNV GL Material or any information contained therein to receive any payment or direct remuneration.  If you breach any of the terms in this legal notice, your permission to use the DNV GL Material automatically terminates and you must immediately destroy any downloaded or printed extracts of the DNV GL Material.<p>(c) Subject to foregoing, no part of the DNV GL Material may be reproduced or stored in any other website or included in any public or private electronic retrieval system or service without DNV GL’s prior written permission. Any rights not expressly granted in these terms are reserved.<p>(d) Save in respect of any liability which by law cannot be limited, DNV GL does not warrant the accuracy and completeness of the material on the website. DNV GL may make changes to the material on the website, or to the information described in it, at any time without notice. The material on the website may be out of date, and DNV GL makes no commitment to update such material.<p>(e) The DNV GL Material is provided “as is”, without any conditions, warranties or other terms of any kind. Accordingly, to the maximum extent permitted by law, you are provided with the DNV GL Material on the basis that DNV GL excludes all representations, warranties, conditions and other terms (including, without limitation all conditions implied by law of which, but for this legal notice, might have effect in relation to the website and/or the DNV GL Material).<p>(f) DNV GL and any of the members of DNV GL Group and the officers, directors, employees, shareholders or agents of any of them, exclude, to the extent permitted by law, all liability and responsibility for any amount or kind of loss or damage that may result to you or a third party (including without limitation, any direct, indirect, punitive or consequential loss or damages, or any loss of income, profits, goodwill, data, contracts, use of money, or loss or damages arising from or connected in any way to business interruption, and whether in tort (including without limitation negligence), contract or otherwise) in connection with the DNV GL Material or the website in any way or in connection with the use, inability to use the DNV GL Material or the website, any websites linked to the website or the material on such websites, including but not limited to loss or damage due to viruses that may infect your computer equipment, software, data or other property on account of your access to, use of, or browsing the DNV GL Material or the website or your downloading of any material (including the DNV GL Material) from the website or any websites linked to the website.<p>(g) DNV GL Material may not be used for commercial purposes or relied on by you or any third parties (including without limitation use or disclosure in any public offering memorandum or in connection with any financing or investment) without the express written consent of DNV GL. If you or any third party intends to use DNV GL Materials for commercial purpose or to use DNV GL Materials on reliance basis, you or such 3rd party shall contact DNV GL directly to request for DNV GL’s permission for such use subject to a separated agreement to be signed between you or 3rd party and DNV GL.<p>(h) DNV GL Material has been compiled using historical records and, where applicable, contains information relating to dates and periods which may be referred to in the DNV GL Material. Provision of DNV GL Material does not imply that any information is not subject to change, which may occur due to changes in circumstances, operations, conditions, prospects, status or affairs of any matter or entity whether or not expressly referred to in the DNV GL Material.<p><strong>4.  Limited Licence</strong><p>The sole use for which you are permitted to use the DNV GL Material is for your own internal business purposes but not otherwise, and in doing so you agree to act as principal and not as agent for any other entity.  The licence created by these Conditions is personal to you and shall automatically terminate if access to the AREMI website is restricted or the AREMI website is removed (or, if earlier, the withdrawal of the DNV GL Material by DNV GL or NICTA). You may not transfer, sublicense, time-share or electronically share access to any DNV GL Material.<p><strong>5.  General</strong><p>(a) These Conditions may be varied at any time upon notice to you (which may be by notice displayed on the AREMI website). You will be deemed to have accepted such amendment if you continue to access the AREMI website.  No member of the DNV GL Group, NICTA, Geoscience Australia or ARENA will be liable to you or to any third party for any modification, suspension or discontinuance of the AREMI website or access to the DNV GL Material.<p>(b) The provision of the DNV GL Material to you is subject to all applicable laws and regulations and codes of practice to which DNV GL is subject (collectively, \"applicable regulations\"). If any conflict arises between these Conditions and any applicable regulations, the latter shall prevail. No member of the DNV GL Group is required to do anything or refrain from doing anything which would infringe any applicable regulations and may do whatever it considers necessary to comply with them.<p>(c) If any provision of these Conditions shall be found by any court or administrative body of competent jurisdiction to be invalid or unenforceable, such invalidity or unenforceability shall not affect the other provisions of these Conditions which shall remain in full force and effect.<p>(d) You may not assign, transfer, charge or deal in any other manner with these Conditions or any rights hereunder.<p><p><strong>6.  GOVERNING LAW AND JURISDICTION</strong><p>THESE CONDITIONS (AND ANY NON-CONTRACTUAL OBLIGATIONS ARISING OUT OF OR IN RELATION TO THE SAME) ARE GOVERNED BY AND SHALL BE CONSTRUED IN ACCORDANCE WITH VICTORIAN LAW. YOU IRREVOCABLY SUBMIT TO THE EXCLUSIVE JURISDICTION OF THE VICTORIAN COURTS TO SETTLE ANY SUIT, ACTION OR OTHER PROCEEDINGS RELATING TO THESE CONDITIONS (\"PROCEEDINGS\"). NOTHING IN THESE CONDITIONS SHALL PREVENT DNV GL FROM BRINGING PROCEEDINGS AGAINST YOU IN ANY JURISDICTION.<p>You irrevocably agree to waive any objection which you may have at any time to the laying or venue of any Proceedings brought in the Victorian courts and agree not to claim that such Proceedings have been brought in an inconvenient forum or that such court does not have jurisdiction over it.",
+                        "confirmation": true,
+                        "width": 600,
+                        "height": 550,
+                        "confirmText": "I Agree"
+                      },
                       "url": "https://gis.aremi.data61.io/dnvgl/wms",
                       "rectangle": {
                         "west": 112,
@@ -16571,6 +16745,15 @@
                           "content": "<strong>LEGAL DISCLAIMER AND CONDITIONS APPLICABLE TO MATERIAL PROVIDED BY DNV GL (TOGETHER “CONDITIONS”)</strong><p><strong>1.  Introduction</strong><p>(a) The Australian Renewable Energy Mapping Infrastructure (“AREMI”) project consists of a website designed and created by National ICT Australia (“NICTA”) (which may be hosted by a third party) which provides the public with on-line access to material (“On-line Material”). AREMI is hosted by Geoscience Australia.<p>(b) These Conditions come into effect when access is granted to On-line Material that is identified as being provided to NICTA by or otherwise originates from DNV GL (such material being “DNV GL Material”).<p>(c) These Conditions supplement any other terms and conditions applying to the On-line Material, but shall prevail (with respect to the DNV GL Material) to the extent of any inconsistency. Garrad Hassan Pacific Pty. Ltd. (trading as DNV GL) is a company registered in Australia with ABN 19 094 520 760.  “DNV GL Group” refers to any entity that directly or indirectly controls, is controlled by, or is under common control with DNV GL.<p><p><strong>2.  Copyright Notice</strong><p>The DNV GL Material including the design, text, graphics, their selection and arrangement are Copyright © 2015, Garrad Hassan Pacific Pty Ltd (registered in Australia) (DNV GL) or its licensors. ALL RIGHTS INCLUDING COPYRIGHT AND DATABASE RIGHTS RESERVED, and all moral rights are asserted and reserved.<p><p><strong>3.  Use and Access of DNV GL Material</strong><p>(a) You are permitted to print and download extracts of the DNV GL Material from the AREMI website for your own use on the following basis:<p style='margin-left: 4em'>(a) no documents or related graphics in the DNV GL Material are modified in any way;<p><p style='margin-left: 4em'>(b) no graphics in the DNV GL Material are used separately from the corresponding text; and<p><p style='margin-left: 4em'>(c) DNV GL’s copyright and trade mark notices and this permission notice appear in all copies.<p><p>(b) Unless otherwise stated, the copyright and other intellectual property rights in the DNV GL Material (including without limitation photographs and graphical images) are owned by DNV GL or its licensors. For the purposes of this legal notice, any use of extracts from the DNV GL Material other than in accordance with the foregoing for any purpose is prohibited.  Notwithstanding anything to the contrary you may never sell or use extracts from the DNV GL Material or any information contained therein to receive any payment or direct remuneration.  If you breach any of the terms in this legal notice, your permission to use the DNV GL Material automatically terminates and you must immediately destroy any downloaded or printed extracts of the DNV GL Material.<p>(c) Subject to foregoing, no part of the DNV GL Material may be reproduced or stored in any other website or included in any public or private electronic retrieval system or service without DNV GL’s prior written permission. Any rights not expressly granted in these terms are reserved.<p>(d) Save in respect of any liability which by law cannot be limited, DNV GL does not warrant the accuracy and completeness of the material on the website. DNV GL may make changes to the material on the website, or to the information described in it, at any time without notice. The material on the website may be out of date, and DNV GL makes no commitment to update such material.<p>(e) The DNV GL Material is provided “as is”, without any conditions, warranties or other terms of any kind. Accordingly, to the maximum extent permitted by law, you are provided with the DNV GL Material on the basis that DNV GL excludes all representations, warranties, conditions and other terms (including, without limitation all conditions implied by law of which, but for this legal notice, might have effect in relation to the website and/or the DNV GL Material).<p>(f) DNV GL and any of the members of DNV GL Group and the officers, directors, employees, shareholders or agents of any of them, exclude, to the extent permitted by law, all liability and responsibility for any amount or kind of loss or damage that may result to you or a third party (including without limitation, any direct, indirect, punitive or consequential loss or damages, or any loss of income, profits, goodwill, data, contracts, use of money, or loss or damages arising from or connected in any way to business interruption, and whether in tort (including without limitation negligence), contract or otherwise) in connection with the DNV GL Material or the website in any way or in connection with the use, inability to use the DNV GL Material or the website, any websites linked to the website or the material on such websites, including but not limited to loss or damage due to viruses that may infect your computer equipment, software, data or other property on account of your access to, use of, or browsing the DNV GL Material or the website or your downloading of any material (including the DNV GL Material) from the website or any websites linked to the website.<p>(g) DNV GL Material may not be used for commercial purposes or relied on by you or any third parties (including without limitation use or disclosure in any public offering memorandum or in connection with any financing or investment) without the express written consent of DNV GL. If you or any third party intends to use DNV GL Materials for commercial purpose or to use DNV GL Materials on reliance basis, you or such 3rd party shall contact DNV GL directly to request for DNV GL’s permission for such use subject to a separated agreement to be signed between you or 3rd party and DNV GL.<p>(h) DNV GL Material has been compiled using historical records and, where applicable, contains information relating to dates and periods which may be referred to in the DNV GL Material. Provision of DNV GL Material does not imply that any information is not subject to change, which may occur due to changes in circumstances, operations, conditions, prospects, status or affairs of any matter or entity whether or not expressly referred to in the DNV GL Material.<p><strong>4.  Limited Licence</strong><p>The sole use for which you are permitted to use the DNV GL Material is for your own internal business purposes but not otherwise, and in doing so you agree to act as principal and not as agent for any other entity.  The licence created by these Conditions is personal to you and shall automatically terminate if access to the AREMI website is restricted or the AREMI website is removed (or, if earlier, the withdrawal of the DNV GL Material by DNV GL or NICTA). You may not transfer, sublicense, time-share or electronically share access to any DNV GL Material.<p><strong>5.  General</strong><p>(a) These Conditions may be varied at any time upon notice to you (which may be by notice displayed on the AREMI website). You will be deemed to have accepted such amendment if you continue to access the AREMI website.  No member of the DNV GL Group, NICTA, Geoscience Australia or ARENA will be liable to you or to any third party for any modification, suspension or discontinuance of the AREMI website or access to the DNV GL Material.<p>(b) The provision of the DNV GL Material to you is subject to all applicable laws and regulations and codes of practice to which DNV GL is subject (collectively, \"applicable regulations\"). If any conflict arises between these Conditions and any applicable regulations, the latter shall prevail. No member of the DNV GL Group is required to do anything or refrain from doing anything which would infringe any applicable regulations and may do whatever it considers necessary to comply with them.<p>(c) If any provision of these Conditions shall be found by any court or administrative body of competent jurisdiction to be invalid or unenforceable, such invalidity or unenforceability shall not affect the other provisions of these Conditions which shall remain in full force and effect.<p>(d) You may not assign, transfer, charge or deal in any other manner with these Conditions or any rights hereunder.<p><p><strong>6.  GOVERNING LAW AND JURISDICTION</strong><p>THESE CONDITIONS (AND ANY NON-CONTRACTUAL OBLIGATIONS ARISING OUT OF OR IN RELATION TO THE SAME) ARE GOVERNED BY AND SHALL BE CONSTRUED IN ACCORDANCE WITH VICTORIAN LAW. YOU IRREVOCABLY SUBMIT TO THE EXCLUSIVE JURISDICTION OF THE VICTORIAN COURTS TO SETTLE ANY SUIT, ACTION OR OTHER PROCEEDINGS RELATING TO THESE CONDITIONS (\"PROCEEDINGS\"). NOTHING IN THESE CONDITIONS SHALL PREVENT DNV GL FROM BRINGING PROCEEDINGS AGAINST YOU IN ANY JURISDICTION.<p>You irrevocably agree to waive any objection which you may have at any time to the laying or venue of any Proceedings brought in the Victorian courts and agree not to claim that such Proceedings have been brought in an inconvenient forum or that such court does not have jurisdiction over it."
                         }
                       ],
+                      "initialMessage": {
+                        "key": "initialMessage.dnvgl.150m",
+                        "title": "DNV GL Wind Atlas Disclaimer",
+                        "content": "<center><a target='_blank' href='https://www.dnvgl.com/'><img width='50%' src='http://static.aremi.data61.io/resources/dnvgl/DNV_GL_LOGO_RGB-01.jpg'/></a></center> <p> <strong>LEGAL DISCLAIMER AND CONDITIONS APPLICABLE TO MATERIAL PROVIDED BY DNV GL (TOGETHER “CONDITIONS”)</strong><p><strong>1.  Introduction</strong><p>(a) The Australian Renewable Energy Mapping Infrastructure (“AREMI”) project consists of a website designed and created by National ICT Australia (“NICTA”) (which may be hosted by a third party) which provides the public with on-line access to material (“On-line Material”). AREMI is hosted by Geoscience Australia.<p>(b) These Conditions come into effect when access is granted to On-line Material that is identified as being provided to NICTA by or otherwise originates from DNV GL (such material being “DNV GL Material”).<p>(c) These Conditions supplement any other terms and conditions applying to the On-line Material, but shall prevail (with respect to the DNV GL Material) to the extent of any inconsistency. Garrad Hassan Pacific Pty. Ltd. (trading as DNV GL) is a company registered in Australia with ABN 19 094 520 760.  “DNV GL Group” refers to any entity that directly or indirectly controls, is controlled by, or is under common control with DNV GL.<p><p><strong>2.  Copyright Notice</strong><p>The DNV GL Material including the design, text, graphics, their selection and arrangement are Copyright © 2015, Garrad Hassan Pacific Pty Ltd (registered in Australia) (DNV GL) or its licensors. ALL RIGHTS INCLUDING COPYRIGHT AND DATABASE RIGHTS RESERVED, and all moral rights are asserted and reserved.<p><p><strong>3.  Use and Access of DNV GL Material</strong><p>(a) You are permitted to print and download extracts of the DNV GL Material from the AREMI website for your own use on the following basis:<p style='margin-left: 4em'>(a) no documents or related graphics in the DNV GL Material are modified in any way;<p><p style='margin-left: 4em'>(b) no graphics in the DNV GL Material are used separately from the corresponding text; and<p><p style='margin-left: 4em'>(c) DNV GL’s copyright and trade mark notices and this permission notice appear in all copies.<p><p>(b) Unless otherwise stated, the copyright and other intellectual property rights in the DNV GL Material (including without limitation photographs and graphical images) are owned by DNV GL or its licensors. For the purposes of this legal notice, any use of extracts from the DNV GL Material other than in accordance with the foregoing for any purpose is prohibited.  Notwithstanding anything to the contrary you may never sell or use extracts from the DNV GL Material or any information contained therein to receive any payment or direct remuneration.  If you breach any of the terms in this legal notice, your permission to use the DNV GL Material automatically terminates and you must immediately destroy any downloaded or printed extracts of the DNV GL Material.<p>(c) Subject to foregoing, no part of the DNV GL Material may be reproduced or stored in any other website or included in any public or private electronic retrieval system or service without DNV GL’s prior written permission. Any rights not expressly granted in these terms are reserved.<p>(d) Save in respect of any liability which by law cannot be limited, DNV GL does not warrant the accuracy and completeness of the material on the website. DNV GL may make changes to the material on the website, or to the information described in it, at any time without notice. The material on the website may be out of date, and DNV GL makes no commitment to update such material.<p>(e) The DNV GL Material is provided “as is”, without any conditions, warranties or other terms of any kind. Accordingly, to the maximum extent permitted by law, you are provided with the DNV GL Material on the basis that DNV GL excludes all representations, warranties, conditions and other terms (including, without limitation all conditions implied by law of which, but for this legal notice, might have effect in relation to the website and/or the DNV GL Material).<p>(f) DNV GL and any of the members of DNV GL Group and the officers, directors, employees, shareholders or agents of any of them, exclude, to the extent permitted by law, all liability and responsibility for any amount or kind of loss or damage that may result to you or a third party (including without limitation, any direct, indirect, punitive or consequential loss or damages, or any loss of income, profits, goodwill, data, contracts, use of money, or loss or damages arising from or connected in any way to business interruption, and whether in tort (including without limitation negligence), contract or otherwise) in connection with the DNV GL Material or the website in any way or in connection with the use, inability to use the DNV GL Material or the website, any websites linked to the website or the material on such websites, including but not limited to loss or damage due to viruses that may infect your computer equipment, software, data or other property on account of your access to, use of, or browsing the DNV GL Material or the website or your downloading of any material (including the DNV GL Material) from the website or any websites linked to the website.<p>(g) DNV GL Material may not be used for commercial purposes or relied on by you or any third parties (including without limitation use or disclosure in any public offering memorandum or in connection with any financing or investment) without the express written consent of DNV GL. If you or any third party intends to use DNV GL Materials for commercial purpose or to use DNV GL Materials on reliance basis, you or such 3rd party shall contact DNV GL directly to request for DNV GL’s permission for such use subject to a separated agreement to be signed between you or 3rd party and DNV GL.<p>(h) DNV GL Material has been compiled using historical records and, where applicable, contains information relating to dates and periods which may be referred to in the DNV GL Material. Provision of DNV GL Material does not imply that any information is not subject to change, which may occur due to changes in circumstances, operations, conditions, prospects, status or affairs of any matter or entity whether or not expressly referred to in the DNV GL Material.<p><strong>4.  Limited Licence</strong><p>The sole use for which you are permitted to use the DNV GL Material is for your own internal business purposes but not otherwise, and in doing so you agree to act as principal and not as agent for any other entity.  The licence created by these Conditions is personal to you and shall automatically terminate if access to the AREMI website is restricted or the AREMI website is removed (or, if earlier, the withdrawal of the DNV GL Material by DNV GL or NICTA). You may not transfer, sublicense, time-share or electronically share access to any DNV GL Material.<p><strong>5.  General</strong><p>(a) These Conditions may be varied at any time upon notice to you (which may be by notice displayed on the AREMI website). You will be deemed to have accepted such amendment if you continue to access the AREMI website.  No member of the DNV GL Group, NICTA, Geoscience Australia or ARENA will be liable to you or to any third party for any modification, suspension or discontinuance of the AREMI website or access to the DNV GL Material.<p>(b) The provision of the DNV GL Material to you is subject to all applicable laws and regulations and codes of practice to which DNV GL is subject (collectively, \"applicable regulations\"). If any conflict arises between these Conditions and any applicable regulations, the latter shall prevail. No member of the DNV GL Group is required to do anything or refrain from doing anything which would infringe any applicable regulations and may do whatever it considers necessary to comply with them.<p>(c) If any provision of these Conditions shall be found by any court or administrative body of competent jurisdiction to be invalid or unenforceable, such invalidity or unenforceability shall not affect the other provisions of these Conditions which shall remain in full force and effect.<p>(d) You may not assign, transfer, charge or deal in any other manner with these Conditions or any rights hereunder.<p><p><strong>6.  GOVERNING LAW AND JURISDICTION</strong><p>THESE CONDITIONS (AND ANY NON-CONTRACTUAL OBLIGATIONS ARISING OUT OF OR IN RELATION TO THE SAME) ARE GOVERNED BY AND SHALL BE CONSTRUED IN ACCORDANCE WITH VICTORIAN LAW. YOU IRREVOCABLY SUBMIT TO THE EXCLUSIVE JURISDICTION OF THE VICTORIAN COURTS TO SETTLE ANY SUIT, ACTION OR OTHER PROCEEDINGS RELATING TO THESE CONDITIONS (\"PROCEEDINGS\"). NOTHING IN THESE CONDITIONS SHALL PREVENT DNV GL FROM BRINGING PROCEEDINGS AGAINST YOU IN ANY JURISDICTION.<p>You irrevocably agree to waive any objection which you may have at any time to the laying or venue of any Proceedings brought in the Victorian courts and agree not to claim that such Proceedings have been brought in an inconvenient forum or that such court does not have jurisdiction over it.",
+                        "confirmation": true,
+                        "width": 600,
+                        "height": 550,
+                        "confirmText": "I Agree"
+                      },
                       "url": "https://gis.aremi.data61.io/dnvgl/wms",
                       "rectangle": {
                         "west": 112,
@@ -16669,6 +16852,15 @@
                           "content": "<strong>LEGAL DISCLAIMER AND CONDITIONS APPLICABLE TO MATERIAL PROVIDED BY DNV GL (TOGETHER “CONDITIONS”)</strong><p><strong>1.  Introduction</strong><p>(a) The Australian Renewable Energy Mapping Infrastructure (“AREMI”) project consists of a website designed and created by National ICT Australia (“NICTA”) (which may be hosted by a third party) which provides the public with on-line access to material (“On-line Material”). AREMI is hosted by Geoscience Australia.<p>(b) These Conditions come into effect when access is granted to On-line Material that is identified as being provided to NICTA by or otherwise originates from DNV GL (such material being “DNV GL Material”).<p>(c) These Conditions supplement any other terms and conditions applying to the On-line Material, but shall prevail (with respect to the DNV GL Material) to the extent of any inconsistency. Garrad Hassan Pacific Pty. Ltd. (trading as DNV GL) is a company registered in Australia with ABN 19 094 520 760.  “DNV GL Group” refers to any entity that directly or indirectly controls, is controlled by, or is under common control with DNV GL.<p><p><strong>2.  Copyright Notice</strong><p>The DNV GL Material including the design, text, graphics, their selection and arrangement are Copyright © 2015, Garrad Hassan Pacific Pty Ltd (registered in Australia) (DNV GL) or its licensors. ALL RIGHTS INCLUDING COPYRIGHT AND DATABASE RIGHTS RESERVED, and all moral rights are asserted and reserved.<p><p><strong>3.  Use and Access of DNV GL Material</strong><p>(a) You are permitted to print and download extracts of the DNV GL Material from the AREMI website for your own use on the following basis:<p style='margin-left: 4em'>(a) no documents or related graphics in the DNV GL Material are modified in any way;<p><p style='margin-left: 4em'>(b) no graphics in the DNV GL Material are used separately from the corresponding text; and<p><p style='margin-left: 4em'>(c) DNV GL’s copyright and trade mark notices and this permission notice appear in all copies.<p><p>(b) Unless otherwise stated, the copyright and other intellectual property rights in the DNV GL Material (including without limitation photographs and graphical images) are owned by DNV GL or its licensors. For the purposes of this legal notice, any use of extracts from the DNV GL Material other than in accordance with the foregoing for any purpose is prohibited.  Notwithstanding anything to the contrary you may never sell or use extracts from the DNV GL Material or any information contained therein to receive any payment or direct remuneration.  If you breach any of the terms in this legal notice, your permission to use the DNV GL Material automatically terminates and you must immediately destroy any downloaded or printed extracts of the DNV GL Material.<p>(c) Subject to foregoing, no part of the DNV GL Material may be reproduced or stored in any other website or included in any public or private electronic retrieval system or service without DNV GL’s prior written permission. Any rights not expressly granted in these terms are reserved.<p>(d) Save in respect of any liability which by law cannot be limited, DNV GL does not warrant the accuracy and completeness of the material on the website. DNV GL may make changes to the material on the website, or to the information described in it, at any time without notice. The material on the website may be out of date, and DNV GL makes no commitment to update such material.<p>(e) The DNV GL Material is provided “as is”, without any conditions, warranties or other terms of any kind. Accordingly, to the maximum extent permitted by law, you are provided with the DNV GL Material on the basis that DNV GL excludes all representations, warranties, conditions and other terms (including, without limitation all conditions implied by law of which, but for this legal notice, might have effect in relation to the website and/or the DNV GL Material).<p>(f) DNV GL and any of the members of DNV GL Group and the officers, directors, employees, shareholders or agents of any of them, exclude, to the extent permitted by law, all liability and responsibility for any amount or kind of loss or damage that may result to you or a third party (including without limitation, any direct, indirect, punitive or consequential loss or damages, or any loss of income, profits, goodwill, data, contracts, use of money, or loss or damages arising from or connected in any way to business interruption, and whether in tort (including without limitation negligence), contract or otherwise) in connection with the DNV GL Material or the website in any way or in connection with the use, inability to use the DNV GL Material or the website, any websites linked to the website or the material on such websites, including but not limited to loss or damage due to viruses that may infect your computer equipment, software, data or other property on account of your access to, use of, or browsing the DNV GL Material or the website or your downloading of any material (including the DNV GL Material) from the website or any websites linked to the website.<p>(g) DNV GL Material may not be used for commercial purposes or relied on by you or any third parties (including without limitation use or disclosure in any public offering memorandum or in connection with any financing or investment) without the express written consent of DNV GL. If you or any third party intends to use DNV GL Materials for commercial purpose or to use DNV GL Materials on reliance basis, you or such 3rd party shall contact DNV GL directly to request for DNV GL’s permission for such use subject to a separated agreement to be signed between you or 3rd party and DNV GL.<p>(h) DNV GL Material has been compiled using historical records and, where applicable, contains information relating to dates and periods which may be referred to in the DNV GL Material. Provision of DNV GL Material does not imply that any information is not subject to change, which may occur due to changes in circumstances, operations, conditions, prospects, status or affairs of any matter or entity whether or not expressly referred to in the DNV GL Material.<p><strong>4.  Limited Licence</strong><p>The sole use for which you are permitted to use the DNV GL Material is for your own internal business purposes but not otherwise, and in doing so you agree to act as principal and not as agent for any other entity.  The licence created by these Conditions is personal to you and shall automatically terminate if access to the AREMI website is restricted or the AREMI website is removed (or, if earlier, the withdrawal of the DNV GL Material by DNV GL or NICTA). You may not transfer, sublicense, time-share or electronically share access to any DNV GL Material.<p><strong>5.  General</strong><p>(a) These Conditions may be varied at any time upon notice to you (which may be by notice displayed on the AREMI website). You will be deemed to have accepted such amendment if you continue to access the AREMI website.  No member of the DNV GL Group, NICTA, Geoscience Australia or ARENA will be liable to you or to any third party for any modification, suspension or discontinuance of the AREMI website or access to the DNV GL Material.<p>(b) The provision of the DNV GL Material to you is subject to all applicable laws and regulations and codes of practice to which DNV GL is subject (collectively, \"applicable regulations\"). If any conflict arises between these Conditions and any applicable regulations, the latter shall prevail. No member of the DNV GL Group is required to do anything or refrain from doing anything which would infringe any applicable regulations and may do whatever it considers necessary to comply with them.<p>(c) If any provision of these Conditions shall be found by any court or administrative body of competent jurisdiction to be invalid or unenforceable, such invalidity or unenforceability shall not affect the other provisions of these Conditions which shall remain in full force and effect.<p>(d) You may not assign, transfer, charge or deal in any other manner with these Conditions or any rights hereunder.<p><p><strong>6.  GOVERNING LAW AND JURISDICTION</strong><p>THESE CONDITIONS (AND ANY NON-CONTRACTUAL OBLIGATIONS ARISING OUT OF OR IN RELATION TO THE SAME) ARE GOVERNED BY AND SHALL BE CONSTRUED IN ACCORDANCE WITH VICTORIAN LAW. YOU IRREVOCABLY SUBMIT TO THE EXCLUSIVE JURISDICTION OF THE VICTORIAN COURTS TO SETTLE ANY SUIT, ACTION OR OTHER PROCEEDINGS RELATING TO THESE CONDITIONS (\"PROCEEDINGS\"). NOTHING IN THESE CONDITIONS SHALL PREVENT DNV GL FROM BRINGING PROCEEDINGS AGAINST YOU IN ANY JURISDICTION.<p>You irrevocably agree to waive any objection which you may have at any time to the laying or venue of any Proceedings brought in the Victorian courts and agree not to claim that such Proceedings have been brought in an inconvenient forum or that such court does not have jurisdiction over it."
                         }
                       ],
+                      "initialMessage": {
+                        "key": "initialMessage.dnvgl.wasp",
+                        "title": "DNV GL Wind Atlas Disclaimer",
+                        "content": "<center><a target='_blank' href='https://www.dnvgl.com/'><img width='50%' src='http://static.aremi.data61.io/resources/dnvgl/DNV_GL_LOGO_RGB-01.jpg'/></a></center> <p> <strong>LEGAL DISCLAIMER AND CONDITIONS APPLICABLE TO MATERIAL PROVIDED BY DNV GL (TOGETHER “CONDITIONS”)</strong><p><strong>1.  Introduction</strong><p>(a) The Australian Renewable Energy Mapping Infrastructure (“AREMI”) project consists of a website designed and created by National ICT Australia (“NICTA”) (which may be hosted by a third party) which provides the public with on-line access to material (“On-line Material”). AREMI is hosted by Geoscience Australia.<p>(b) These Conditions come into effect when access is granted to On-line Material that is identified as being provided to NICTA by or otherwise originates from DNV GL (such material being “DNV GL Material”).<p>(c) These Conditions supplement any other terms and conditions applying to the On-line Material, but shall prevail (with respect to the DNV GL Material) to the extent of any inconsistency. Garrad Hassan Pacific Pty. Ltd. (trading as DNV GL) is a company registered in Australia with ABN 19 094 520 760.  “DNV GL Group” refers to any entity that directly or indirectly controls, is controlled by, or is under common control with DNV GL.<p><p><strong>2.  Copyright Notice</strong><p>The DNV GL Material including the design, text, graphics, their selection and arrangement are Copyright © 2015, Garrad Hassan Pacific Pty Ltd (registered in Australia) (DNV GL) or its licensors. ALL RIGHTS INCLUDING COPYRIGHT AND DATABASE RIGHTS RESERVED, and all moral rights are asserted and reserved.<p><p><strong>3.  Use and Access of DNV GL Material</strong><p>(a) You are permitted to print and download extracts of the DNV GL Material from the AREMI website for your own use on the following basis:<p style='margin-left: 4em'>(a) no documents or related graphics in the DNV GL Material are modified in any way;<p><p style='margin-left: 4em'>(b) no graphics in the DNV GL Material are used separately from the corresponding text; and<p><p style='margin-left: 4em'>(c) DNV GL’s copyright and trade mark notices and this permission notice appear in all copies.<p><p>(b) Unless otherwise stated, the copyright and other intellectual property rights in the DNV GL Material (including without limitation photographs and graphical images) are owned by DNV GL or its licensors. For the purposes of this legal notice, any use of extracts from the DNV GL Material other than in accordance with the foregoing for any purpose is prohibited.  Notwithstanding anything to the contrary you may never sell or use extracts from the DNV GL Material or any information contained therein to receive any payment or direct remuneration.  If you breach any of the terms in this legal notice, your permission to use the DNV GL Material automatically terminates and you must immediately destroy any downloaded or printed extracts of the DNV GL Material.<p>(c) Subject to foregoing, no part of the DNV GL Material may be reproduced or stored in any other website or included in any public or private electronic retrieval system or service without DNV GL’s prior written permission. Any rights not expressly granted in these terms are reserved.<p>(d) Save in respect of any liability which by law cannot be limited, DNV GL does not warrant the accuracy and completeness of the material on the website. DNV GL may make changes to the material on the website, or to the information described in it, at any time without notice. The material on the website may be out of date, and DNV GL makes no commitment to update such material.<p>(e) The DNV GL Material is provided “as is”, without any conditions, warranties or other terms of any kind. Accordingly, to the maximum extent permitted by law, you are provided with the DNV GL Material on the basis that DNV GL excludes all representations, warranties, conditions and other terms (including, without limitation all conditions implied by law of which, but for this legal notice, might have effect in relation to the website and/or the DNV GL Material).<p>(f) DNV GL and any of the members of DNV GL Group and the officers, directors, employees, shareholders or agents of any of them, exclude, to the extent permitted by law, all liability and responsibility for any amount or kind of loss or damage that may result to you or a third party (including without limitation, any direct, indirect, punitive or consequential loss or damages, or any loss of income, profits, goodwill, data, contracts, use of money, or loss or damages arising from or connected in any way to business interruption, and whether in tort (including without limitation negligence), contract or otherwise) in connection with the DNV GL Material or the website in any way or in connection with the use, inability to use the DNV GL Material or the website, any websites linked to the website or the material on such websites, including but not limited to loss or damage due to viruses that may infect your computer equipment, software, data or other property on account of your access to, use of, or browsing the DNV GL Material or the website or your downloading of any material (including the DNV GL Material) from the website or any websites linked to the website.<p>(g) DNV GL Material may not be used for commercial purposes or relied on by you or any third parties (including without limitation use or disclosure in any public offering memorandum or in connection with any financing or investment) without the express written consent of DNV GL. If you or any third party intends to use DNV GL Materials for commercial purpose or to use DNV GL Materials on reliance basis, you or such 3rd party shall contact DNV GL directly to request for DNV GL’s permission for such use subject to a separated agreement to be signed between you or 3rd party and DNV GL.<p>(h) DNV GL Material has been compiled using historical records and, where applicable, contains information relating to dates and periods which may be referred to in the DNV GL Material. Provision of DNV GL Material does not imply that any information is not subject to change, which may occur due to changes in circumstances, operations, conditions, prospects, status or affairs of any matter or entity whether or not expressly referred to in the DNV GL Material.<p><strong>4.  Limited Licence</strong><p>The sole use for which you are permitted to use the DNV GL Material is for your own internal business purposes but not otherwise, and in doing so you agree to act as principal and not as agent for any other entity.  The licence created by these Conditions is personal to you and shall automatically terminate if access to the AREMI website is restricted or the AREMI website is removed (or, if earlier, the withdrawal of the DNV GL Material by DNV GL or NICTA). You may not transfer, sublicense, time-share or electronically share access to any DNV GL Material.<p><strong>5.  General</strong><p>(a) These Conditions may be varied at any time upon notice to you (which may be by notice displayed on the AREMI website). You will be deemed to have accepted such amendment if you continue to access the AREMI website.  No member of the DNV GL Group, NICTA, Geoscience Australia or ARENA will be liable to you or to any third party for any modification, suspension or discontinuance of the AREMI website or access to the DNV GL Material.<p>(b) The provision of the DNV GL Material to you is subject to all applicable laws and regulations and codes of practice to which DNV GL is subject (collectively, \"applicable regulations\"). If any conflict arises between these Conditions and any applicable regulations, the latter shall prevail. No member of the DNV GL Group is required to do anything or refrain from doing anything which would infringe any applicable regulations and may do whatever it considers necessary to comply with them.<p>(c) If any provision of these Conditions shall be found by any court or administrative body of competent jurisdiction to be invalid or unenforceable, such invalidity or unenforceability shall not affect the other provisions of these Conditions which shall remain in full force and effect.<p>(d) You may not assign, transfer, charge or deal in any other manner with these Conditions or any rights hereunder.<p><p><strong>6.  GOVERNING LAW AND JURISDICTION</strong><p>THESE CONDITIONS (AND ANY NON-CONTRACTUAL OBLIGATIONS ARISING OUT OF OR IN RELATION TO THE SAME) ARE GOVERNED BY AND SHALL BE CONSTRUED IN ACCORDANCE WITH VICTORIAN LAW. YOU IRREVOCABLY SUBMIT TO THE EXCLUSIVE JURISDICTION OF THE VICTORIAN COURTS TO SETTLE ANY SUIT, ACTION OR OTHER PROCEEDINGS RELATING TO THESE CONDITIONS (\"PROCEEDINGS\"). NOTHING IN THESE CONDITIONS SHALL PREVENT DNV GL FROM BRINGING PROCEEDINGS AGAINST YOU IN ANY JURISDICTION.<p>You irrevocably agree to waive any objection which you may have at any time to the laying or venue of any Proceedings brought in the Victorian courts and agree not to claim that such Proceedings have been brought in an inconvenient forum or that such court does not have jurisdiction over it.",
+                        "confirmation": true,
+                        "width": 600,
+                        "height": 550,
+                        "confirmText": "I Agree"
+                      },
                       "url": "https://gis.aremi.data61.io/dnvgl/wms",
                       "opacity": 0.3,
                       "rectangle": {
@@ -18575,72 +18767,84 @@
                             {
                               "id": "Dwellings",
                               "color": {
+                                "numberOfBins": 8,
                                 "colorPalette": "Reds"
                               }
                             },
                             {
                               "id": "Persons",
                               "color": {
+                                "numberOfBins": 8,
                                 "colorPalette": "Reds"
                               }
                             },
                             {
                               "id": "Residential",
                               "color": {
+                                "numberOfBins": 8,
                                 "colorPalette": "Reds"
                               }
                             },
                             {
                               "id": "Commercial",
                               "color": {
+                                "numberOfBins": 8,
                                 "colorPalette": "Reds"
                               }
                             },
                             {
                               "id": "Industrial",
                               "color": {
+                                "numberOfBins": 8,
                                 "colorPalette": "Reds"
                               }
                             },
                             {
                               "id": "Primary Production",
                               "color": {
+                                "numberOfBins": 8,
                                 "colorPalette": "Reds"
                               }
                             },
                             {
                               "id": "Education",
                               "color": {
+                                "numberOfBins": 8,
                                 "colorPalette": "Reds"
                               }
                             },
                             {
                               "id": "Hospital/Medical",
                               "color": {
+                                "numberOfBins": 8,
                                 "colorPalette": "Reds"
                               }
                             },
                             {
                               "id": "Transport",
                               "color": {
+                                "numberOfBins": 8,
                                 "colorPalette": "Reds"
                               }
                             },
                             {
                               "id": "Parkland",
                               "color": {
+                                "numberOfBins": 8,
                                 "colorPalette": "Reds"
                               }
                             },
                             {
                               "id": "Water",
                               "color": {
+                                "numberOfBins": 8,
                                 "colorPalette": "Reds"
                               }
                             },
                             {
                               "id": "Other",
                               "color": {
+                                "numberOfBins": 8,
                                 "colorPalette": "Reds"
                               }
                             }
@@ -18832,42 +19036,49 @@
                             {
                               "id": "TotalActiveEnergy_MWh",
                               "color": {
+                                "numberOfBins": 8,
                                 "colorPalette": "Reds"
                               }
                             },
                             {
                               "id": "MinimumPower_MW",
                               "color": {
+                                "numberOfBins": 8,
                                 "colorPalette": "Reds"
                               }
                             },
                             {
                               "id": "MaximumPower_MW",
                               "color": {
+                                "numberOfBins": 8,
                                 "colorPalette": "Reds"
                               }
                             },
                             {
                               "id": "MeanPower_MW",
                               "color": {
+                                "numberOfBins": 8,
                                 "colorPalette": "Reds"
                               }
                             },
                             {
                               "id": "MedianPower_MW",
                               "color": {
+                                "numberOfBins": 8,
                                 "colorPalette": "Reds"
                               }
                             },
                             {
                               "id": "StdDeviation",
                               "color": {
+                                "numberOfBins": 8,
                                 "colorPalette": "Reds"
                               }
                             },
                             {
                               "id": "coefficient_variation",
                               "color": {
+                                "numberOfBins": 8,
                                 "colorPalette": "Reds"
                               }
                             }
@@ -23042,7 +23253,7 @@
             {
               "type": "csv",
               "name": "Australia Post Locations",
-              "url": "data/auspost-locations.csv",
+              "url": "https://tiles.terria.io/static/auspost-locations.csv",
               "activeStyle": "State",
               "id": "YUeesYKH",
               "shareKeys": [
@@ -25751,6 +25962,181 @@
           "type": "group",
           "name": "Social and Economic",
           "members": [
+            {
+              "type": "sdmx-group",
+              "name": "ABS.Stat (Beta)",
+              "id": "DPYjz1cT",
+              "url": "https://api.data.abs.gov.au",
+              "modelOverrides": [
+                {
+                  "id": "urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=ABS:CS_C16_COMMON(1.0.0).REGION_TYPE",
+                  "type": "region-type",
+                  "selectedId": "SA2"
+                },
+                {
+                  "id": "urn:sdmx:org.sdmx.infomodel.codelist.Codelist=ABS:CL_REGION_TYPE(1.1.0)",
+                  "type": "region-type",
+                  "selectedId": "SA2"
+                },
+                {
+                  "id": "urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=ABS:CS_GEOGRAPHY(1.0.0).REGION_TYPE",
+                  "type": "region-type",
+                  "selectedId": "SA2"
+                },
+                {
+                  "id": "urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=ABS:CS_C16_COMMON(1.0.0).REGION",
+                  "type": "region"
+                },
+                {
+                  "id": "urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=ABS:CS_GEOGRAPHY(1.0.0).REGION",
+                  "type": "region"
+                },
+                {
+                  "id": "urn:sdmx:org.sdmx.infomodel.codelist.Codelist=ABS:CL_STATE(1.0.0)",
+                  "type": "region",
+                  "regionType": "STE_2016"
+                },
+                {
+                  "id": "urn:sdmx:org.sdmx.infomodel.codelist.Codelist=ABS:CL_DEATHS_INDIGENOUS_STATES(1.0.0)",
+                  "type": "region",
+                  "regionType": "STE_2016"
+                },
+                {
+                  "id": "urn:sdmx:org.sdmx.infomodel.codelist.Codelist=ABS:CL_GCCSA(1.0.0)",
+                  "type": "region",
+                  "regionType": "GCCSA_2016"
+                },
+                {
+                  "id": "urn:sdmx:org.sdmx.infomodel.codelist.Codelist=ABS:CL_NRM_2012(1.0.0)",
+                  "type": "region",
+                  "regionType": "NRMR"
+                },
+                {
+                  "id": "urn:sdmx:org.sdmx.infomodel.codelist.Codelist=ABS:CL_SSC_2016(1.0.0)",
+                  "type": "region",
+                  "regionType": "SSC_2016"
+                },
+                {
+                  "id": "urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=ABS:CS_SEIFA(1.0.0).SLA",
+                  "type": "region",
+                  "regionType": "SLA"
+                },
+                {
+                  "id": "urn:sdmx:org.sdmx.infomodel.codelist.Codelist=ABS:CL_SEIFA_SA1_2016(1.0.0)",
+                  "type": "region",
+                  "regionType": "SA1_7DIGIT_2016"
+                },
+                {
+                  "id": "urn:sdmx:org.sdmx.infomodel.codelist.Codelist=ABS:CL_C11_ASGS(1.0.0)",
+                  "type": "region",
+                  "regionTypeReplacements": [
+                    {
+                      "find": "SA2_2016",
+                      "replace": "SA2_2011"
+                    },
+                    {
+                      "find": "SA3_2016",
+                      "replace": "SA3_2011"
+                    },
+                    {
+                      "find": "SA4_2016",
+                      "replace": "SA4_2011"
+                    },
+                    {
+                      "find": "STE_2016",
+                      "replace": "STE_2011"
+                    }
+                  ]
+                },
+                {
+                  "id": "urn:sdmx:org.sdmx.infomodel.codelist.Codelist=ABS:CL_C11_ASGS_SA(1.0.0)",
+                  "type": "region",
+                  "regionType": "SA1_2011"
+                },
+                {
+                  "id": "urn:sdmx:org.sdmx.infomodel.codelist.Codelist=ABS:CL_ASGS_2011(1.0.0)",
+                  "type": "region",
+                  "regionTypeReplacements": [
+                    {
+                      "find": "SA2_2016",
+                      "replace": "SA2_2011"
+                    },
+                    {
+                      "find": "SA3_2016",
+                      "replace": "SA3_2011"
+                    },
+                    {
+                      "find": "SA4_2016",
+                      "replace": "SA4_2011"
+                    },
+                    {
+                      "find": "STE_2016",
+                      "replace": "STE_2011"
+                    }
+                  ]
+                },
+                {
+                  "id": "urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=ABS:CS_C16_COMMON(1.0.0).ASGS_2011",
+                  "type": "region",
+                  "regionTypeReplacements": [
+                    {
+                      "find": "SA2_2016",
+                      "replace": "SA2_2011"
+                    },
+                    {
+                      "find": "SA3_2016",
+                      "replace": "SA3_2011"
+                    },
+                    {
+                      "find": "SA4_2016",
+                      "replace": "SA4_2011"
+                    },
+                    {
+                      "find": "STE_2016",
+                      "replace": "STE_2011"
+                    }
+                  ]
+                },
+                {
+                  "id": "urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=ABS:CS_C16_COMMON(1.0.0).REGION_SA1",
+                  "type": "region",
+                  "regionType": "SA1"
+                },
+                {
+                  "id": "urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=ABS:CS_GEOGRAPHY(1.0.0).STATE_TERR",
+                  "type": "region",
+                  "regionType": "STE_2016"
+                },
+                {
+                  "id": "urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=ABS:CS_C16_COMMON(1.0.0).LGA_2011",
+                  "type": "region",
+                  "regionType": "LGA_2011"
+                },
+                {
+                  "id": "urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=ABS:CS_GEOGRAPHY(1.0.0).LGA_2011",
+                  "type": "region",
+                  "regionType": "LGA_2011"
+                },
+                {
+                  "id": "urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=ABS:CS_GEOGRAPHY(1.0.0).IND_REGION",
+                  "type": "region",
+                  "regionType": "IREG"
+                },
+                {
+                  "id": "urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=ABS:CS_C16_COMMON(1.0.0).STATE",
+                  "disable": true,
+                  "allowUndefined": true
+                },
+                {
+                  "id": "urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=ABS:CS_C16_PERSON(1.0.0).AGE",
+                  "selectedId": "TOT"
+                },
+                {
+                  "id": "urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=ABS:CS_DEMOG(1.0.0).AGE",
+                  "selectedId": "TT"
+                }
+              ]
+            },
             {
               "id": "RqYSQCYx",
               "type": "group",
@@ -38894,7 +39280,7 @@
             {
               "type": "ckan-group",
               "name": "Perth",
-              "url": "http://catalogue.beta.data.wa.gov.au",
+              "url": "https://catalogue.data.wa.gov.au",
               "filterQuery": [
                 {
                   "fq": "(organization:city-of-perth AND res_format:(geojson OR GeoJSON OR kml OR KML OR kmz OR KMZ OR wms OR WMS OR CSV-GEO-AU OR csv-geo-au OR aus-geo-csv OR \"Esri REST\"))"
@@ -38909,7 +39295,7 @@
             {
               "type": "ckan-group",
               "name": "Swan",
-              "url": "http://catalogue.beta.data.wa.gov.au",
+              "url": "https://catalogue.data.wa.gov.au",
               "filterQuery": [
                 {
                   "fq": "(organization:city-of-swan AND res_format:(geojson OR GeoJSON OR kml OR KML OR kmz OR KMZ OR wms OR WMS OR CSV-GEO-AU OR csv-geo-au OR aus-geo-csv OR \"Esri REST\"))"
@@ -38924,7 +39310,7 @@
             {
               "type": "ckan-group",
               "name": "Wanneroo",
-              "url": "http://catalogue.beta.data.wa.gov.au",
+              "url": "https://catalogue.data.wa.gov.au",
               "filterQuery": [
                 {
                   "fq": "(organization:city-of-wanneroo AND res_format:(geojson OR GeoJSON OR kml OR KML OR kmz OR KMZ OR wms OR WMS OR CSV-GEO-AU OR csv-geo-au OR aus-geo-csv OR \"Esri REST\"))"
@@ -38939,7 +39325,7 @@
             {
               "type": "ckan-group",
               "name": "Joondalup",
-              "url": "http://catalogue.beta.data.wa.gov.au",
+              "url": "https://catalogue.data.wa.gov.au",
               "filterQuery": [
                 {
                   "fq": "(organization:city-of-joondalup AND res_format:(geojson OR GeoJSON OR kml OR KML OR kmz OR KMZ OR wms OR WMS OR CSV-GEO-AU OR csv-geo-au OR aus-geo-csv OR \"Esri REST\"))"
@@ -38974,6 +39360,25 @@
           "shareKeys": [
             "Root Group/Western Australian Government"
           ]
+        }
+      ]
+    },
+    {
+      "name": "Analysis Tools",
+      "type": "group",
+      "members": [
+        {
+          "name": "YourDataYourRegions (requires login)",
+          "id": "ydyr",
+          "type": "ydyr",
+          "parameters": {
+            "apiUrl": "https://ydyr.info/api/v1/",
+            "Negative Binomial": true,
+            "Population Weighted": false,
+            "Poisson Linear": false,
+            "Ridge Regressor": false,
+            "Output Geography": "ABS - 2016 Statistical Areas Level 4"
+          }
         }
       ]
     }
@@ -39031,28 +39436,6 @@
     },
     {
       "item": {
-        "id": "basemap-natural-earth-II",
-        "name": "Natural Earth II",
-        "type": "wms",
-        "url": "http://geoserver.nationalmap.nicta.com.au/imagery/natural-earth-ii/wms",
-        "layers": "NE2_HR_LC_SR_W_DR",
-        "opacity": 1
-      },
-      "image": "images/basemaps/natural-earth.png"
-    },
-    {
-      "item": {
-        "id": "basemap-black-marble",
-        "name": "NASA Black Marble",
-        "type": "wms",
-        "url": "http://geoserver.nationalmap.nicta.com.au/imagery/nasa-black-marble/wms",
-        "layers": "nasa-black-marble:dnb_land_ocean_ice.2012.54000x27000_geo",
-        "opacity": 1
-      },
-      "image": "images/basemaps/black-marble.png"
-    },
-    {
-      "item": {
         "id": "basemap-positron",
         "name": "Positron (Light)",
         "type": "open-street-map",
@@ -39084,6 +39467,23 @@
         "opacity": 1
       },
       "image": "images/basemaps/dark-matter.png"
+    },
+    {
+      "item": {
+        "id": "basemap-voyager",
+        "type": "open-street-map",
+        "name": "Voyager",
+        "url": "https://global.ssl.fastly.net/rastertiles/voyager/",
+        "attribution": "© OpenStreetMap contributors ODbL, © CartoDB CC-BY 3.0",
+        "opacity": 1,
+        "subdomains": [
+          "cartodb-basemaps-a",
+          "cartodb-basemaps-b",
+          "cartodb-basemaps-c",
+          "cartodb-basemaps-d"
+        ]
+      },
+      "image": "https://raw.githubusercontent.com/TerriaJS/saas-catalogs-public/main/misc/basemaps/icons/voyager-aus.png"
     }
   ]
 }
