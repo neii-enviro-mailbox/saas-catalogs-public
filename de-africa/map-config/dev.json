@@ -206,7 +206,8 @@
     },
     "terria-config": {
       "initializationUrls": [
-        "https://raw.githubusercontent.com/TerriaJS/saas-catalogs-public/main/de-africa/dev.json"
+        "https://raw.githubusercontent.com/TerriaJS/saas-catalogs-public/main/de-africa/dev.json",
+        "https://raw.githubusercontent.com/TerriaJS/saas-catalogs-public/main/de-africa/basemaps.json"
       ],
       "parameters": {
         "appName": "Digital Earth Africa Map",
