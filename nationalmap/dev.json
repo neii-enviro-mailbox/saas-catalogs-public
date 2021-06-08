@@ -7504,7 +7504,15 @@
                           "id": "deferral_value",
                           "color": {
                             "nullColor": "rgba(3,154,206,1)",
-                            "nullLabel": "MVAr support required"
+                            "nullLabel": "MVAr support required",
+                            "binMaximums": [
+                              0,
+                              100,
+                              200,
+                              300,
+                              400,
+                              500
+                            ]
                           }
                         }
                       ],
@@ -7512,7 +7520,7 @@
                       "defaultStyle": {
                         "color": {
                           "binColors": [
-                            "rgba(255,255,255,1.0)",
+                            "rgba(255,255,255,0.0)",
                             "rgba(255,255,35,1.0)",
                             "rgba(242,198,95,1.0)",
                             "rgba(222,112,68,1.0)",
@@ -7525,7 +7533,7 @@
                       },
                       "featureInfoTemplate": {
                         "name": "{{{asset_name}}}",
-                        "template": "<dl class='isf-info'>\n  <dt>Asset name</dt><dd>{{asset_name}}</dd>\n  <dt>Asset type</dt><dd>{{network_element_str}}</dd>\n  <dt>Annual Deferral Value in {{year}} ($/kVAyr)</dt><dd>{{deferral_value}}</dd>\n\n</dl>\n\n<br/>\n<br/>\n\n<table class='isf-table'>\n  <tr>\n    <th>Asset name</th>\n    <th>Asset type</th>\n    <th>Deferrable<br/>investment (m$)</th>\n    <th>Investment<br/>year</th>\n  </tr>\n{{#deferral_value_asset_chain}}\n  <tr>\n    <td>{{asset_name}}</td>\n    <td>{{network_element}}</td>\n    <td>{{deferrable_invest}} {{^deferrable_invest}} 0 {{/deferrable_invest}}</td>\n    <td>{{invest_year}} {{^invest_year}} None {{/invest_year}}</td>\n  </tr>\n{{/deferral_value_asset_chain}}\n</table>\n\n<br/>\n\n<center>Deferral Value</center>\n<chart column-names='Year,ADV'\n       x-column='Year'\n       y-columns='ADV'\n       column-units=',$/kVAyr'\n>Year,ADV\\n\n{{#deferral_table}}\n{{year}},{{deferral_value}}\\n\n{{/deferral_table}}\n</chart>\n\n<br/>\n\n{{#deferral_value_asset_chain}}\n<hr/>\n\n<br/>\n\n<dl class='isf-info'>\n  <dt>Network                             </dt><dd>{{network}}</dd>\n  <dt>Asset name                          </dt><dd>{{asset_name}}</dd>\n  <dt>Asset type                          </dt><dd>{{network_element_str}}</dd>\n  <dt>Total investment value (m$)         </dt><dd>{{total_invest}}</dd>\n{{^total_invest}}\n{{#email}}\n  <dt>NSP Contact Email</dt><dd>{{email}}</dd>\n{{/email}}\n{{#phone}}\n  <dt>NSP Contact Phone</dt><dd>{{phone}}</dd>\n{{/phone}}\n</dl>\n{{#apr_link}}<a target='_blank' href='{{apr_link}}'>Annual Planning Report</a><br>{{/apr_link}}\n{{#info_link}}<a target='_blank' href='{{info_link}}'>NSP demand management information or maps</a><br>{{/info_link}}\n{{/total_invest}}\n\n{{#total_invest}}\n  <dt>Deferrable investment (m$)          </dt><dd>{{deferrable_invest}}</dd>\n  <dt>Investment year                     </dt><dd>{{invest_year}}</dd>\n  <dt>Constraint season(s)                </dt><dd>{{constraint_season}}</dd>\n  <dt>Average demand growth rate (MVA/yr) </dt><dd>{{demand_growth}}</dd>\n  <dt>Reactive support requirements       </dt><dd>{{reactive_support_details}}</dd>\n  <dt>Notes                               </dt><dd class='isf-note'>{{investment_description}}</dd>\n{{#email}}\n  <dt>NSP Contact Email</dt><dd>{{email}}</dd>\n{{/email}}\n{{#phone}}\n  <dt>NSP Contact Phone</dt><dd>{{phone}}</dd>\n{{/phone}}\n\n{{#data_currency}}\n  <dt>Data Currency</dt><dd>{{data_currency}}</dd>\n{{/data_currency}}\n\n{{#next_update}}\n  <dt>Next Update</dt><dd>{{next_update}}</dd>\n{{/next_update}}\n\n{{#use_5yr_forecast}}\n  <dt>Years of forecast available               </dt><dd>Five</dd>\n{{/use_5yr_forecast}}\n\n{{^use_5yr_forecast}}\n  <dt>Years of forecast available               </dt><dd>Ten</dd>\n{{/use_5yr_forecast}}\n\n</dl>\n{{#apr_link}}<a target='_blank' href='{{apr_link}}'>Annual Planning Report</a><br>{{/apr_link}}\n{{#info_link}}<a target='_blank' href='{{info_link}}'>NSP demand management information or maps</a><br>{{/info_link}}\n\n<br/>\n<br/>\n\n<center>\n<table class='isf-table'>\n  <tr>\n    <th>Year</th>\n    <th>ADV ($/kVAyr)</th>\n    <th>Support required (MVA)</th>\n  </tr>\n{{#deferral_table}}\n  <tr>\n    <td>{{year}}</td>\n    <td>{{deferral_value}}</td>\n    <td>{{support_required}}</td>\n  </tr>\n{{/deferral_table}}\n</table>\n</center>\n\n<br/>\n<center>Deferral Value vs Support Required</center>\n<chart column-names='Year,ADV,Support Required'\n  id='{{asset_name}}'\n  x-column='Year'\n  y-columns='ADV,Support Required'\n  column-units=',$/kVAyr,MVA'\n>Year,ADV,Support Required\\n\n{{#deferral_table}}\n{{year}},{{deferral_value}},{{support_required}}\\n\n{{/deferral_table}}\n</chart>\n{{/total_invest}}\n\n<br/>\n{{#probabilistic_data_exists}}\n<table class='isf-table'>\n  <tr>\n    <th>Year</th>\n    <th>Load at risk (MW)</th>\n    <th>Expected unserved<br/>energy (MWh)</th>\n    <th>No. hrs of<br/>exceedance</th>\n    <th>Value of expected<br/>unserved energy ($)</th>\n  </tr>\n{{#probabilistic_table}}\n\n\n  <tr>\n    <td>{{year}}</td>\n    <td>{{load_at_risk_mw}} {{^load_at_risk_mw}}  {{/load_at_risk_mw}}</td>\n    <td>{{EUSE_MWh}} {{^EUSE_MWh}} {{/EUSE_MWh}}</td>\n    <td>{{hours_exceedance}} {{^hours_exceedance}} {{/hours_exceedance}}</td>\n    <td>{{EUSE_value}} {{^EUSE_value}} {{/EUSE_value}}</td>\n  </tr>\n\n{{/probabilistic_table}}\n</table>\n{{/probabilistic_data_exists}}\n<br/>\n{{/deferral_value_asset_chain}}\n<hr/>\n\n<br/>\n\n<hr/>\n\n<div class='isf-note'>\n  Depending on NSP network security standards the information shown may or may not take\n  account of potential load transfers to delay constraints. Consult with distributors for\n  further details\n</div>"
+                        "template": "<dl class='isf-info'>\n  <dt>Asset name</dt><dd>{{asset_name}}</dd>\n  <dt>Asset type</dt><dd>{{network_element_str}}</dd>\n  <dt>Annual Deferral Value in {{year}} ($/kVAyr)</dt><dd>{{deferral_value}}</dd>\n\n</dl>\n\n<br/>\n<br/>\n\n<table class='isf-table'>\n  <tr>\n    <th>Asset name</th>\n    <th>Asset type</th>\n    <th>Deferrable<br/>investment (m$)</th>\n    <th>Investment<br/>year</th>\n  </tr>\n{{#deferral_value_asset_chain}}\n  <tr>\n    <td>{{asset_name}}</td>\n    <td>{{network_element}}</td>\n    <td>{{deferrable_invest}} {{^deferrable_invest}} 0 {{/deferrable_invest}}</td>\n    <td>{{invest_year}} {{^invest_year}} None {{/invest_year}}</td>\n  </tr>\n{{/deferral_value_asset_chain}}\n</table>\n\n<br/>\n\n<center>Deferral Value</center>\n<chart column-names='Year,ADV'\n       x-column='Year'\n       y-columns='ADV'\n       column-units=',$/kVAyr'\n>Year,ADV\n\n{{#deferral_table}}\n{{year}},{{deferral_value}}\n\n{{/deferral_table}}\n</chart>\n\n<br/>\n\n{{#deferral_value_asset_chain}}\n<hr/>\n\n<br/>\n\n<dl class='isf-info'>\n  <dt>Network                             </dt><dd>{{network}}</dd>\n  <dt>Asset name                          </dt><dd>{{asset_name}}</dd>\n  <dt>Asset type                          </dt><dd>{{network_element_str}}</dd>\n  <dt>Total investment value (m$)         </dt><dd>{{total_invest}}</dd>\n{{^total_invest}}\n{{#email}}\n  <dt>NSP Contact Email</dt><dd>{{email}}</dd>\n{{/email}}\n{{#phone}}\n  <dt>NSP Contact Phone</dt><dd>{{phone}}</dd>\n{{/phone}}\n</dl>\n{{#apr_link}}<a target='_blank' href='{{apr_link}}'>Annual Planning Report</a><br>{{/apr_link}}\n{{#info_link}}<a target='_blank' href='{{info_link}}'>NSP demand management information or maps</a><br>{{/info_link}}\n{{/total_invest}}\n\n{{#total_invest}}\n  <dt>Deferrable investment (m$)          </dt><dd>{{deferrable_invest}}</dd>\n  <dt>Investment year                     </dt><dd>{{invest_year}}</dd>\n  <dt>Constraint season(s)                </dt><dd>{{constraint_season}}</dd>\n  <dt>Average demand growth rate (MVA/yr) </dt><dd>{{demand_growth}}</dd>\n  <dt>Reactive support requirements       </dt><dd>{{reactive_support_details}}</dd>\n  <dt>Notes                               </dt><dd class='isf-note'>{{investment_description}}</dd>\n{{#email}}\n  <dt>NSP Contact Email</dt><dd>{{email}}</dd>\n{{/email}}\n{{#phone}}\n  <dt>NSP Contact Phone</dt><dd>{{phone}}</dd>\n{{/phone}}\n\n{{#data_currency}}\n  <dt>Data Currency</dt><dd>{{data_currency}}</dd>\n{{/data_currency}}\n\n{{#next_update}}\n  <dt>Next Update</dt><dd>{{next_update}}</dd>\n{{/next_update}}\n\n{{#use_5yr_forecast}}\n  <dt>Years of forecast available               </dt><dd>Five</dd>\n{{/use_5yr_forecast}}\n\n{{^use_5yr_forecast}}\n  <dt>Years of forecast available               </dt><dd>Ten</dd>\n{{/use_5yr_forecast}}\n\n</dl>\n{{#apr_link}}<a target='_blank' href='{{apr_link}}'>Annual Planning Report</a><br>{{/apr_link}}\n{{#info_link}}<a target='_blank' href='{{info_link}}'>NSP demand management information or maps</a><br>{{/info_link}}\n\n<br/>\n<br/>\n\n<center>\n<table class='isf-table'>\n  <tr>\n    <th>Year</th>\n    <th>ADV ($/kVAyr)</th>\n    <th>Support required (MVA)</th>\n  </tr>\n{{#deferral_table}}\n  <tr>\n    <td>{{year}}</td>\n    <td>{{deferral_value}}</td>\n    <td>{{support_required}}</td>\n  </tr>\n{{/deferral_table}}\n</table>\n</center>\n\n<br/>\n<center>Deferral Value vs Support Required</center>\n<chart column-names='Year,ADV,Support Required'\n  id='{{asset_name}}'\n  x-column='Year'\n  y-columns='ADV,Support Required'\n  column-units=',$/kVAyr,MVA'\n>Year,ADV,Support Required\n\n{{#deferral_table}}\n{{year}},{{deferral_value}},{{support_required}}\n\n{{/deferral_table}}\n</chart>\n{{/total_invest}}\n\n<br/>\n{{#probabilistic_data_exists}}\n<table class='isf-table'>\n  <tr>\n    <th>Year</th>\n    <th>Load at risk (MW)</th>\n    <th>Expected unserved<br/>energy (MWh)</th>\n    <th>No. hrs of<br/>exceedance</th>\n    <th>Value of expected<br/>unserved energy ($)</th>\n  </tr>\n{{#probabilistic_table}}\n\n\n  <tr>\n    <td>{{year}}</td>\n    <td>{{load_at_risk_mw}} {{^load_at_risk_mw}}  {{/load_at_risk_mw}}</td>\n    <td>{{EUSE_MWh}} {{^EUSE_MWh}} {{/EUSE_MWh}}</td>\n    <td>{{hours_exceedance}} {{^hours_exceedance}} {{/hours_exceedance}}</td>\n    <td>{{EUSE_value}} {{^EUSE_value}} {{/EUSE_value}}</td>\n  </tr>\n\n{{/probabilistic_table}}\n</table>\n{{/probabilistic_data_exists}}\n<br/>\n{{/deferral_value_asset_chain}}\n<hr/>\n\n<br/>\n\n<hr/>\n\n<div class='isf-note'>\n  Depending on NSP network security standards the information shown may or may not take\n  account of potential load transfers to delay constraints. Consult with distributors for\n  further details\n</div>"
                       },
                       "shareKeys": [
                         "Root Group/Electricity Infrastructure/Network Opportunities/Annual Deferral Value"
@@ -7611,10 +7619,25 @@
                       },
                       "featureInfoTemplate": {
                         "name": "{{{asset_name}}}",
-                        "template": "<dl class='isf-info'>\n  <dt>Asset name</dt><dd>{{asset_name}}</dd>\n  <dt>Asset type</dt><dd>{{network_element_str}}</dd>\n  <dt>Network   </dt><dd>{{network}}</dd>\n  <dt>Notes     </dt><dd>{{investment_description}}</dd>\n\n{{#constraint_season}}\n  <dt>Constraint season(s)       </dt><dd>{{constraint_season}}</dd>\n{{/constraint_season}}\n\n  <dt>Demand growth rate (MVA/yr)</dt><dd>{{demand_growth}}</dd>\n\n{{#commitment_year}}\n  <dt>Commitment Year            </dt><dd>{{commitment_year}}</dd>\n{{/commitment_year}}\n\n{{#invest_year}}\n  <dt>Proposed investment year   </dt><dd>{{invest_year}}</dd>\n{{/invest_year}}\n\n{{#data_currency}}\n  <dt>Data Currency              </dt><dd>{{data_currency}}</dd>\n{{/data_currency}}\n\n{{#next_update}}\n  <dt>Next Update                </dt><dd>{{next_update}}</dd>\n{{/next_update}}\n\n{{#use_5yr_forecast}}\n  <dt>Years of forecast available               </dt><dd>Five</dd>\n{{/use_5yr_forecast}}\n\n{{^use_5yr_forecast}}\n  <dt>Years of forecast available               </dt><dd>Ten</dd>\n{{/use_5yr_forecast}}\n\n</dl>\n\n<br/>\n\n<table class='isf-table'>\n  <tr>\n    <th>Year</th>\n    <th>Load (MVA)</th>\n    <th>Capacity (MVA)</th>\n    <th>Available Capacity (MVA)</th>\n  </tr>\n{{#avail_cap_table}}\n  <tr>\n    <td>{{year}}</td>\n    <td>{{load}}</td>\n    <td>{{capacity}}</td>\n    <td>{{available_capacity}}</td>\n  </tr>\n{{/avail_cap_table}}\n</table>\n\n<br/>\n<br/>\n\n<center>Forecast load vs Asset Capacity (MVA)</center>\n<chart x-column='Year'\ny-columns='Load,Capacity'\ncolumn-units=',MVA,MVA'\ncolumn-names=',,'\n>Year,Load,Capacity\\n\n{{#avail_cap_table}}\n{{year}},{{load}},{{capacity}}\\n\n{{/avail_cap_table}}\n</chart>\n<br/>\n<br/>\n\n<dl class='isf-info'>\n  <dt>Note</dt> <dd class='isf-note'>Depending on NSP network security standards the Available Capacity and Annual Deferral Value may or may not take account of potential load transfers to delay constraints. Consult with distributors for further details</dd>\n\n{{#email}}\n  <dt>NSP Contact Email</dt><dd>{{email}}</dd>\n{{/email}}\n\n{{#phone}}\n  <dt>NSP Contact Phone</dt><dd>{{phone}}</dd>\n{{/phone}}\n</dl>\n\n<br>\n{{#apr_link}}<a target='_blank' href='{{apr_link}}'>Annual Planning Report</a><br/>{{/apr_link}}\n{{#dses_info_url}}<a target='_blank' href='{{dses_info_url}}'>DSES web link</a><br/>{{/dses_info_url}}\n{{#info_link}}<a target='_blank' href='{{info_link}}'>NSP demand management information or maps</a><br/>{{/info_link}}\n{{#file_link}}<a target='_blank' href='{{file_link}}'>Download data in spreadsheet format</a>{{/file_link}}"
+                        "template": "<dl class='isf-info'>\n  <dt>Asset name</dt><dd>{{asset_name}}</dd>\n  <dt>Asset type</dt><dd>{{network_element_str}}</dd>\n  <dt>Network   </dt><dd>{{network}}</dd>\n  <dt>Notes     </dt><dd>{{investment_description}}</dd>\n\n{{#constraint_season}}\n  <dt>Constraint season(s)       </dt><dd>{{constraint_season}}</dd>\n{{/constraint_season}}\n\n  <dt>Demand growth rate (MVA/yr)</dt><dd>{{demand_growth}}</dd>\n\n{{#commitment_year}}\n  <dt>Commitment Year            </dt><dd>{{commitment_year}}</dd>\n{{/commitment_year}}\n\n{{#invest_year}}\n  <dt>Proposed investment year   </dt><dd>{{invest_year}}</dd>\n{{/invest_year}}\n\n{{#data_currency}}\n  <dt>Data Currency              </dt><dd>{{data_currency}}</dd>\n{{/data_currency}}\n\n{{#next_update}}\n  <dt>Next Update                </dt><dd>{{next_update}}</dd>\n{{/next_update}}\n\n{{#use_5yr_forecast}}\n  <dt>Years of forecast available               </dt><dd>Five</dd>\n{{/use_5yr_forecast}}\n\n{{^use_5yr_forecast}}\n  <dt>Years of forecast available               </dt><dd>Ten</dd>\n{{/use_5yr_forecast}}\n\n</dl>\n\n<br/>\n\n<table class='isf-table'>\n  <tr>\n    <th>Year</th>\n    <th>Load (MVA)</th>\n    <th>Capacity (MVA)</th>\n    <th>Available Capacity (MVA)</th>\n  </tr>\n{{#avail_cap_table}}\n  <tr>\n    <td>{{year}}</td>\n    <td>{{load}}</td>\n    <td>{{capacity}}</td>\n    <td>{{available_capacity}}</td>\n  </tr>\n{{/avail_cap_table}}\n</table>\n\n<br/>\n<br/>\n\n<center>Forecast load vs Asset Capacity (MVA)</center>\n<chart x-column='Year'\ny-columns='Load,Capacity'\ncolumn-units=',MVA,MVA'\ncolumn-names=',,'\n>Year,Load,Capacity\n\n{{#avail_cap_table}}\n{{year}},{{load}},{{capacity}}\n\n{{/avail_cap_table}}\n</chart>\n<br/>\n<br/>\n\n<dl class='isf-info'>\n  <dt>Note</dt> <dd class='isf-note'>Depending on NSP network security standards the Available Capacity and Annual Deferral Value may or may not take account of potential load transfers to delay constraints. Consult with distributors for further details</dd>\n\n{{#email}}\n  <dt>NSP Contact Email</dt><dd>{{email}}</dd>\n{{/email}}\n\n{{#phone}}\n  <dt>NSP Contact Phone</dt><dd>{{phone}}</dd>\n{{/phone}}\n</dl>\n\n<br>\n{{#apr_link}}<a target='_blank' href='{{apr_link}}'>Annual Planning Report</a><br/>{{/apr_link}}\n{{#dses_info_url}}<a target='_blank' href='{{dses_info_url}}'>DSES web link</a><br/>{{/dses_info_url}}\n{{#info_link}}<a target='_blank' href='{{info_link}}'>NSP demand management information or maps</a><br/>{{/info_link}}\n{{#file_link}}<a target='_blank' href='{{file_link}}'>Download data in spreadsheet format</a>{{/file_link}}"
                       },
                       "shareKeys": [
                         "Root Group/Electricity Infrastructure/Network Opportunities/Available Distribution Capacity"
+                      ],
+                      "styles": [
+                        {
+                          "id": "available_capacity",
+                          "color": {
+                            "binMaximums": [
+                              -15,
+                              -9,
+                              -3,
+                              3,
+                              9,
+                              15
+                            ]
+                          }
+                        }
                       ]
                     },
                     {
@@ -8591,6 +8614,23 @@
                       },
                       "shareKeys": [
                         "Root Group/Electricity Infrastructure/Network Opportunities/Peak Day Available Capacity"
+                      ],
+                      "styles": [
+                        {
+                          "id": "percent_available",
+                          "color": {
+                            "binMaximums": [
+                              15,
+                              30,
+                              45,
+                              60,
+                              75,
+                              90,
+                              105,
+                              120
+                            ]
+                          }
+                        }
                       ]
                     },
                     {
@@ -14039,81 +14079,6 @@
                           ],
                           "shareKeys": [
                             "Root Group/Renewable Energy/Bioenergy/Western Australia/Broiler Litter Production"
-                          ]
-                        },
-                        {
-                          "type": "ckan-item",
-                          "name": "Cereal straw",
-                          "id": "306dd5a9",
-                          "url": "https://catalogue.data.wa.gov.au",
-                          "dataCustodian": "[Department of Agriculture and Food, Western Australia](https://www.agric.wa.gov.au/)",
-                          "datasetId": "cereal-straw-residues",
-                          "itemProperties": {
-                            "info": [
-                              {
-                                "name": "Licensing, Terms & Conditions",
-                                "content": "Copyright © Western Australia Agriculture Authority, 2016"
-                              },
-                              {
-                                "name": "Disclaimer",
-                                "content": "While all reasonable care has been taken in the preparation of the material in this file, the Western Australian Government and its officers accept no responsibility for any errors or omissions it may contain, whether caused by negligence, or otherwise, or for any loss, however caused, sustained by any person who relies on it."
-                              }
-                            ],
-                            "rectangle": {
-                              "west": 113,
-                              "south": -35.8,
-                              "east": 125,
-                              "north": -26.8
-                            },
-                            "columns": [
-                              {
-                                "name": "RESIDUE_TYPE",
-                                "type": "hidden"
-                              },
-                              {
-                                "name": "RESIDUE_DESCRIPTION",
-                                "type": "hidden"
-                              },
-                              {
-                                "name": "RESIDUE_UNIT",
-                                "type": "hidden"
-                              },
-                              {
-                                "name": "PERIOD",
-                                "type": "hidden"
-                              },
-                              {
-                                "name": "TOTAL_RESIDUES",
-                                "title": "Total Residues"
-                              }
-                            ],
-                            "activeStyle": "TOTAL_RESIDUES",
-                            "defaultStyle": {
-                              "color": {
-                                "binColors": [
-                                  "rgb(254,232,200)",
-                                  "rgb(239,101,72)",
-                                  "rgb(127,0,0)"
-                                ],
-                                "numberOfBins": 3
-                              }
-                            },
-                            "featureInfoTemplate": {
-                              "name": "{{LGA_NAME_2015}}: {{#terria.formatNumber}}{useGrouping:true}{{Average Shire Yield of Cereal Residue in Tonnes}}{{/terria.formatNumber}} tonnes",
-                              "template": "<div style='max-width: 40em'>  <h3>{{LGA_NAME_2015}}</h3>  <style type='text/css'>    table.wa-bio tr td:nth-child(1) {      white-space: nowrap;      padding-right: 0.5em;    }  </style>  <p>    <table class='wa-bio'>      <tr>        <td>Straw Yield /Ha Cereal Crop Average over 5 years:</td>        <td> <strong>{{Straw Yield /Ha Cereal Crop Average over 5 years}}</strong> </td>      </tr>      <tr>        <td>Average Shire Yield of Cereal Residue in Tonnes:</td>        <td> <strong>{{#terria.formatNumber}}{useGrouping:true}{{Average Shire Yield of Cereal Residue in Tonnes}}{{/terria.formatNumber}}</strong> </td>      </tr>    </table>  </p></div>"
-                            }
-                          },
-                          "supportedResourceFormats": [
-                            {
-                              "id": "CSV",
-                              "formatRegex": "CSV",
-                              "definition": {
-                                "type": "csv"
-                              }
-                            }
-                          ],
-                          "shareKeys": [
-                            "Root Group/Renewable Energy/Bioenergy/Western Australia/Cereal straw"
                           ]
                         },
                         {

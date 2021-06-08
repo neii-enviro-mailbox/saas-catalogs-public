@@ -1,0 +1,22 @@
+node .\bin\cli.js -a --noprint-all -t  C:\Users\nfs\Documents\code\Terria\saas-catalogs\de-africa\in\de-africa-v8-2021-02-26.json C:\Users\nfs\Documents\code\Terria\saas-catalogs\de-africa\in\de-africa-v7-2021-06-08.json C:\Users\nfs\Documents\code\Terria\saas-catalogs\de-africa\in\de-africa-v8-2021-06-08.json
+
+Error stats:
+{
+  "unknownProps": 0,
+  "missingRequiredProps": 0,
+  "unknownTypes": 0,
+  "inputNotPlainObjects": 0
+}
+Warning stats:
+{
+  "unknownProps": 14,
+  "missingRequiredProps": 0,
+  "unknownTypes": 0,
+  "inputNotPlainObjects": 0
+}
+Unknown types: {}
+Unknown properties: {
+  "CatalogGroup": {
+    "preserveOrder": 14
+  }
+}
