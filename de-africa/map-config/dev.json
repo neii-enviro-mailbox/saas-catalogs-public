@@ -197,10 +197,10 @@
     },
     "terria-init": {
       "homeCamera": {
-        "east": 55,
-        "north": 40,
-        "south": -40,
-        "west": -22
+        "north": 30,
+        "east": 50,
+        "south": -35,
+        "west": -5
       },
       "viewerMode": "2d"
     },
