@@ -584,9 +584,9 @@
     "digitalearth.africa"
   ],
   "homeCamera": {
-    "north": 35,
+    "north": 30,
     "east": 50,
-    "south": -40,
+    "south": -35,
     "west": -5
   }
 }
