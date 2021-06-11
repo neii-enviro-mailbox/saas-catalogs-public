@@ -582,11 +582,5 @@
   "corsDomains": [
     "digitalearthafrica.org",
     "digitalearth.africa"
-  ],
-  "homeCamera": {
-    "north": 30,
-    "east": 50,
-    "south": -35,
-    "west": -5
-  }
+  ]
 }
