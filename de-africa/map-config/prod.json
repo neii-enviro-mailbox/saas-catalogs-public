@@ -197,9 +197,9 @@
     },
     "terria-init": {
       "homeCamera": {
-        "north": 30,
+        "north": 33,
         "east": 50,
-        "south": -35,
+        "south": -32,
         "west": -5
       },
       "viewerMode": "2d"
