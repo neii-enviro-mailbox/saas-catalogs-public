@@ -1,8 +1,8 @@
 {
   "aspects": {
     "terria-config": {
-      "initializationUrls": [
-        "https://raw.githubusercontent.com/TerriaJS/saas-catalogs-public/main/de-australia/terria-cube/test.json"
+      "v7initializationUrls": [
+        "https://raw.githubusercontent.com/GeoscienceAustralia/dea-config/master/dev/terria/dea.json"
       ],
       "parameters": {
         "appName": "Terria Cube",
