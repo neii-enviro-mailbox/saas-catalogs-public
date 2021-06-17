@@ -1,9 +1,6 @@
 {
   "aspects": {
     "terria-config": {
-      "v7initializationUrls": [
-        "https://raw.githubusercontent.com/GeoscienceAustralia/dea-config/master/dev/terria/dea.json"
-      ],
       "parameters": {
         "appName": "Terria Cube",
         "bingMapsKey": "AsBv-JL-O5GS1uu5GvIRxpgBcJRGVWAWPLxoChvqc5Tw8ATegnK5LCfT-BXOsjzL",

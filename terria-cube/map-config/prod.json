@@ -1,9 +1,6 @@
 {
   "aspects": {
     "terria-config": {
-      "initializationUrls": [
-        "https://raw.githubusercontent.com/TerriaJS/saas-catalogs-public/main/de-australia/terria-cube/prod.json"
-      ],
       "parameters": {
         "appName": "Terria Cube",
         "bingMapsKey": "AkaOmRFtjAb71cXgLwAGtLbj2RpkPKtVqAIroFQsocfurCBILxIeAWPkil7hhRy_",
