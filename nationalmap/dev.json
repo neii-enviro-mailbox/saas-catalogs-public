@@ -8838,7 +8838,14 @@
                         {
                           "id": "augmentation_invest",
                           "color": {
-                            "colorPalette": "RdYlGn"
+                            "colorPalette": "RdYlGn",
+                            "colorColumn": "invest_year_str",
+                            "legend": {
+                              "url": "http://localhost:8080/images/proposed-investment-legend.png"
+                            }
+                          },
+                          "pointSize": {
+                            "pointSizeColumn": "augmentation_invest"
                           }
                         },
                         {
@@ -8863,7 +8870,14 @@
                         {
                           "id": "deferrable_invest",
                           "color": {
-                            "colorPalette": "RdYlGn"
+                            "colorPalette": "RdYlGn",
+                            "colorColumn": "invest_year_str",
+                            "legend": {
+                              "url": "http://localhost:8080/images/proposed-investment-legend.png"
+                            }
+                          },
+                          "pointSize": {
+                            "pointSizeColumn": "deferrable_invest"
                           }
                         },
                         {
@@ -8877,13 +8891,66 @@
                         {
                           "id": "replacement_invest",
                           "color": {
-                            "colorPalette": "RdYlGn"
+                            "colorPalette": "RdYlGn",
+                            "colorColumn": "invest_year_str",
+                            "legend": {
+                              "url": "http://localhost:8080/images/proposed-investment-legend.png"
+                            }
+                          },
+                          "pointSize": {
+                            "pointSizeColumn": "replacement_invest"
                           }
                         },
                         {
                           "id": "total_invest",
                           "color": {
-                            "colorPalette": "RdYlGn"
+                            "colorPalette": "RdYlGn",
+                            "colorColumn": "invest_year_str",
+                            "legend": {
+                              "url": "http://localhost:8080/images/proposed-investment-legend.png"
+                            }
+                          },
+                          "pointSize": {
+                            "pointSizeColumn": "total_invest"
+                          }
+                        },
+                        {
+                          "id": "network_element_str",
+                          "color": {
+                            "enumColors": [
+                              {
+                                "value": "Distribution Feeder",
+                                "color": "#e41a1c"
+                              },
+                              {
+                                "value": "Zone Substation",
+                                "color": "#377eb8"
+                              },
+                              {
+                                "value": "Zone Substation (Proposed)",
+                                "color": "#4daf4a"
+                              },
+                              {
+                                "value": "Subtransmission Line",
+                                "color": "#984ea3"
+                              },
+                              {
+                                "value": "Subtransmission Station",
+                                "color": "#ff7f00"
+                              },
+                              {
+                                "value": "Transmission Connection Point",
+                                "color": "#ffff33"
+                              },
+                              {
+                                "value": "Transmission Line",
+                                "color": "#a65628"
+                              },
+                              {
+                                "value": "Transmission Station",
+                                "color": "#f781bf"
+                              }
+                            ]
                           }
                         },
                         {
