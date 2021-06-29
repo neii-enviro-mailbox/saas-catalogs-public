@@ -32,7 +32,7 @@ These links will only add **client-side** configuration. Terriajs-server config 
 
 ## nationalmap
 
-- **Dev** http://localhost:3001/#configUrl=https://raw.githubusercontent.com/TerriaJS/saas-catalogs-public/main/nationalmap/map-config/dev.json
+- Note: dev doesn't work as it has two Magda groups ~**Dev** http://localhost:3001/#configUrl=https://raw.githubusercontent.com/TerriaJS/saas-catalogs-public/main/nationalmap/map-config/dev.json~
 - **Test** http://localhost:3001/#configUrl=https://raw.githubusercontent.com/TerriaJS/saas-catalogs-public/main/nationalmap/map-config/test.json
 - **Prod** http://localhost:3001/#configUrl=https://raw.githubusercontent.com/TerriaJS/saas-catalogs-public/main/nationalmap/map-config/prod.json
 
