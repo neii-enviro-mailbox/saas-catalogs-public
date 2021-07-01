@@ -373,6 +373,7 @@
           "textLightDimmed": "#bbbbbb",
           "workbenchWidth": "350"
         },
+        "useCesiumIonBingImagery": true,
         "welcomeMessageVideo": {
           "placeholderImage": "https://img.youtube.com/vi/Ww-xMBXAaqU/hqdefault.jpg",
           "videoTitle": "Introducing Digital Earth Africa map",
