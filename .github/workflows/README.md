@@ -2,6 +2,8 @@
 
 ## `publish-(dev | test | prod)`
 
+These workflows will run on commits to `main` branch.
+
 There are three pieces:
 
 - The `map-configs.json` file [./map-configs.json](https://github.com/TerriaJS/saas-catalogs-public/blob/main/map-configs.json)
@@ -51,7 +53,9 @@ Different values for dev, test or prod environments
 
 ## `sync-(dev | test | prod)`
 
-Same as `publish-(dev | test | prod)` - but will publish **all** files instead of only files which have changed
+Same as `publish-(dev | test | prod)` - but will publish **all** files instead of only files which have changed.
+
+This workflow must be triggered manually.
 
 ## `pr-check-map-configs`
 
