@@ -15,7 +15,7 @@ To update `map-config` files you must create a PR:
 
 ### `node diff-maps.js`
 
-Will show JSON-diff for `map-config` files between `dev -> test` and `test -> prod`.
+Will show JSON-diff for map files between `dev -> test` and `test -> prod`.
 
 Example output:
 
@@ -44,6 +44,8 @@ ________________________________________________________________________________
 
 ____________________________________________________________________________________________________
 ```
+
+Shows that there is a difference in the `map-config` file for NationalMap between DEV and TEST.
 
 ## Format
 

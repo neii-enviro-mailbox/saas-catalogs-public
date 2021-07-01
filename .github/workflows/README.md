@@ -12,15 +12,24 @@ There are three pieces:
 
 ### The `map-configs.json` file
 
-This defines mapping between Magda record ID and map-config files - for example:
+This defines mapping between Magda record ID, map-config files and other JSON files for each map - for example:
 
 ```json
 [
   {
-    "id": "map-config-de-australia",
-    "dev": "de-australia/map-config/dev.json",
-    "test": "de-australia/map-config/test.json",
-    "prod": "de-australia/map-config/prod.json"
+    "id": "map-config-de-africa",
+    "description": "DE Africa",
+    "dev": "de-africa/map-config/dev.json",
+    "test": "de-africa/map-config/test.json",
+    "prod": "de-africa/map-config/prod.json",
+    "files": [
+      {
+        "description": "Main catalog file",
+        "dev": "de-africa/dev.json",
+        "test": "de-africa/test.json",
+        "prod": "de-africa/prod.json"
+      }
+    ]
   }
 ]
 ```
