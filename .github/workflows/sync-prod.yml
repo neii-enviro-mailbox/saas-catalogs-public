@@ -1,4 +1,4 @@
-name: dev-sync-all-map-config
+name: prod-sync-all-map-config
 
 on:
   workflow_dispatch:
@@ -7,7 +7,7 @@ jobs:
   dev-publish-map-config:
     runs-on: ubuntu-latest
 
-    name: DEV sync map-config
+    name: PROD sync map-config
     steps:
       - name: Checkout repo
         uses: actions/checkout@v2
@@ -18,7 +18,7 @@ jobs:
         run: node publish-map-configs.js
         env:
           # This is used to find map-config files from `map-configs.json`
-          ENVIRONMENT_TAG: "dev"
+          ENVIRONMENT_TAG: "prod"
           PUBLISH_ALL: "true"
           MAGDA_FQDN: ${{ secrets.DEV_MAGDA_FQDN }}
           MAGDA_API_ID: ${{ secrets.DEV_MAGDA_API_ID }}
