@@ -20,9 +20,9 @@ Will show JSON-diff for map files between `dev -> test` and `test -> prod`.
 Example output:
 
 ```bash
-CHECKING MAP CONFIG map-config-nationalmap
+CHECKING National Map - map-config file
 
-DIFF DEV -> TEST: map-config-nationalmap
+DIFF DEV -> TEST: National Map - map-config file
 ____________________________________________________________________________________________________
 
  {
