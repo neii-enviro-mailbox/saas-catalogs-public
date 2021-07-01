@@ -13,6 +13,9 @@ async function readFile(path) {
   }
 }
 
+/** This removes map-config properties which are almost always different between environments (eg initializationUrls).
+ * As they would not be useful to see changes for
+ */
 function removeCommonChangedProps(obj) {
   if (obj?.aspects?.["terria-config"]?.initializationUrls) {
     delete obj.aspects["terria-config"].initializationUrls;
@@ -45,6 +48,7 @@ function removeCommonChangedProps(obj) {
 }
 
 async function diffFiles(fileNames, tag) {
+  // Fetch all files
   const configFiles = await Promise.all(
     fileNames.map(async (fileName) => {
       try {
@@ -59,6 +63,7 @@ async function diffFiles(fileNames, tag) {
 
   console.log(`CHECKING ${tag}\n`);
 
+  // use jsonDiff.diff to check if changes have occurred - after removeCommonChangedProps()
   const devToTest = jsonDiff.diff(configFiles[0], configFiles[1]);
   removeCommonChangedProps(devToTest);
   if (devToTest && Object.keys(devToTest).length > 0) {
@@ -66,6 +71,7 @@ async function diffFiles(fileNames, tag) {
     console.log(
       "____________________________________________________________________________________________________\n"
     );
+    // use jsonDiff.diffString to prettify output
     console.log(
       jsonDiff.diffString(configFiles[0], configFiles[1], {
         color: true,
@@ -76,6 +82,7 @@ async function diffFiles(fileNames, tag) {
     );
   }
 
+  // use jsonDiff.diff to check if changes have occurred - after removeCommonChangedProps()
   const testToProd = jsonDiff.diff(configFiles[1], configFiles[2]);
   removeCommonChangedProps(testToProd);
   if (testToProd && Object.keys(testToProd).length > 0) {
@@ -83,6 +90,7 @@ async function diffFiles(fileNames, tag) {
     console.log(
       "____________________________________________________________________________________________________\n"
     );
+    // use jsonDiff.diffString to prettify output
     console.log(
       jsonDiff.diffString(configFiles[1], configFiles[2], {
         color: true,
@@ -96,9 +104,30 @@ async function diffFiles(fileNames, tag) {
 
 (async () => {
   console.log(`\n\n MAP CONFIG DIFF CHECKER\n\n`.bgWhite.yellow.bold);
+
   console.log(`CHECKING MAP CONFIG FILES \n`.bgWhite.red.bold);
+
+  /* Example map-config object
+    {
+      "id": "map-config-de-africa",
+      "description": "DE Africa",
+      "dev": "de-africa/map-config/dev.json",
+      "test": "de-africa/map-config/test.json",
+      "prod": "de-africa/map-config/prod.json",
+      "files": [
+        {
+          "description": "Main catalog file",
+          "dev": "de-africa/dev.json",
+          "test": "de-africa/test.json",
+          "prod": "de-africa/prod.json"
+        }
+      ]
+    }
+  */
+
   for (let i = 0; i < mapConfigs.length; i++) {
     const mapConfig = mapConfigs[i];
+    // Get all `map-config` fileNames
     const fileNames = ["dev", "test", "prod"].map(
       (envTag) => mapConfig[envTag]
     );
@@ -110,6 +139,7 @@ async function diffFiles(fileNames, tag) {
   for (let i = 0; i < mapConfigs.length; i++) {
     const mapConfig = mapConfigs[i];
     if (mapConfig.files) {
+      // Get all filenames in `files` array
       for (let j = 0; j < mapConfig.files.length; j++) {
         const files = mapConfig.files[j];
         const fileNames = ["dev", "test", "prod"].map(
