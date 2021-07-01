@@ -49,6 +49,10 @@ Different values for dev, test or prod environments
 2. Matches them with map-config from `map-configs.json`
 3. Publish records to Magda
 
+## `sync-(dev | test | prod)`
+
+Same as `publish-(dev | test | prod)` - but will publish **all** files instead of only files which have changed
+
 ## `pr-check-map-configs`
 
 This workflow will check map-config files in a similar way to `publish-(dev | test | prod)` - but it will automatically approve a PR if it **only** touches dev map-config files (i.e. it **doesn't** touch test of prod).
