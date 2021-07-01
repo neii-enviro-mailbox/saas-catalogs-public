@@ -60,7 +60,6 @@
         }
       }
     },
-    "terria-saas": {},
     "terria-config": {
       "initializationUrls": [
         "https://raw.githubusercontent.com/TerriaJS/saas-catalogs-public/main/geo-rapp/prod.json"

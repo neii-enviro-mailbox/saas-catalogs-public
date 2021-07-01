@@ -1,56 +1,165 @@
 [
   {
     "id": "map-config-de-africa",
+    "description": "DE Africa",
     "dev": "de-africa/map-config/dev.json",
     "test": "de-africa/map-config/test.json",
-    "prod": "de-africa/map-config/prod.json"
+    "prod": "de-africa/map-config/prod.json",
+    "files": [
+      {
+        "description": "Main catalog file",
+        "dev": "de-africa/dev.json",
+        "test": "de-africa/test.json",
+        "prod": "de-africa/prod.json"
+      }
+    ]
   },
   {
     "id": "map-config-de-australia",
+    "description": "DE Australia",
     "dev": "de-australia/map-config/dev.json",
     "test": "de-australia/map-config/test.json",
-    "prod": "de-australia/map-config/prod.json"
+    "prod": "de-australia/map-config/prod.json",
+    "files": [
+      {
+        "description": "Main catalog file",
+        "dev": "de-australia/dev.json",
+        "test": "de-australia/test.json",
+        "prod": "de-australia/prod.json"
+      }
+    ]
   },
   {
     "id": "map-config-geo-rapp",
+    "description": "GeoRAPP",
     "dev": "geo-rapp/map-config/dev.json",
     "test": "geo-rapp/map-config/test.json",
-    "prod": "geo-rapp/map-config/prod.json"
+    "prod": "geo-rapp/map-config/prod.json",
+    "files": [
+      {
+        "description": "Main catalog file",
+        "dev": "geo-rapp/dev.json",
+        "test": "geo-rapp/test.json",
+        "prod": "geo-rapp/prod.json"
+      }
+    ]
   },
   {
     "id": "map-config-kaleidoscope",
+    "description": "Kaleidoscope",
     "dev": "kaleidoscope/map-config/dev.json",
     "test": "kaleidoscope/map-config/test.json",
-    "prod": "kaleidoscope/map-config/prod.json"
+    "prod": "kaleidoscope/map-config/prod.json",
+    "files": [
+      {
+        "description": "Main catalog file",
+        "dev": "kaleidoscope/dev.json",
+        "test": "kaleidoscope/test.json",
+        "prod": "kaleidoscope/prod.json"
+      }
+    ]
   },
   {
     "id": "map-config-nationalmap",
+    "description": "National Map",
     "dev": "nationalmap/map-config/dev.json",
     "test": "nationalmap/map-config/test.json",
-    "prod": "nationalmap/map-config/prod.json"
+    "prod": "nationalmap/map-config/prod.json",
+    "files": [
+      {
+        "description": "Main catalog file",
+        "dev": "nationalmap/dev.json",
+        "test": "nationalmap/test.json",
+        "prod": "nationalmap/prod.json"
+      }
+    ]
   },
   {
     "id": "map-config-neii",
+    "description": "NEII",
     "dev": "neii/map-config/dev.json",
     "test": "neii/map-config/test.json",
-    "prod": "neii/map-config/prod.json"
+    "prod": "neii/map-config/prod.json",
+    "files": [
+      {
+        "description": "Air catalog file",
+        "dev": "neii/air/dev.json",
+        "test": "neii/air/test.json",
+        "prod": "neii/air/prod.json"
+      },
+      {
+        "description": "Biota catalog file",
+        "dev": "neii/biota/dev.json",
+        "test": "neii/biota/test.json",
+        "prod": "neii/biota/prod.json"
+      },
+      {
+        "description": "Contextual catalog file",
+        "dev": "neii/contextual/dev.json",
+        "test": "neii/contextual/test.json",
+        "prod": "neii/contextual/prod.json"
+      },
+      {
+        "description": "Land catalog file",
+        "dev": "neii/land/dev.json",
+        "test": "neii/land/test.json",
+        "prod": "neii/land/prod.json"
+      },
+      {
+        "description": "Nemsr catalog file",
+        "dev": "neii/nemsr/dev.json",
+        "test": "neii/nemsr/test.json",
+        "prod": "neii/nemsr/prod.json"
+      },
+      {
+        "description": "Oceans catalog file",
+        "dev": "neii/oceans/dev.json",
+        "test": "neii/oceans/test.json",
+        "prod": "neii/oceans/prod.json"
+      },
+      {
+        "description": "Water catalog file",
+        "dev": "neii/water/dev.json",
+        "test": "neii/water/test.json",
+        "prod": "neii/water/prod.json"
+      }
+    ]
   },
   {
     "id": "map-config-pacificmap",
+    "description": "Pacific Map",
     "dev": "pacificmap/map-config/dev.json",
     "test": "pacificmap/map-config/test.json",
-    "prod": "pacificmap/map-config/prod.json"
+    "prod": "pacificmap/map-config/prod.json",
+    "files": [
+      {
+        "description": "Main catalog file",
+        "dev": "pacificmap/dev.json",
+        "test": "pacificmap/test.json",
+        "prod": "pacificmap/prod.json"
+      }
+    ]
   },
   {
     "id": "map-config-terria-cube",
+    "description": "Terria Cube",
     "dev": "terria-cube/map-config/dev.json",
     "test": "terria-cube/map-config/test.json",
     "prod": "terria-cube/map-config/prod.json"
   },
   {
     "id": "map-config-terria-io",
+    "description": "map.terria.io",
     "dev": "terria-io/map-config/dev.json",
     "test": "terria-io/map-config/test.json",
-    "prod": "terria-io/map-config/prod.json"
+    "prod": "terria-io/map-config/prod.json",
+    "files": [
+      {
+        "description": "Main catalog file",
+        "dev": "terria-io/dev.json",
+        "test": "terria-io/test.json",
+        "prod": "terria-io/prod.json"
+      }
+    ]
   }
 ]

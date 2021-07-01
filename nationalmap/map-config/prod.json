@@ -130,7 +130,7 @@
           }
         ],
         "mobileDefaultViewerMode": "2d",
-        "regionMappingDefinitionsUrl": "https://saas.terria.io/api/v0/storage/terria/nationalmap/regions/regionMapping-2021-04-15.json",
+        "regionMappingDefinitionsUrl": "https://raw.githubusercontent.com/TerriaJS/saas-catalogs-public/main/nationalmap/regionMapping-2021-06-02.json",
         "showWelcomeMessage": true,
         "supportEmail": "info@terria.io",
         "theme": {
@@ -170,6 +170,7 @@
           "trainerHeight": "64",
           "workbenchWidth": "350"
         },
+        "useCesiumIonBingImagery": true,
         "welcomeMessageVideo": {
           "placeholderImage": "https://img.youtube.com/vi/C4-gLv09Rfo/maxresdefault.jpg",
           "videoTitle": "Getting started with the map",

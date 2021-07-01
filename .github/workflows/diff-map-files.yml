@@ -1,0 +1,20 @@
+name: diff-map-files
+
+on:
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  diff-map-files:
+    runs-on: ubuntu-latest
+
+    name: diff-map-files
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v2
+      - name: yarn install
+        run: yarn install --frozen-lockfile
+      - name: Diff files
+        id: runJs
+        run: node diff-maps.js
