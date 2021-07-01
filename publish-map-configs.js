@@ -24,8 +24,11 @@ async function readFile(path) {
 
     const changedFiles = [...addedFiles, ...modifiedFiles];
 
-    console.log("Files changed:");
-    console.log(changedFiles);
+    // Only print "Files changed" if not PUBLISH_ALL
+    if (process.env.PUBLISH_ALL !== "true") {
+      console.log("Files changed:");
+      console.log(changedFiles);
+    }
 
     for (let i = 0; i < mapConfigs.length; i++) {
       const mapConfig = mapConfigs[i];
@@ -34,7 +37,10 @@ async function readFile(path) {
       const mapConfigId = mapConfig.id;
 
       // Has a map-config file changed for the currentMapConfig?
-      if (changedFiles.includes(mapConfigFile)) {
+      if (
+        changedFiles.includes(mapConfigFile) ||
+        process.env.PUBLISH_ALL === "true"
+      ) {
         const mapConfigJson = (await readFile(mapConfigFile)).toString();
 
         console.log(

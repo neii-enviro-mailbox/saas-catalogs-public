@@ -1,0 +1,25 @@
+name: sync-dev
+
+on:
+  workflow_dispatch:
+
+jobs:
+  dev-publish-map-config:
+    runs-on: ubuntu-latest
+
+    name: DEV publish map-config
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v2
+      - name: yarn install
+        run: yarn install --frozen-lockfile
+      - name: Publish all files
+        id: runJs
+        run: node publish-map-configs.js
+        env:
+          # This is used to find map-config files from `map-configs.json`
+          ENVIRONMENT_TAG: "dev"
+          PUBLISH_ALL: "true"
+          MAGDA_FQDN: ${{ secrets.DEV_MAGDA_FQDN }}
+          MAGDA_API_ID: ${{ secrets.DEV_MAGDA_API_ID }}
+          MAGDA_API_KEY: ${{ secrets.DEV_MAGDA_API_KEY }}
