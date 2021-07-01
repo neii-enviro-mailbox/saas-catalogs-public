@@ -66,7 +66,8 @@
           "textLight": "#ffffff",
           "textLightDimmed": "#bbbbbb",
           "workbenchWidth": "350"
-        }
+        },
+        "useCesiumIonBingImagery": true
       },
       "v7initializationUrls": [
         "https://raw.githubusercontent.com/GeoscienceAustralia/dea-config/master/dev/terria/dea.json"

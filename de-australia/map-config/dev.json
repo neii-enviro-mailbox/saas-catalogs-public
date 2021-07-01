@@ -217,17 +217,13 @@
           "textLightDimmed": "#bbbbbb",
           "workbenchWidth": "350"
         },
+        "useCesiumIonBingImagery": true,
         "welcomeMessageVideo": {
           "placeholderImage": "https://img.youtube.com/vi/FjSxaviSLhc/maxresdefault.jpg",
           "videoTitle": "Getting started with the map",
           "videoUrl": "https://www.youtube.com/embed/FjSxaviSLhc"
         }
       }
-    },
-    "group": {
-      "members": [
-        "a143bc38-6eb3-46d0-9f9e-35a8f41ed3e0"
-      ]
     }
   },
   "authnReadPolicyId": "object.registry.record.public",
