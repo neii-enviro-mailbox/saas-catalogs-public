@@ -11,6 +11,40 @@ To update `map-config` files you must create a PR:
 
 **Catalog JSON files are hosted here (in GitHub)** for example `https://raw.githubusercontent.com/TerriaJS/saas-catalogs-public/main/kaleidoscope/prod.json`
 
+## Scripts
+
+### `node diff-maps.js`
+
+Will show JSON-diff for `map-config` files between `dev -> test` and `test -> prod`.
+
+Example output:
+
+```bash
+CHECKING MAP CONFIG map-config-nationalmap
+
+DIFF DEV -> TEST: map-config-nationalmap
+____________________________________________________________________________________________________
+
+ {
+   aspects: {
+     terria-config: {
+       initializationUrls: [
+-        "https://raw.githubusercontent.com/TerriaJS/saas-catalogs-public/main/nationalmap/dev.json"
++        "https://raw.githubusercontent.com/TerriaJS/saas-catalogs-public/main/nationalmap/test.json"
+       ]
+     }
+     group: {
+       members: [
+-        "1a122c9d-ca4c-4776-bce4-2e1bcacc1593"
+-        "dga-portal"
+       ]
+     }
+   }
+ }
+
+____________________________________________________________________________________________________
+```
+
 ## Format
 
 Each map has a directory. The directory name should map to it's `map-config` ID stored in Magda (eg `pacificmap` folder maps to `map-config-pacificmap`).
