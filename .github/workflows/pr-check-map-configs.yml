@@ -29,6 +29,3 @@ jobs:
           # These are not used at the moment
           # REMOVED_FILES: "${{ steps.files.outputs.removed }}"
           # RENAMED_FILES: "${{ steps.files.outputs.renamed }}"
-      - name: Diff map-configs
-        id: runJs-diff
-        run: node diff-maps.js
