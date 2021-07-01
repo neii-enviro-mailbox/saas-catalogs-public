@@ -139,7 +139,6 @@ async function diffFiles(fileNames, tag) {
   for (let i = 0; i < mapConfigs.length; i++) {
     const mapConfig = mapConfigs[i];
     if (mapConfig.files) {
-      // Get all filenames in `files` array
       for (let j = 0; j < mapConfig.files.length; j++) {
         const files = mapConfig.files[j];
         const fileNames = ["dev", "test", "prod"].map(
