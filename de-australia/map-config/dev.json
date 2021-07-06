@@ -223,7 +223,8 @@
           "videoUrl": "https://www.youtube.com/embed/FjSxaviSLhc"
         }
       }
-    }
+    },
+    "group": {}
   },
   "authnReadPolicyId": "object.registry.record.public",
   "id": "map-config-de-australia",
