@@ -26,6 +26,12 @@
         "dev": "de-australia/dev.json",
         "test": "de-australia/test.json",
         "prod": "de-australia/prod.json"
+      },
+      {
+        "description": "Water regulations data catalog file",
+        "dev": "de-australia/water-regulations-data/dev.json",
+        "test": "de-australia/water-regulations-data/test.json",
+        "prod": "de-australia/water-regulations-data/prod.json"
       }
     ]
   },
