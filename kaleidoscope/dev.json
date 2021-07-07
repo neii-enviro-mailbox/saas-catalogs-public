@@ -48,12 +48,9 @@
           }
         ]
       },
-      "name": "CMAR (test)",
+      "name": "CMAR",
       "type": "wms-group",
-      "url": "https://www.cmar.csiro.au/geoserver/cmar/ows",
-      "shareKeys": [
-        "//CMAR"
-      ]
+      "url": "https://www.cmar.csiro.au/geoserver/cmar/ows"
     },
     {
       "description": "Here is a generic description about NERP",
