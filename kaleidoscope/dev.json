@@ -48,7 +48,7 @@
           }
         ]
       },
-      "name": "CMAR",
+      "name": "CMAR (test)",
       "type": "wms-group",
       "url": "https://www.cmar.csiro.au/geoserver/cmar/ows"
     },
