@@ -20,6 +20,6 @@ jobs:
           # This is used to find map-config files from `map-configs.json`
           ENVIRONMENT_TAG: "test"
           PUBLISH_ALL: "true"
-          MAGDA_FQDN: ${{ secrets.DEV_MAGDA_FQDN }}
-          MAGDA_API_ID: ${{ secrets.DEV_MAGDA_API_ID }}
-          MAGDA_API_KEY: ${{ secrets.DEV_MAGDA_API_KEY }}
+          MAGDA_FQDN: ${{ secrets.TEST_MAGDA_FQDN }}
+          MAGDA_API_ID: ${{ secrets.TEST_MAGDA_API_ID }}
+          MAGDA_API_KEY: ${{ secrets.TEST_MAGDA_API_KEY }}
