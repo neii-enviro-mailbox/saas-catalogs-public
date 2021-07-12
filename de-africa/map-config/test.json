@@ -206,7 +206,7 @@
     },
     "terria-config": {
       "initializationUrls": [
-        "https://raw.githubusercontent.com/TerriaJS/saas-catalogs-public/main/de-africa/test.json",
+        "https://raw.githubusercontent.com/digitalearthafrica/config/master/terria/africa-prod.json",
         "https://raw.githubusercontent.com/TerriaJS/saas-catalogs-public/main/de-africa/basemaps.json"
       ],
       "parameters": {
