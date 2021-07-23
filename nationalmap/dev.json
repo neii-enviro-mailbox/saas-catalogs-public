@@ -26360,11 +26360,11 @@
                     },
                     "initialMessage": {
                       "title": "Hint",
-                      "content": "<li>Use 3D mode.</li><li>If map items can not be seen, zoom in further to reveal them.</li>",
+                      "content": "<li>Using 3D mode is recommended. Otherwise feature data can only be seen at some zoom levels.</li><li>Except for the last member, need to zoom in further to reveal map items.</li>",
                       "confirmation": false
                     },
                     "featureInfoTemplate": {
-                      "template": "{{Pixel Value}} people in the given radius."
+                      "template": "{{Pixel Value}} residential dwellings in the given radius."
                     }
                   }
                 }
