@@ -5808,27 +5808,6 @@
                   "name": "Generation",
                   "members": [
                     {
-                      "type": "esri-mapServer",
-                      "name": "All Power Stations",
-                      "featureInfoTemplate": {
-                        "template": "<h3>{{NAME}} {{FEATURETYPE}}</h3><p><strong>{{OWNER}}</strong><br/>Status: <strong>{{OPERATIONALSTATUS}}</strong><br/><small>  <style>    th, td {        padding-left: 5px;        padding-right: 5px;    }  </style>  <table>    <tbody>      <tr>        <td>Capacity</td> <td><strong>{{GENERATIONMW}} MW</strong></td>      </tr>      <tr>        <td>Fuel Type</td>        <td><strong>{{PRIMARYFUELTYPE}}</strong> ({{CLASS}})</td>      </tr>      <tr>        <td>Technology Type</td>        <td><strong>{{GENERATIONTYPE}}</strong></td>      </tr>      <tr>        <td>Physical Unit No.</td> <td><strong>{{GENERATORNUMBER}}</strong></td>      </tr>    </tbody>  </table></small>"
-                      },
-                      "id": "540715ee",
-                      "url": "https://services.ga.gov.au/gis/rest/services/Foundation_Electricity_Infrastructure/MapServer",
-                      "opacity": 1,
-                      "rectangle": {
-                        "west": 112,
-                        "south": -48,
-                        "east": 155,
-                        "north": -5
-                      },
-                      "layers": "0",
-                      "keepOnTop": true,
-                      "shareKeys": [
-                        "Root Group/Electricity Infrastructure/Generation/All Power Stations"
-                      ]
-                    },
-                    {
                       "id": "HcL1LD",
                       "type": "group",
                       "name": "Current Power Generation - NEM",
@@ -7164,6 +7143,27 @@
                       },
                       "shareKeys": [
                         "Root Group/Electricity Infrastructure/Generation/NGERS Designated Generation Facilities (2015-16)"
+                      ]
+                    },
+                    {
+                      "type": "esri-mapServer",
+                      "name": "Power Stations",
+                      "featureInfoTemplate": {
+                        "template": "<h3>{{NAME}} {{FEATURETYPE}}</h3><p><strong>{{OWNER}}</strong><br/>Status: <strong>{{OPERATIONALSTATUS}}</strong><br/><small>  <style>    th, td {        padding-left: 5px;        padding-right: 5px;    }  </style>  <table>    <tbody>      <tr>        <td>Capacity</td> <td><strong>{{GENERATIONMW}} MW</strong></td>      </tr>      <tr>        <td>Fuel Type</td>        <td><strong>{{PRIMARYFUELTYPE}}</strong> ({{CLASS}})</td>      </tr>      <tr>        <td>Technology Type</td>        <td><strong>{{GENERATIONTYPE}}</strong></td>      </tr>      <tr>        <td>Physical Unit No.</td> <td><strong>{{GENERATORNUMBER}}</strong></td>      </tr>    </tbody>  </table></small>"
+                      },
+                      "id": "540715ee",
+                      "url": "https://services.ga.gov.au/gis/rest/services/Foundation_Electricity_Infrastructure/MapServer",
+                      "opacity": 1,
+                      "rectangle": {
+                        "west": 112,
+                        "south": -48,
+                        "east": 155,
+                        "north": -5
+                      },
+                      "layers": "0",
+                      "keepOnTop": true,
+                      "shareKeys": [
+                        "Root Group/Electricity Infrastructure/Generation/All Power Stations"
                       ]
                     },
                     {
@@ -9720,25 +9720,7 @@
                   "members": [
                     {
                       "type": "esri-mapServer",
-                      "name": "Substations",
-                      "id": "54071616",
-                      "url": "https://services.ga.gov.au/gis/rest/services/Foundation_Electricity_Infrastructure/MapServer",
-                      "opacity": 1,
-                      "rectangle": {
-                        "west": 112,
-                        "south": -48,
-                        "east": 155,
-                        "north": -5
-                      },
-                      "layers": "1",
-                      "keepOnTop": true,
-                      "shareKeys": [
-                        "Root Group/Electricity Infrastructure/Transmission/Substations"
-                      ]
-                    },
-                    {
-                      "type": "esri-mapServer",
-                      "name": "Transmission Lines",
+                      "name": "Electricity Transmission Lines",
                       "featureInfoTemplate": {
                         "name": "{{NAME}} ({{CAPACITYKV}}kv)",
                         "template": "<h3>{{NAME}}</h3><p>    Voltage: <strong>{{CAPACITYKV}}kV</strong><br/>    State: <strong>{{STATE}}</strong><br/>    Class: <strong>{{CLASS}}</strong><br/>    Status: <strong>{{OPERATIONALSTATUS}}</strong><br/>    Date revised: <strong>{{REVISED}}</strong><br/>    Spatial Confidence: <strong>{{SPATIALCONFIDENCE}}</strong></p>"
@@ -9756,6 +9738,24 @@
                       "keepOnTop": true,
                       "shareKeys": [
                         "Root Group/Electricity Infrastructure/Transmission/Transmission Lines"
+                      ]
+                    },
+                    {
+                      "type": "esri-mapServer",
+                      "name": "Transmission Substations",
+                      "id": "54071616",
+                      "url": "https://services.ga.gov.au/gis/rest/services/Foundation_Electricity_Infrastructure/MapServer",
+                      "opacity": 1,
+                      "rectangle": {
+                        "west": 112,
+                        "south": -48,
+                        "east": 155,
+                        "north": -5
+                      },
+                      "layers": "1",
+                      "keepOnTop": true,
+                      "shareKeys": [
+                        "Root Group/Electricity Infrastructure/Transmission/Substations"
                       ]
                     },
                     {
@@ -21309,17 +21309,17 @@
                     {
                       "type": "ckan-item",
                       "name": "WAT4b Australian rainfall deciles, 2013",
-                      "id": "7babb413-c021-441b-8116-46330960297a",
+                      "id": "aa7c374c-d440-4086-911f-66bd451bee5a",
                       "url": "proxy/_60s/https://data.gov.au",
                       "cacheDuration": "1h",
-                      "datasetId": "2016-soe-inw-rainfall-deciles-2014",
-                      "resourceId": "7babb413-c021-441b-8116-46330960297a",
+                      "datasetId": "2016-soe-inw-rainfall-deciles-2013",
+                      "resourceId": "aa7c374c-d440-4086-911f-66bd451bee5a",
                       "itemProperties": {
                         "hideSource": true,
                         "info": [
                           {
                             "name": "Metadata and Data Source",
-                            "content": "https://data.gov.au/dataset/2016-soe-inw-rainfall-deciles-2014"
+                            "content": "https://data.gov.au/dataset/2016-soe-inw-rainfall-deciles-2013"
                           }
                         ],
                         "cacheDuration": "1h"
@@ -21332,17 +21332,17 @@
                     {
                       "type": "ckan-item",
                       "name": "WAT4b Australian rainfall deciles, 2013",
-                      "id": "aa7c374c-d440-4086-911f-66bd451bee5a",
+                      "id": "7babb413-c021-441b-8116-46330960297a",
                       "url": "proxy/_60s/https://data.gov.au",
                       "cacheDuration": "1h",
-                      "datasetId": "2016-soe-inw-rainfall-deciles-2013",
-                      "resourceId": "aa7c374c-d440-4086-911f-66bd451bee5a",
+                      "datasetId": "2016-soe-inw-rainfall-deciles-2014",
+                      "resourceId": "7babb413-c021-441b-8116-46330960297a",
                       "itemProperties": {
                         "hideSource": true,
                         "info": [
                           {
                             "name": "Metadata and Data Source",
-                            "content": "https://data.gov.au/dataset/2016-soe-inw-rainfall-deciles-2013"
+                            "content": "https://data.gov.au/dataset/2016-soe-inw-rainfall-deciles-2014"
                           }
                         ],
                         "cacheDuration": "1h"
@@ -26265,6 +26265,46 @@
               ]
             },
             {
+              "type": "group",
+              "name": "Foundation Facilities Points",
+              "members": [
+                {
+                  "type": "esri-mapServer",
+                  "name": "Education Facilities",
+                  "url": "https://services.ga.gov.au/gis/rest/services/Foundation_Facilities_Points/MapServer",
+                  "layers": "0",
+                  "id": "6cb2ca21-0c18-44de-baeb-969bf1594ce1",
+                  "shareKeys": [
+                    "Root Group/National Datasets/Social and Economic/Foundation Facilities Points/Education Facilities"
+                  ]
+                },
+                {
+                  "type": "esri-mapServer",
+                  "name": "Emergency Management Facilities",
+                  "url": "https://services.ga.gov.au/gis/rest/services/Foundation_Facilities_Points/MapServer",
+                  "layers": "1",
+                  "id": "ba8b928f-222e-422c-a001-f8ac008fe47c",
+                  "shareKeys": [
+                    "Root Group/National Datasets/Social and Economic/Foundation Facilities Points/Emergency Management Facilities"
+                  ]
+                },
+                {
+                  "type": "esri-mapServer",
+                  "name": "Health and Medical Facilities",
+                  "url": "https://services.ga.gov.au/gis/rest/services/Foundation_Facilities_Points/MapServer",
+                  "layers": "1",
+                  "id": "4d9dd43a-b7d8-45c7-97d3-9127baea5a81",
+                  "shareKeys": [
+                    "Root Group/National Datasets/Social and Economic/Foundation Facilities Points/Health and Medical Facilities"
+                  ]
+                }
+              ],
+              "id": "3a192c0e-3b8a-477b-b927-267a0fcfb776",
+              "shareKeys": [
+                "Root Group/National Datasets/Social and Economic/Foundation Facilities Points"
+              ]
+            },
+            {
               "id": "lexGvWGi",
               "type": "group",
               "name": "Housing",
@@ -26297,11 +26337,8 @@
               "name": "Population Estimates",
               "members": [
                 {
-                  "type": "esri-mapServer",
-                  "name": "Residential Population Density",
-                  "featureInfoTemplate": {
-                    "template": "{{Pixel Value}} people in 100m radius."
-                  },
+                  "type": "esri-mapServer-group",
+                  "name": "Residential Dwelling Density",
                   "id": "Root Group/National Data Sets/Social and Economic/Population Estimates",
                   "info": [
                     {
@@ -26313,7 +26350,23 @@
                   "dataCustodian": "[Geoscience Australia](http://www.ga.gov.au/)",
                   "shareKeys": [
                     "Root Group/National Datasets/Social and Economic/Population Estimates/Residential Population Density"
-                  ]
+                  ],
+                  "itemProperties": {
+                    "rectangle": {
+                      "east": 158,
+                      "north": -8,
+                      "south": -45,
+                      "west": 109
+                    },
+                    "initialMessage": {
+                      "title": "Hint",
+                      "content": "<li>Using 3D mode is recommended. Otherwise feature data can only be seen at some zoom levels.</li><li>Except for the last member, need to zoom in further to reveal map items.</li>",
+                      "confirmation": false
+                    },
+                    "featureInfoTemplate": {
+                      "template": "{{Pixel Value}} residential dwellings in the given radius."
+                    }
+                  }
                 }
               ],
               "shareKeys": [
@@ -26761,6 +26814,22 @@
                 },
                 {
                   "type": "esri-mapServer",
+                  "name": "Railway Lines",
+                  "info": [
+                    {
+                      "name": "Licence",
+                      "content": "[Creative Commons Attribution 4.0 International (CC BY 4.0)](http://creativecommons.org/licenses/by/4.0/)"
+                    }
+                  ],
+                  "url": "https://services.ga.gov.au/gis/services/Foundation_Rail_Infrastructure/MapServer",
+                  "layers": "0",
+                  "id": "PIkQ1Rah",
+                  "shareKeys": [
+                    "Root Group/National Datasets/Transport/Rail/Railways"
+                  ]
+                },
+                {
+                  "type": "esri-mapServer",
                   "name": "Railway Stations",
                   "info": [
                     {
@@ -26773,22 +26842,6 @@
                   "id": "Qx55MnU1",
                   "shareKeys": [
                     "Root Group/National Datasets/Transport/Rail/Railway Stations"
-                  ]
-                },
-                {
-                  "type": "esri-mapServer",
-                  "name": "Railways",
-                  "info": [
-                    {
-                      "name": "Licence",
-                      "content": "[Creative Commons Attribution 4.0 International (CC BY 4.0)](http://creativecommons.org/licenses/by/4.0/)"
-                    }
-                  ],
-                  "url": "http://services.ga.gov.au/gis/rest/services/NM_Transport_Infrastructure/MapServer",
-                  "layers": "Railways,No_Data",
-                  "id": "PIkQ1Rah",
-                  "shareKeys": [
-                    "Root Group/National Datasets/Transport/Rail/Railways"
                   ]
                 }
               ],
