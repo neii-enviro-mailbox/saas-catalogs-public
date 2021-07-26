@@ -26360,43 +26360,43 @@
                     "south": -45,
                     "west": 109
                   }
+                },
+                {
+                  "type": "esri-mapServer-group",
+                  "name": "Residential Dwelling Density (as group)",
+                  "id": "Root Group/National Data Sets/Social and Economic/Population Estimates (as group)",
+                  "info": [
+                    {
+                      "name": "Licence",
+                      "content": "[Creative Commons Attribution 4.0 International (CC BY 4.0)](http://creativecommons.org/licenses/by/4.0/)"
+                    }
+                  ],
+                  "url": "http://services.ga.gov.au/gis/rest/services/NEXIS_Residential_Dwelling_Density/MapServer",
+                  "dataCustodian": "[Geoscience Australia](http://www.ga.gov.au/)",
+                  "shareKeys": [
+                    "Root Group/National Datasets/Social and Economic/Population Estimates/Residential Population Density (as group)"
+                  ],
+                  "itemProperties": {
+                    "rectangle": {
+                      "east": 158,
+                      "north": -8,
+                      "south": -45,
+                      "west": 109
+                    },
+                    "initialMessage": {
+                      "title": "Hint",
+                      "content": "<li>Using 3D mode is recommended. Otherwise feature data can only be seen at some zoom levels.</li><li>Except for the last member, need to zoom in further to reveal map items.</li>",
+                      "confirmation": false
+                    },
+                    "featureInfoTemplate": {
+                      "template": "{{Pixel Value}} residential dwellings in the given radius."
+                    }
+                  }
                 }
               ],
               "shareKeys": [
                 "Root Group/National Datasets/Social and Economic/Population Estimates"
               ]
-            },
-            {
-              "type": "esri-mapServer-group",
-              "name": "Residential Dwelling Density (as group)",
-              "id": "Root Group/National Data Sets/Social and Economic/Population Estimates (as group)",
-              "info": [
-                {
-                  "name": "Licence",
-                  "content": "[Creative Commons Attribution 4.0 International (CC BY 4.0)](http://creativecommons.org/licenses/by/4.0/)"
-                }
-              ],
-              "url": "http://services.ga.gov.au/gis/rest/services/NEXIS_Residential_Dwelling_Density/MapServer",
-              "dataCustodian": "[Geoscience Australia](http://www.ga.gov.au/)",
-              "shareKeys": [
-                "Root Group/National Datasets/Social and Economic/Population Estimates/Residential Population Density (as group)"
-              ],
-              "itemProperties": {
-                "rectangle": {
-                  "east": 158,
-                  "north": -8,
-                  "south": -45,
-                  "west": 109
-                },
-                "initialMessage": {
-                  "title": "Hint",
-                  "content": "<li>Using 3D mode is recommended. Otherwise feature data can only be seen at some zoom levels.</li><li>Except for the last member, need to zoom in further to reveal map items.</li>",
-                  "confirmation": false
-                },
-                "featureInfoTemplate": {
-                  "template": "{{Pixel Value}} residential dwellings in the given radius."
-                }
-              }
             },
             {
               "id": "wURwauIb",
