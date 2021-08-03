@@ -524,7 +524,7 @@
                 {
                   "type": "esri-mapServer",
                   "name": "CWTH OMA 1994 Mineral Blocks AMB2014a",
-                  "url": "https://services.ga.gov.au/gis/rest/services/OMA_1994_Mineral_Blocks_AMB2014a/MapServer",
+                  "url": "https://services.ga.gov.au/gis/rest/services/OMA_1994_Mineral_Blocks/MapServer",
                   "id": "pUTdjtT",
                   "shareKeys": [
                     "Root Group/National Datasets/Boundaries/Other areas/CWTH OMA 1994 Mineral Blocks AMB2014a"
@@ -541,11 +541,11 @@
                 },
                 {
                   "type": "esri-mapServer",
-                  "name": "CWTH OPGGSA 2006 Petroleum Blocks AMB2001a",
-                  "url": "https://services.ga.gov.au/gis/rest/services/CWTH_OPGGSA_2006_Petroleum_Blocks_AMB2001a/MapServer",
+                  "name": "CWTH OPGGSA 2006 Petroleum Blocks",
+                  "url": "https://services.ga.gov.au/gis/rest/services/OPGGSA_2006_Petroleum_Blocks/MapServer",
                   "id": "pduSsJS",
                   "shareKeys": [
-                    "Root Group/National Datasets/Boundaries/Other areas/CWTH OPGGSA 2006 Petroleum Blocks AMB2001a"
+                    "Root Group/National Datasets/Boundaries/Other areas/CWTH OPGGSA 2006 Petroleum Blocks"
                   ]
                 },
                 {
@@ -26251,12 +26251,12 @@
               "name": "Finance, Business and Trade",
               "members": [
                 {
-                  "type": "esri-mapServer",
-                  "name": "Industrial Building Exposure",
-                  "id": "Root Group/National Data Sets/Social and Economic/Building exposure",
-                  "url": "http://services.ga.gov.au/gis/rest/services/NEXIS_Building_Exposure/MapServer",
+                  "type": "wms-group",
+                  "name": "Australian Exposure Information",
+                  "id": "Root Group/National Data Sets/Social and Economic/Australian Exposure Information",
+                  "url": " https://services-em.ga.gov.au/geoserver/exposure/ows",
                   "shareKeys": [
-                    "Root Group/National Datasets/Social and Economic/Finance, Business and Trade/Industrial Building Exposure"
+                    "Root Group/National Datasets/Social and Economic/Finance, Business and Trade/Australian Exposure Information"
                   ]
                 }
               ],
@@ -39696,7 +39696,7 @@
       "item": {
         "id": "basemap-australian-topography",
         "type": "esri-mapServer",
-        "name": "Australian Topography",
+        "name": "National Base Map",
         "url": "https://services.ga.gov.au/gis/rest/services/NationalBaseMap/MapServer",
         "opacity": 1
       },
@@ -39772,6 +39772,16 @@
         ]
       },
       "image": "https://raw.githubusercontent.com/TerriaJS/saas-catalogs-public/main/misc/basemaps/icons/voyager-aus.png"
+    },
+    {
+      "item": {
+        "id": "basemap-greyscale",
+        "type": "esri-mapServer",
+        "name": "Grey Scale",
+        "url": "https://services.ga.gov.au/gis/rest/services/NationalBaseMap_GreyScale/MapServer",
+        "opacity": 1
+      },
+      "image": "images/basemaps/grey-scale.png"
     }
   ]
 }
