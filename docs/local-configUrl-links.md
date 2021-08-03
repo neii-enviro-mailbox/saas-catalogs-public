@@ -1,5 +1,8 @@
 # Local `configUrl` links
 
+The `#configUrl` hash parameter can be used to load a map-config file.  
+This means you can test all the maps locally (or in TerriaJS CI - eg http://ci.terria.io/next/).
+
 ## Limitations
 
 Maps with MagdaReferences will not work.
