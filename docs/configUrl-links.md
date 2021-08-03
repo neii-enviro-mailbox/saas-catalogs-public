@@ -1,4 +1,12 @@
-# Local `configUrl` links
+# `#configUrl` links
+
+The `#configUrl` hash parameter can be used to load a map-config file.  
+This means you can test all the maps locally (or in TerriaJS CI - eg http://ci.terria.io/next/).
+
+For example - Digital Earth Australia production map-config:
+
+- **CI link** http://ci.terria.io/next/#configUrl=https://raw.githubusercontent.com/TerriaJS/saas-catalogs-public/main/de-australia/map-config/prod.json
+- **Localhost link** http://localhost:3001/#configUrl=https://raw.githubusercontent.com/TerriaJS/saas-catalogs-public/main/de-australia/map-config/prod.json
 
 ## Limitations
 

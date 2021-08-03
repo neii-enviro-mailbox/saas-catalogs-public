@@ -11,6 +11,10 @@ To update `map-config` files you must create a PR:
 
 **Catalog JSON files are hosted here (in GitHub)** for example `https://raw.githubusercontent.com/TerriaJS/saas-catalogs-public/main/kaleidoscope/prod.json`
 
+## How to test maps
+
+See https://github.com/TerriaJS/saas-catalogs-public/blob/main/docs/configUrl-links.md for instruction on how to test maps locally or in TerriaJS CI.
+
 ## Scripts
 
 ### `node diff-maps.js`
