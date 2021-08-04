@@ -16406,6 +16406,15 @@
                   ]
                 },
                 {
+                  "type": "esri-mapServer-group",
+                  "name": "Renewable Energy Capacity Factor Maps",
+                  "url": "https://services.ga.gov.au/gis/rest/services/RenewableEnergyCapacityFactorMaps/MapServer",
+                  "id": "627b3845-1b2a-4156-89bb-428e62f01dae",
+                  "shareKeys": [
+                    "Root Group/National Datasets/Energy/Renewable Energy/Renewable Energy Capacity Factor Maps"
+                  ]
+                },
+                {
                   "id": "LYJudK",
                   "type": "group",
                   "name": "Solar",
