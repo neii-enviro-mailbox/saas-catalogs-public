@@ -523,7 +523,7 @@
                 },
                 {
                   "type": "esri-mapServer",
-                  "name": "CWTH OMA 1994 Mineral Blocks AMB2014a",
+                  "name": "CWTH OMA 1994 Mineral Blocks",
                   "url": "https://services.ga.gov.au/gis/rest/services/OMA_1994_Mineral_Blocks/MapServer",
                   "id": "pUTdjtT",
                   "shareKeys": [
@@ -19397,6 +19397,15 @@
               ]
             },
             {
+              "type": "esri-mapServer-group",
+              "name": "GEODISC Environmentally Sustainable Sites For Carbon Dioxide Injection",
+              "url": "https://services.ga.gov.au/gis/rest/services/GEODISC_EnvironmentallySustainableSitesForCarbonDioxideInjection/MapServer",
+              "id": "acc95f32-b8cb-448d-94f7-21f94d18087e",
+              "shareKeys": [
+                "Root Group/National Datasets/Environment/GEODISC Environmentally Sustainable Sites For Carbon Dioxide Injection"
+              ]
+            },
+            {
               "type": "wms",
               "name": "Key Ecological Features",
               "url": "http://www.environment.gov.au/mapping/services/ogc_services/Key_Ecological_Features/MapServer/WMSServer",
@@ -21309,17 +21318,17 @@
                     {
                       "type": "ckan-item",
                       "name": "WAT4b Australian rainfall deciles, 2013",
-                      "id": "aa7c374c-d440-4086-911f-66bd451bee5a",
+                      "id": "7babb413-c021-441b-8116-46330960297a",
                       "url": "proxy/_60s/https://data.gov.au",
                       "cacheDuration": "1h",
-                      "datasetId": "2016-soe-inw-rainfall-deciles-2013",
-                      "resourceId": "aa7c374c-d440-4086-911f-66bd451bee5a",
+                      "datasetId": "2016-soe-inw-rainfall-deciles-2014",
+                      "resourceId": "7babb413-c021-441b-8116-46330960297a",
                       "itemProperties": {
                         "hideSource": true,
                         "info": [
                           {
                             "name": "Metadata and Data Source",
-                            "content": "https://data.gov.au/dataset/2016-soe-inw-rainfall-deciles-2013"
+                            "content": "https://data.gov.au/dataset/2016-soe-inw-rainfall-deciles-2014"
                           }
                         ],
                         "cacheDuration": "1h"
@@ -21332,17 +21341,17 @@
                     {
                       "type": "ckan-item",
                       "name": "WAT4b Australian rainfall deciles, 2013",
-                      "id": "7babb413-c021-441b-8116-46330960297a",
+                      "id": "aa7c374c-d440-4086-911f-66bd451bee5a",
                       "url": "proxy/_60s/https://data.gov.au",
                       "cacheDuration": "1h",
-                      "datasetId": "2016-soe-inw-rainfall-deciles-2014",
-                      "resourceId": "7babb413-c021-441b-8116-46330960297a",
+                      "datasetId": "2016-soe-inw-rainfall-deciles-2013",
+                      "resourceId": "aa7c374c-d440-4086-911f-66bd451bee5a",
                       "itemProperties": {
                         "hideSource": true,
                         "info": [
                           {
                             "name": "Metadata and Data Source",
-                            "content": "https://data.gov.au/dataset/2016-soe-inw-rainfall-deciles-2014"
+                            "content": "https://data.gov.au/dataset/2016-soe-inw-rainfall-deciles-2013"
                           }
                         ],
                         "cacheDuration": "1h"
@@ -22548,17 +22557,17 @@
                     {
                       "type": "ckan-item",
                       "name": "MAR2 Australia’s marine regions, including the Great Barrier Reef Marine Park",
-                      "id": "34e70aff-9f65-48de-9fdc-638ebe282038",
+                      "id": "a203714e-1324-4ca3-85db-cb3aa6410586",
                       "url": "proxy/_60s/https://data.gov.au",
                       "cacheDuration": "1h",
-                      "datasetId": "2016-soe-mar-great-barrier-reef-marine-park",
-                      "resourceId": "34e70aff-9f65-48de-9fdc-638ebe282038",
+                      "datasetId": "2016-soe-mar-australian-marine-regions",
+                      "resourceId": "a203714e-1324-4ca3-85db-cb3aa6410586",
                       "itemProperties": {
                         "hideSource": true,
                         "info": [
                           {
                             "name": "Metadata and Data Source",
-                            "content": "https://data.gov.au/dataset/2016-soe-mar-great-barrier-reef-marine-park"
+                            "content": "https://data.gov.au/dataset/2016-soe-mar-australian-marine-regions"
                           }
                         ],
                         "cacheDuration": "1h"
@@ -22571,17 +22580,17 @@
                     {
                       "type": "ckan-item",
                       "name": "MAR2 Australia’s marine regions, including the Great Barrier Reef Marine Park",
-                      "id": "a203714e-1324-4ca3-85db-cb3aa6410586",
+                      "id": "34e70aff-9f65-48de-9fdc-638ebe282038",
                       "url": "proxy/_60s/https://data.gov.au",
                       "cacheDuration": "1h",
-                      "datasetId": "2016-soe-mar-australian-marine-regions",
-                      "resourceId": "a203714e-1324-4ca3-85db-cb3aa6410586",
+                      "datasetId": "2016-soe-mar-great-barrier-reef-marine-park",
+                      "resourceId": "34e70aff-9f65-48de-9fdc-638ebe282038",
                       "itemProperties": {
                         "hideSource": true,
                         "info": [
                           {
                             "name": "Metadata and Data Source",
-                            "content": "https://data.gov.au/dataset/2016-soe-mar-australian-marine-regions"
+                            "content": "https://data.gov.au/dataset/2016-soe-mar-great-barrier-reef-marine-park"
                           }
                         ],
                         "cacheDuration": "1h"
@@ -23382,6 +23391,15 @@
               "id": "hGDBkEd1",
               "shareKeys": [
                 "Root Group/National Datasets/Habitation/Cemetery Points"
+              ]
+            },
+            {
+              "type": "esri-mapServer-group",
+              "name": "Foundation Facilities Points",
+              "url": "https://services.ga.gov.au/gis/rest/services/Foundation_Facilities_Points/MapServer",
+              "id": "b670687a-8dbd-40b2-8849-d9c50de20ab2",
+              "shareKeys": [
+                "Root Group/National Datasets/Habitation/Foundation Facilities Points"
               ]
             },
             {
@@ -26059,6 +26077,15 @@
               "shareKeys": [
                 "Root Group/National Datasets/Satellite Images/Satellite Images Multi-Sensor Blended - daily"
               ]
+            },
+            {
+              "type": "esri-mapServer",
+              "name": "World Bathymetry Imagery",
+              "url": "https://services.ga.gov.au/gis/rest/services/World_Bathymetry_Imagery/MapServer",
+              "id": "19cb612e-d452-431b-9eec-7bbd46edd088",
+              "shareKeys": [
+                "Root Group/National Datasets/Satellite Images/World Bathymetry Imagery"
+              ]
             }
           ],
           "shareKeys": [
@@ -26262,46 +26289,6 @@
               ],
               "shareKeys": [
                 "Root Group/National Datasets/Social and Economic/Finance, Business and Trade"
-              ]
-            },
-            {
-              "type": "group",
-              "name": "Foundation Facilities Points",
-              "members": [
-                {
-                  "type": "esri-mapServer",
-                  "name": "Education Facilities",
-                  "url": "https://services.ga.gov.au/gis/rest/services/Foundation_Facilities_Points/MapServer",
-                  "layers": "0",
-                  "id": "6cb2ca21-0c18-44de-baeb-969bf1594ce1",
-                  "shareKeys": [
-                    "Root Group/National Datasets/Social and Economic/Foundation Facilities Points/Education Facilities"
-                  ]
-                },
-                {
-                  "type": "esri-mapServer",
-                  "name": "Emergency Management Facilities",
-                  "url": "https://services.ga.gov.au/gis/rest/services/Foundation_Facilities_Points/MapServer",
-                  "layers": "1",
-                  "id": "ba8b928f-222e-422c-a001-f8ac008fe47c",
-                  "shareKeys": [
-                    "Root Group/National Datasets/Social and Economic/Foundation Facilities Points/Emergency Management Facilities"
-                  ]
-                },
-                {
-                  "type": "esri-mapServer",
-                  "name": "Health and Medical Facilities",
-                  "url": "https://services.ga.gov.au/gis/rest/services/Foundation_Facilities_Points/MapServer",
-                  "layers": "1",
-                  "id": "4d9dd43a-b7d8-45c7-97d3-9127baea5a81",
-                  "shareKeys": [
-                    "Root Group/National Datasets/Social and Economic/Foundation Facilities Points/Health and Medical Facilities"
-                  ]
-                }
-              ],
-              "id": "3a192c0e-3b8a-477b-b927-267a0fcfb776",
-              "shareKeys": [
-                "Root Group/National Datasets/Social and Economic/Foundation Facilities Points"
               ]
             },
             {
@@ -39781,7 +39768,7 @@
         "url": "https://services.ga.gov.au/gis/rest/services/NationalBaseMap_GreyScale/MapServer",
         "opacity": 1
       },
-      "image": "images/basemaps/grey-scale.png"
+      "image": "https://raw.githubusercontent.com/TerriaJS/saas-catalogs-public/main/nationalmap/images/base-maps/australia-grey-scale.png"
     }
   ]
 }
