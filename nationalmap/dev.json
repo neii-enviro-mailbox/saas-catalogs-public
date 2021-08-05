@@ -30,73 +30,13 @@
               ]
             },
             {
-              "type": "esri-mapServer",
-              "name": "Catchment Scale Land Use 2020 [18 class classification]",
+              "type": "esri-mapServer-group",
+              "name": "Catchment Scale Land Use",
               "url": "https://www.environment.gov.au/mapping/rest/services/abares/CLUM_50m/MapServer",
-              "layers": "2",
-              "id": "P73z4wdt",
+              "id": "fdd5fa7d-8cfe-416d-a061-bb603a0f7079",
               "shareKeys": [
-                "Root Group/National Datasets/Agriculture/Catchment Scale Land Use 2018 [18 class classification]"
-              ]
-            },
-            {
-              "type": "esri-mapServer",
-              "name": "Catchment Scale Land Use 2020 [Agricultural industries]",
-              "url": "https://www.environment.gov.au/mapping/rest/services/abares/CLUM_50m/MapServer",
-              "layers": "4",
-              "id": "7ZlgWGzf",
-              "shareKeys": [
-                "Root Group/National Datasets/Agriculture/Catchment Scale Land Use 2018 [Agricultural industries]"
-              ]
-            },
-            {
-              "type": "esri-mapServer",
-              "name": "Catchment Scale Land Use 2020 [Agriculture]",
-              "url": "https://www.environment.gov.au/mapping/rest/services/abares/CLUM_50m/MapServer",
-              "layers": "3",
-              "id": "gHtzBxbB",
-              "shareKeys": [
-                "Root Group/National Datasets/Agriculture/Catchment Scale Land Use 2018 [Agriculture]"
-              ]
-            },
-            {
-              "type": "esri-mapServer",
-              "name": "Catchment Scale Land Use 2020 [Date of mapping]",
-              "url": "https://www.environment.gov.au/mapping/rest/services/abares/CLUM_50m/MapServer",
-              "layers": "5",
-              "id": "pa47KiLde",
-              "shareKeys": [
-                "Root Group/National Datasets/Agriculture/Catchment Scale Land Use 2020 [Date of mapping]"
-              ]
-            },
-            {
-              "type": "esri-mapServer",
-              "name": "Catchment Scale Land Use 2020 [Primary classification]",
-              "url": "https://www.environment.gov.au/mapping/rest/services/abares/CLUM_50m/MapServer",
-              "layers": "0",
-              "id": "kFcBMets",
-              "shareKeys": [
-                "Root Group/National Datasets/Agriculture/Catchment Scale Land Use 2018 [Primary classification]"
-              ]
-            },
-            {
-              "type": "esri-mapServer",
-              "name": "Catchment Scale Land Use 2020 [Scale of mapping]",
-              "url": "https://www.environment.gov.au/mapping/rest/services/abares/CLUM_50m/MapServer",
-              "layers": "6",
-              "id": "psdTWs72q",
-              "shareKeys": [
-                "Root Group/National Datasets/Agriculture/Catchment Scale Land Use 2020 [Scale of mapping]"
-              ]
-            },
-            {
-              "type": "esri-mapServer",
-              "name": "Catchment Scale Land Use 2020 [Secondary classification]",
-              "url": "https://www.environment.gov.au/mapping/rest/services/abares/CLUM_50m/MapServer",
-              "layers": "1",
-              "id": "45I445Es",
-              "shareKeys": [
-                "Root Group/National Datasets/Agriculture/Catchment Scale Land Use 2018 [Secondary classification]"
+                "Root Group/National Datasets/Agriculture/Catchment Scale Land Use",
+                "Root Group/National Datasets/Land Cover and Land Use/Land Use and Cover/Catchment Scale Land Use"
               ]
             },
             {
@@ -523,8 +463,8 @@
                 },
                 {
                   "type": "esri-mapServer",
-                  "name": "CWTH OMA 1994 Mineral Blocks AMB2014a",
-                  "url": "https://services.ga.gov.au/gis/rest/services/OMA_1994_Mineral_Blocks_AMB2014a/MapServer",
+                  "name": "CWTH OMA 1994 Mineral Blocks",
+                  "url": "https://services.ga.gov.au/gis/rest/services/OMA_1994_Mineral_Blocks/MapServer",
                   "id": "pUTdjtT",
                   "shareKeys": [
                     "Root Group/National Datasets/Boundaries/Other areas/CWTH OMA 1994 Mineral Blocks AMB2014a"
@@ -541,11 +481,11 @@
                 },
                 {
                   "type": "esri-mapServer",
-                  "name": "CWTH OPGGSA 2006 Petroleum Blocks AMB2001a",
-                  "url": "https://services.ga.gov.au/gis/rest/services/CWTH_OPGGSA_2006_Petroleum_Blocks_AMB2001a/MapServer",
+                  "name": "CWTH OPGGSA 2006 Petroleum Blocks",
+                  "url": "https://services.ga.gov.au/gis/rest/services/OPGGSA_2006_Petroleum_Blocks/MapServer",
                   "id": "pduSsJS",
                   "shareKeys": [
-                    "Root Group/National Datasets/Boundaries/Other areas/CWTH OPGGSA 2006 Petroleum Blocks AMB2001a"
+                    "Root Group/National Datasets/Boundaries/Other areas/CWTH OPGGSA 2006 Petroleum Blocks"
                   ]
                 },
                 {
@@ -16406,6 +16346,15 @@
                   ]
                 },
                 {
+                  "type": "esri-mapServer-group",
+                  "name": "Renewable Energy Capacity Factor Maps",
+                  "url": "https://services.ga.gov.au/gis/rest/services/RenewableEnergyCapacityFactorMaps/MapServer",
+                  "id": "627b3845-1b2a-4156-89bb-428e62f01dae",
+                  "shareKeys": [
+                    "Root Group/National Datasets/Energy/Renewable Energy/Renewable Energy Capacity Factor Maps"
+                  ]
+                },
+                {
                   "id": "LYJudK",
                   "type": "group",
                   "name": "Solar",
@@ -19397,6 +19346,15 @@
               ]
             },
             {
+              "type": "esri-mapServer-group",
+              "name": "GEODISC Environmentally Sustainable Sites For Carbon Dioxide Injection",
+              "url": "https://services.ga.gov.au/gis/rest/services/GEODISC_EnvironmentallySustainableSitesForCarbonDioxideInjection/MapServer",
+              "id": "acc95f32-b8cb-448d-94f7-21f94d18087e",
+              "shareKeys": [
+                "Root Group/National Datasets/Environment/GEODISC Environmentally Sustainable Sites For Carbon Dioxide Injection"
+              ]
+            },
+            {
               "type": "wms",
               "name": "Key Ecological Features",
               "url": "http://www.environment.gov.au/mapping/services/ogc_services/Key_Ecological_Features/MapServer/WMSServer",
@@ -21309,17 +21267,17 @@
                     {
                       "type": "ckan-item",
                       "name": "WAT4b Australian rainfall deciles, 2013",
-                      "id": "aa7c374c-d440-4086-911f-66bd451bee5a",
+                      "id": "7babb413-c021-441b-8116-46330960297a",
                       "url": "proxy/_60s/https://data.gov.au",
                       "cacheDuration": "1h",
-                      "datasetId": "2016-soe-inw-rainfall-deciles-2013",
-                      "resourceId": "aa7c374c-d440-4086-911f-66bd451bee5a",
+                      "datasetId": "2016-soe-inw-rainfall-deciles-2014",
+                      "resourceId": "7babb413-c021-441b-8116-46330960297a",
                       "itemProperties": {
                         "hideSource": true,
                         "info": [
                           {
                             "name": "Metadata and Data Source",
-                            "content": "https://data.gov.au/dataset/2016-soe-inw-rainfall-deciles-2013"
+                            "content": "https://data.gov.au/dataset/2016-soe-inw-rainfall-deciles-2014"
                           }
                         ],
                         "cacheDuration": "1h"
@@ -21332,17 +21290,17 @@
                     {
                       "type": "ckan-item",
                       "name": "WAT4b Australian rainfall deciles, 2013",
-                      "id": "7babb413-c021-441b-8116-46330960297a",
+                      "id": "aa7c374c-d440-4086-911f-66bd451bee5a",
                       "url": "proxy/_60s/https://data.gov.au",
                       "cacheDuration": "1h",
-                      "datasetId": "2016-soe-inw-rainfall-deciles-2014",
-                      "resourceId": "7babb413-c021-441b-8116-46330960297a",
+                      "datasetId": "2016-soe-inw-rainfall-deciles-2013",
+                      "resourceId": "aa7c374c-d440-4086-911f-66bd451bee5a",
                       "itemProperties": {
                         "hideSource": true,
                         "info": [
                           {
                             "name": "Metadata and Data Source",
-                            "content": "https://data.gov.au/dataset/2016-soe-inw-rainfall-deciles-2014"
+                            "content": "https://data.gov.au/dataset/2016-soe-inw-rainfall-deciles-2013"
                           }
                         ],
                         "cacheDuration": "1h"
@@ -23385,6 +23343,15 @@
               ]
             },
             {
+              "type": "esri-mapServer-group",
+              "name": "Foundation Facilities Points",
+              "url": "https://services.ga.gov.au/gis/rest/services/Foundation_Facilities_Points/MapServer",
+              "id": "b670687a-8dbd-40b2-8849-d9c50de20ab2",
+              "shareKeys": [
+                "Root Group/National Datasets/Habitation/Foundation Facilities Points"
+              ]
+            },
+            {
               "type": "esri-mapServer",
               "name": "Homesteads",
               "info": [
@@ -23909,53 +23876,13 @@
                   ]
                 },
                 {
-                  "type": "esri-mapServer",
-                  "name": "Catchment Scale Land Use 2018 [18 class classification]",
-                  "url": "https://www.asris.csiro.au/arcgis/rest/services/abares/clum_50m_2018/MapServer",
-                  "layers": "0",
-                  "id": "eBVrtQDy",
+                  "type": "esri-mapServer-group",
+                  "name": "Catchment Scale Land Use",
+                  "url": "https://www.environment.gov.au/mapping/rest/services/abares/CLUM_50m/MapServer",
+                  "id": "fdd5fa7d-8cfe-416d-a061-bb603a0f7079",
                   "shareKeys": [
-                    "Root Group/National Datasets/Land Cover and Land Use/Land Use and Cover/Catchment Scale Land Use 2018 [18 class classification]"
-                  ]
-                },
-                {
-                  "type": "esri-mapServer",
-                  "name": "Catchment Scale Land Use 2018 [Agricultural industries]",
-                  "url": "https://www.asris.csiro.au/arcgis/rest/services/abares/clum_50m_2018/MapServer",
-                  "layers": "3",
-                  "id": "MSPSbuYn",
-                  "shareKeys": [
-                    "Root Group/National Datasets/Land Cover and Land Use/Land Use and Cover/Catchment Scale Land Use 2018 [Agricultural industries]"
-                  ]
-                },
-                {
-                  "type": "esri-mapServer",
-                  "name": "Catchment Scale Land Use 2018 [Agriculture]",
-                  "url": "https://www.asris.csiro.au/arcgis/rest/services/abares/clum_50m_2018/MapServer",
-                  "layers": "4",
-                  "id": "RPfh6mQl",
-                  "shareKeys": [
-                    "Root Group/National Datasets/Land Cover and Land Use/Land Use and Cover/Catchment Scale Land Use 2018 [Agriculture]"
-                  ]
-                },
-                {
-                  "type": "esri-mapServer",
-                  "name": "Catchment Scale Land Use 2018 [Primary classification]",
-                  "url": "https://www.asris.csiro.au/arcgis/rest/services/abares/clum_50m_2018/MapServer",
-                  "layers": "1",
-                  "id": "avlAzdqT",
-                  "shareKeys": [
-                    "Root Group/National Datasets/Land Cover and Land Use/Land Use and Cover/Catchment Scale Land Use 2018 [Primary classification]"
-                  ]
-                },
-                {
-                  "type": "esri-mapServer",
-                  "name": "Catchment Scale Land Use 2018 [Secondary classification]",
-                  "url": "https://www.asris.csiro.au/arcgis/rest/services/abares/clum_50m_2018/MapServer",
-                  "layers": "2",
-                  "id": "c3V2ahe2",
-                  "shareKeys": [
-                    "Root Group/National Datasets/Land Cover and Land Use/Land Use and Cover/Catchment Scale Land Use 2018 [Secondary classification]"
+                    "Root Group/National Datasets/Agriculture/Catchment Scale Land Use",
+                    "Root Group/National Datasets/Land Cover and Land Use/Land Use and Cover/Catchment Scale Land Use"
                   ]
                 },
                 {
@@ -26059,6 +25986,15 @@
               "shareKeys": [
                 "Root Group/National Datasets/Satellite Images/Satellite Images Multi-Sensor Blended - daily"
               ]
+            },
+            {
+              "type": "esri-mapServer",
+              "name": "World Bathymetry Imagery",
+              "url": "https://services.ga.gov.au/gis/rest/services/World_Bathymetry_Imagery/MapServer",
+              "id": "19cb612e-d452-431b-9eec-7bbd46edd088",
+              "shareKeys": [
+                "Root Group/National Datasets/Satellite Images/World Bathymetry Imagery"
+              ]
             }
           ],
           "shareKeys": [
@@ -26251,57 +26187,17 @@
               "name": "Finance, Business and Trade",
               "members": [
                 {
-                  "type": "esri-mapServer",
-                  "name": "Industrial Building Exposure",
-                  "id": "Root Group/National Data Sets/Social and Economic/Building exposure",
-                  "url": "http://services.ga.gov.au/gis/rest/services/NEXIS_Building_Exposure/MapServer",
+                  "type": "wms-group",
+                  "name": "Australian Exposure Information",
+                  "id": "Root Group/National Data Sets/Social and Economic/Australian Exposure Information",
+                  "url": " https://services-em.ga.gov.au/geoserver/exposure/ows",
                   "shareKeys": [
-                    "Root Group/National Datasets/Social and Economic/Finance, Business and Trade/Industrial Building Exposure"
+                    "Root Group/National Datasets/Social and Economic/Finance, Business and Trade/Australian Exposure Information"
                   ]
                 }
               ],
               "shareKeys": [
                 "Root Group/National Datasets/Social and Economic/Finance, Business and Trade"
-              ]
-            },
-            {
-              "type": "group",
-              "name": "Foundation Facilities Points",
-              "members": [
-                {
-                  "type": "esri-mapServer",
-                  "name": "Education Facilities",
-                  "url": "https://services.ga.gov.au/gis/rest/services/Foundation_Facilities_Points/MapServer",
-                  "layers": "0",
-                  "id": "6cb2ca21-0c18-44de-baeb-969bf1594ce1",
-                  "shareKeys": [
-                    "Root Group/National Datasets/Social and Economic/Foundation Facilities Points/Education Facilities"
-                  ]
-                },
-                {
-                  "type": "esri-mapServer",
-                  "name": "Emergency Management Facilities",
-                  "url": "https://services.ga.gov.au/gis/rest/services/Foundation_Facilities_Points/MapServer",
-                  "layers": "1",
-                  "id": "ba8b928f-222e-422c-a001-f8ac008fe47c",
-                  "shareKeys": [
-                    "Root Group/National Datasets/Social and Economic/Foundation Facilities Points/Emergency Management Facilities"
-                  ]
-                },
-                {
-                  "type": "esri-mapServer",
-                  "name": "Health and Medical Facilities",
-                  "url": "https://services.ga.gov.au/gis/rest/services/Foundation_Facilities_Points/MapServer",
-                  "layers": "1",
-                  "id": "4d9dd43a-b7d8-45c7-97d3-9127baea5a81",
-                  "shareKeys": [
-                    "Root Group/National Datasets/Social and Economic/Foundation Facilities Points/Health and Medical Facilities"
-                  ]
-                }
-              ],
-              "id": "3a192c0e-3b8a-477b-b927-267a0fcfb776",
-              "shareKeys": [
-                "Root Group/National Datasets/Social and Economic/Foundation Facilities Points"
               ]
             },
             {
@@ -26337,8 +26233,11 @@
               "name": "Population Estimates",
               "members": [
                 {
-                  "type": "esri-mapServer-group",
+                  "type": "esri-mapServer",
                   "name": "Residential Dwelling Density",
+                  "featureInfoTemplate": {
+                    "template": "{{Pixel Value}} dwellings in {{#terria.replaceText}}{replaceText: true, from: [0,1,2,3], to: [\"100m\", \"500m\", \"1km\", \"2km\"]}{{feature.data.layerId}}{{/terria.replaceText}} radius."
+                  },
                   "id": "Root Group/National Data Sets/Social and Economic/Population Estimates",
                   "info": [
                     {
@@ -26350,6 +26249,130 @@
                   "dataCustodian": "[Geoscience Australia](http://www.ga.gov.au/)",
                   "shareKeys": [
                     "Root Group/National Datasets/Social and Economic/Population Estimates/Residential Population Density"
+                  ],
+                  "rectangle": {
+                    "east": 158,
+                    "north": -8,
+                    "south": -45,
+                    "west": 109
+                  },
+                  "legends": [
+                    {
+                      "title": "Per 2km radius:",
+                      "items": [
+                        {
+                          "imageUrl": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IB2cksfwAAAAlwSFlzAAAOxAAADsQBlSsOGwAAADtJREFUOI1jYaAyYKGlgf+pYB4jigtf7CPfTAknRgYGBhp7edTAUQNHDRw1ELuBsCKITMCIbiBFpsEAANAcBK6KG1h6AAAAAElFTkSuQmCC",
+                          "title": "1 - 600"
+                        },
+                        {
+                          "imageUrl": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IB2cksfwAAAAlwSFlzAAAOxAAADsQBlSsOGwAAADtJREFUOI1jYaAyYKGlgf+pYB4jigvvF5NvpmIvIwMDA429PGrgqIGjBo4aiN1AWBFEJmBEN5Ai02AAAO0FBQLK2PVsAAAAAElFTkSuQmCC",
+                          "title": "601 - 1,200"
+                        },
+                        {
+                          "imageUrl": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IB2cksfwAAAAlwSFlzAAAOxAAADsQBlSsOGwAAAD1JREFUOI1jYaAyYKGlgf+pYB4jigtXpZ8l26SwmcYMDAw09vKogaMGjho4aiB2A2FFEJmAEd1ARkpMgwEAFJ8FdXH+mOYAAAAASUVORK5CYII=",
+                          "title": "1,201 - 2,200"
+                        },
+                        {
+                          "imageUrl": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IB2cksfwAAAAlwSFlzAAAOxAAADsQBlSsOGwAAAD1JREFUOI1jYaAyYKGlgf+pYB4jigsLXDvJNmnC7nIGBgYae3nUwFEDRw0cNRC7gbAiiEzAiG4gIyWmwQAAS5UGFdAYh78AAAAASUVORK5CYII=",
+                          "title": "2,201 - 3,500"
+                        },
+                        {
+                          "imageUrl": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IB2cksfwAAAAlwSFlzAAAOxAAADsQBlSsOGwAAAD1JREFUOI1jYaAyYKGlgf+pYB4jigu9GYrJNmkrQy8DAwONvTxq4KiBowaOGojdQFgRRCZgRDeQkRLTYAAAzEoElV78ljkAAAAASUVORK5CYII=",
+                          "title": "3,501 - 20,000"
+                        }
+                      ]
+                    },
+                    {
+                      "title": "Per 1km radius:",
+                      "items": [
+                        {
+                          "imageUrl": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IB2cksfwAAAAlwSFlzAAAOxAAADsQBlSsOGwAAADtJREFUOI1jYaAyYKGlgf+pYB4jigtf7CPfTAknRgYGBhp7edTAUQNHDRw1ELuBsCKITMCIbiBFpsEAANAcBK6KG1h6AAAAAElFTkSuQmCC",
+                          "title": "1 - 400"
+                        },
+                        {
+                          "imageUrl": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IB2cksfwAAAAlwSFlzAAAOxAAADsQBlSsOGwAAADtJREFUOI1jYaAyYKGlgf+pYB4jigvvF5NvpmIvIwMDA429PGrgqIGjBo4aiN1AWBFEJmBEN5Ai02AAAO0FBQLK2PVsAAAAAElFTkSuQmCC",
+                          "title": "401 - 800"
+                        },
+                        {
+                          "imageUrl": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IB2cksfwAAAAlwSFlzAAAOxAAADsQBlSsOGwAAAD1JREFUOI1jYaAyYKGlgf+pYB4jigtXpZ8l26SwmcYMDAw09vKogaMGjho4aiB2A2FFEJmAEd1ARkpMgwEAFJ8FdXH+mOYAAAAASUVORK5CYII=",
+                          "title": "801 - 1,200"
+                        },
+                        {
+                          "imageUrl": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IB2cksfwAAAAlwSFlzAAAOxAAADsQBlSsOGwAAAD1JREFUOI1jYaAyYKGlgf+pYB4jigsLXDvJNmnC7nIGBgYae3nUwFEDRw0cNRC7gbAiiEzAiG4gIyWmwQAAS5UGFdAYh78AAAAASUVORK5CYII=",
+                          "title": "1,201 - 1,700"
+                        },
+                        {
+                          "imageUrl": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IB2cksfwAAAAlwSFlzAAAOxAAADsQBlSsOGwAAAD1JREFUOI1jYaAyYKGlgf+pYB4jigu9GYrJNmkrQy8DAwONvTxq4KiBowaOGojdQFgRRCZgRDeQkRLTYAAAzEoElV78ljkAAAAASUVORK5CYII=",
+                          "title": "1,701 - 8,000"
+                        }
+                      ]
+                    },
+                    {
+                      "title": "Per 500m radius:",
+                      "items": [
+                        {
+                          "imageUrl": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IB2cksfwAAAAlwSFlzAAAOxAAADsQBlSsOGwAAADtJREFUOI1jYaAyYKGlgf+pYB4jigtf7CPfTAknRgYGBhp7edTAUQNHDRw1ELuBsCKITMCIbiBFpsEAANAcBK6KG1h6AAAAAElFTkSuQmCC",
+                          "title": "1 - 200"
+                        },
+                        {
+                          "imageUrl": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IB2cksfwAAAAlwSFlzAAAOxAAADsQBlSsOGwAAADtJREFUOI1jYaAyYKGlgf+pYB4jigvvF5NvpmIvIwMDA429PGrgqIGjBo4aiN1AWBFEJmBEN5Ai02AAAO0FBQLK2PVsAAAAAElFTkSuQmCC",
+                          "title": "201 - 450"
+                        },
+                        {
+                          "imageUrl": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IB2cksfwAAAAlwSFlzAAAOxAAADsQBlSsOGwAAAD1JREFUOI1jYaAyYKGlgf+pYB4jigtXpZ8l26SwmcYMDAw09vKogaMGjho4aiB2A2FFEJmAEd1ARkpMgwEAFJ8FdXH+mOYAAAAASUVORK5CYII=",
+                          "title": "451 - 650"
+                        },
+                        {
+                          "imageUrl": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IB2cksfwAAAAlwSFlzAAAOxAAADsQBlSsOGwAAAD1JREFUOI1jYaAyYKGlgf+pYB4jigsLXDvJNmnC7nIGBgYae3nUwFEDRw0cNRC7gbAiiEzAiG4gIyWmwQAAS5UGFdAYh78AAAAASUVORK5CYII=",
+                          "title": "651 - 900"
+                        },
+                        {
+                          "imageUrl": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IB2cksfwAAAAlwSFlzAAAOxAAADsQBlSsOGwAAAD1JREFUOI1jYaAyYKGlgf+pYB4jigu9GYrJNmkrQy8DAwONvTxq4KiBowaOGojdQFgRRCZgRDeQkRLTYAAAzEoElV78ljkAAAAASUVORK5CYII=",
+                          "title": "901 - 3,000"
+                        }
+                      ]
+                    },
+                    {
+                      "title": "Per 100m radius:",
+                      "items": [
+                        {
+                          "imageUrl": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IB2cksfwAAAAlwSFlzAAAOxAAADsQBlSsOGwAAADtJREFUOI1jYaAyYKGlgf+pYB4jigtf7CPfTAknRgYGBhp7edTAUQNHDRw1ELuBsCKITMCIbiBFpsEAANAcBK6KG1h6AAAAAElFTkSuQmCC",
+                          "title": "1 - 5"
+                        },
+                        {
+                          "imageUrl": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IB2cksfwAAAAlwSFlzAAAOxAAADsQBlSsOGwAAADtJREFUOI1jYaAyYKGlgf+pYB4jigvvF5NvpmIvIwMDA429PGrgqIGjBo4aiN1AWBFEJmBEN5Ai02AAAO0FBQLK2PVsAAAAAElFTkSuQmCC",
+                          "title": "6 - 20"
+                        },
+                        {
+                          "imageUrl": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IB2cksfwAAAAlwSFlzAAAOxAAADsQBlSsOGwAAAD1JREFUOI1jYaAyYKGlgf+pYB4jigtXpZ8l26SwmcYMDAw09vKogaMGjho4aiB2A2FFEJmAEd1ARkpMgwEAFJ8FdXH+mOYAAAAASUVORK5CYII=",
+                          "title": "21 - 30"
+                        },
+                        {
+                          "imageUrl": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IB2cksfwAAAAlwSFlzAAAOxAAADsQBlSsOGwAAAD1JREFUOI1jYaAyYKGlgf+pYB4jigsLXDvJNmnC7nIGBgYae3nUwFEDRw0cNRC7gbAiiEzAiG4gIyWmwQAAS5UGFdAYh78AAAAASUVORK5CYII=",
+                          "title": "31 - 100"
+                        },
+                        {
+                          "imageUrl": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IB2cksfwAAAAlwSFlzAAAOxAAADsQBlSsOGwAAAD1JREFUOI1jYaAyYKGlgf+pYB4jigu9GYrJNmkrQy8DAwONvTxq4KiBowaOGojdQFgRRCZgRDeQkRLTYAAAzEoElV78ljkAAAAASUVORK5CYII=",
+                          "title": "101 - 600"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "esri-mapServer-group",
+                  "name": "Residential Dwelling Density (as group)",
+                  "id": "Root Group/National Data Sets/Social and Economic/Population Estimates (as group)",
+                  "info": [
+                    {
+                      "name": "Licence",
+                      "content": "[Creative Commons Attribution 4.0 International (CC BY 4.0)](http://creativecommons.org/licenses/by/4.0/)"
+                    }
+                  ],
+                  "url": "http://services.ga.gov.au/gis/rest/services/NEXIS_Residential_Dwelling_Density/MapServer",
+                  "dataCustodian": "[Geoscience Australia](http://www.ga.gov.au/)",
+                  "shareKeys": [
+                    "Root Group/National Datasets/Social and Economic/Population Estimates/Residential Population Density (as group)"
                   ],
                   "itemProperties": {
                     "rectangle": {
@@ -39569,7 +39592,7 @@
       "item": {
         "id": "basemap-australian-topography",
         "type": "esri-mapServer",
-        "name": "Australian Topography",
+        "name": "National Base Map",
         "url": "https://services.ga.gov.au/gis/rest/services/NationalBaseMap/MapServer",
         "opacity": 1
       },
@@ -39645,6 +39668,16 @@
         ]
       },
       "image": "https://raw.githubusercontent.com/TerriaJS/saas-catalogs-public/main/misc/basemaps/icons/voyager-aus.png"
+    },
+    {
+      "item": {
+        "id": "basemap-greyscale",
+        "type": "esri-mapServer",
+        "name": "Grey Scale",
+        "url": "https://services.ga.gov.au/gis/rest/services/NationalBaseMap_GreyScale/MapServer",
+        "opacity": 1
+      },
+      "image": "https://raw.githubusercontent.com/TerriaJS/saas-catalogs-public/main/nationalmap/images/base-maps/australia-grey-scale.png"
     }
   ]
 }
