@@ -30,73 +30,13 @@
               ]
             },
             {
-              "type": "esri-mapServer",
-              "name": "Catchment Scale Land Use 2020 [18 class classification]",
+              "type": "esri-mapServer-group",
+              "name": "Catchment Scale Land Use",
               "url": "https://www.environment.gov.au/mapping/rest/services/abares/CLUM_50m/MapServer",
-              "layers": "2",
-              "id": "P73z4wdt",
+              "id": "fdd5fa7d-8cfe-416d-a061-bb603a0f7079",
               "shareKeys": [
-                "Root Group/National Datasets/Agriculture/Catchment Scale Land Use 2018 [18 class classification]"
-              ]
-            },
-            {
-              "type": "esri-mapServer",
-              "name": "Catchment Scale Land Use 2020 [Agricultural industries]",
-              "url": "https://www.environment.gov.au/mapping/rest/services/abares/CLUM_50m/MapServer",
-              "layers": "4",
-              "id": "7ZlgWGzf",
-              "shareKeys": [
-                "Root Group/National Datasets/Agriculture/Catchment Scale Land Use 2018 [Agricultural industries]"
-              ]
-            },
-            {
-              "type": "esri-mapServer",
-              "name": "Catchment Scale Land Use 2020 [Agriculture]",
-              "url": "https://www.environment.gov.au/mapping/rest/services/abares/CLUM_50m/MapServer",
-              "layers": "3",
-              "id": "gHtzBxbB",
-              "shareKeys": [
-                "Root Group/National Datasets/Agriculture/Catchment Scale Land Use 2018 [Agriculture]"
-              ]
-            },
-            {
-              "type": "esri-mapServer",
-              "name": "Catchment Scale Land Use 2020 [Date of mapping]",
-              "url": "https://www.environment.gov.au/mapping/rest/services/abares/CLUM_50m/MapServer",
-              "layers": "5",
-              "id": "pa47KiLde",
-              "shareKeys": [
-                "Root Group/National Datasets/Agriculture/Catchment Scale Land Use 2020 [Date of mapping]"
-              ]
-            },
-            {
-              "type": "esri-mapServer",
-              "name": "Catchment Scale Land Use 2020 [Primary classification]",
-              "url": "https://www.environment.gov.au/mapping/rest/services/abares/CLUM_50m/MapServer",
-              "layers": "0",
-              "id": "kFcBMets",
-              "shareKeys": [
-                "Root Group/National Datasets/Agriculture/Catchment Scale Land Use 2018 [Primary classification]"
-              ]
-            },
-            {
-              "type": "esri-mapServer",
-              "name": "Catchment Scale Land Use 2020 [Scale of mapping]",
-              "url": "https://www.environment.gov.au/mapping/rest/services/abares/CLUM_50m/MapServer",
-              "layers": "6",
-              "id": "psdTWs72q",
-              "shareKeys": [
-                "Root Group/National Datasets/Agriculture/Catchment Scale Land Use 2020 [Scale of mapping]"
-              ]
-            },
-            {
-              "type": "esri-mapServer",
-              "name": "Catchment Scale Land Use 2020 [Secondary classification]",
-              "url": "https://www.environment.gov.au/mapping/rest/services/abares/CLUM_50m/MapServer",
-              "layers": "1",
-              "id": "45I445Es",
-              "shareKeys": [
-                "Root Group/National Datasets/Agriculture/Catchment Scale Land Use 2018 [Secondary classification]"
+                "Root Group/National Datasets/Agriculture/Catchment Scale Land Use",
+                "Root Group/National Datasets/Land Cover and Land Use/Land Use and Cover/Catchment Scale Land Use"
               ]
             },
             {
@@ -22566,17 +22506,17 @@
                     {
                       "type": "ckan-item",
                       "name": "MAR2 Australia’s marine regions, including the Great Barrier Reef Marine Park",
-                      "id": "a203714e-1324-4ca3-85db-cb3aa6410586",
+                      "id": "34e70aff-9f65-48de-9fdc-638ebe282038",
                       "url": "proxy/_60s/https://data.gov.au",
                       "cacheDuration": "1h",
-                      "datasetId": "2016-soe-mar-australian-marine-regions",
-                      "resourceId": "a203714e-1324-4ca3-85db-cb3aa6410586",
+                      "datasetId": "2016-soe-mar-great-barrier-reef-marine-park",
+                      "resourceId": "34e70aff-9f65-48de-9fdc-638ebe282038",
                       "itemProperties": {
                         "hideSource": true,
                         "info": [
                           {
                             "name": "Metadata and Data Source",
-                            "content": "https://data.gov.au/dataset/2016-soe-mar-australian-marine-regions"
+                            "content": "https://data.gov.au/dataset/2016-soe-mar-great-barrier-reef-marine-park"
                           }
                         ],
                         "cacheDuration": "1h"
@@ -22589,17 +22529,17 @@
                     {
                       "type": "ckan-item",
                       "name": "MAR2 Australia’s marine regions, including the Great Barrier Reef Marine Park",
-                      "id": "34e70aff-9f65-48de-9fdc-638ebe282038",
+                      "id": "a203714e-1324-4ca3-85db-cb3aa6410586",
                       "url": "proxy/_60s/https://data.gov.au",
                       "cacheDuration": "1h",
-                      "datasetId": "2016-soe-mar-great-barrier-reef-marine-park",
-                      "resourceId": "34e70aff-9f65-48de-9fdc-638ebe282038",
+                      "datasetId": "2016-soe-mar-australian-marine-regions",
+                      "resourceId": "a203714e-1324-4ca3-85db-cb3aa6410586",
                       "itemProperties": {
                         "hideSource": true,
                         "info": [
                           {
                             "name": "Metadata and Data Source",
-                            "content": "https://data.gov.au/dataset/2016-soe-mar-great-barrier-reef-marine-park"
+                            "content": "https://data.gov.au/dataset/2016-soe-mar-australian-marine-regions"
                           }
                         ],
                         "cacheDuration": "1h"
@@ -23936,53 +23876,13 @@
                   ]
                 },
                 {
-                  "type": "esri-mapServer",
-                  "name": "Catchment Scale Land Use 2018 [18 class classification]",
-                  "url": "https://www.asris.csiro.au/arcgis/rest/services/abares/clum_50m_2018/MapServer",
-                  "layers": "0",
-                  "id": "eBVrtQDy",
+                  "type": "esri-mapServer-group",
+                  "name": "Catchment Scale Land Use",
+                  "url": "https://www.environment.gov.au/mapping/rest/services/abares/CLUM_50m/MapServer",
+                  "id": "fdd5fa7d-8cfe-416d-a061-bb603a0f7079",
                   "shareKeys": [
-                    "Root Group/National Datasets/Land Cover and Land Use/Land Use and Cover/Catchment Scale Land Use 2018 [18 class classification]"
-                  ]
-                },
-                {
-                  "type": "esri-mapServer",
-                  "name": "Catchment Scale Land Use 2018 [Agricultural industries]",
-                  "url": "https://www.asris.csiro.au/arcgis/rest/services/abares/clum_50m_2018/MapServer",
-                  "layers": "3",
-                  "id": "MSPSbuYn",
-                  "shareKeys": [
-                    "Root Group/National Datasets/Land Cover and Land Use/Land Use and Cover/Catchment Scale Land Use 2018 [Agricultural industries]"
-                  ]
-                },
-                {
-                  "type": "esri-mapServer",
-                  "name": "Catchment Scale Land Use 2018 [Agriculture]",
-                  "url": "https://www.asris.csiro.au/arcgis/rest/services/abares/clum_50m_2018/MapServer",
-                  "layers": "4",
-                  "id": "RPfh6mQl",
-                  "shareKeys": [
-                    "Root Group/National Datasets/Land Cover and Land Use/Land Use and Cover/Catchment Scale Land Use 2018 [Agriculture]"
-                  ]
-                },
-                {
-                  "type": "esri-mapServer",
-                  "name": "Catchment Scale Land Use 2018 [Primary classification]",
-                  "url": "https://www.asris.csiro.au/arcgis/rest/services/abares/clum_50m_2018/MapServer",
-                  "layers": "1",
-                  "id": "avlAzdqT",
-                  "shareKeys": [
-                    "Root Group/National Datasets/Land Cover and Land Use/Land Use and Cover/Catchment Scale Land Use 2018 [Primary classification]"
-                  ]
-                },
-                {
-                  "type": "esri-mapServer",
-                  "name": "Catchment Scale Land Use 2018 [Secondary classification]",
-                  "url": "https://www.asris.csiro.au/arcgis/rest/services/abares/clum_50m_2018/MapServer",
-                  "layers": "2",
-                  "id": "c3V2ahe2",
-                  "shareKeys": [
-                    "Root Group/National Datasets/Land Cover and Land Use/Land Use and Cover/Catchment Scale Land Use 2018 [Secondary classification]"
+                    "Root Group/National Datasets/Agriculture/Catchment Scale Land Use",
+                    "Root Group/National Datasets/Land Cover and Land Use/Land Use and Cover/Catchment Scale Land Use"
                   ]
                 },
                 {
