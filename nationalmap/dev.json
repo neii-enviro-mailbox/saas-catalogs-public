@@ -39586,6 +39586,14 @@
     "west": 109
   },
   "baseMaps": {
+    "enabledBaseMaps": [
+      "basemap-australian-topography",
+      "basemap-bing-aerial",
+      "basemap-bing-aerial-with-labels",
+      "basemap-positron",
+      "basemap-darkmatter",
+      "basemap-voyager"
+    ],
     "defaultBaseMapId": "basemap-bing-aerial-with-labels",
     "previewBaseMapId": "basemap-positron",
     "items": [
@@ -39598,60 +39606,6 @@
           "opacity": 1
         },
         "image": "images/basemaps/australian-topo.png"
-      },
-      {
-        "item": {
-          "id": "basemap-bing-aerial-with-labels",
-          "name": "Bing Maps Aerial with Labels",
-          "type": "ion-imagery",
-          "ionAssetId": 3,
-          "opacity": 1
-        },
-        "image": "images/basemaps/bing-aerial-labels.png"
-      },
-      {
-        "item": {
-          "id": "basemap-bing-aerial",
-          "name": "Bing Maps Aerial",
-          "type": "ion-imagery",
-          "ionAssetId": 2,
-          "opacity": 1
-        },
-        "image": "images/basemaps/bing-aerial.png"
-      },
-      {
-        "item": {
-          "id": "basemap-positron",
-          "name": "Positron (Light)",
-          "type": "open-street-map",
-          "url": "https://basemaps.cartocdn.com/light_all/",
-          "attribution": "© <a href='https://www.openstreetmap.org/copyright'>OpenStreetMap</a>, © <a href='https://carto.com/about-carto/'>CARTO</a>",
-          "subdomains": [
-            "a",
-            "b",
-            "c",
-            "d"
-          ],
-          "opacity": 1
-        },
-        "image": "images/basemaps/positron.png"
-      },
-      {
-        "item": {
-          "id": "basemap-darkmatter",
-          "name": "Dark Matter",
-          "type": "open-street-map",
-          "url": "https://basemaps.cartocdn.com/dark_all/",
-          "attribution": "© <a href='https://www.openstreetmap.org/copyright'>OpenStreetMap</a>, © <a href='https://carto.com/about-carto/'>CARTO</a>",
-          "subdomains": [
-            "a",
-            "b",
-            "c",
-            "d"
-          ],
-          "opacity": 1
-        },
-        "image": "images/basemaps/dark-matter.png"
       },
       {
         "item": {
