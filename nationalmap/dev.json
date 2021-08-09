@@ -39585,99 +39585,91 @@
     "south": -45,
     "west": 109
   },
-  "baseMapId": "basemap-bing-aerial-with-labels",
-  "previewBaseMapId": "basemap-positron",
-  "baseMaps": [
-    {
-      "item": {
-        "id": "basemap-australian-topography",
-        "type": "esri-mapServer",
-        "name": "National Base Map",
-        "url": "https://services.ga.gov.au/gis/rest/services/NationalBaseMap/MapServer",
-        "opacity": 1
+  "baseMaps": {
+    "defaultBaseMapId": "basemap-bing-aerial-with-labels",
+    "previewBaseMapId": "basemap-positron",
+    "items": [
+      {
+        "item": {
+          "id": "basemap-australian-topography",
+          "type": "esri-mapServer",
+          "name": "Australian Topography",
+          "url": "https://services.ga.gov.au/gis/rest/services/NationalBaseMap/MapServer",
+          "opacity": 1
+        },
+        "image": "images/basemaps/australian-topo.png"
       },
-      "image": "images/basemaps/australian-topo.png"
-    },
-    {
-      "item": {
-        "id": "basemap-bing-aerial-with-labels",
-        "name": "Bing Maps Aerial with Labels",
-        "type": "ion-imagery",
-        "ionAssetId": 3,
-        "opacity": 1
+      {
+        "item": {
+          "id": "basemap-bing-aerial-with-labels",
+          "name": "Bing Maps Aerial with Labels",
+          "type": "ion-imagery",
+          "ionAssetId": 3,
+          "opacity": 1
+        },
+        "image": "images/basemaps/bing-aerial-labels.png"
       },
-      "image": "images/basemaps/bing-aerial-labels.png"
-    },
-    {
-      "item": {
-        "id": "basemap-bing-aerial",
-        "name": "Bing Maps Aerial",
-        "type": "ion-imagery",
-        "ionAssetId": 2,
-        "opacity": 1
+      {
+        "item": {
+          "id": "basemap-bing-aerial",
+          "name": "Bing Maps Aerial",
+          "type": "ion-imagery",
+          "ionAssetId": 2,
+          "opacity": 1
+        },
+        "image": "images/basemaps/bing-aerial.png"
       },
-      "image": "images/basemaps/bing-aerial.png"
-    },
-    {
-      "item": {
-        "id": "basemap-positron",
-        "name": "Positron (Light)",
-        "type": "open-street-map",
-        "url": "https://basemaps.cartocdn.com/light_all/",
-        "attribution": "© <a href='https://www.openstreetmap.org/copyright'>OpenStreetMap</a>, © <a href='https://carto.com/about-carto/'>CARTO</a>",
-        "subdomains": [
-          "a",
-          "b",
-          "c",
-          "d"
-        ],
-        "opacity": 1
+      {
+        "item": {
+          "id": "basemap-positron",
+          "name": "Positron (Light)",
+          "type": "open-street-map",
+          "url": "https://basemaps.cartocdn.com/light_all/",
+          "attribution": "© <a href='https://www.openstreetmap.org/copyright'>OpenStreetMap</a>, © <a href='https://carto.com/about-carto/'>CARTO</a>",
+          "subdomains": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ],
+          "opacity": 1
+        },
+        "image": "images/basemaps/positron.png"
       },
-      "image": "images/basemaps/positron.png"
-    },
-    {
-      "item": {
-        "id": "basemap-darkmatter",
-        "name": "Dark Matter",
-        "type": "open-street-map",
-        "url": "https://basemaps.cartocdn.com/dark_all/",
-        "attribution": "© <a href='https://www.openstreetmap.org/copyright'>OpenStreetMap</a>, © <a href='https://carto.com/about-carto/'>CARTO</a>",
-        "subdomains": [
-          "a",
-          "b",
-          "c",
-          "d"
-        ],
-        "opacity": 1
+      {
+        "item": {
+          "id": "basemap-darkmatter",
+          "name": "Dark Matter",
+          "type": "open-street-map",
+          "url": "https://basemaps.cartocdn.com/dark_all/",
+          "attribution": "© <a href='https://www.openstreetmap.org/copyright'>OpenStreetMap</a>, © <a href='https://carto.com/about-carto/'>CARTO</a>",
+          "subdomains": [
+            "a",
+            "b",
+            "c",
+            "d"
+          ],
+          "opacity": 1
+        },
+        "image": "images/basemaps/dark-matter.png"
       },
-      "image": "images/basemaps/dark-matter.png"
-    },
-    {
-      "item": {
-        "id": "basemap-voyager",
-        "type": "open-street-map",
-        "name": "Voyager",
-        "url": "https://global.ssl.fastly.net/rastertiles/voyager/",
-        "attribution": "© OpenStreetMap contributors ODbL, © CartoDB CC-BY 3.0",
-        "opacity": 1,
-        "subdomains": [
-          "cartodb-basemaps-a",
-          "cartodb-basemaps-b",
-          "cartodb-basemaps-c",
-          "cartodb-basemaps-d"
-        ]
-      },
-      "image": "https://raw.githubusercontent.com/TerriaJS/saas-catalogs-public/main/misc/basemaps/icons/voyager-aus.png"
-    },
-    {
-      "item": {
-        "id": "basemap-greyscale",
-        "type": "esri-mapServer",
-        "name": "Grey Scale",
-        "url": "https://services.ga.gov.au/gis/rest/services/NationalBaseMap_GreyScale/MapServer",
-        "opacity": 1
-      },
-      "image": "https://raw.githubusercontent.com/TerriaJS/saas-catalogs-public/main/nationalmap/images/base-maps/australia-grey-scale.png"
-    }
-  ]
+      {
+        "item": {
+          "id": "basemap-voyager",
+          "type": "open-street-map",
+          "name": "Voyager",
+          "url": "https://global.ssl.fastly.net/rastertiles/voyager/",
+          "attribution": "© OpenStreetMap contributors ODbL, © CartoDB CC-BY 3.0",
+          "opacity": 1,
+          "subdomains": [
+            "cartodb-basemaps-a",
+            "cartodb-basemaps-b",
+            "cartodb-basemaps-c",
+            "cartodb-basemaps-d"
+          ]
+        },
+        "image": "https://raw.githubusercontent.com/TerriaJS/saas-catalogs-public/main/misc/basemaps/icons/voyager-aus.png"
+      }
+    ]
+  }
 }
