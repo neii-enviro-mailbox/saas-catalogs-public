@@ -89,8 +89,7 @@
           "layer": "Reference_World_Boundaries_and_Places",
           "opacity": 1.0
         },
-        "image": "images/dea-basemaps/EsriWorldImagery.png",
-        "hideInBaseMapMenu": true
+        "image": "images/dea-basemaps/EsriWorldImagery.png"
       },
       {
         "item": {

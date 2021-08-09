@@ -48,8 +48,7 @@
           "layer": "Reference_World_Boundaries_and_Places",
           "opacity": 1.0
         },
-        "image": "https://saas.terria.io/api/v0/storage/terria/de-africa/dea-basemaps/EsriWorldImageryLabel.png",
-        "hideInBaseMapMenu": true
+        "image": "https://saas.terria.io/api/v0/storage/terria/de-africa/dea-basemaps/EsriWorldImageryLabel.png"
       },
       {
         "item": {
