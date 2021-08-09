@@ -1,7 +1,7 @@
 {
   "viewerMode": "2d",
-  "baseMapId": "basemap-voyager",
   "baseMaps": {
+    "defaultBaseMapId": "basemap-voyager",
     "items": [
       {
         "item": {
