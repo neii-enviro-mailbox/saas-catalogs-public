@@ -61,103 +61,28 @@
     "east": 220,
     "north": 10
   },
-  "baseMaps": [
-    {
-      "item": {
-        "id": "basemap-bing-aerial-with-labels",
-        "name": "Bing Maps Aerial with Labels",
-        "type": "ion-imagery",
-        "ionAssetId": 3,
-        "opacity": 1.0
-      },
-      "image": "images/basemaps/bing-aerial-labels.png"
-    },
-    {
-      "item": {
-        "id": "basemap-bing-aerial",
-        "name": "Bing Maps Aerial",
-        "type": "ion-imagery",
-        "ionAssetId": 2,
-        "opacity": 1.0
-      },
-      "image": "images/basemaps/bing-aerial.png"
-    },
-    {
-      "item": {
-        "id": "basemap-bing-roads",
-        "name": "Bing Maps Roads",
-        "type": "ion-imagery",
-        "ionAssetId": 4,
-        "opacity": 1.0
-      },
-      "image": "images/basemaps/bing-maps-roads.png"
-    },
-    {
-      "item": {
-        "id": "basemap-natural-earth-II",
-        "name": "Natural Earth II",
-        "type": "wms",
-        "url": "http://geoserver.nationalmap.nicta.com.au/imagery/natural-earth-ii/wms",
-        "layers": "NE2_HR_LC_SR_W_DR",
-        "opacity": 1.0
-      },
-      "image": "images/basemaps/natural-earth.png"
-    },
-    {
-      "item": {
-        "id": "basemap-black-marble",
-        "name": "NASA Black Marble",
-        "type": "wms",
-        "url": "http://geoserver.nationalmap.nicta.com.au/imagery/nasa-black-marble/wms",
-        "layers": "nasa-black-marble:dnb_land_ocean_ice.2012.54000x27000_geo",
-        "opacity": 1.0
-      },
-      "image": "images/basemaps/black-marble.png"
-    },
-    {
-      "item": {
-        "id": "basemap-positron",
-        "name": "Positron (Light)",
-        "type": "open-street-map",
-        "url": "https://basemaps.cartocdn.com/light_all/",
-        "attribution": "© <a href='https://www.openstreetmap.org/copyright'>OpenStreetMap</a>, © <a href='https://carto.com/about-carto/'>CARTO</a>",
-        "subdomains": [
-          "a",
-          "b",
-          "c",
-          "d"
-        ],
-        "opacity": 1.0
-      },
-      "image": "images/basemaps/positron.png"
-    },
-    {
-      "item": {
-        "id": "basemap-darkmatter",
-        "name": "Dark Matter",
-        "type": "open-street-map",
-        "url": "https://basemaps.cartocdn.com/dark_all/",
-        "attribution": "© <a href='https://www.openstreetmap.org/copyright'>OpenStreetMap</a>, © <a href='https://carto.com/about-carto/'>CARTO</a>",
-        "subdomains": [
-          "a",
-          "b",
-          "c",
-          "d"
-        ],
-        "opacity": 1.0
-      },
-      "image": "images/basemaps/dark-matter.png"
-    },
-    {
-      "item": {
-        "id": "basemap-GEBCO-bathymetry",
-        "type": "wms",
-        "name": "GEBCO Bathymetry",
-        "url": "https://www.gebco.net/data_and_products/gebco_web_services/2019/mapserv",
-        "layers": "GEBCO_2019_Grid",
-        "opacity": 1.0
-      },
-      "image": "images/gebco.png"
-    }
-  ]
+  "baseMaps": {
+    "enabledBaseMaps": [
+      "basemap-bing-aerial",
+      "basemap-bing-aerial-with-labels",
+      "basemap-bing-roads",
+      "basemap-natural-earth-II",
+      "basemap-positron",
+      "basemap-darkmatter",
+      "basemap-GEBCO-bathymetry"
+    ],
+    "items": [
+      {
+        "item": {
+          "id": "basemap-GEBCO-bathymetry",
+          "type": "wms",
+          "name": "GEBCO Bathymetry",
+          "url": "https://www.gebco.net/data_and_products/gebco_web_services/2019/mapserv",
+          "layers": "GEBCO_2019_Grid",
+          "opacity": 1.0
+        },
+        "image": "images/gebco.png"
+      }
+    ]
+  }
 }

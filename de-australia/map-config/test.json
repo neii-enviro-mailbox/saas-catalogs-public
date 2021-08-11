@@ -57,7 +57,8 @@
     "terria-config": {
       "initializationUrls": [
         "https://raw.githubusercontent.com/GeoscienceAustralia/dea-config/master/dev/terria/dea-maps-v8.json",
-        "https://raw.githubusercontent.com/TerriaJS/saas-catalogs-public/main/de-australia/water-regulations-data/test.json"
+        "https://raw.githubusercontent.com/TerriaJS/saas-catalogs-public/main/de-australia/water-regulations-data/test.json",
+        "https://raw.githubusercontent.com/TerriaJS/saas-catalogs-public/main/de-australia/basemaps.json"
       ],
       "parameters": {
         "appName": "Digital Earth Australia Map",
