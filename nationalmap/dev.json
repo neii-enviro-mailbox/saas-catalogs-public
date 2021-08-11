@@ -22506,17 +22506,17 @@
                     {
                       "type": "ckan-item",
                       "name": "MAR2 Australia’s marine regions, including the Great Barrier Reef Marine Park",
-                      "id": "34e70aff-9f65-48de-9fdc-638ebe282038",
+                      "id": "a203714e-1324-4ca3-85db-cb3aa6410586",
                       "url": "proxy/_60s/https://data.gov.au",
                       "cacheDuration": "1h",
-                      "datasetId": "2016-soe-mar-great-barrier-reef-marine-park",
-                      "resourceId": "34e70aff-9f65-48de-9fdc-638ebe282038",
+                      "datasetId": "2016-soe-mar-australian-marine-regions",
+                      "resourceId": "a203714e-1324-4ca3-85db-cb3aa6410586",
                       "itemProperties": {
                         "hideSource": true,
                         "info": [
                           {
                             "name": "Metadata and Data Source",
-                            "content": "https://data.gov.au/dataset/2016-soe-mar-great-barrier-reef-marine-park"
+                            "content": "https://data.gov.au/dataset/2016-soe-mar-australian-marine-regions"
                           }
                         ],
                         "cacheDuration": "1h"
@@ -22529,17 +22529,17 @@
                     {
                       "type": "ckan-item",
                       "name": "MAR2 Australia’s marine regions, including the Great Barrier Reef Marine Park",
-                      "id": "a203714e-1324-4ca3-85db-cb3aa6410586",
+                      "id": "34e70aff-9f65-48de-9fdc-638ebe282038",
                       "url": "proxy/_60s/https://data.gov.au",
                       "cacheDuration": "1h",
-                      "datasetId": "2016-soe-mar-australian-marine-regions",
-                      "resourceId": "a203714e-1324-4ca3-85db-cb3aa6410586",
+                      "datasetId": "2016-soe-mar-great-barrier-reef-marine-park",
+                      "resourceId": "34e70aff-9f65-48de-9fdc-638ebe282038",
                       "itemProperties": {
                         "hideSource": true,
                         "info": [
                           {
                             "name": "Metadata and Data Source",
-                            "content": "https://data.gov.au/dataset/2016-soe-mar-australian-marine-regions"
+                            "content": "https://data.gov.au/dataset/2016-soe-mar-great-barrier-reef-marine-park"
                           }
                         ],
                         "cacheDuration": "1h"
@@ -26691,109 +26691,10 @@
               ]
             },
             {
-              "id": "q1gaJRHt",
-              "type": "group",
+              "type": "esri-mapServer-group",
               "name": "Key Freight Routes",
-              "members": [
-                {
-                  "type": "esri-mapServer",
-                  "name": "Intermodal Terminals",
-                  "featureInfoTemplate": {
-                    "template": "<table class=\"cesium-infoBox-defaultTable\"><tr><td>Name</td><td>{{name}}</td></tr><tr><td>State</td><td>{{state}}</td></tr></table>"
-                  },
-                  "url": "http://gis.infrastructure.gov.au/infrastructure/rest/services/KeyFreightRoute/KFR/MapServer",
-                  "dataCustodian": "[Department of Infrastructure and Regional Development](https://infrastructure.gov.au/)",
-                  "layers": "2",
-                  "id": "pF7ikTUC",
-                  "shareKeys": [
-                    "Root Group/National Datasets/Transport/Key Freight Routes/Intermodal Terminals"
-                  ]
-                },
-                {
-                  "type": "esri-mapServer",
-                  "name": "Key Freight Routes - Rail",
-                  "featureInfoTemplate": {
-                    "template": "<table class=\"cesium-infoBox-defaultTable\"><tr><td>Gauge</td><td>{{gauge}}</td><tr><td>State</td><td>{{state}}</td></tr><tr><td>Manager</td><td>{{manager}}</td></tr></table>"
-                  },
-                  "url": "http://gis.infrastructure.gov.au/infrastructure/rest/services/KeyFreightRoute/KFR/MapServer",
-                  "dataCustodian": "[Department of Infrastructure and Regional Development](https://infrastructure.gov.au/)",
-                  "layers": "6",
-                  "id": "pYY3DlpR",
-                  "shareKeys": [
-                    "Root Group/National Datasets/Transport/Key Freight Routes/Key Freight Routes - Rail"
-                  ]
-                },
-                {
-                  "type": "esri-mapServer",
-                  "name": "Key Freight Routes - Roads",
-                  "featureInfoTemplate": {
-                    "template": "<table class=\"cesium-infoBox-defaultTable\"><tr><td>Name</td><td>{{name}}</td></tr><tr><td>Route Number</td><td>{{RouteNumber}}</td><tr><td>State</td><td>{{state}}</td></tr><tr><td>Manager</td><td>{{Manager}}</td></tr></table>"
-                  },
-                  "url": "http://gis.infrastructure.gov.au/infrastructure/rest/services/KeyFreightRoute/KFR/MapServer",
-                  "dataCustodian": "[Department of Infrastructure and Regional Development](https://infrastructure.gov.au/)",
-                  "layers": "5",
-                  "id": "j84DQHCJ",
-                  "shareKeys": [
-                    "Root Group/National Datasets/Transport/Key Freight Routes/Key Freight Routes - Roads"
-                  ]
-                },
-                {
-                  "type": "esri-mapServer",
-                  "name": "Major Airports",
-                  "featureInfoTemplate": {
-                    "template": "<table class=\"cesium-infoBox-defaultTable\"><tr><td>Name</td><td>{{name}}</td></tr><tr><td>State</td><td>{{state}}</td></tr></table>"
-                  },
-                  "url": "http://gis.infrastructure.gov.au/infrastructure/rest/services/KeyFreightRoute/KFR/MapServer",
-                  "dataCustodian": "[Department of Infrastructure and Regional Development](https://infrastructure.gov.au/)",
-                  "layers": "0",
-                  "id": "x3hWbsfi",
-                  "shareKeys": [
-                    "Root Group/National Datasets/Transport/Key Freight Routes/Major Airports"
-                  ]
-                },
-                {
-                  "type": "esri-mapServer",
-                  "name": "Major Seaports",
-                  "featureInfoTemplate": {
-                    "template": "<table class=\"cesium-infoBox-defaultTable\"><tr><td>Name</td><td>{{name}}</td></tr><tr><td>State</td><td>{{state}}</td></tr></table>"
-                  },
-                  "url": "http://gis.infrastructure.gov.au/infrastructure/rest/services/KeyFreightRoute/KFR/MapServer",
-                  "dataCustodian": "[Department of Infrastructure and Regional Development](https://infrastructure.gov.au/)",
-                  "layers": "1",
-                  "id": "qshCb2sK",
-                  "shareKeys": [
-                    "Root Group/National Datasets/Transport/Key Freight Routes/Major Seaports"
-                  ]
-                },
-                {
-                  "type": "esri-mapServer",
-                  "name": "Road Train Assembly Areas",
-                  "featureInfoTemplate": {
-                    "template": "<table class=\"cesium-infoBox-defaultTable\"><tr><td>Name</td><td>{{name}}</td></tr><tr><td>State</td><td>{{state}}</td></tr></table>"
-                  },
-                  "url": "http://gis.infrastructure.gov.au/infrastructure/rest/services/KeyFreightRoute/KFR/MapServer",
-                  "dataCustodian": "[Department of Infrastructure and Regional Development](https://infrastructure.gov.au/)",
-                  "layers": "3",
-                  "id": "EjqbFtH1",
-                  "shareKeys": [
-                    "Root Group/National Datasets/Transport/Key Freight Routes/Road Train Assembly Areas"
-                  ]
-                },
-                {
-                  "type": "esri-mapServer",
-                  "name": "Secondary Freight Routes - Roads",
-                  "featureInfoTemplate": {
-                    "template": "<table class=\"cesium-infoBox-defaultTable\"><tr><td>Name</td><td>{{name}}</td></tr><tr><td>Route Number</td><td>{{RouteNumber}}</td><tr><td>State</td><td>{{state}}</td></tr><tr><td>Owner</td><td>{{owner}}</td></tr></table>"
-                  },
-                  "url": "http://gis.infrastructure.gov.au/infrastructure/rest/services/KeyFreightRoute/KFR/MapServer",
-                  "dataCustodian": "[Department of Infrastructure and Regional Development](https://infrastructure.gov.au/)",
-                  "layers": "4",
-                  "id": "gssRweTi",
-                  "shareKeys": [
-                    "Root Group/National Datasets/Transport/Key Freight Routes/Secondary Freight Routes - Roads"
-                  ]
-                }
-              ],
+              "url": "https://spatial.infrastructure.gov.au/server/rest/services/KeyFreightRoutes/Key_Freight_Routes/MapServer",
+              "id": "2d8b5d7f-3abc-44d7-bea1-c1161b571072",
               "shareKeys": [
                 "Root Group/National Datasets/Transport/Key Freight Routes"
               ]
