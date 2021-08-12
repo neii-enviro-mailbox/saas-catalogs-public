@@ -472,33 +472,6 @@
                 },
                 {
                   "type": "esri-mapServer",
-                  "name": "CWTH OPGGSA 2006 AMB2014a",
-                  "url": "https://services.ga.gov.au/gis/rest/services/OPGGSA_2006_Areas_AMB2014a/MapServer",
-                  "id": "ERYawyB",
-                  "shareKeys": [
-                    "Root Group/National Datasets/Boundaries/Other areas/CWTH OPGGSA 2006 AMB2014a"
-                  ]
-                },
-                {
-                  "type": "esri-mapServer",
-                  "name": "CWTH OPGGSA 2006 Petroleum Blocks",
-                  "url": "https://services.ga.gov.au/gis/rest/services/OPGGSA_2006_Petroleum_Blocks/MapServer",
-                  "id": "pduSsJS",
-                  "shareKeys": [
-                    "Root Group/National Datasets/Boundaries/Other areas/CWTH OPGGSA 2006 Petroleum Blocks"
-                  ]
-                },
-                {
-                  "type": "esri-mapServer",
-                  "name": "CWTH OPGGSA 2006 Petroleum Blocks AMB2014a",
-                  "url": "https://services.ga.gov.au/gis/rest/services/OPGGSA_2006_Petroleum_Blocks_AMB2014a/MapServer",
-                  "id": "EyRYwed",
-                  "shareKeys": [
-                    "Root Group/National Datasets/Boundaries/Other areas/CWTH OPGGSA 2006 Petroleum Blocks AMB2014a"
-                  ]
-                },
-                {
-                  "type": "esri-mapServer",
                   "name": "Large Area Features",
                   "info": [
                     {
@@ -26745,8 +26718,8 @@
                       "content": "[Creative Commons Attribution 4.0 International (CC BY 4.0)](http://creativecommons.org/licenses/by/4.0/)"
                     }
                   ],
-                  "url": "https://services.ga.gov.au/gis/services/Foundation_Rail_Infrastructure/MapServer",
-                  "layers": "0",
+                  "url": "https://services.ga.gov.au/gis/rest/services/Foundation_Rail_Infrastructure/MapServer",
+                  "layers": "1",
                   "id": "PIkQ1Rah",
                   "shareKeys": [
                     "Root Group/National Datasets/Transport/Rail/Railways"
@@ -26761,8 +26734,8 @@
                       "content": "[Creative Commons Attribution 4.0 International (CC BY 4.0)](http://creativecommons.org/licenses/by/4.0/)"
                     }
                   ],
-                  "url": "http://services.ga.gov.au/gis/rest/services/NM_Transport_Infrastructure/MapServer",
-                  "layers": "Railway_Stations,No_Data",
+                  "url": "https://services.ga.gov.au/gis/rest/services/Foundation_Rail_Infrastructure/MapServer",
+                  "layers": "0",
                   "id": "Qx55MnU1",
                   "shareKeys": [
                     "Root Group/National Datasets/Transport/Rail/Railway Stations"
@@ -39486,45 +39459,99 @@
     "south": -45,
     "west": 109
   },
-  "baseMaps": {
-    "enabledBaseMaps": [
-      "basemap-australian-topography",
-      "basemap-bing-aerial",
-      "basemap-bing-aerial-with-labels",
-      "basemap-positron",
-      "basemap-darkmatter",
-      "basemap-voyager"
-    ],
-    "defaultBaseMapId": "basemap-bing-aerial-with-labels",
-    "previewBaseMapId": "basemap-positron",
-    "items": [
-      {
-        "item": {
-          "id": "basemap-australian-topography",
-          "type": "esri-mapServer",
-          "name": "Australian Topography",
-          "url": "https://services.ga.gov.au/gis/rest/services/NationalBaseMap/MapServer",
-          "opacity": 1
-        },
-        "image": "images/basemaps/australian-topo.png"
+  "baseMapId": "basemap-bing-aerial-with-labels",
+  "previewBaseMapId": "basemap-positron",
+  "baseMaps": [
+    {
+      "item": {
+        "id": "basemap-australian-topography",
+        "type": "esri-mapServer",
+        "name": "National Base Map",
+        "url": "https://services.ga.gov.au/gis/rest/services/NationalBaseMap/MapServer",
+        "opacity": 1
       },
-      {
-        "item": {
-          "id": "basemap-voyager",
-          "type": "open-street-map",
-          "name": "Voyager",
-          "url": "https://global.ssl.fastly.net/rastertiles/voyager/",
-          "attribution": "© OpenStreetMap contributors ODbL, © CartoDB CC-BY 3.0",
-          "opacity": 1,
-          "subdomains": [
-            "cartodb-basemaps-a",
-            "cartodb-basemaps-b",
-            "cartodb-basemaps-c",
-            "cartodb-basemaps-d"
-          ]
-        },
-        "image": "https://raw.githubusercontent.com/TerriaJS/saas-catalogs-public/main/misc/basemaps/icons/voyager-aus.png"
-      }
-    ]
-  }
+      "image": "images/basemaps/australian-topo.png"
+    },
+    {
+      "item": {
+        "id": "basemap-bing-aerial-with-labels",
+        "name": "Bing Maps Aerial with Labels",
+        "type": "ion-imagery",
+        "ionAssetId": 3,
+        "opacity": 1
+      },
+      "image": "images/basemaps/bing-aerial-labels.png"
+    },
+    {
+      "item": {
+        "id": "basemap-bing-aerial",
+        "name": "Bing Maps Aerial",
+        "type": "ion-imagery",
+        "ionAssetId": 2,
+        "opacity": 1
+      },
+      "image": "images/basemaps/bing-aerial.png"
+    },
+    {
+      "item": {
+        "id": "basemap-positron",
+        "name": "Positron (Light)",
+        "type": "open-street-map",
+        "url": "https://basemaps.cartocdn.com/light_all/",
+        "attribution": "© <a href='https://www.openstreetmap.org/copyright'>OpenStreetMap</a>, © <a href='https://carto.com/about-carto/'>CARTO</a>",
+        "subdomains": [
+          "a",
+          "b",
+          "c",
+          "d"
+        ],
+        "opacity": 1
+      },
+      "image": "images/basemaps/positron.png"
+    },
+    {
+      "item": {
+        "id": "basemap-darkmatter",
+        "name": "Dark Matter",
+        "type": "open-street-map",
+        "url": "https://basemaps.cartocdn.com/dark_all/",
+        "attribution": "© <a href='https://www.openstreetmap.org/copyright'>OpenStreetMap</a>, © <a href='https://carto.com/about-carto/'>CARTO</a>",
+        "subdomains": [
+          "a",
+          "b",
+          "c",
+          "d"
+        ],
+        "opacity": 1
+      },
+      "image": "images/basemaps/dark-matter.png"
+    },
+    {
+      "item": {
+        "id": "basemap-voyager",
+        "type": "open-street-map",
+        "name": "Voyager",
+        "url": "https://global.ssl.fastly.net/rastertiles/voyager/",
+        "attribution": "© OpenStreetMap contributors ODbL, © CartoDB CC-BY 3.0",
+        "opacity": 1,
+        "subdomains": [
+          "cartodb-basemaps-a",
+          "cartodb-basemaps-b",
+          "cartodb-basemaps-c",
+          "cartodb-basemaps-d"
+        ]
+      },
+      "image": "https://raw.githubusercontent.com/TerriaJS/saas-catalogs-public/main/misc/basemaps/icons/voyager-aus.png"
+    },
+    {
+      "item": {
+        "id": "basemap-greyscale",
+        "type": "esri-mapServer",
+        "name": "Grey Scale",
+        "url": "https://services.ga.gov.au/gis/rest/services/NationalBaseMap_GreyScale/MapServer",
+        "opacity": 1
+      },
+      "image": "https://raw.githubusercontent.com/TerriaJS/saas-catalogs-public/main/nationalmap/images/base-maps/australia-grey-scale.png"
+    }
+  ]
 }
