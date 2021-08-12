@@ -186,10 +186,7 @@
       }
     },
     "group": {
-      "members": [
-        "1a122c9d-ca4c-4776-bce4-2e1bcacc1593",
-        "dga-portal"
-      ]
+      "members": []
     }
   },
   "authnReadPolicyId": "object.registry.record.public",
