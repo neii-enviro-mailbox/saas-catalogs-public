@@ -37457,6 +37457,26 @@
           "shareKeys": [
             "Root Group/National Datasets/Water"
           ]
+        },
+        {
+          "type": "group",
+          "name": "Resources",
+          "id": "df11d3d1-0e32-4fb5-982f-bdb725406e44",
+          "members": [
+            {
+              "type": "esri-mapServer",
+              "name": "Tennant Creek – Mt Isa IOCG Mineral Potential Assessment",
+              "url": "https://services.ga.gov.au/gis/rest/services/AusLAMP_TISA_Stations/MapServer",
+              
+              "id": "2d1f8c01-37c8-40c1-8d0c-51253e2e60fa",
+              "shareKeys": [
+                "Root Group/National Datasets/Resources/Tennant Creek – Mt Isa IOCG Mineral Potential Assessment"
+              ]
+            }
+          ],
+          "shareKeys": [
+            "Root Group/National Datasets/Resources"
+          ]
         }
       ],
       "isOpen": true,
