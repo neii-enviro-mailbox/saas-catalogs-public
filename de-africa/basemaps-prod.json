@@ -1,103 +1,67 @@
 {
   "viewerMode": "2d",
-  "baseMapId": "basemap-voyager",
-  "baseMaps": [
-    {
-      "item": {
-        "id": "basemap-voyager",
-        "type": "open-street-map",
-        "name": "Voyager",
-        "url": "https://global.ssl.fastly.net/rastertiles/voyager/",
-        "attribution": "© OpenStreetMap contributors ODbL, © CartoDB CC-BY 3.0",
-        "opacity": 1.0,
-        "subdomains": [
-          "cartodb-basemaps-a",
-          "cartodb-basemaps-b",
-          "cartodb-basemaps-c",
-          "cartodb-basemaps-d"
-        ]
+  "baseMaps": {
+    "defaultBaseMapId": "basemap-voyager",
+    "enabledBaseMaps": [
+      "basemap-voyager",
+      "basemap-esri-world",
+      "basemap-esri-world-with-labels",
+      "basemap-natural-earth-II",
+      "basemap-positron",
+      "basemap-darkmatter"
+    ],
+    "items": [
+      {
+        "item": {
+          "id": "basemap-voyager",
+          "type": "open-street-map",
+          "name": "Voyager",
+          "url": "https://global.ssl.fastly.net/rastertiles/voyager/",
+          "attribution": "© OpenStreetMap contributors ODbL, © CartoDB CC-BY 3.0",
+          "opacity": 1.0,
+          "subdomains": [
+            "cartodb-basemaps-a",
+            "cartodb-basemaps-b",
+            "cartodb-basemaps-c",
+            "cartodb-basemaps-d"
+          ]
+        },
+        "image": "https://saas.terria.io/api/v0/storage/terria/de-africa/dea-basemaps/voyager.png"
       },
-      "image": "https://saas.terria.io/api/v0/storage/terria/de-africa/dea-basemaps/voyager.png"
-    },
-    {
-      "item": {
-        "id": "basemap-esri-world",
-        "type": "wmts",
-        "name": "Esri World Imagery",
-        "url": "https://services.arcgisonline.com/arcgis/rest/services/World_Imagery/MapServer/WMTS/1.0.0/WMTSCapabilities.xml",
-        "layer": "World_Imagery",
-        "opacity": 1.0
+      {
+        "item": {
+          "id": "basemap-esri-world",
+          "type": "wmts",
+          "name": "Esri World Imagery",
+          "url": "https://services.arcgisonline.com/arcgis/rest/services/World_Imagery/MapServer/WMTS/1.0.0/WMTSCapabilities.xml",
+          "layer": "World_Imagery",
+          "opacity": 1.0
+        },
+        "image": "https://saas.terria.io/api/v0/storage/terria/de-africa/dea-basemaps/EsriWorldImagery.png"
       },
-      "image": "https://saas.terria.io/api/v0/storage/terria/de-africa/dea-basemaps/EsriWorldImagery.png"
-    },
-    {
-      "item": {
-        "id": "basemap-esri-world-with-labels-raw",
-        "type": "wmts",
-        "name": "Esri World Labels",
-        "url": "https://services.arcgisonline.com/arcgis/rest/services/Reference/World_Boundaries_and_Places/MapServer/WMTS/1.0.0/WMTSCapabilities.xml",
-        "layer": "Reference_World_Boundaries_and_Places",
-        "opacity": 1.0
+      {
+        "item": {
+          "id": "basemap-esri-world-with-labels-raw",
+          "type": "wmts",
+          "name": "Esri World Labels",
+          "url": "https://services.arcgisonline.com/arcgis/rest/services/Reference/World_Boundaries_and_Places/MapServer/WMTS/1.0.0/WMTSCapabilities.xml",
+          "layer": "Reference_World_Boundaries_and_Places",
+          "opacity": 1.0
+        },
+        "image": "https://saas.terria.io/api/v0/storage/terria/de-africa/dea-basemaps/EsriWorldImageryLabel.png"
       },
-      "image": "https://saas.terria.io/api/v0/storage/terria/de-africa/dea-basemaps/EsriWorldImageryLabel.png",
-      "hideInBaseMapMenu": true
-    },
-    {
-      "item": {
-        "id": "basemap-esri-world-with-labels",
-        "name": "Esri World Labels",
-        "type": "composite",
-        "members": [
-          "basemap-esri-world-with-labels-raw",
-          "basemap-esri-world"
-        ]
-      },
-      "image": "https://saas.terria.io/api/v0/storage/terria/de-africa/dea-basemaps/EsriWorldImageryLabel.png"
-    },
-    {
-      "item": {
-        "id": "basemap-natural-earth-II",
-        "name": "Natural Earth II",
-        "type": "wms",
-        "url": "http://geoserver.nationalmap.nicta.com.au/imagery/natural-earth-ii/wms",
-        "layers": "NE2_HR_LC_SR_W_DR",
-        "opacity": 1.0
-      },
-      "image": "images/basemaps/natural-earth.png"
-    },
-    {
-      "item": {
-        "id": "basemap-positron",
-        "name": "Positron (Light)",
-        "type": "open-street-map",
-        "url": "https://basemaps.cartocdn.com/light_all/",
-        "attribution": "© <a href='https://www.openstreetmap.org/copyright'>OpenStreetMap</a>, © <a href='https://carto.com/about-carto/'>CARTO</a>",
-        "subdomains": [
-          "a",
-          "b",
-          "c",
-          "d"
-        ],
-        "opacity": 1.0
-      },
-      "image": "images/basemaps/positron.png"
-    },
-    {
-      "item": {
-        "id": "basemap-darkmatter",
-        "name": "Dark Matter",
-        "type": "open-street-map",
-        "url": "https://basemaps.cartocdn.com/dark_all/",
-        "attribution": "© <a href='https://www.openstreetmap.org/copyright'>OpenStreetMap</a>, © <a href='https://carto.com/about-carto/'>CARTO</a>",
-        "subdomains": [
-          "a",
-          "b",
-          "c",
-          "d"
-        ],
-        "opacity": 1.0
-      },
-      "image": "images/basemaps/dark-matter.png"
-    }
-  ]
+      {
+        "item": {
+          "id": "basemap-esri-world-with-labels",
+          "name": "Esri World Labels",
+          "type": "composite",
+          "members": [
+            "basemap-esri-world-with-labels-raw",
+            "basemap-esri-world"
+          ]
+        },
+        "image": "https://saas.terria.io/api/v0/storage/terria/de-africa/dea-basemaps/EsriWorldImageryLabel.png"
+      }
+    ]
+  }
 }
