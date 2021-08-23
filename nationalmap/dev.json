@@ -13,15 +13,6 @@
           "members": [
             {
               "type": "esri-mapServer",
-              "name": "Agricultural Exposure",
-              "url": "https://services.ga.gov.au/gis/rest/services/Australian_Exposure_Information/MapServer",
-              "id": "xFYr5qER",
-              "shareKeys": [
-                "Root Group/National Datasets/Agriculture/Agricultural Exposure"
-              ]
-            },
-            {
-              "type": "esri-mapServer",
               "name": "Australia’s Indigenous Forest Estate (2018)",
               "url": "https://www.asris.csiro.au/arcgis/rest/services/abares/australias_indigenous_forest_estate_2018/MapServer",
               "id": "mrE7pJve",
@@ -314,6 +305,284 @@
                   "id": "KXICvsDe",
                   "shareKeys": [
                     "Root Group/National Datasets/National Boundaries/States & Territories"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "group",
+              "name": "Land Parcel and Property",
+              "description": "The **Land Parcel and Property** is the new name of **Cadastre and Land Tenure** data group seen in this Energy section of the catalogue have been migrated from the former **Australian Renewable Energy Mapping Infrastructure (AREMI)** site to its new home here on National Map Beta platform. Should  you encounter discrepancies with the former AREMI functionality or content, please send us feedback at [info@terria.io](mailto:info@terria.io). The migration will be finalised once all the issues have been addressed.",
+              "members": [
+                {
+                  "id": "MfggwB",
+                  "type": "group",
+                  "name": "By State",
+                  "members": [
+                    {
+                      "id": "7JkFty",
+                      "type": "group",
+                      "name": "ACT",
+                      "members": [
+                        {
+                          "type": "esri-mapServer",
+                          "name": "LEASED TERRITORY LAND - Private Lease - Not Public Land",
+                          "id": "ab1adfa3",
+                          "url": "http://data.actmapi.act.gov.au/arcgis/rest/services/actmapi/landcustodianship_layers/MapServer",
+                          "layers": "LEASED TERRITORY LAND - Private Lease - Not Public Land",
+                          "shareKeys": [
+                            "Root Group/Boundaries/Cadastre and Land Tenure/By State/ACT/LEASED TERRITORY LAND - Private Lease - Not Public Land"
+                          ]
+                        },
+                        {
+                          "type": "esri-mapServer",
+                          "name": "LEASED TERRITORY LAND - Private Lease - Public Land",
+                          "id": "dd0f024e",
+                          "url": "http://data.actmapi.act.gov.au/arcgis/rest/services/actmapi/landcustodianship_layers/MapServer",
+                          "layers": "LEASED TERRITORY LAND - Private Lease - Public Land",
+                          "shareKeys": [
+                            "Root Group/Boundaries/Cadastre and Land Tenure/By State/ACT/LEASED TERRITORY LAND - Private Lease - Public Land"
+                          ]
+                        },
+                        {
+                          "type": "esri-mapServer",
+                          "name": "TAMS-OTHER UNLEASED ASSETS - Environment - Unleased",
+                          "id": "44bdd8fe",
+                          "url": "http://data.actmapi.act.gov.au/arcgis/rest/services/actmapi/landcustodianship_layers/MapServer",
+                          "layers": "TAMS-OTHER UNLEASED ASSETS - Environment - Unleased",
+                          "shareKeys": [
+                            "Root Group/Boundaries/Cadastre and Land Tenure/By State/ACT/TAMS-OTHER UNLEASED ASSETS - Environment - Unleased"
+                          ]
+                        },
+                        {
+                          "type": "esri-mapServer",
+                          "name": "TAMS-OTHER UNLEASED ASSETS - Forests - Unleased",
+                          "id": "064f3d6d",
+                          "url": "http://data.actmapi.act.gov.au/arcgis/rest/services/actmapi/landcustodianship_layers/MapServer",
+                          "layers": "TAMS-OTHER UNLEASED ASSETS - Forests - Unleased",
+                          "shareKeys": [
+                            "Root Group/Boundaries/Cadastre and Land Tenure/By State/ACT/TAMS-OTHER UNLEASED ASSETS - Forests - Unleased"
+                          ]
+                        },
+                        {
+                          "type": "esri-mapServer",
+                          "name": "TAMS-PUBLIC LAND - Environment - Unleased",
+                          "id": "1b1a499c",
+                          "url": "http://data.actmapi.act.gov.au/arcgis/rest/services/actmapi/landcustodianship_layers/MapServer",
+                          "layers": "TAMS-PUBLIC LAND - Environment - Unleased",
+                          "shareKeys": [
+                            "Root Group/Boundaries/Cadastre and Land Tenure/By State/ACT/TAMS-PUBLIC LAND - Environment - Unleased"
+                          ]
+                        },
+                        {
+                          "type": "esri-mapServer",
+                          "name": "TAMS-PUBLIC LAND - Forests - Unleased",
+                          "id": "f1eeffaf",
+                          "url": "http://data.actmapi.act.gov.au/arcgis/rest/services/actmapi/landcustodianship_layers/MapServer",
+                          "layers": "TAMS-PUBLIC LAND - Forests - Unleased",
+                          "shareKeys": [
+                            "Root Group/Boundaries/Cadastre and Land Tenure/By State/ACT/TAMS-PUBLIC LAND - Forests - Unleased"
+                          ]
+                        },
+                        {
+                          "type": "esri-mapServer",
+                          "name": "TAMS-VACANT (OTHER) - Environment - Unleased",
+                          "id": "8bae1c89",
+                          "url": "http://data.actmapi.act.gov.au/arcgis/rest/services/actmapi/landcustodianship_layers/MapServer",
+                          "layers": "TAMS-VACANT (OTHER) - Environment - Unleased",
+                          "shareKeys": [
+                            "Root Group/Boundaries/Cadastre and Land Tenure/By State/ACT/TAMS-VACANT (OTHER) - Environment - Unleased"
+                          ]
+                        }
+                      ],
+                      "shareKeys": [
+                        "Root Group/Boundaries/Cadastre and Land Tenure/By State/ACT"
+                      ]
+                    },
+                    {
+                      "type": "esri-mapServer",
+                      "name": "NSW",
+                      "id": "0b83d970",
+                      "info": [
+                        {
+                          "name": "Licensing, Terms & Conditions",
+                          "content": "© Land and Property Information 2015 <p> [Creative Commons Attribution 3.0 Australia Licence](https://creativecommons.org/licenses/by/3.0/au/legalcode) <p> "
+                        },
+                        {
+                          "name": "Data Description",
+                          "content": "NSW Cadastre web service is a dynamic map of cadastral features extracted from the NSW Digital Cadastral Database (DCDB). It provides access to a state wide integrated database and a component of the foundation spatial datasets within the New South Wales. A ‘cadastre’ is an official register of property showing boundaries. The DCDB contains current land titles only.<p>The cadastral feature class layers provided through this web service includes:<ul>  <li>Large Rural Plan Extent</li>  <li>Rural Plan Extent</li>  <li>Section Extent</li>  <li>Plan Extent</li>  <li>Lot</li>  <li>Plan Extent Labels</li>  <li>Section Extent Labels</li>  <li>Lot Labels</li></ul><p>The available attributes for point queries are:<ul>  <li>Lot/Section/Plan string</li>  <li>CadID</li></ul><p>More information can be found here:<p><a href='http://www.lpi.nsw.gov.au/__data/assets/pdf_file/0012/203160/NSW_Cadastre_Web_Service.pdf'>http://www.lpi.nsw.gov.au/__data/assets/pdf_file/0012/203160/NSW_Cadastre_Web_Service.pdf</a>"
+                        }
+                      ],
+                      "url": "https://maps.six.nsw.gov.au/arcgis/rest/services/public/NSW_Cadastre/MapServer",
+                      "opacity": 1,
+                      "rectangle": {
+                        "west": 139,
+                        "south": -38.8,
+                        "east": 158.1,
+                        "north": -27.1
+                      },
+                      "shareKeys": [
+                        "Root Group/Boundaries/Cadastre and Land Tenure/By State/Cadastral Parcels - New South Wales"
+                      ]
+                    },
+                    {
+                      "id": "Cxjvtn",
+                      "type": "group",
+                      "name": "NT",
+                      "members": [
+                        {
+                          "type": "wms",
+                          "name": "Cadastre",
+                          "id": "d9a82ba6",
+                          "url": "http://wms1.ntlis.nt.gov.au/ilismap?service=WMS&version=1.3.0&request=GetCapabilities",
+                          "opacity": 1,
+                          "layers": "0",
+                          "shareKeys": [
+                            "Root Group/Boundaries/Cadastre and Land Tenure/By State/Northern Territory/Cadastre"
+                          ]
+                        },
+                        {
+                          "type": "wms",
+                          "name": "Cadastre Proposed",
+                          "id": "8008bf33",
+                          "url": "http://wms1.ntlis.nt.gov.au/ilismap?service=WMS&version=1.3.0&request=GetCapabilities",
+                          "opacity": 1,
+                          "layers": "8",
+                          "shareKeys": [
+                            "Root Group/Boundaries/Cadastre and Land Tenure/By State/Northern Territory/Cadastre Proposed"
+                          ]
+                        },
+                        {
+                          "type": "wms",
+                          "name": "Cadastre with Owners",
+                          "id": "0c0bd686",
+                          "url": "http://wms1.ntlis.nt.gov.au/ilismap?service=WMS&version=1.3.0&request=GetCapabilities",
+                          "opacity": 1,
+                          "layers": "160",
+                          "shareKeys": [
+                            "Root Group/Boundaries/Cadastre and Land Tenure/By State/Northern Territory/Cadastre with Owners"
+                          ]
+                        }
+                      ],
+                      "shareKeys": [
+                        "Root Group/Boundaries/Cadastre and Land Tenure/By State/Northern Territory"
+                      ]
+                    },
+                    {
+                      "id": "4ulLIp",
+                      "type": "group",
+                      "name": "QLD",
+                      "members": [
+                        {
+                          "type": "esri-mapServer",
+                          "name": "Base Parcels Only",
+                          "id": "d1366348",
+                          "url": "https://gisservices.information.qld.gov.au/arcgis/rest/services/PlanningCadastre/LandParcelPropertyFramework/MapServer",
+                          "opacity": 1,
+                          "layers": "Base Parcels Only",
+                          "shareKeys": [
+                            "Root Group/Boundaries/Cadastre and Land Tenure/By State/Queensland/Base Parcels Only"
+                          ]
+                        },
+                        {
+                          "type": "esri-mapServer",
+                          "name": "Cadastral Parcels greater than 10ha",
+                          "id": "dabc1f5c",
+                          "url": "https://gisservices.information.qld.gov.au/arcgis/rest/services/PlanningCadastre/LandParcelPropertyFramework/MapServer",
+                          "opacity": 1,
+                          "layers": "Cadastral Parcels - gt 10ha",
+                          "shareKeys": [
+                            "Root Group/Boundaries/Cadastre and Land Tenure/By State/Queensland/Cadastral Parcels greater than 10ha"
+                          ]
+                        },
+                        {
+                          "type": "esri-mapServer",
+                          "name": "Cadastral Parcels greater than 1ha",
+                          "id": "d6be69a0",
+                          "url": "https://gisservices.information.qld.gov.au/arcgis/rest/services/PlanningCadastre/LandParcelPropertyFramework/MapServer",
+                          "opacity": 1,
+                          "layers": "Cadastral Parcels - gt 1ha",
+                          "shareKeys": [
+                            "Root Group/Boundaries/Cadastre and Land Tenure/By State/Queensland/Cadastral Parcels greater than 1ha"
+                          ]
+                        },
+                        {
+                          "type": "esri-mapServer",
+                          "name": "Properties",
+                          "id": "cd0dee58",
+                          "url": "https://gisservices.information.qld.gov.au/arcgis/rest/services/PlanningCadastre/LandParcelPropertyFramework/MapServer",
+                          "opacity": 1,
+                          "layers": "Properties",
+                          "shareKeys": [
+                            "Root Group/Boundaries/Cadastre and Land Tenure/By State/Queensland/Properties"
+                          ]
+                        },
+                        {
+                          "type": "esri-mapServer",
+                          "name": "Tenure",
+                          "id": "c8e0c3fa",
+                          "url": "https://gisservices.information.qld.gov.au/arcgis/rest/services/PlanningCadastre/LandParcelPropertyFramework/MapServer",
+                          "opacity": 1,
+                          "layers": "Tenure",
+                          "shareKeys": [
+                            "Root Group/Boundaries/Cadastre and Land Tenure/By State/Queensland/Tenure"
+                          ]
+                        }
+                      ],
+                      "shareKeys": [
+                        "Root Group/Boundaries/Cadastre and Land Tenure/By State/Queensland"
+                      ]
+                    },
+                    {
+                      "type": "esri-mapServer",
+                      "name": "TAS",
+                      "id": "e9464250",
+                      "info": [
+                        {
+                          "name": "Layer Help",
+                          "content": "This layer only shows data at high zoom levels - ensure that the Map Scale indicator at the bottom right is showing 500m or less."
+                        },
+                        {
+                          "name": "Data Custodian",
+                          "content": "[Land Information System Tasmania - Tasmanian Government](https://www.thelist.tas.gov.au/)<p><a href='mailto:listhelp@dpipwe.tas.gov.au'>listhelp@dpipwe.tas.gov.au</a>"
+                        }
+                      ],
+                      "infoSectionOrder": [
+                        "Layer Help",
+                        "Data Description",
+                        "Data Custodian",
+                        "Copyright Text"
+                      ],
+                      "url": "http://services.thelist.tas.gov.au/arcgis/rest/services/Public/CadastreAndAdministrative/MapServer",
+                      "opacity": 1,
+                      "layers": "Cadastral Parcels",
+                      "shareKeys": [
+                        "Root Group/Boundaries/Cadastre and Land Tenure/By State/Cadastral Parcels - Tasmania"
+                      ],
+                      "rectangle": {
+                        "west": 143.7,
+                        "south": -43.8,
+                        "east": 148.7,
+                        "north": -40.3
+                      }
+                    },
+                    {
+                      "type": "ckan-item",
+                      "name": "WA",
+                      "id": "a24b4c74",
+                      "url": "https://catalogue.data.wa.gov.au",
+                      "datasetId": "cadastre-address-lgate-002",
+                      "itemProperties": {
+                        "opacity": 1
+                      },
+                      "supportedResourceFormats": [],
+                      "shareKeys": [
+                        "Root Group/Boundaries/Cadastre and Land Tenure/By State/Cadastral Parcels - Western Australia"
+                      ]
+                    }
+                  ],
+                  "shareKeys": [
+                    "Root Group/Boundaries/Cadastre and Land Tenure/By State"
                   ]
                 }
               ]
@@ -3117,6 +3386,22 @@
               "id": "3jr4AwM6",
               "shareKeys": [
                 "Root Group/National Datasets/Communications/Mobile Black Spot Program - Round 4 Funded Base Stations"
+              ]
+            },
+            {
+              "type": "ckan-item",
+              "name": "Mobile Black Spot Program - Round 5 Funded Base Stations",
+              "url": "https://data.gov.au",
+              "datasetId": "mobile-black-spot-program-round-5-funded-base-stations",
+              "resourceId": "7916e08c-2826-4f5a-b7f7-c849f1aa64d8",
+              "itemProperties": {
+                "opacity": 1,
+                "clipToRectangle": true
+              },
+              "supportedResourceFormats": [],
+              "id": "15152ee2-4dab-4fcf-8ff1-d8f4108f88d2",
+              "shareKeys": [
+                "Root Group/National Datasets/Communications/Mobile Black Spot Program - Round 5 Funded Base Stations"
               ]
             },
             {
@@ -9868,300 +10153,6 @@
               ]
             },
             {
-              "type": "group",
-              "name": "Land Parcel and Property",
-              "description": "The **Land Parcel and Property** is the new name of **Cadastre and Land Tenure** data group seen in this Energy section of the catalogue have been migrated from the former **Australian Renewable Energy Mapping Infrastructure (AREMI)** site to its new home here on National Map Beta platform. Should  you encounter discrepancies with the former AREMI functionality or content, please send us feedback at [info@terria.io](mailto:info@terria.io). The migration will be finalised once all the issues have been addressed.",
-              "members": [
-                {
-                  "id": "MfggwB",
-                  "type": "group",
-                  "name": "By State",
-                  "members": [
-                    {
-                      "id": "7JkFty",
-                      "type": "group",
-                      "name": "ACT",
-                      "members": [
-                        {
-                          "type": "esri-mapServer",
-                          "name": "LEASED TERRITORY LAND - Private Lease - Not Public Land",
-                          "id": "ab1adfa3",
-                          "url": "http://data.actmapi.act.gov.au/arcgis/rest/services/actmapi/landcustodianship_layers/MapServer",
-                          "layers": "LEASED TERRITORY LAND - Private Lease - Not Public Land",
-                          "shareKeys": [
-                            "Root Group/Boundaries/Cadastre and Land Tenure/By State/ACT/LEASED TERRITORY LAND - Private Lease - Not Public Land"
-                          ]
-                        },
-                        {
-                          "type": "esri-mapServer",
-                          "name": "LEASED TERRITORY LAND - Private Lease - Public Land",
-                          "id": "dd0f024e",
-                          "url": "http://data.actmapi.act.gov.au/arcgis/rest/services/actmapi/landcustodianship_layers/MapServer",
-                          "layers": "LEASED TERRITORY LAND - Private Lease - Public Land",
-                          "shareKeys": [
-                            "Root Group/Boundaries/Cadastre and Land Tenure/By State/ACT/LEASED TERRITORY LAND - Private Lease - Public Land"
-                          ]
-                        },
-                        {
-                          "type": "esri-mapServer",
-                          "name": "TAMS-OTHER UNLEASED ASSETS - Environment - Unleased",
-                          "id": "44bdd8fe",
-                          "url": "http://data.actmapi.act.gov.au/arcgis/rest/services/actmapi/landcustodianship_layers/MapServer",
-                          "layers": "TAMS-OTHER UNLEASED ASSETS - Environment - Unleased",
-                          "shareKeys": [
-                            "Root Group/Boundaries/Cadastre and Land Tenure/By State/ACT/TAMS-OTHER UNLEASED ASSETS - Environment - Unleased"
-                          ]
-                        },
-                        {
-                          "type": "esri-mapServer",
-                          "name": "TAMS-OTHER UNLEASED ASSETS - Forests - Unleased",
-                          "id": "064f3d6d",
-                          "url": "http://data.actmapi.act.gov.au/arcgis/rest/services/actmapi/landcustodianship_layers/MapServer",
-                          "layers": "TAMS-OTHER UNLEASED ASSETS - Forests - Unleased",
-                          "shareKeys": [
-                            "Root Group/Boundaries/Cadastre and Land Tenure/By State/ACT/TAMS-OTHER UNLEASED ASSETS - Forests - Unleased"
-                          ]
-                        },
-                        {
-                          "type": "esri-mapServer",
-                          "name": "TAMS-PUBLIC LAND - Environment - Unleased",
-                          "id": "1b1a499c",
-                          "url": "http://data.actmapi.act.gov.au/arcgis/rest/services/actmapi/landcustodianship_layers/MapServer",
-                          "layers": "TAMS-PUBLIC LAND - Environment - Unleased",
-                          "shareKeys": [
-                            "Root Group/Boundaries/Cadastre and Land Tenure/By State/ACT/TAMS-PUBLIC LAND - Environment - Unleased"
-                          ]
-                        },
-                        {
-                          "type": "esri-mapServer",
-                          "name": "TAMS-PUBLIC LAND - Forests - Unleased",
-                          "id": "f1eeffaf",
-                          "url": "http://data.actmapi.act.gov.au/arcgis/rest/services/actmapi/landcustodianship_layers/MapServer",
-                          "layers": "TAMS-PUBLIC LAND - Forests - Unleased",
-                          "shareKeys": [
-                            "Root Group/Boundaries/Cadastre and Land Tenure/By State/ACT/TAMS-PUBLIC LAND - Forests - Unleased"
-                          ]
-                        },
-                        {
-                          "type": "esri-mapServer",
-                          "name": "TAMS-VACANT (OTHER) - Environment - Unleased",
-                          "id": "8bae1c89",
-                          "url": "http://data.actmapi.act.gov.au/arcgis/rest/services/actmapi/landcustodianship_layers/MapServer",
-                          "layers": "TAMS-VACANT (OTHER) - Environment - Unleased",
-                          "shareKeys": [
-                            "Root Group/Boundaries/Cadastre and Land Tenure/By State/ACT/TAMS-VACANT (OTHER) - Environment - Unleased"
-                          ]
-                        }
-                      ],
-                      "shareKeys": [
-                        "Root Group/Boundaries/Cadastre and Land Tenure/By State/ACT"
-                      ]
-                    },
-                    {
-                      "type": "esri-mapServer",
-                      "name": "NSW",
-                      "id": "0b83d970",
-                      "info": [
-                        {
-                          "name": "Licensing, Terms & Conditions",
-                          "content": "© Land and Property Information 2015 <p> [Creative Commons Attribution 3.0 Australia Licence](https://creativecommons.org/licenses/by/3.0/au/legalcode) <p> "
-                        },
-                        {
-                          "name": "Data Description",
-                          "content": "NSW Cadastre web service is a dynamic map of cadastral features extracted from the NSW Digital Cadastral Database (DCDB). It provides access to a state wide integrated database and a component of the foundation spatial datasets within the New South Wales. A ‘cadastre’ is an official register of property showing boundaries. The DCDB contains current land titles only.<p>The cadastral feature class layers provided through this web service includes:<ul>  <li>Large Rural Plan Extent</li>  <li>Rural Plan Extent</li>  <li>Section Extent</li>  <li>Plan Extent</li>  <li>Lot</li>  <li>Plan Extent Labels</li>  <li>Section Extent Labels</li>  <li>Lot Labels</li></ul><p>The available attributes for point queries are:<ul>  <li>Lot/Section/Plan string</li>  <li>CadID</li></ul><p>More information can be found here:<p><a href='http://www.lpi.nsw.gov.au/__data/assets/pdf_file/0012/203160/NSW_Cadastre_Web_Service.pdf'>http://www.lpi.nsw.gov.au/__data/assets/pdf_file/0012/203160/NSW_Cadastre_Web_Service.pdf</a>"
-                        }
-                      ],
-                      "url": "https://maps.six.nsw.gov.au/arcgis/rest/services/public/NSW_Cadastre/MapServer",
-                      "opacity": 1,
-                      "rectangle": {
-                        "west": 139,
-                        "south": -38.8,
-                        "east": 158.1,
-                        "north": -27.1
-                      },
-                      "shareKeys": [
-                        "Root Group/Boundaries/Cadastre and Land Tenure/By State/Cadastral Parcels - New South Wales"
-                      ]
-                    },
-                    {
-                      "id": "Cxjvtn",
-                      "type": "group",
-                      "name": "NT",
-                      "members": [
-                        {
-                          "type": "wms",
-                          "name": "Cadastre",
-                          "id": "d9a82ba6",
-                          "url": "http://wms1.ntlis.nt.gov.au/ilismap?service=WMS&version=1.3.0&request=GetCapabilities",
-                          "opacity": 1,
-                          "layers": "0",
-                          "shareKeys": [
-                            "Root Group/Boundaries/Cadastre and Land Tenure/By State/Northern Territory/Cadastre"
-                          ]
-                        },
-                        {
-                          "type": "wms",
-                          "name": "Cadastre Proposed",
-                          "id": "8008bf33",
-                          "url": "http://wms1.ntlis.nt.gov.au/ilismap?service=WMS&version=1.3.0&request=GetCapabilities",
-                          "opacity": 1,
-                          "layers": "8",
-                          "shareKeys": [
-                            "Root Group/Boundaries/Cadastre and Land Tenure/By State/Northern Territory/Cadastre Proposed"
-                          ]
-                        },
-                        {
-                          "type": "wms",
-                          "name": "Cadastre with Owners",
-                          "id": "0c0bd686",
-                          "url": "http://wms1.ntlis.nt.gov.au/ilismap?service=WMS&version=1.3.0&request=GetCapabilities",
-                          "opacity": 1,
-                          "layers": "160",
-                          "shareKeys": [
-                            "Root Group/Boundaries/Cadastre and Land Tenure/By State/Northern Territory/Cadastre with Owners"
-                          ]
-                        }
-                      ],
-                      "shareKeys": [
-                        "Root Group/Boundaries/Cadastre and Land Tenure/By State/Northern Territory"
-                      ]
-                    },
-                    {
-                      "id": "4ulLIp",
-                      "type": "group",
-                      "name": "QLD",
-                      "members": [
-                        {
-                          "type": "esri-mapServer",
-                          "name": "Base Parcels Only",
-                          "id": "d1366348",
-                          "url": "https://gisservices.information.qld.gov.au/arcgis/rest/services/PlanningCadastre/LandParcelPropertyFramework/MapServer",
-                          "opacity": 1,
-                          "layers": "Base Parcels Only",
-                          "shareKeys": [
-                            "Root Group/Boundaries/Cadastre and Land Tenure/By State/Queensland/Base Parcels Only"
-                          ]
-                        },
-                        {
-                          "type": "esri-mapServer",
-                          "name": "Cadastral Parcels greater than 10ha",
-                          "id": "dabc1f5c",
-                          "url": "https://gisservices.information.qld.gov.au/arcgis/rest/services/PlanningCadastre/LandParcelPropertyFramework/MapServer",
-                          "opacity": 1,
-                          "layers": "Cadastral Parcels - gt 10ha",
-                          "shareKeys": [
-                            "Root Group/Boundaries/Cadastre and Land Tenure/By State/Queensland/Cadastral Parcels greater than 10ha"
-                          ]
-                        },
-                        {
-                          "type": "esri-mapServer",
-                          "name": "Cadastral Parcels greater than 1ha",
-                          "id": "d6be69a0",
-                          "url": "https://gisservices.information.qld.gov.au/arcgis/rest/services/PlanningCadastre/LandParcelPropertyFramework/MapServer",
-                          "opacity": 1,
-                          "layers": "Cadastral Parcels - gt 1ha",
-                          "shareKeys": [
-                            "Root Group/Boundaries/Cadastre and Land Tenure/By State/Queensland/Cadastral Parcels greater than 1ha"
-                          ]
-                        },
-                        {
-                          "type": "esri-mapServer",
-                          "name": "Properties",
-                          "id": "cd0dee58",
-                          "url": "https://gisservices.information.qld.gov.au/arcgis/rest/services/PlanningCadastre/LandParcelPropertyFramework/MapServer",
-                          "opacity": 1,
-                          "layers": "Properties",
-                          "shareKeys": [
-                            "Root Group/Boundaries/Cadastre and Land Tenure/By State/Queensland/Properties"
-                          ]
-                        },
-                        {
-                          "type": "esri-mapServer",
-                          "name": "Tenure",
-                          "id": "c8e0c3fa",
-                          "url": "https://gisservices.information.qld.gov.au/arcgis/rest/services/PlanningCadastre/LandParcelPropertyFramework/MapServer",
-                          "opacity": 1,
-                          "layers": "Tenure",
-                          "shareKeys": [
-                            "Root Group/Boundaries/Cadastre and Land Tenure/By State/Queensland/Tenure"
-                          ]
-                        }
-                      ],
-                      "shareKeys": [
-                        "Root Group/Boundaries/Cadastre and Land Tenure/By State/Queensland"
-                      ]
-                    },
-                    {
-                      "type": "esri-mapServer",
-                      "name": "TAS",
-                      "id": "e9464250",
-                      "info": [
-                        {
-                          "name": "Layer Help",
-                          "content": "This layer only shows data at high zoom levels - ensure that the Map Scale indicator at the bottom right is showing 500m or less."
-                        },
-                        {
-                          "name": "Data Custodian",
-                          "content": "[Land Information System Tasmania - Tasmanian Government](https://www.thelist.tas.gov.au/)<p><a href='mailto:listhelp@dpipwe.tas.gov.au'>listhelp@dpipwe.tas.gov.au</a>"
-                        }
-                      ],
-                      "infoSectionOrder": [
-                        "Layer Help",
-                        "Data Description",
-                        "Data Custodian",
-                        "Copyright Text"
-                      ],
-                      "url": "http://services.thelist.tas.gov.au/arcgis/rest/services/Public/CadastreAndAdministrative/MapServer",
-                      "opacity": 1,
-                      "layers": "Cadastral Parcels",
-                      "shareKeys": [
-                        "Root Group/Boundaries/Cadastre and Land Tenure/By State/Cadastral Parcels - Tasmania"
-                      ],
-                      "rectangle": {
-                        "west": 143.7,
-                        "south": -43.8,
-                        "east": 148.7,
-                        "north": -40.3
-                      }
-                    },
-                    {
-                      "type": "ckan-item",
-                      "name": "WA",
-                      "id": "a24b4c74",
-                      "url": "https://catalogue.data.wa.gov.au",
-                      "datasetId": "cadastre-address-lgate-002",
-                      "itemProperties": {
-                        "opacity": 1
-                      },
-                      "supportedResourceFormats": [],
-                      "shareKeys": [
-                        "Root Group/Boundaries/Cadastre and Land Tenure/By State/Cadastral Parcels - Western Australia"
-                      ]
-                    }
-                  ],
-                  "shareKeys": [
-                    "Root Group/Boundaries/Cadastre and Land Tenure/By State"
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "esri-mapServer",
-              "name": "Oil and Gas Pipelines",
-              "info": [
-                {
-                  "name": "Licence",
-                  "content": "[Creative Commons Attribution 4.0 International (CC BY 4.0)](http://creativecommons.org/licenses/by/4.0/)"
-                }
-              ],
-              "url": "http://services.ga.gov.au/gis/rest/services/NM_Culture_and_Infrastructure/MapServer",
-              "layers": "Oil_and_Gas_Pipelines,No_Data",
-              "id": "gBgjjhLL",
-              "shareKeys": [
-                "Root Group/National Datasets/Utility/Oil and Gas Pipelines"
-              ]
-            },
-            {
               "id": "7Y8Bph",
               "type": "group",
               "name": "Renewable Energy",
@@ -15474,7 +15465,7 @@
                       ]
                     }
                   ],
-                  "description": "<p>Biomass data on the AREMI is developed and maintained through the Australian Biomass for Bioenergy Assessment, funded by the Australian Renewable Energy Agency. The project timeframe is 2015-2020, with further development and maintenance continuing beyond this timeframe through the partner organisations (custodians of the data), listed below.</p><p>The purpose of the Australian Biomass and Bioenergy Assessment is to catalyse investment in the renewable energy sector through the provision of detailed information about biomass resources across Australia, to assist in project development and decision making for new bioenergy projects, and provide linkages between biomass supply, thorough the supply chain, to the end user.</p><p>The bioenergy data may be integrated with other layers on the AREMI, such as electricity infrastructure, to aid in decision making. Analytical capabilities are also under development with Queensland University of Technology, and University of the Sunshine Coast.</p><p>The partner organisations and contact details are:</p><p>  <strong>AgriFutures Australia</strong><br/>  Julie Bird, Project Manager<br/>  ph. 0407 455 580<br/>  Email: <strong><a href='mailto:Julie.Bird@agrifutures.com.au'>Julie.Bird@agrifutures.com.au</a></strong></p><p>  <strong>Western Australia - Department of Primary Industries and Regional Development</strong><br/>  Kim Brooksbank<br/>  Email: <strong><a href='kim.brooksbank@dpird.wa.gov.au'>kim.brooksbank@dpird.wa.gov.au</a></strong><br/><br />  Ronald Master<br/>  Email: <strong><a href='ronald.master@dpird.wa.gov.au'>ronald.master@dpird.wa.gov.au</a></strong></p><p>  <strong>Victoria - Sustainability Victoria</strong><br/>  Kelly Wickham<br/>  Email: <strong><a href='Kelly.Wickham@sustainability.vic.gov.au'>Kelly.Wickham@sustainability.vic.gov.au</a></strong></p><p>  <strong>Tasmania - Department of State Growth</strong><br/>  Martin Moroni<br/>  Email: <strong><a href='Martin.Moroni@stategrowth.tas.gov.au'>Martin.Moroni@stategrowth.tas.gov.au</a></strong></p><p>  <strong>New South Wales - Department of Primary Industries - Forestry</strong><br/>  Fabiano Ximenes<br/>  Email: <strong><a href='fabiano.ximenes@dpi.nsw.gov.au'>fabiano.ximenes@dpi.nsw.gov.au</a></strong></p><p>  <strong>South Australia - Department for Energy & Mining</strong><br/>  Mary Lewitzka<br/>  Email: <strong><a href='Mary.Lewitzka@sa.gov.au'>Mary.Lewitzka@sa.gov.au</a></strong></p><p>  <strong>Queensland -  Department of Environment and Science</strong><br/>  Kelly Bryant<br/>  Email: <strong><a href='Kelly.Bryant@des.qld.gov.au'>Kelly.Bryant@des.qld.gov.au</a></strong></p><p>  <strong>Research, analytics - Queensland University of Technology, University of Sunshine Coast</strong><br/>  Ian O'Hara<br/>  Email: <strong><a href='i.ohara@qut.edu.au'>i.ohara@qut.edu.au</a></strong></p>",
+                  "description": "<p>Biomass data on the AREMI is developed and maintained through the Australian Biomass for Bioenergy Assessment, funded by the Australian Renewable Energy Agency. The project timeframe is 2015-2020, with further development and maintenance continuing beyond this timeframe through the partner organisations (custodians of the data), listed below.</p><p>The purpose of the Australian Biomass and Bioenergy Assessment is to catalyse investment in the renewable energy sector through the provision of detailed information about biomass resources across Australia, to assist in project development and decision making for new bioenergy projects, and provide linkages between biomass supply, thorough the supply chain, to the end user.</p><p>The bioenergy data may be integrated with other layers on the AREMI, such as electricity infrastructure, to aid in decision making. Analytical capabilities are also under development with Queensland University of Technology, and University of the Sunshine Coast.</p><p>The partner organisations and contact details are:</p><p>  <strong>Western Australia - Department of Primary Industries and Regional Development</strong><br/>  Kim Brooksbank<br/>  Email: <strong><a href='kim.brooksbank@dpird.wa.gov.au'>kim.brooksbank@dpird.wa.gov.au</a></strong><br/><br />  Ronald Master<br/>  Email: <strong><a href='ronald.master@dpird.wa.gov.au'>ronald.master@dpird.wa.gov.au</a></strong></p><p>  <strong>Victoria - Sustainability Victoria</strong><br/>  Kelly Wickham<br/>  Email: <strong><a href='Kelly.Wickham@sustainability.vic.gov.au'>Kelly.Wickham@sustainability.vic.gov.au</a></strong></p><p>  <strong>Tasmania - Department of State Growth</strong><br/>  Martin Moroni<br/>  Email: <strong><a href='Martin.Moroni@stategrowth.tas.gov.au'>Martin.Moroni@stategrowth.tas.gov.au</a></strong></p><p>  <strong>New South Wales - Department of Primary Industries - Forestry</strong><br/>  Fabiano Ximenes<br/>  Email: <strong><a href='fabiano.ximenes@dpi.nsw.gov.au'>fabiano.ximenes@dpi.nsw.gov.au</a></strong></p><p>  <strong>South Australia - Department for Energy & Mining</strong><br/>  Mary Lewitzka<br/>  Email: <strong><a href='Mary.Lewitzka@sa.gov.au'>Mary.Lewitzka@sa.gov.au</a></strong></p><p>  <strong>Queensland -  Department of Environment and Science</strong><br/>  Kelly Bryant<br/>  Email: <strong><a href='Kelly.Bryant@des.qld.gov.au'>Kelly.Bryant@des.qld.gov.au</a></strong></p><p>  <strong>Research, analytics - Queensland University of Technology, University of Sunshine Coast</strong><br/>  Ian O'Hara<br/>  Email: <strong><a href='i.ohara@qut.edu.au'>i.ohara@qut.edu.au</a></strong></p>",
                   "shareKeys": [
                     "Root Group/Renewable Energy/Bioenergy"
                   ]
@@ -23693,6 +23684,22 @@
               "id": "qLPK3tTX",
               "shareKeys": [
                 "Root Group/National Datasets/Infrastructure/Mine Areas"
+              ]
+            },
+            {
+              "type": "esri-mapServer",
+              "name": "Oil and Gas Pipelines",
+              "info": [
+                {
+                  "name": "Licence",
+                  "content": "[Creative Commons Attribution 4.0 International (CC BY 4.0)](http://creativecommons.org/licenses/by/4.0/)"
+                }
+              ],
+              "url": "http://services.ga.gov.au/gis/rest/services/NM_Culture_and_Infrastructure/MapServer",
+              "layers": "Oil_and_Gas_Pipelines,No_Data",
+              "id": "gBgjjhLL",
+              "shareKeys": [
+                "Root Group/National Datasets/Utility/Oil and Gas Pipelines"
               ]
             },
             {
