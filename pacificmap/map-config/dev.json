@@ -58,6 +58,7 @@
           "<a target=\"_blank\" href=\"https://pacificdata.org\"><img style=\"width:100px; padding-left: 20px\" src=\"https://saas.terria.io/api/v0/storage/terria/pacificmap/spc_data_hub_logo.svg\" title=\"Version: {{version}}\" alt=\"PacificDataHub Logo\"/></a>",
           "<a target=\"_blank\" href=\"https://data61.csiro.au/\"><img style=\"width:60px; float: right\" src=\"https://saas.terria.io/api/v0/storage/terria/pacificmap/data61-csiro.svg\" alt=\"CSIRO's Data61 Logo\"/></a>"
         ],
+        "catalogIndexUrl": "https://raw.githubusercontent.com/TerriaJS/saas-catalogs-public/main/pacificmap/catalog-index/dev.json",
         "cesiumIonAccessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiI2NzE3NWVlYy00YWIzLTQ3ZDItOTJhOS1hYTRhN2ExMTFlYmYiLCJpZCI6Mjk5MiwiaWF0IjoxNjIyNTA1NjExfQ.CusV1Gnck16-WTZZjcR35EBGj1jWwGxOaomjytK60SA",
         "developerAttribution": {
           "link": "https://terria.io",
