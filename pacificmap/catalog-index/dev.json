@@ -1,2210 +1,3544 @@
 {
   "//Pacific Data Hub Catalogue": {
     "name": "Pacific Data Hub Catalogue",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "/"
-    ]
+    ],
+    "isGroup": true
   },
   "//Pacific Data Hub Catalogue/5f0aae31-517b-4ae5-b200-0b3efed42046": {
     "name": "Cook Islands Environment Data Portal",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue"
-    ]
+    ],
+    "isGroup": true
   },
   "//Pacific Data Hub Catalogue/eb0e20e1-4203-4f0b-b34a-ef9de9517032/3b7b0742-e111-4a22-afee-3ddb501e7f58": {
     "name": "Cook Islands Protected Areas Data (WDPA, August 2019) - WDPA_Aug2019_COK-shapefile-polygons.geojson",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/5f0aae31-517b-4ae5-b200-0b3efed42046"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/eb0e20e1-4203-4f0b-b34a-ef9de9517032/67a5baee-5dd7-48b9-b539-3d261f075c3f": {
     "name": "Cook Islands Protected Areas Data (WDPA, August 2019) - WDPA_Aug2019_COK-shapefile-points.geojson",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/5f0aae31-517b-4ae5-b200-0b3efed42046"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/cc8411c4-f921-4269-9b0f-e0b65d71ff52/caf9e51f-7295-4206-a321-b868ae3bc7d9": {
     "name": "Rarotonga Land use 2009",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/5f0aae31-517b-4ae5-b200-0b3efed42046"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/47b2dfa3-d346-4446-baab-d90428cf995c": {
     "name": "Cook Islands Office of National Hydrography and Geo Science ",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue"
-    ]
+    ],
+    "isGroup": true
   },
   "//Pacific Data Hub Catalogue/91eba2fd-d8fa-43c5-a524-252de18e0757/1b8f0d14-13af-43d1-b890-8dff68ad8f13": {
     "name": "Cook Islands Exclusive Economic Zone (200 Nautical Miles) - February 2012 EEZ Cook Islands",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/47b2dfa3-d346-4446-baab-d90428cf995c"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/251ede62-3d49-461b-b893-912287fa90e7/9212c326-0817-4ad0-a745-85ce9e18b0fa": {
     "name": "Cook Islands Contiguous Zone (24 Nautical Miles)",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/47b2dfa3-d346-4446-baab-d90428cf995c"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/50018e33-4205-4f6f-9815-c5eebf7bb7bd/46a1754f-5026-4cb4-b764-0f8a63d09ad8": {
     "name": "Cook Islands Territorial Sea Zone (12 Nautical Miles)",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/47b2dfa3-d346-4446-baab-d90428cf995c"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
+  },
+  "//Pacific Data Hub Catalogue/4292570b-61af-4d70-8a63-a9bb1c6a8a35": {
+    "name": "FSM National Oceanic Resource Management Authority (NORMA)",
+    "memberKnownContainerUniqueIds": [
+      "//Pacific Data Hub Catalogue"
+    ],
+    "isGroup": true
+  },
+  "//Pacific Data Hub Catalogue/a11a982c-1e3f-4c29-94bb-49beab114a9f/2eeadc34-f0b3-48fd-b79b-a6b5d29cb1cd": {
+    "name": "Federated States of Micronesia Territorial Sea Zone (12 Nautical Miles)",
+    "memberKnownContainerUniqueIds": [
+      "//Pacific Data Hub Catalogue/4292570b-61af-4d70-8a63-a9bb1c6a8a35"
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/d698ab04-1402-468c-a0fc-07eababdf949": {
     "name": "Federated States of Micronesia Environment Data Portal",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue"
-    ]
+    ],
+    "isGroup": true
   },
   "//Pacific Data Hub Catalogue/9c5cc55e-6480-4e19-862c-a43c9703bbe6/67f90e0d-d829-4b12-9e2d-997edf5bb446": {
     "name": "Pohnpei seagrass meadows - Pohnpei seagrass",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/d698ab04-1402-468c-a0fc-07eababdf949"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/00c26215-70b2-4eca-b432-f67621053944/90bf3281-ad55-4ba1-84c3-d103be3d26c1": {
     "name": "FSM Protected Areas Data (WDPA, August, 2019) - WDPA_Aug2019_FSM-geojson1",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/d698ab04-1402-468c-a0fc-07eababdf949"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/00c26215-70b2-4eca-b432-f67621053944/c20016c3-00a2-4520-96ad-b5852845fc59": {
     "name": "FSM Protected Areas Data (WDPA, August, 2019) - WDPA_Aug2019_FSM-geojson2",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/d698ab04-1402-468c-a0fc-07eababdf949"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/f6a2d2b0-c761-4378-8225-8b0de60c2f2f/16776d30-d520-4514-adc9-f1bbd1176c08": {
     "name": "Pohnpei soils and hazards - Pohnpei soils",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/d698ab04-1402-468c-a0fc-07eababdf949"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/b84a6882-0df4-441c-b497-df20a7322adf/a8fdd56c-6751-4dc7-b223-326e2a420681": {
     "name": "Pohnpei Areas of Biological Significance (ABS) - Pohnpei Areas of Biological Significance",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/d698ab04-1402-468c-a0fc-07eababdf949"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/09352521-ac60-4493-a4a7-2fb405168c3f/13f16d4c-63c8-49f2-a807-fd04ae781b28": {
     "name": "Pohnpei coral reefs - Pohnpei coral reefs",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/d698ab04-1402-468c-a0fc-07eababdf949"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/8bd0aea4-57e5-4017-801d-96013003be55": {
     "name": "General Bathymetric Chart of the Oceans (GEBCO)",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue"
-    ]
+    ],
+    "isGroup": true
   },
   "//Pacific Data Hub Catalogue/de566229-37ed-4749-901b-07d6273c8736/0e97f04a-fe42-4d3e-8b6e-62e8fc1e2477": {
     "name": "GEBCO 2019 Global Bathymetric Grid",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/8bd0aea4-57e5-4017-801d-96013003be55"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/8b7c6ebf-1d63-4f7e-840f-ed3472b8ab9c": {
     "name": "Institute for Marine Remote Sensing",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue"
-    ]
+    ],
+    "isGroup": true
   },
   "//Pacific Data Hub Catalogue/cae1f0c3-4efa-403d-a798-895431b1a46f/2e0f1c73-d434-416a-ad8d-795a4ba62cd4": {
     "name": "Millennium Coral Reef Mapping - Vanuatu - Millennium Coral Reef Mapping - Vanuatu - GeoJSON",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/8b7c6ebf-1d63-4f7e-840f-ed3472b8ab9c"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/55e3bdc6-79dc-48d1-9dcb-f5a8641e688a": {
     "name": "Kiribati Environment Data Portal",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue"
-    ]
+    ],
+    "isGroup": true
   },
   "//Pacific Data Hub Catalogue/03127e7a-3cac-4db0-abcc-66028bd3b2dc/759c8136-865c-490c-9a0b-5e46382c01c6": {
     "name": "Protected Area - Kiribati - WDPA - Kiribati",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/55e3bdc6-79dc-48d1-9dcb-f5a8641e688a"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/4fe70a0d-93e8-40d9-b0a6-9ad017ce030c": {
     "name": "Kiribati Ministry of Fisheries and Mineral Resource Department",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue"
-    ]
+    ],
+    "isGroup": true
   },
   "//Pacific Data Hub Catalogue/919aa7e8-0eb5-4195-a200-8eba6ae161d0/24a9f1ec-f06d-47e4-bf96-8ba22c68e0a4": {
     "name": "Kiribati Exclusive Economic Zone (Gilbert Islands) - November 2014 KI Gilbert Islands EEZ",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/4fe70a0d-93e8-40d9-b0a6-9ad017ce030c"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/0d291d19-64a4-4ff2-94f6-300d39c435ca/7b757a16-8c38-4baa-91bf-4e48769bc9b0": {
     "name": "Kiribati Contiguous Zone (Gilbert Islands)",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/4fe70a0d-93e8-40d9-b0a6-9ad017ce030c"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/937bb7ba-581d-436c-b41b-77938c285f84/824f59cf-e1a7-4950-8550-baad5ad08753": {
     "name": "Kiribati Territorial Sea Zone (Gilbert Islands) - November 2014 KI Gilbert Islands TSZ ",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/4fe70a0d-93e8-40d9-b0a6-9ad017ce030c"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/6cbb9df4-732f-4613-b48e-203eafae4796/12adda19-80fa-4365-8f4d-9030b26fbb37": {
     "name": "Kiribati Territorial Sea Baseline (Gilbert Islands)",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/4fe70a0d-93e8-40d9-b0a6-9ad017ce030c"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/273f75fb-ab31-4aa8-8829-7a5a632786c1/1fb4571d-2301-4ad1-99b6-8d2472f779b2": {
     "name": "Kiribati Exclusive Economic Zone (Line Islands) - November 2014 KI Line Islands EEZ ",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/4fe70a0d-93e8-40d9-b0a6-9ad017ce030c"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/98e023a8-ec9b-434e-8e2e-7db36d61a301/b3d28c67-3ffb-4058-b78c-9ef2ec94548b": {
     "name": "Kiribati Contiguous Zone (Line Islands)",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/4fe70a0d-93e8-40d9-b0a6-9ad017ce030c"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/87b456fd-a0f5-4c40-8ff0-5d19d6816e85/8ff7194d-eef2-4f9a-be00-fd845edb0997": {
     "name": "Kiribati Territorial Sea Zone (Line Islands)",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/4fe70a0d-93e8-40d9-b0a6-9ad017ce030c"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/2298d4ad-503b-42e1-84a5-36d5755ba168/b280e1a0-1ea5-4469-81ae-1595c5b83df1": {
     "name": "Kiribati Territorial Sea Baseline (Line Islands)",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/4fe70a0d-93e8-40d9-b0a6-9ad017ce030c"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/0f3825b1-dce7-4613-8dd1-bcfc6b223039/19d694d2-c4fa-4057-8023-8125d72ef71b": {
     "name": "Kiribati Territorial Sea Baseline (Phoenix Islands)",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/4fe70a0d-93e8-40d9-b0a6-9ad017ce030c"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/f8709f72-31a1-4a95-9b7a-bf2aec2d7d3c/d4820d70-c657-47a3-8941-a77c62437eee": {
     "name": "Kiribati Territorial Sea Zone (Phoenix Islands)",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/4fe70a0d-93e8-40d9-b0a6-9ad017ce030c"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/89f91353-f7d9-4d86-9016-e59241bbaf81/c910ad30-e384-4da8-a88c-bb40d625f9e4": {
     "name": "Kiribati Contiguous Zone (Phoenix Islands)",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/4fe70a0d-93e8-40d9-b0a6-9ad017ce030c"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/e32d1af6-35c7-4ca8-8376-314069c712c0/7eb9e4a9-b867-4253-a9ba-4f892697321e": {
     "name": "Kiribati Exclusive Economic Zone (Phoenix Islands) - November 2014 KI Phoenix Islands EEZ",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/4fe70a0d-93e8-40d9-b0a6-9ad017ce030c"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/fd690c89-6898-4ad9-8d2d-c88dad6f142a": {
     "name": "Maritime Boundaries (GEM)",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue"
-    ]
+    ],
+    "isGroup": true
   },
   "//Pacific Data Hub Catalogue/755ef101-5811-4cbe-aab2-49c65c702b1f/8812d776-23d0-42b9-966e-3d7fc3b0b9e0": {
     "name": "Republic of Marshall Islands Territorial Sea Zone",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/fd690c89-6898-4ad9-8d2d-c88dad6f142a"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/57119281-a1d9-4733-a3d9-a6e316ffb0b5/2567e274-6997-4ba1-afb7-cc3df8f9346c": {
     "name": "Pacific Island Countries and Territories Territorial Sea Zone (12 Nautical Miles)",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/fd690c89-6898-4ad9-8d2d-c88dad6f142a"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/cc55d096-1165-4bd3-a97c-5a63cdc91627/7a42bc63-f558-4bc3-8186-2578474a9c14": {
     "name": "Niue Exclusive Economic Zone (200 Nautical Miles)",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/fd690c89-6898-4ad9-8d2d-c88dad6f142a"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
+  },
+  "//Pacific Data Hub Catalogue/9e7616d8-c801-4813-9c3c-2d7235f29963/ec8969bf-834e-4bec-80cb-d559ae85d475": {
+    "name": "Kiribati Contiguous Zone - 24 Nautical Miles (Phoenix Islands) - Kiribati Contiguous Zone - 24 Nautical Miles (Phoenix Islands)",
+    "memberKnownContainerUniqueIds": [
+      "//Pacific Data Hub Catalogue/fd690c89-6898-4ad9-8d2d-c88dad6f142a"
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/55daf52e-b37a-437f-82af-e63d6f8b8d31": {
     "name": "Marshall Islands Marine Resources Authority (MIMRA)",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue"
-    ]
+    ],
+    "isGroup": true
   },
   "//Pacific Data Hub Catalogue/19025eea-9f52-47b5-ab92-f1a5c05e24dd/44bd938d-93ac-48eb-bc5a-9acff82d3c94": {
     "name": "Marshall Islands Exclusive Economic Zone (200M)",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/55daf52e-b37a-437f-82af-e63d6f8b8d31"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/7e971a0d-8038-492f-ba3a-ca2fbd9e81d5/799de5c6-0a93-420d-a639-71c0710bd452": {
     "name": "Republic Marshall Islands Contiguous Zone (24 Nautical Miles) - March 2014 MH CZZ",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/55daf52e-b37a-437f-82af-e63d6f8b8d31"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/d996cdfc-d891-4be6-87db-48fedbf29f5c/57cbe076-1d2c-48f7-a407-1e4a570146c9": {
     "name": "Republic of Marshall Islands Territorial Sea Baseline (TSB) - April 2016 MH TSB",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/55daf52e-b37a-437f-82af-e63d6f8b8d31"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/c03fe318-c62a-4011-9981-baf1bdf431a9": {
     "name": "Nauru Department of Foreign Affairs and Trade",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue"
-    ]
+    ],
+    "isGroup": true
   },
   "//Pacific Data Hub Catalogue/7d0fcacc-95c7-4771-b48f-64c3c6865ff2/8560fba3-900d-466f-a267-0376750f617a": {
     "name": "Nauru Exclusive Economic Zone (200 Nautical Miles) - August 1997 NR EEZ",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/c03fe318-c62a-4011-9981-baf1bdf431a9"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/2bdee177-7048-44d2-a599-2678f92c79d8/d9fc8805-b20d-48ec-ba7b-f45f7a59692d": {
     "name": "Nauru Contiguous Zone (24 Nautical Miles)",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/c03fe318-c62a-4011-9981-baf1bdf431a9"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/51c7ccd0-13f9-45a6-89f6-6e28e9387f7d/6f4c60c9-1148-44fb-8578-d9ab371ecae6": {
     "name": "Nauru Territorial Sea Zone (12 Nautical Miles) - August 1997 NR TSZ",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/c03fe318-c62a-4011-9981-baf1bdf431a9"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/b62affce-855d-46f4-a606-8055d7613576/7099a208-265e-403a-8846-920b406aee23": {
     "name": "Nauru Territorial Sea Baseline - August 1997 NR TSB",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/c03fe318-c62a-4011-9981-baf1bdf431a9"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/1eb13c98-ccb9-438b-ba74-01d010b11e0d": {
     "name": "Nauru Environment Data Portal",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue"
-    ]
+    ],
+    "isGroup": true
   },
   "//Pacific Data Hub Catalogue/98082b38-e7aa-4a45-9e0d-5fef9cb33347/56bdf636-d8d9-47f8-9586-e920e35cf4a3": {
     "name": "EEZ_Nauru",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/1eb13c98-ccb9-438b-ba74-01d010b11e0d"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/2e16032c-f456-42d0-962d-047217c35324/4d934de8-00b5-4a57-8ad4-42ff99dd7da0": {
     "name": "BIORAP Survey Site_Buada",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/1eb13c98-ccb9-438b-ba74-01d010b11e0d"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/4767376b-0ec5-4c84-8177-b7a542bd19db/33c21c00-7d08-4e48-964f-d5f9a1837a3e": {
     "name": "Open Land_Nauru",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/1eb13c98-ccb9-438b-ba74-01d010b11e0d"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/10662132-3ce7-4a22-a991-3b7f259a98b7/66ed44c6-7985-49d1-bf6f-ead1534db92e": {
     "name": "Districts_Nauru",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/1eb13c98-ccb9-438b-ba74-01d010b11e0d"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/dd39c896-a218-4c44-aa34-ba6a176914bf/2cac879c-e1b8-4115-ad49-431f3d255fcd": {
     "name": "Observer Pollution Events_10years in Nauru",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/1eb13c98-ccb9-438b-ba74-01d010b11e0d"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/6902f274-56c7-408f-ad87-30b4f67f0db4/c65874d3-732f-4d42-815a-ea4c87b52b72": {
     "name": "Settlement_Nauru",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/1eb13c98-ccb9-438b-ba74-01d010b11e0d"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/b303fe5f-4f44-4ed8-9f98-b7b9e0a3a986/df2d6a0d-c49d-4eca-899c-9aa294333ef1": {
     "name": "Important Conservation Sites - Important Conservation Sites",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/1eb13c98-ccb9-438b-ba74-01d010b11e0d"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/33ab0da7-b15f-43d5-a756-47049e2765df/a74b8f4a-ddc3-4d67-a09a-31ade02bed11": {
     "name": "Coastline_Nauru",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/1eb13c98-ccb9-438b-ba74-01d010b11e0d"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/d963a438-ffbf-49d8-a841-3d91e79cdc05/48d5d130-1871-4d58-be4b-c3892e4f1927": {
     "name": "BIORAP Priority Areas Nauru",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/1eb13c98-ccb9-438b-ba74-01d010b11e0d"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/2a81b88f-d7d9-41a4-b5e0-74e920069839/0cfe7ecb-9db7-42b4-849b-90634cfa2766": {
     "name": "Water_Nauru",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/1eb13c98-ccb9-438b-ba74-01d010b11e0d"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/3d602b6a-18ae-4008-a824-3017d0652e0d/317eb0b1-d0d7-47da-9aea-15b61d9fe2ec": {
     "name": "Sand Bay_Nauru",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/1eb13c98-ccb9-438b-ba74-01d010b11e0d"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/5c53e724-a73e-43c0-858a-a19adbb6ad61/68932659-f67e-4cec-82b9-e34a689b62f7": {
     "name": "Bathymetry Nauru",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/1eb13c98-ccb9-438b-ba74-01d010b11e0d"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/7626da02-fb8c-4e7c-b72d-3b7eb9b10270/b326df82-64ed-4c93-b58a-4644d742bba2": {
     "name": "Reef Outline_Nauru",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/1eb13c98-ccb9-438b-ba74-01d010b11e0d"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/9302ebf2-9932-42a7-b338-bf32f7f72533/8d238423-42a1-4597-bdd9-e9dc9769b350": {
     "name": "BIORAP Survey Site_Ijuw anabar",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/1eb13c98-ccb9-438b-ba74-01d010b11e0d"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/4d88721b-49f9-40e2-97e4-a8106db06be0/b98ae6fc-30cf-4bac-9dfd-6e0e009fef1d": {
     "name": "Locally Managed Marine Area_Nauru",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/1eb13c98-ccb9-438b-ba74-01d010b11e0d"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/7218b8fa-4b65-44d9-abec-4fb199c71ea6/c8f97521-7b8e-4cfd-8ce9-4b057a9f9771": {
     "name": "Secondary Forest_Nauru",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/1eb13c98-ccb9-438b-ba74-01d010b11e0d"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/01862244-5185-4207-a1fe-c10eb44fb865/532378bf-b573-4fd8-be7b-cfe834921295": {
     "name": "Mining_Nauru",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/1eb13c98-ccb9-438b-ba74-01d010b11e0d"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/21caa6f4-aaa6-4f9c-9abe-f2db11f33cd5/5905775d-dcae-4372-a1df-4a4272084e3a": {
     "name": "Fish Survey Sites_Nauru",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/1eb13c98-ccb9-438b-ba74-01d010b11e0d"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/eaa08d05-c5b8-49ab-a5e0-224338646279/b7b3b9c3-e117-43e1-9187-29a496e0312b": {
     "name": "BIORAP Survey Site_Meneng Coast",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/1eb13c98-ccb9-438b-ba74-01d010b11e0d"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/7001f976-17b8-4d54-a29a-c02d98f57372/b148d587-3349-4dd1-a312-b4425537b2b9": {
     "name": "Coconut Vegetation Nauru",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/1eb13c98-ccb9-438b-ba74-01d010b11e0d"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/07cdff3f-587e-4bbd-880e-2c1ed3a8b747/6988807a-a0c9-4b8e-b668-7fd1aae0c156": {
     "name": "Buildings_Nauru",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/1eb13c98-ccb9-438b-ba74-01d010b11e0d"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/cb7aea60-f5b8-4520-84da-d0dc5e80f2f2/0c9803da-929a-4b61-94eb-c6f58bbab0de": {
     "name": "Vegetation Type A - 1994",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/1eb13c98-ccb9-438b-ba74-01d010b11e0d"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/29358450-28ff-4da0-b1f6-0792558196ce/77779ca6-db64-42aa-86c2-81652d896b35": {
     "name": "Landmarks_Nauru",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/1eb13c98-ccb9-438b-ba74-01d010b11e0d"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/bb94e379-b7dc-4201-8d3b-5b2a8fecf2a1/9eb07d7c-8eda-46ce-a1f9-26859745ef0d": {
     "name": "Traditional and Cultural Heritage Sites_Nauru",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/1eb13c98-ccb9-438b-ba74-01d010b11e0d"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/07c40f26-2d45-455e-83f4-b45f53978e1e/6a841625-ba98-4a20-a9f7-969456408a74": {
     "name": "Fishing Vessel Density_Nauru",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/1eb13c98-ccb9-438b-ba74-01d010b11e0d"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/855bc7c6-a118-4e4c-914f-612f9e5d7afe/c856ba8d-938a-41c7-878b-41d88d05794e": {
     "name": "Grassland Vegetation_Nauru",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/1eb13c98-ccb9-438b-ba74-01d010b11e0d"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/f82dde48-82cc-4056-b143-ecf63d1a683f/e0a77f87-48c7-4986-a552-0a2683b4c3de": {
     "name": "Seamounts_Nauru",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/1eb13c98-ccb9-438b-ba74-01d010b11e0d"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/6542da9b-8724-462a-bf20-e54d68f3bd5a/2fb53fcb-ef3b-4697-86eb-4364d24b261c": {
     "name": "Procfish fin fish sample sites - Procfish sample sites ",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/1eb13c98-ccb9-438b-ba74-01d010b11e0d"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/261977f9-d6d6-4bfa-ad5c-c7852354eed5": {
     "name": "Niue Department of Justice, Lands, Survey & Community Affairs",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue"
-    ]
+    ],
+    "isGroup": true
   },
   "//Pacific Data Hub Catalogue/9a2b28ca-6485-403a-9366-9e106fed1170/259516b8-0cea-43bb-9e73-6d2ac36a4167": {
     "name": "Niue Exclusive Economic Zone (200 Nautical Miles)",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/261977f9-d6d6-4bfa-ad5c-c7852354eed5"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/cc6e2699-5421-4487-a217-1b82ece61cdd/71164174-1a59-414f-aee0-e6fad9122130": {
     "name": "Niue Contiguous Zone (24 Nautical Miles) - September 2013 NU CZZ",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/261977f9-d6d6-4bfa-ad5c-c7852354eed5"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/f5b1a970-c66e-40f6-ba1d-5bbd67e04495/5f07e67d-894b-4833-9855-acf9a4dfb2df": {
     "name": "Niue Territorial Sea Zone (12 Nautical Miles) - September 2013 NU TSZ",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/261977f9-d6d6-4bfa-ad5c-c7852354eed5"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/b70f7376-b223-4711-beb0-d9efefef1ba2/4aaba8fc-d0cc-4e3a-9fb0-c98a8adabdc7": {
     "name": "Niue Territorial Sea Baseline - September 2013 NU TSB",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/261977f9-d6d6-4bfa-ad5c-c7852354eed5"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/ebbb5ee1-039e-4c58-99ba-377cbb4499c1": {
     "name": "Palau Environment Data Portal",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue"
-    ]
+    ],
+    "isGroup": true
   },
   "//Pacific Data Hub Catalogue/723ba093-832c-4f06-a7a6-35e953cf0526/68e136b8-16d3-4b05-83ec-a5e8eb3edf4b": {
     "name": "Palau Protected Areas - WDPA_Aug2019_PLW-shapefile-points.geojson",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/ebbb5ee1-039e-4c58-99ba-377cbb4499c1"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/723ba093-832c-4f06-a7a6-35e953cf0526/dcddc16b-de6a-4dd8-bf19-e4a175863919": {
     "name": "Palau Protected Areas - WDPC_Aug2019_PLW-shapefile-polygons.geojson",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/ebbb5ee1-039e-4c58-99ba-377cbb4499c1"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/4f98a48a-6d56-43da-94c2-aede6e19362b/f131c708-f9a7-463c-bc81-e14db45548dc": {
     "name": "WDPA Protected areas - WDPA Protected Areas polygons",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/ebbb5ee1-039e-4c58-99ba-377cbb4499c1"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/4f98a48a-6d56-43da-94c2-aede6e19362b/9645ec94-67fc-4637-82d9-94222522466f": {
     "name": "WDPA Protected areas - WDPA Protected Areas points",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/ebbb5ee1-039e-4c58-99ba-377cbb4499c1"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/3c176e17-ad59-480a-904a-4b666f528ba2": {
     "name": "SPC Geoscience, Energy and Maritime Division (GEM)",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue"
-    ]
+    ],
+    "isGroup": true
   },
   "//Pacific Data Hub Catalogue/f4713800-918b-4b3f-93fe-4ac97079c88f/5bb55110-e488-4334-99fb-beb7a6e033d8": {
     "name": "Marshall Islands Territorial Sea Zone",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/3c176e17-ad59-480a-904a-4b666f528ba2"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/19261086-562e-4b0c-9f7a-7e5f9968c04a/ffa0b7d8-4037-4699-b932-27114ebe69eb": {
     "name": "Tuvalu Contiguous Zone (24 Nautical Miles)",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/3c176e17-ad59-480a-904a-4b666f528ba2"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/736ad2f1-0c45-4c2d-91cd-feecbae0b8cd/9e106195-da86-45e4-9c51-47993650bd80": {
     "name": "FJ_Mago_Mangrove-SPC-GIZ - mago_island.png",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/3c176e17-ad59-480a-904a-4b666f528ba2"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/736ad2f1-0c45-4c2d-91cd-feecbae0b8cd/4dd53e4f-ae0f-42a1-9292-f9b646074044": {
     "name": "FJ_Mago_Mangrove-SPC-GIZ - mago_island.png",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/3c176e17-ad59-480a-904a-4b666f528ba2"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/736ad2f1-0c45-4c2d-91cd-feecbae0b8cd/2729e097-6ed5-4138-9d20-bf66ff980da8": {
     "name": "FJ_Mago_Mangrove-SPC-GIZ - mago_island.kml",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/3c176e17-ad59-480a-904a-4b666f528ba2"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/736ad2f1-0c45-4c2d-91cd-feecbae0b8cd/39f6770f-fb73-4eab-b167-54745352a4a5": {
     "name": "FJ_Mago_Mangrove-SPC-GIZ - mago_island.kml",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/3c176e17-ad59-480a-904a-4b666f528ba2"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/736ad2f1-0c45-4c2d-91cd-feecbae0b8cd/ca1f7d29-c177-4a9f-93e8-4afd8193a178": {
     "name": "FJ_Mago_Mangrove-SPC-GIZ - mago_island.png",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/3c176e17-ad59-480a-904a-4b666f528ba2"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/736ad2f1-0c45-4c2d-91cd-feecbae0b8cd/cc62f802-bdf4-438a-8ec0-9440b7ffea12": {
     "name": "FJ_Mago_Mangrove-SPC-GIZ - mago_island.pdf",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/3c176e17-ad59-480a-904a-4b666f528ba2"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/736ad2f1-0c45-4c2d-91cd-feecbae0b8cd/82ef7b0b-6c60-45c4-96e0-8b65c7156398": {
     "name": "FJ_Mago_Mangrove-SPC-GIZ - mago_island.jpg",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/3c176e17-ad59-480a-904a-4b666f528ba2"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/f2052b2c-b7f7-45d7-9274-9d9099cde4e8/4284810b-5545-47f0-8aed-2dfbdd94e22e": {
     "name": "FJ_Matuku_Mangrove-SPC-GIZ - matuku_mangrove.png",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/3c176e17-ad59-480a-904a-4b666f528ba2"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/f2052b2c-b7f7-45d7-9274-9d9099cde4e8/4aa2804e-5141-4266-9822-eda1521fe27f": {
     "name": "FJ_Matuku_Mangrove-SPC-GIZ - matuku_mangrove.png",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/3c176e17-ad59-480a-904a-4b666f528ba2"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/f2052b2c-b7f7-45d7-9274-9d9099cde4e8/4bcc25b0-fdd6-4877-9d44-01185c91ead6": {
     "name": "FJ_Matuku_Mangrove-SPC-GIZ - matuku_mangrove.kml",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/3c176e17-ad59-480a-904a-4b666f528ba2"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/f2052b2c-b7f7-45d7-9274-9d9099cde4e8/12db8569-5043-4b9f-97ee-b2206aac5f9e": {
     "name": "FJ_Matuku_Mangrove-SPC-GIZ - matuku_mangrove.kml",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/3c176e17-ad59-480a-904a-4b666f528ba2"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/f2052b2c-b7f7-45d7-9274-9d9099cde4e8/54c0e769-59b0-4e2c-9c3f-abb8da862b49": {
     "name": "FJ_Matuku_Mangrove-SPC-GIZ - matuku_mangrove.png",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/3c176e17-ad59-480a-904a-4b666f528ba2"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/f2052b2c-b7f7-45d7-9274-9d9099cde4e8/83425d60-a08c-4427-8b76-aa7dc26f1f8d": {
     "name": "FJ_Matuku_Mangrove-SPC-GIZ - matuku_mangrove.pdf",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/3c176e17-ad59-480a-904a-4b666f528ba2"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/f2052b2c-b7f7-45d7-9274-9d9099cde4e8/b76c59b2-c868-4e0e-bd7b-0f86e1a79f27": {
     "name": "FJ_Matuku_Mangrove-SPC-GIZ - matuku_mangrove.jpg",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/3c176e17-ad59-480a-904a-4b666f528ba2"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/df81fafa-c612-4781-8bc0-8fc2ede4480c/d4d8cc48-6bdb-4ac3-8c47-15a69423b2d9": {
     "name": "FJ_Fulaga_Mangrove-SPC-GIZ - fulaga_mangrove.png",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/3c176e17-ad59-480a-904a-4b666f528ba2"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/df81fafa-c612-4781-8bc0-8fc2ede4480c/fed40bac-32bf-4cb3-bd94-1e3f02b1876e": {
     "name": "FJ_Fulaga_Mangrove-SPC-GIZ - fulaga_mangrove.png",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/3c176e17-ad59-480a-904a-4b666f528ba2"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/df81fafa-c612-4781-8bc0-8fc2ede4480c/d24f27d3-99de-4ea8-88da-2b69fcc53374": {
     "name": "FJ_Fulaga_Mangrove-SPC-GIZ - fulaga_mangrove.kml",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/3c176e17-ad59-480a-904a-4b666f528ba2"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/df81fafa-c612-4781-8bc0-8fc2ede4480c/f130b588-23cd-4337-8e15-3603d17b7357": {
     "name": "FJ_Fulaga_Mangrove-SPC-GIZ - fulaga_mangrove.kml",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/3c176e17-ad59-480a-904a-4b666f528ba2"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/df81fafa-c612-4781-8bc0-8fc2ede4480c/8baccd50-c927-46a9-9559-51e561f8fc66": {
     "name": "FJ_Fulaga_Mangrove-SPC-GIZ - fulaga_mangrove.png",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/3c176e17-ad59-480a-904a-4b666f528ba2"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/df81fafa-c612-4781-8bc0-8fc2ede4480c/97b02746-ac35-4000-8563-59b3a61db737": {
     "name": "FJ_Fulaga_Mangrove-SPC-GIZ - fulaga_mangrove.pdf",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/3c176e17-ad59-480a-904a-4b666f528ba2"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/df81fafa-c612-4781-8bc0-8fc2ede4480c/459844e4-1800-4b81-a74b-2f784de57149": {
     "name": "FJ_Fulaga_Mangrove-SPC-GIZ - fulaga_mangrove.jpg",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/3c176e17-ad59-480a-904a-4b666f528ba2"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/55820247-4132-402e-8b5e-d59a084d9c64/7e2077be-cb41-410f-b4d4-46f703df3cd5": {
     "name": "FJ_Lakeba_Mangrove-SPC-GIZ - lakeba_mangrove.png",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/3c176e17-ad59-480a-904a-4b666f528ba2"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/55820247-4132-402e-8b5e-d59a084d9c64/7f4f9eeb-7988-4fa9-a818-a0e619d23701": {
     "name": "FJ_Lakeba_Mangrove-SPC-GIZ - lakeba_mangrove.png",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/3c176e17-ad59-480a-904a-4b666f528ba2"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/55820247-4132-402e-8b5e-d59a084d9c64/e802a1d4-87e4-4615-b1e5-50a3d6077117": {
     "name": "FJ_Lakeba_Mangrove-SPC-GIZ - lakeba_mangrove.kml",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/3c176e17-ad59-480a-904a-4b666f528ba2"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/55820247-4132-402e-8b5e-d59a084d9c64/6e779ccf-8741-49b1-88e9-dfb081447d6c": {
     "name": "FJ_Lakeba_Mangrove-SPC-GIZ - lakeba_mangrove.kml",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/3c176e17-ad59-480a-904a-4b666f528ba2"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/55820247-4132-402e-8b5e-d59a084d9c64/5c62754b-82b7-4b1a-a1d3-b598a1ecb513": {
     "name": "FJ_Lakeba_Mangrove-SPC-GIZ - lakeba_mangrove.png",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/3c176e17-ad59-480a-904a-4b666f528ba2"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/55820247-4132-402e-8b5e-d59a084d9c64/8bd70ac7-ed2d-43bc-b40c-9e8557f4f272": {
     "name": "FJ_Lakeba_Mangrove-SPC-GIZ - lakeba_mangrove.pdf",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/3c176e17-ad59-480a-904a-4b666f528ba2"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/55820247-4132-402e-8b5e-d59a084d9c64/6ce7cd61-f950-49a7-8f22-a1fd9e5872aa": {
     "name": "FJ_Lakeba_Mangrove-SPC-GIZ - lakeba_mangrove.jpg",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/3c176e17-ad59-480a-904a-4b666f528ba2"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/454022c4-3cf3-4efa-a9ff-c7e05b82a5df/9f037f5a-b560-405d-b9dd-dfc1ab0e9c44": {
     "name": "FJ_Ovalau_Mangrove-SPC-GIZ - ovalau_mangrove.png",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/3c176e17-ad59-480a-904a-4b666f528ba2"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/454022c4-3cf3-4efa-a9ff-c7e05b82a5df/b577a313-9c0e-4f53-aa8a-e9ae81cc0e1f": {
     "name": "FJ_Ovalau_Mangrove-SPC-GIZ - ovalau_mangrove.png",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/3c176e17-ad59-480a-904a-4b666f528ba2"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/454022c4-3cf3-4efa-a9ff-c7e05b82a5df/8925ed95-5be2-4a97-aa1f-613fafa9dc09": {
     "name": "FJ_Ovalau_Mangrove-SPC-GIZ - ovalau_mangrove.kml",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/3c176e17-ad59-480a-904a-4b666f528ba2"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/454022c4-3cf3-4efa-a9ff-c7e05b82a5df/7e3c0c66-230e-408b-b376-5afe51070340": {
     "name": "FJ_Ovalau_Mangrove-SPC-GIZ - ovalau_mangrove.kml",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/3c176e17-ad59-480a-904a-4b666f528ba2"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/454022c4-3cf3-4efa-a9ff-c7e05b82a5df/013b8763-8775-47c9-8e1d-343b857888f1": {
     "name": "FJ_Ovalau_Mangrove-SPC-GIZ - ovalau_mangrove.png",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/3c176e17-ad59-480a-904a-4b666f528ba2"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/454022c4-3cf3-4efa-a9ff-c7e05b82a5df/3774fed1-74dd-4e04-902d-1160f9447ba3": {
     "name": "FJ_Ovalau_Mangrove-SPC-GIZ - ovalau_mangrove.pdf",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/3c176e17-ad59-480a-904a-4b666f528ba2"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/454022c4-3cf3-4efa-a9ff-c7e05b82a5df/09548165-0267-4e0b-b501-cb09e270dd83": {
     "name": "FJ_Ovalau_Mangrove-SPC-GIZ - ovalau_mangrove.jpg",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/3c176e17-ad59-480a-904a-4b666f528ba2"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/4f4139c2-50ea-4477-994e-190ac458eb15/5c907711-2339-408e-bd5a-52c3a22ec389": {
     "name": "FJ_Totoya_Mangrove-SPC-GIZ - totoya_mangrove_1.png",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/3c176e17-ad59-480a-904a-4b666f528ba2"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/4f4139c2-50ea-4477-994e-190ac458eb15/306acac7-52d7-4102-b17c-2b5e0a9992d8": {
     "name": "FJ_Totoya_Mangrove-SPC-GIZ - totoya_mangrove_1.png",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/3c176e17-ad59-480a-904a-4b666f528ba2"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/4f4139c2-50ea-4477-994e-190ac458eb15/a4fa2865-9443-4c73-b0c8-28e571e32ef7": {
     "name": "FJ_Totoya_Mangrove-SPC-GIZ - totoya_mangrove_1.kml",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/3c176e17-ad59-480a-904a-4b666f528ba2"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/4f4139c2-50ea-4477-994e-190ac458eb15/e8beae12-6ada-455b-97d3-5329d454a854": {
     "name": "FJ_Totoya_Mangrove-SPC-GIZ - totoya_mangrove_1.kml",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/3c176e17-ad59-480a-904a-4b666f528ba2"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/4f4139c2-50ea-4477-994e-190ac458eb15/0905c107-93af-4c9d-8ce9-8ac38b50e3eb": {
     "name": "FJ_Totoya_Mangrove-SPC-GIZ - totoya_mangrove_1.png",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/3c176e17-ad59-480a-904a-4b666f528ba2"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/4f4139c2-50ea-4477-994e-190ac458eb15/f513732b-1bd8-4ad1-8ae5-f012aaafa81e": {
     "name": "FJ_Totoya_Mangrove-SPC-GIZ - totoya_mangrove_1.pdf",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/3c176e17-ad59-480a-904a-4b666f528ba2"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/4f4139c2-50ea-4477-994e-190ac458eb15/4f95131e-4e0e-4f0a-accd-ec5a87e0da11": {
     "name": "FJ_Totoya_Mangrove-SPC-GIZ - totoya_mangrove_1.jpg",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/3c176e17-ad59-480a-904a-4b666f528ba2"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/12593884-c7e5-4ea0-a41b-d5d90b2a7ab9/50d42d39-ec9f-41ef-9c9e-857b5ae4c1f5": {
     "name": "FJ_Kadavu_Mangrove-SPC-GIZ - kadavu_mangrove.png",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/3c176e17-ad59-480a-904a-4b666f528ba2"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/12593884-c7e5-4ea0-a41b-d5d90b2a7ab9/5d358ca8-ee56-40b0-8620-2946d824387a": {
     "name": "FJ_Kadavu_Mangrove-SPC-GIZ - kadavu_mangrove.png",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/3c176e17-ad59-480a-904a-4b666f528ba2"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/12593884-c7e5-4ea0-a41b-d5d90b2a7ab9/2b81c8ac-7462-4f8b-a5f9-c9566ef3239c": {
     "name": "FJ_Kadavu_Mangrove-SPC-GIZ - kadavu_mangrove.kml",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/3c176e17-ad59-480a-904a-4b666f528ba2"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/12593884-c7e5-4ea0-a41b-d5d90b2a7ab9/ead91bc3-12e1-4a82-b979-70b36fafd55b": {
     "name": "FJ_Kadavu_Mangrove-SPC-GIZ - kadavu_mangrove.kml",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/3c176e17-ad59-480a-904a-4b666f528ba2"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/12593884-c7e5-4ea0-a41b-d5d90b2a7ab9/458f7626-c9c2-469c-82bd-144aa6eefc9f": {
     "name": "FJ_Kadavu_Mangrove-SPC-GIZ - kadavu_mangrove.png",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/3c176e17-ad59-480a-904a-4b666f528ba2"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/12593884-c7e5-4ea0-a41b-d5d90b2a7ab9/fca80da0-cf70-4a9b-a2d0-aac12fd2dd0e": {
     "name": "FJ_Kadavu_Mangrove-SPC-GIZ - kadavu_mangrove.pdf",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/3c176e17-ad59-480a-904a-4b666f528ba2"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/12593884-c7e5-4ea0-a41b-d5d90b2a7ab9/164ca6a4-2342-4cf2-ac26-3711f4781be6": {
     "name": "FJ_Kadavu_Mangrove-SPC-GIZ - kadavu_mangrove.jpg",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/3c176e17-ad59-480a-904a-4b666f528ba2"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/aaf9ae57-7b66-4b2a-9117-aceb5b58f118/c5c43399-46e1-4a9e-b5bd-c13d0a7e51cb": {
     "name": "FJ_Cicia_Mangrove-SPC-GIZ - cicia_mangrove.png",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/3c176e17-ad59-480a-904a-4b666f528ba2"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/aaf9ae57-7b66-4b2a-9117-aceb5b58f118/a7af0c2f-2d9c-4603-b48a-a1c0b68e8d35": {
     "name": "FJ_Cicia_Mangrove-SPC-GIZ - cicia_mangrove.png",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/3c176e17-ad59-480a-904a-4b666f528ba2"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/aaf9ae57-7b66-4b2a-9117-aceb5b58f118/bf9eb3fd-3885-49ab-8e4b-0cc42a374090": {
     "name": "FJ_Cicia_Mangrove-SPC-GIZ - cicia_mangrove.kml",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/3c176e17-ad59-480a-904a-4b666f528ba2"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/aaf9ae57-7b66-4b2a-9117-aceb5b58f118/3ab8f3b2-16dd-40ad-a33d-7a36bb285ca9": {
     "name": "FJ_Cicia_Mangrove-SPC-GIZ - cicia_mangrove.kml",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/3c176e17-ad59-480a-904a-4b666f528ba2"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/aaf9ae57-7b66-4b2a-9117-aceb5b58f118/03ebe932-05e5-4978-b79f-b6141930c54b": {
     "name": "FJ_Cicia_Mangrove-SPC-GIZ - cicia_mangrove.png",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/3c176e17-ad59-480a-904a-4b666f528ba2"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/aaf9ae57-7b66-4b2a-9117-aceb5b58f118/a6df1e6e-f685-4683-9ead-a16ff0ec2825": {
     "name": "FJ_Cicia_Mangrove-SPC-GIZ - cicia_mangrove.pdf",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/3c176e17-ad59-480a-904a-4b666f528ba2"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/aaf9ae57-7b66-4b2a-9117-aceb5b58f118/bd961221-3c28-4830-9838-f8351bbe29b3": {
     "name": "FJ_Cicia_Mangrove-SPC-GIZ - cicia_mangrove.jpg",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/3c176e17-ad59-480a-904a-4b666f528ba2"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/c9b7341c-0861-4ed6-9095-a60e27b19f4f/cc2cd95d-4627-4e26-a5f3-9f5ab9b18c43": {
     "name": "FJ_Yasawa_Mangrove-SPC-GIZ - yasawa_mangrove.png",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/3c176e17-ad59-480a-904a-4b666f528ba2"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/c9b7341c-0861-4ed6-9095-a60e27b19f4f/7943c0bd-5dea-4896-9d4e-9df7b128de0b": {
     "name": "FJ_Yasawa_Mangrove-SPC-GIZ - yasawa_mangrove.png",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/3c176e17-ad59-480a-904a-4b666f528ba2"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/c9b7341c-0861-4ed6-9095-a60e27b19f4f/096b1783-731b-4a88-b2a9-2613f3c3283e": {
     "name": "FJ_Yasawa_Mangrove-SPC-GIZ - yasawa_mangrove.kml",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/3c176e17-ad59-480a-904a-4b666f528ba2"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/c9b7341c-0861-4ed6-9095-a60e27b19f4f/86486803-036e-4547-9f80-86e8d6d1d9e4": {
     "name": "FJ_Yasawa_Mangrove-SPC-GIZ - yasawa_mangrove.kml",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/3c176e17-ad59-480a-904a-4b666f528ba2"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/c9b7341c-0861-4ed6-9095-a60e27b19f4f/d3bd4aa6-df24-4b58-8faa-a1a7c99c8ae1": {
     "name": "FJ_Yasawa_Mangrove-SPC-GIZ - yasawa_mangrove.png",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/3c176e17-ad59-480a-904a-4b666f528ba2"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/c9b7341c-0861-4ed6-9095-a60e27b19f4f/3b64de35-b189-4364-b00e-6d3afffe7cd3": {
     "name": "FJ_Yasawa_Mangrove-SPC-GIZ - yasawa_mangrove.pdf",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/3c176e17-ad59-480a-904a-4b666f528ba2"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/c9b7341c-0861-4ed6-9095-a60e27b19f4f/583c9d69-70e5-4100-8d0e-eb764f1b96c2": {
     "name": "FJ_Yasawa_Mangrove-SPC-GIZ - yasawa_mangrove.jpg",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/3c176e17-ad59-480a-904a-4b666f528ba2"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/01c09ab4-91e5-4963-ad4c-22d0c34bdea3/525afffb-f0e0-4512-8c1a-ff6c19d9771d": {
     "name": "FJ_Malolo_Mangrove-SPC-GIZ - malolo_mangrove.png",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/3c176e17-ad59-480a-904a-4b666f528ba2"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/01c09ab4-91e5-4963-ad4c-22d0c34bdea3/cb693cd9-605c-4971-b1e5-7c84d2b8258f": {
     "name": "FJ_Malolo_Mangrove-SPC-GIZ - malolo_mangrove.png",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/3c176e17-ad59-480a-904a-4b666f528ba2"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/01c09ab4-91e5-4963-ad4c-22d0c34bdea3/370e558b-4936-4bdf-8d5b-2b6290da0b8c": {
     "name": "FJ_Malolo_Mangrove-SPC-GIZ - malolo_mangrove.kml",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/3c176e17-ad59-480a-904a-4b666f528ba2"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/01c09ab4-91e5-4963-ad4c-22d0c34bdea3/ca9fae4e-e7ce-4744-bf17-309f459f4f1c": {
     "name": "FJ_Malolo_Mangrove-SPC-GIZ - malolo_mangrove.kml",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/3c176e17-ad59-480a-904a-4b666f528ba2"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/01c09ab4-91e5-4963-ad4c-22d0c34bdea3/7ddb8c57-5531-419c-877b-86363a4e5347": {
     "name": "FJ_Malolo_Mangrove-SPC-GIZ - malolo_mangrove.png",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/3c176e17-ad59-480a-904a-4b666f528ba2"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/01c09ab4-91e5-4963-ad4c-22d0c34bdea3/b00f7680-b27d-4911-9a3d-ce8fa55b2ecc": {
     "name": "FJ_Malolo_Mangrove-SPC-GIZ - malolo_mangrove.pdf",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/3c176e17-ad59-480a-904a-4b666f528ba2"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/01c09ab4-91e5-4963-ad4c-22d0c34bdea3/b65775b1-14c2-49e9-9d9e-90b9719c8ce3": {
     "name": "FJ_Malolo_Mangrove-SPC-GIZ - malolo_mangrove.jpg",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/3c176e17-ad59-480a-904a-4b666f528ba2"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/fbc7579c-9dc1-42ca-8d93-ece0c8c3291f/f737247f-3b3a-45f9-87ff-09787bb13e79": {
     "name": "FJ_Moce_Mangrove-SPC-GIZ - moce_mangrove.png",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/3c176e17-ad59-480a-904a-4b666f528ba2"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/fbc7579c-9dc1-42ca-8d93-ece0c8c3291f/b90cf4a9-7ee6-4242-833d-cf7013025e17": {
     "name": "FJ_Moce_Mangrove-SPC-GIZ - moce_mangrove.png",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/3c176e17-ad59-480a-904a-4b666f528ba2"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/fbc7579c-9dc1-42ca-8d93-ece0c8c3291f/3e4c4629-bf3c-405c-b34f-be038c2e9c5e": {
     "name": "FJ_Moce_Mangrove-SPC-GIZ - moce_mangrove.kml",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/3c176e17-ad59-480a-904a-4b666f528ba2"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/fbc7579c-9dc1-42ca-8d93-ece0c8c3291f/0c912dd7-7994-47f4-b9ec-ae8e9ffbe4fa": {
     "name": "FJ_Moce_Mangrove-SPC-GIZ - moce_mangrove.kml",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/3c176e17-ad59-480a-904a-4b666f528ba2"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/fbc7579c-9dc1-42ca-8d93-ece0c8c3291f/04beae28-984f-453e-81a3-1abac907ffa4": {
     "name": "FJ_Moce_Mangrove-SPC-GIZ - moce_mangrove.png",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/3c176e17-ad59-480a-904a-4b666f528ba2"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/fbc7579c-9dc1-42ca-8d93-ece0c8c3291f/76f300cb-4a71-4e12-b74f-df5ba2e79d27": {
     "name": "FJ_Moce_Mangrove-SPC-GIZ - moce_mangrove.pdf",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/3c176e17-ad59-480a-904a-4b666f528ba2"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/fbc7579c-9dc1-42ca-8d93-ece0c8c3291f/59c40587-d86e-466c-94cf-4da51394326f": {
     "name": "FJ_Moce_Mangrove-SPC-GIZ - moce_mangrove.jpg",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/3c176e17-ad59-480a-904a-4b666f528ba2"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/a0ca2c93-45d9-4a45-83f8-92b4ae93daa0/8b313687-5f9c-4baa-b17f-6c7412c70f5f": {
     "name": "FJ_Naitauba_Mangrove-SPC-GIZ - naitauba_mangrove.png",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/3c176e17-ad59-480a-904a-4b666f528ba2"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/a0ca2c93-45d9-4a45-83f8-92b4ae93daa0/ec51f0f1-10d2-4af2-93dd-cccb21dc114a": {
     "name": "FJ_Naitauba_Mangrove-SPC-GIZ - naitauba_mangrove.png",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/3c176e17-ad59-480a-904a-4b666f528ba2"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/a0ca2c93-45d9-4a45-83f8-92b4ae93daa0/899b57ee-c2db-4282-8278-deff40fbe4db": {
     "name": "FJ_Naitauba_Mangrove-SPC-GIZ - naitauba_mangrove.kml",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/3c176e17-ad59-480a-904a-4b666f528ba2"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/a0ca2c93-45d9-4a45-83f8-92b4ae93daa0/c0aa5f40-6be2-4682-9861-5e197211eb9b": {
     "name": "FJ_Naitauba_Mangrove-SPC-GIZ - naitauba_mangrove.kml",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/3c176e17-ad59-480a-904a-4b666f528ba2"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/a0ca2c93-45d9-4a45-83f8-92b4ae93daa0/6ec21479-649c-4b73-ab2c-e21ca9dffe61": {
     "name": "FJ_Naitauba_Mangrove-SPC-GIZ - naitauba_mangrove.png",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/3c176e17-ad59-480a-904a-4b666f528ba2"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/a0ca2c93-45d9-4a45-83f8-92b4ae93daa0/6d89c507-5383-4101-90e1-720246a15c05": {
     "name": "FJ_Naitauba_Mangrove-SPC-GIZ - naitauba_mangrove.pdf",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/3c176e17-ad59-480a-904a-4b666f528ba2"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/a0ca2c93-45d9-4a45-83f8-92b4ae93daa0/3ea6738e-562f-4d12-8bab-e97903973068": {
     "name": "FJ_Naitauba_Mangrove-SPC-GIZ - naitauba_mangrove.jpg",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/3c176e17-ad59-480a-904a-4b666f528ba2"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/16b1e28d-fc7d-4e39-8821-092bcf449759/e9c917ef-c3d4-406c-9131-4bab76c0667f": {
     "name": "vanua_levu_forest_cover - vanua_levu_forest_cover.png",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/3c176e17-ad59-480a-904a-4b666f528ba2"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/16b1e28d-fc7d-4e39-8821-092bcf449759/115291a6-344a-4a47-946a-ec9441ffc7eb": {
     "name": "vanua_levu_forest_cover - vanua_levu_forest_cover.png",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/3c176e17-ad59-480a-904a-4b666f528ba2"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/16b1e28d-fc7d-4e39-8821-092bcf449759/a157322b-e6d6-444c-b04c-fc1243b74cd5": {
     "name": "vanua_levu_forest_cover - vanua_levu_forest_cover.kml",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/3c176e17-ad59-480a-904a-4b666f528ba2"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/16b1e28d-fc7d-4e39-8821-092bcf449759/27d6c8e8-348c-4f40-a062-caa392afcbdc": {
     "name": "vanua_levu_forest_cover - vanua_levu_forest_cover.kml",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/3c176e17-ad59-480a-904a-4b666f528ba2"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/16b1e28d-fc7d-4e39-8821-092bcf449759/3ceea7e6-a652-4dc5-9796-c82551faec78": {
     "name": "vanua_levu_forest_cover - vanua_levu_forest_cover.png",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/3c176e17-ad59-480a-904a-4b666f528ba2"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/16b1e28d-fc7d-4e39-8821-092bcf449759/b487717b-f0b4-4dc3-a223-bdcc57d04ee4": {
     "name": "vanua_levu_forest_cover - vanua_levu_forest_cover.pdf",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/3c176e17-ad59-480a-904a-4b666f528ba2"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/16b1e28d-fc7d-4e39-8821-092bcf449759/96e31cf7-f1f8-40a4-97d8-4aa29a342144": {
     "name": "vanua_levu_forest_cover - vanua_levu_forest_cover.jpg",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/3c176e17-ad59-480a-904a-4b666f528ba2"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/3a7cc85a-0cf7-4472-8621-4df796c91a1c/ad4fb45a-82f6-4129-a4fe-4f535614e151": {
     "name": "FJ_Ogea_Mangrove-SPC-GIZ - ogea_mangrove.png",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/3c176e17-ad59-480a-904a-4b666f528ba2"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/3a7cc85a-0cf7-4472-8621-4df796c91a1c/7f1ad1eb-5d3f-4677-a67f-bd572fd7edf5": {
     "name": "FJ_Ogea_Mangrove-SPC-GIZ - ogea_mangrove.png",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/3c176e17-ad59-480a-904a-4b666f528ba2"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/3a7cc85a-0cf7-4472-8621-4df796c91a1c/a1708e03-30d3-4edd-88d0-4c4e712607ee": {
     "name": "FJ_Ogea_Mangrove-SPC-GIZ - ogea_mangrove.kml",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/3c176e17-ad59-480a-904a-4b666f528ba2"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/3a7cc85a-0cf7-4472-8621-4df796c91a1c/c2498146-5064-4e1c-8043-5f086f147bf1": {
     "name": "FJ_Ogea_Mangrove-SPC-GIZ - ogea_mangrove.kml",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/3c176e17-ad59-480a-904a-4b666f528ba2"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/3a7cc85a-0cf7-4472-8621-4df796c91a1c/82b91f29-5fea-4ade-9845-dfaf7e0d7160": {
     "name": "FJ_Ogea_Mangrove-SPC-GIZ - ogea_mangrove.png",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/3c176e17-ad59-480a-904a-4b666f528ba2"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/3a7cc85a-0cf7-4472-8621-4df796c91a1c/137368aa-9c71-4818-84d4-5ee4c459c169": {
     "name": "FJ_Ogea_Mangrove-SPC-GIZ - ogea_mangrove.pdf",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/3c176e17-ad59-480a-904a-4b666f528ba2"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/3a7cc85a-0cf7-4472-8621-4df796c91a1c/4f5a0323-463a-4c15-b06d-c59ac67075de": {
     "name": "FJ_Ogea_Mangrove-SPC-GIZ - ogea_mangrove.jpg",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/3c176e17-ad59-480a-904a-4b666f528ba2"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/d763ebad-2f1d-4839-a06b-7b3d43f6e8d3/772b229b-8b41-48c3-b8b7-28d04c3aaa73": {
     "name": "FJ_Beqa_Mangrove-SPC-GIZ - beqa.png",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/3c176e17-ad59-480a-904a-4b666f528ba2"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/d763ebad-2f1d-4839-a06b-7b3d43f6e8d3/5223c05d-2a6f-4766-909f-4c977d2f7245": {
     "name": "FJ_Beqa_Mangrove-SPC-GIZ - beqa.png",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/3c176e17-ad59-480a-904a-4b666f528ba2"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/d763ebad-2f1d-4839-a06b-7b3d43f6e8d3/24981d4c-c947-49cc-a832-a1c84a9192c3": {
     "name": "FJ_Beqa_Mangrove-SPC-GIZ - beqa.kml",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/3c176e17-ad59-480a-904a-4b666f528ba2"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/d763ebad-2f1d-4839-a06b-7b3d43f6e8d3/1d2c2847-66d3-40e6-9545-d624f8f2329b": {
     "name": "FJ_Beqa_Mangrove-SPC-GIZ - beqa.kml",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/3c176e17-ad59-480a-904a-4b666f528ba2"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/d763ebad-2f1d-4839-a06b-7b3d43f6e8d3/4c479e44-bb25-4d38-9c64-cea7fd5173ce": {
     "name": "FJ_Beqa_Mangrove-SPC-GIZ - beqa.png",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/3c176e17-ad59-480a-904a-4b666f528ba2"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/d763ebad-2f1d-4839-a06b-7b3d43f6e8d3/6faa6ebf-655b-4106-88bd-21a2b5c3369c": {
     "name": "FJ_Beqa_Mangrove-SPC-GIZ - beqa.pdf",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/3c176e17-ad59-480a-904a-4b666f528ba2"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/d763ebad-2f1d-4839-a06b-7b3d43f6e8d3/3b7ba04f-7e7f-4e5d-8058-4b30f92e70e8": {
     "name": "FJ_Beqa_Mangrove-SPC-GIZ - beqa.jpg",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/3c176e17-ad59-480a-904a-4b666f528ba2"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/c7221321-e8c7-4493-b2a3-7669613b063a/5a7a6616-c73f-41f0-ba21-f664639ab76f": {
     "name": "FJ_Namuka_Lau_Mangrove-SPC-GIZ - namuka_i_lau_mangrove.png",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/3c176e17-ad59-480a-904a-4b666f528ba2"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/c7221321-e8c7-4493-b2a3-7669613b063a/374819e4-8d6d-48a1-998c-03736a867168": {
     "name": "FJ_Namuka_Lau_Mangrove-SPC-GIZ - namuka_i_lau_mangrove.png",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/3c176e17-ad59-480a-904a-4b666f528ba2"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/c7221321-e8c7-4493-b2a3-7669613b063a/138a4f0a-74bd-4f57-bfd3-121e676d824b": {
     "name": "FJ_Namuka_Lau_Mangrove-SPC-GIZ - namuka_i_lau_mangrove.kml",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/3c176e17-ad59-480a-904a-4b666f528ba2"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/c7221321-e8c7-4493-b2a3-7669613b063a/1f360304-89c8-4a7a-be36-514809ec456f": {
     "name": "FJ_Namuka_Lau_Mangrove-SPC-GIZ - namuka_i_lau_mangrove.kml",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/3c176e17-ad59-480a-904a-4b666f528ba2"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/c7221321-e8c7-4493-b2a3-7669613b063a/822925e4-cc9b-46eb-ba24-567e60c797ec": {
     "name": "FJ_Namuka_Lau_Mangrove-SPC-GIZ - namuka_i_lau_mangrove.png",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/3c176e17-ad59-480a-904a-4b666f528ba2"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/c7221321-e8c7-4493-b2a3-7669613b063a/769fa92c-d584-44bd-9a62-d455562e1305": {
     "name": "FJ_Namuka_Lau_Mangrove-SPC-GIZ - namuka_i_lau_mangrove.pdf",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/3c176e17-ad59-480a-904a-4b666f528ba2"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/c7221321-e8c7-4493-b2a3-7669613b063a/badcc553-a610-4200-9358-bf0f2f358a06": {
     "name": "FJ_Namuka_Lau_Mangrove-SPC-GIZ - namuka_i_lau_mangrove.jpg",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/3c176e17-ad59-480a-904a-4b666f528ba2"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/5ad50689-7276-432d-ad54-ca150bc388d6/cb0a2916-3e0f-43bf-9de5-929433dd745e": {
     "name": "FJ_Batiki_Mangrove-SPC-GIZ - batiki_mangrove.png",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/3c176e17-ad59-480a-904a-4b666f528ba2"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/5ad50689-7276-432d-ad54-ca150bc388d6/684d2d68-caaa-4de3-8ee2-b3fe2847e416": {
     "name": "FJ_Batiki_Mangrove-SPC-GIZ - batiki_mangrove.png",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/3c176e17-ad59-480a-904a-4b666f528ba2"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/5ad50689-7276-432d-ad54-ca150bc388d6/eeeeaae6-0c4f-4530-a3d0-b781cf983fd6": {
     "name": "FJ_Batiki_Mangrove-SPC-GIZ - batiki_mangrove.kml",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/3c176e17-ad59-480a-904a-4b666f528ba2"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/5ad50689-7276-432d-ad54-ca150bc388d6/93ba6763-77de-4971-9e68-7f8209346c8d": {
     "name": "FJ_Batiki_Mangrove-SPC-GIZ - batiki_mangrove.kml",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/3c176e17-ad59-480a-904a-4b666f528ba2"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/5ad50689-7276-432d-ad54-ca150bc388d6/1fe3e278-92e6-4618-8d74-a1da84741e96": {
     "name": "FJ_Batiki_Mangrove-SPC-GIZ - batiki_mangrove.png",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/3c176e17-ad59-480a-904a-4b666f528ba2"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/5ad50689-7276-432d-ad54-ca150bc388d6/2a6b9abc-fda4-4a1a-9818-9ad0cea5025a": {
     "name": "FJ_Batiki_Mangrove-SPC-GIZ - batiki_mangrove.pdf",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/3c176e17-ad59-480a-904a-4b666f528ba2"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/5ad50689-7276-432d-ad54-ca150bc388d6/980dbede-0489-4b1e-a3bf-ede51d85b76e": {
     "name": "FJ_Batiki_Mangrove-SPC-GIZ - batiki_mangrove.jpg",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/3c176e17-ad59-480a-904a-4b666f528ba2"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/c9a3d7ed-a5fc-4b74-b4fd-5fc1fd939cd0": {
     "name": "SPC Statistics for Development Division (SDD) ",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue"
-    ]
+    ],
+    "isGroup": true
   },
   "//Pacific Data Hub Catalogue/8a300189-b3c2-4193-966e-ddcb36f6d257/12aee399-9d97-4997-9850-e8ec4f39fb09": {
     "name": "Tonga_Villages_Population_2016Census - tonga_villages_population_2016census",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/c9a3d7ed-a5fc-4b74-b4fd-5fc1fd939cd0"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/3a74d05c-099e-4b89-bc8c-e6047fddeb48/00a4d983-0feb-4925-b296-a4d62f32f907": {
     "name": "RMI_Atoll_Population_2011Census - RMI_Atol_Pop_2011_4326",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/c9a3d7ed-a5fc-4b74-b4fd-5fc1fd939cd0"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/3a74d05c-099e-4b89-bc8c-e6047fddeb48/cc0763ac-6f4a-4837-9100-50da3f1d0bc3": {
     "name": "RMI_Atoll_Population_2011Census - rmi_atol_pop_2011",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/c9a3d7ed-a5fc-4b74-b4fd-5fc1fd939cd0"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/e04fe335-e679-4cf8-b67a-99d428496ac8/808e22e1-9ec4-4179-a3f3-83dabf1abef7": {
     "name": "Coastal proximity of populations in 22 Pacific Island Countries and Territories - Dataset - American Samoa - ASM Counties Boundaries",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/c9a3d7ed-a5fc-4b74-b4fd-5fc1fd939cd0"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/e04fe335-e679-4cf8-b67a-99d428496ac8/0554c93c-c8f5-4351-8c7f-46b4878149a5": {
     "name": "Coastal proximity of populations in 22 Pacific Island Countries and Territories - Dataset - American Samoa - ASM 1km Coastal Buffer",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/c9a3d7ed-a5fc-4b74-b4fd-5fc1fd939cd0"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/57126104-6611-49be-90a3-e623e7b45770/cfd5be37-7d42-43d0-bcfb-441b0c321291": {
     "name": "Coastal proximity of populations in 22 Pacific Island Countries and Territories - Dataset - Cook Islands - COK EA boundaries",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/c9a3d7ed-a5fc-4b74-b4fd-5fc1fd939cd0"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/57126104-6611-49be-90a3-e623e7b45770/7a8154c5-a15f-4a8e-bf57-472713f2f9b3": {
     "name": "Coastal proximity of populations in 22 Pacific Island Countries and Territories - Dataset - Cook Islands - COK 1km Coastal Buffer",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/c9a3d7ed-a5fc-4b74-b4fd-5fc1fd939cd0"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/e698d4ef-2d0a-4ab5-a2ea-dceae980fef0/2efa5adc-da30-4822-b2ae-bc71a05acfc5": {
     "name": "Coastal proximity of populations in 22 Pacific Island Countries and Territories - Dataset - Fiji - FJI EA boundaries",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/c9a3d7ed-a5fc-4b74-b4fd-5fc1fd939cd0"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/e698d4ef-2d0a-4ab5-a2ea-dceae980fef0/5c49d19f-a031-4db4-85dc-041a56161f62": {
     "name": "Coastal proximity of populations in 22 Pacific Island Countries and Territories - Dataset - Fiji - FJI 1km Coastal Buffer",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/c9a3d7ed-a5fc-4b74-b4fd-5fc1fd939cd0"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/e698d4ef-2d0a-4ab5-a2ea-dceae980fef0/611edaae-5eb3-4e39-813b-26787bd9c3dd": {
     "name": "Coastal proximity of populations in 22 Pacific Island Countries and Territories - Dataset - Fiji - FJI 5km coastal Buffer",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/c9a3d7ed-a5fc-4b74-b4fd-5fc1fd939cd0"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/e698d4ef-2d0a-4ab5-a2ea-dceae980fef0/6423d13c-ce57-4d0b-b9c1-beed2e5a944d": {
     "name": "Coastal proximity of populations in 22 Pacific Island Countries and Territories - Dataset - Fiji - FJI 10km coastal Buffer",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/c9a3d7ed-a5fc-4b74-b4fd-5fc1fd939cd0"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/59f905cb-536f-419b-addc-e0ef47aa3ffb/e60fd298-25df-4451-adbe-087722678f3b": {
     "name": "Coastal proximity of populations in 22 Pacific Island Countries and Territories - Dataset - Federated States of Micronesia - FSM EA boundaries",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/c9a3d7ed-a5fc-4b74-b4fd-5fc1fd939cd0"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/59f905cb-536f-419b-addc-e0ef47aa3ffb/dd015298-0914-49a6-90ec-7b6881507d78": {
     "name": "Coastal proximity of populations in 22 Pacific Island Countries and Territories - Dataset - Federated States of Micronesia - FSM 1km coastal Buffer",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/c9a3d7ed-a5fc-4b74-b4fd-5fc1fd939cd0"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/59f905cb-536f-419b-addc-e0ef47aa3ffb/be26a1a1-a03d-410e-8ee6-f149309086cd": {
     "name": "Coastal proximity of populations in 22 Pacific Island Countries and Territories - Dataset - Federated States of Micronesia - FSM 5km coastal Buffer",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/c9a3d7ed-a5fc-4b74-b4fd-5fc1fd939cd0"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/fa39bb92-f4ba-4555-a0f3-5e353d4fd51f/0e11b564-4349-47d2-b3e0-4f68e8057f3d": {
     "name": "Coastal proximity of populations in 22 Pacific Island Countries and Territories - Dataset - Guam - GUM admin boundaries",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/c9a3d7ed-a5fc-4b74-b4fd-5fc1fd939cd0"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/fa39bb92-f4ba-4555-a0f3-5e353d4fd51f/eb829cd2-9b2a-450a-b6a5-937ce31193d6": {
     "name": "Coastal proximity of populations in 22 Pacific Island Countries and Territories - Dataset - Guam - GUM 1km Coastal Buffer",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/c9a3d7ed-a5fc-4b74-b4fd-5fc1fd939cd0"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/8f207a6f-92b7-4d05-941a-e385a77c29b8/ca50f2ea-8966-40ed-92da-5acea5f0fdc8": {
     "name": "Coastal proximity of populations in 22 Pacific Island Countries and Territories - Dataset - Kiribati",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/c9a3d7ed-a5fc-4b74-b4fd-5fc1fd939cd0"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/91634d6a-71f4-4a6b-9d01-0c75cbbd1587/e82a2a36-d9af-4a9c-ae4e-84e9eb1302c9": {
     "name": "Coastal proximity of populations in 22 Pacific Island Countries and Territories - Dataset - Marshall Islands - RMI EA boundaries",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/c9a3d7ed-a5fc-4b74-b4fd-5fc1fd939cd0"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/f2bbd77a-22f8-45e5-b162-72622a19f162/a0b90e82-1a9c-4e78-bc9b-d2430a5db1b2": {
     "name": "Coastal proximity of populations in 22 Pacific Island Countries and Territories - Dataset - Northern Mariana Islands - MNP Village boundaries",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/c9a3d7ed-a5fc-4b74-b4fd-5fc1fd939cd0"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/f2bbd77a-22f8-45e5-b162-72622a19f162/dafe5d0c-a6bc-41c4-a31e-a330dea21938": {
     "name": "Coastal proximity of populations in 22 Pacific Island Countries and Territories - Dataset - Northern Mariana Islands - CNMI 1km Coastal Buffer",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/c9a3d7ed-a5fc-4b74-b4fd-5fc1fd939cd0"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/08645cda-22d6-4edb-9afd-fbe519504e58/b7e8a7b9-d818-43a6-82b2-4593cd75f794": {
     "name": "Coastal proximity of populations in 22 Pacific Island Countries and Territories - Dataset - New Caledonia - NCL district boundaries",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/c9a3d7ed-a5fc-4b74-b4fd-5fc1fd939cd0"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/08645cda-22d6-4edb-9afd-fbe519504e58/414a0c57-d3f8-473a-bedd-2863154712b6": {
     "name": "Coastal proximity of populations in 22 Pacific Island Countries and Territories - Dataset - New Caledonia - NCL 1km coastal Buffer",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/c9a3d7ed-a5fc-4b74-b4fd-5fc1fd939cd0"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/08645cda-22d6-4edb-9afd-fbe519504e58/aa16d0e1-2d06-4944-8aef-1aaf44d1ba29": {
     "name": "Coastal proximity of populations in 22 Pacific Island Countries and Territories - Dataset - New Caledonia - NCL 5km coastal Buffer",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/c9a3d7ed-a5fc-4b74-b4fd-5fc1fd939cd0"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/08645cda-22d6-4edb-9afd-fbe519504e58/75499dad-e962-4beb-bf51-5d2fcbaeff11": {
     "name": "Coastal proximity of populations in 22 Pacific Island Countries and Territories - Dataset - New Caledonia - NCL 10km coastal Buffer",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/c9a3d7ed-a5fc-4b74-b4fd-5fc1fd939cd0"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/7d0cbf9e-f675-42dd-aa38-8147a1cd4f2b/73583905-d7a8-4ff4-824c-c03c12d49751": {
     "name": "Coastal proximity of populations in 22 Pacific Island Countries and Territories - Dataset - Niue - NIU Village Boundaries",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/c9a3d7ed-a5fc-4b74-b4fd-5fc1fd939cd0"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/f0910c97-976b-4fbf-bd18-a735f744e184/0b6cd77e-86eb-48fd-99f1-8a6da4773825": {
     "name": "Coastal proximity of populations in 22 Pacific Island Countries and Territories - Dataset - Nauru - NRU EA boundaries",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/c9a3d7ed-a5fc-4b74-b4fd-5fc1fd939cd0"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/3b3794fa-b14b-4dcf-8040-c02fa81471e4/c9146cfe-85af-41af-9b8b-5975e107ac8c": {
     "name": "Coastal proximity of populations in 22 Pacific Island Countries and Territories - Dataset - Palau - PLW EA boundaries",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/c9a3d7ed-a5fc-4b74-b4fd-5fc1fd939cd0"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/3b3794fa-b14b-4dcf-8040-c02fa81471e4/329126eb-f818-4436-b6a2-10013b510f60": {
     "name": "Coastal proximity of populations in 22 Pacific Island Countries and Territories - Dataset - Palau - PLW 1km Coastal Buffer",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/c9a3d7ed-a5fc-4b74-b4fd-5fc1fd939cd0"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/b560e439-ceb5-4365-986d-2ce73e3b2ea1/eb4967dc-981c-49ab-82a3-c0e60f42938a": {
     "name": "Coastal proximity of populations in 22 Pacific Island Countries and Territories - Dataset - Papua New Guinea - PNG LLG boundaries",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/c9a3d7ed-a5fc-4b74-b4fd-5fc1fd939cd0"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/b560e439-ceb5-4365-986d-2ce73e3b2ea1/4694d309-f335-4da1-b12b-3713bb86fa2b": {
     "name": "Coastal proximity of populations in 22 Pacific Island Countries and Territories - Dataset - Papua New Guinea - PNG 1km Coastal Buffer",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/c9a3d7ed-a5fc-4b74-b4fd-5fc1fd939cd0"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/b560e439-ceb5-4365-986d-2ce73e3b2ea1/ae35d416-2558-446f-a707-aa2e3bbba660": {
     "name": "Coastal proximity of populations in 22 Pacific Island Countries and Territories - Dataset - Papua New Guinea - PNG 5km Coastal Buffer",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/c9a3d7ed-a5fc-4b74-b4fd-5fc1fd939cd0"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/b560e439-ceb5-4365-986d-2ce73e3b2ea1/871cb004-b2be-45a0-bfb2-ff3416b9296c": {
     "name": "Coastal proximity of populations in 22 Pacific Island Countries and Territories - Dataset - Papua New Guinea - PNG 10km Coastal Buffer",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/c9a3d7ed-a5fc-4b74-b4fd-5fc1fd939cd0"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/2d6afbd9-5f92-47d6-980f-4b71e0bc313e/670d55c0-ea72-4d0b-b724-4ce559175b21": {
     "name": "Coastal proximity of populations in 22 Pacific Island Countries and Territories - Dataset - French Polynesia - PYF 1km Coastal Buffer",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/c9a3d7ed-a5fc-4b74-b4fd-5fc1fd939cd0"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/2d6afbd9-5f92-47d6-980f-4b71e0bc313e/9ab68308-ae41-4a7a-842a-e951db0cf9d8": {
     "name": "Coastal proximity of populations in 22 Pacific Island Countries and Territories - Dataset - French Polynesia - PYF 5km Coastal Buffer",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/c9a3d7ed-a5fc-4b74-b4fd-5fc1fd939cd0"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/2d6afbd9-5f92-47d6-980f-4b71e0bc313e/3906bb89-14d2-4333-ae8e-37ddea4bf45f": {
     "name": "Coastal proximity of populations in 22 Pacific Island Countries and Territories - Dataset - French Polynesia - PYF 10km Coastal Buffer",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/c9a3d7ed-a5fc-4b74-b4fd-5fc1fd939cd0"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/14645f67-bd3f-4b72-9918-4f0dc8e88dee/30d713a3-32bd-4315-8274-40e4b18289f3": {
     "name": "Coastal proximity of populations in 22 Pacific Island Countries and Territories - Dataset - Solomon Islands - SLB EA boundaries",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/c9a3d7ed-a5fc-4b74-b4fd-5fc1fd939cd0"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/14645f67-bd3f-4b72-9918-4f0dc8e88dee/72398e19-a752-4380-8797-7b63fc0b35a5": {
     "name": "Coastal proximity of populations in 22 Pacific Island Countries and Territories - Dataset - Solomon Islands - SLB 1km Coastal Buffer",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/c9a3d7ed-a5fc-4b74-b4fd-5fc1fd939cd0"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/14645f67-bd3f-4b72-9918-4f0dc8e88dee/2e115edc-d439-4dbf-b614-689430f5dd78": {
     "name": "Coastal proximity of populations in 22 Pacific Island Countries and Territories - Dataset - Solomon Islands - SLB 5km Coastal Buffer",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/c9a3d7ed-a5fc-4b74-b4fd-5fc1fd939cd0"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/14645f67-bd3f-4b72-9918-4f0dc8e88dee/97fb1dea-4281-4b21-8481-a24c06e29967": {
     "name": "Coastal proximity of populations in 22 Pacific Island Countries and Territories - Dataset - Solomon Islands - SLB 10km Coastal Buffer",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/c9a3d7ed-a5fc-4b74-b4fd-5fc1fd939cd0"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/b6eee133-8dbe-4bdd-b237-282c64845212/287ed261-1f01-487b-83d4-9f52cc961a2d": {
     "name": "Coastal proximity of populations in 22 Pacific Island Countries and Territories - Dataset - Tonga - TON Block Boundaries",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/c9a3d7ed-a5fc-4b74-b4fd-5fc1fd939cd0"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/b6eee133-8dbe-4bdd-b237-282c64845212/201d8dcf-21b7-462c-b827-7fcc6d6f235f": {
     "name": "Coastal proximity of populations in 22 Pacific Island Countries and Territories - Dataset - Tonga - TON 1km Coastal Buffer",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/c9a3d7ed-a5fc-4b74-b4fd-5fc1fd939cd0"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/71202cb6-3bd2-49f1-8cb5-86be9cd73632/a3b51286-b28d-4b94-aa41-3d6b27e365d9": {
     "name": "Coastal proximity of populations in 22 Pacific Island Countries and Territories - Dataset - Vanuatu - VUT EA boundaries",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/c9a3d7ed-a5fc-4b74-b4fd-5fc1fd939cd0"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/71202cb6-3bd2-49f1-8cb5-86be9cd73632/d6e89a9a-aef9-4d2f-9c95-78b02d2a09dc": {
     "name": "Coastal proximity of populations in 22 Pacific Island Countries and Territories - Dataset - Vanuatu - VUT 1km Coastal Buffer",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/c9a3d7ed-a5fc-4b74-b4fd-5fc1fd939cd0"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/71202cb6-3bd2-49f1-8cb5-86be9cd73632/2772d17d-bff7-49cb-8396-993c07c9a3b5": {
     "name": "Coastal proximity of populations in 22 Pacific Island Countries and Territories - Dataset - Vanuatu - VUT 5km Coastal Buffer",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/c9a3d7ed-a5fc-4b74-b4fd-5fc1fd939cd0"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/71202cb6-3bd2-49f1-8cb5-86be9cd73632/033b10c8-eada-4b3a-b245-afcf6e143286": {
     "name": "Coastal proximity of populations in 22 Pacific Island Countries and Territories - Dataset - Vanuatu - VUT 10km Coastal Buffer",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/c9a3d7ed-a5fc-4b74-b4fd-5fc1fd939cd0"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/ecafd419-2b3f-4046-a7a7-e6f254e21fea/b6f7da2e-a82c-416b-9b32-fddc6385bd35": {
     "name": "Coastal proximity of populations in 22 Pacific Island Countries and Territories - Dataset - Wallis and Futuna - WLF Village boundaries",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/c9a3d7ed-a5fc-4b74-b4fd-5fc1fd939cd0"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/ecafd419-2b3f-4046-a7a7-e6f254e21fea/0c528134-9088-4b0e-8167-726a4a789d25": {
     "name": "Coastal proximity of populations in 22 Pacific Island Countries and Territories - Dataset - Wallis and Futuna - WLF 1km Coastal Buffer",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/c9a3d7ed-a5fc-4b74-b4fd-5fc1fd939cd0"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/0e332c97-9c6c-4c02-87d1-0b84aaaf35b5/b4efc7e0-f2f4-47ee-828f-f592668dd048": {
     "name": "Coastal proximity of populations in 22 Pacific Island Countries and Territories - Dataset - Western Samoa - WSM EA boundaries",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/c9a3d7ed-a5fc-4b74-b4fd-5fc1fd939cd0"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/0e332c97-9c6c-4c02-87d1-0b84aaaf35b5/7992c220-a8af-4325-aaa6-b5d889a396b2": {
     "name": "Coastal proximity of populations in 22 Pacific Island Countries and Territories - Dataset - Western Samoa - WSM 1km Coastal Buffer",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/c9a3d7ed-a5fc-4b74-b4fd-5fc1fd939cd0"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/0e332c97-9c6c-4c02-87d1-0b84aaaf35b5/17dbeff1-640c-4840-a7b2-d21bf075a808": {
     "name": "Coastal proximity of populations in 22 Pacific Island Countries and Territories - Dataset - Western Samoa - WSM 5km Coastal Buffer",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/c9a3d7ed-a5fc-4b74-b4fd-5fc1fd939cd0"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/0e332c97-9c6c-4c02-87d1-0b84aaaf35b5/5cb323ea-03ca-40ee-90c2-286b9cbf7cce": {
     "name": "Coastal proximity of populations in 22 Pacific Island Countries and Territories - Dataset - Western Samoa - WSM 10km Coastal Buffer",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/c9a3d7ed-a5fc-4b74-b4fd-5fc1fd939cd0"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/d6de01c6-e299-471b-b7e4-3b200be6b581/a3fa926c-86ba-43a9-846d-20d8b7c55f98": {
     "name": "Tonga_Population_Grid_2020 - TON_PopGrid_2020_Web Mapping Service ",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/c9a3d7ed-a5fc-4b74-b4fd-5fc1fd939cd0"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/1cb668eb-e915-4970-8b87-89aead626d39/103f0460-d97d-4396-b664-5eec3a1e3af4": {
     "name": "Vanuatu_Population_Grid_2020 - VUT_PopGrid_2020_Web Mapping Service ",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/c9a3d7ed-a5fc-4b74-b4fd-5fc1fd939cd0"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/2047f943-8a3d-4d9a-a972-ab59639cb841/c4abad78-2066-45df-bbe7-3aba8431c82f": {
     "name": "Cyclone Harold potential impacted population maps - Vanuatu, Tonga and Fiji - Trackline_geojson_JCW_20200407",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/c9a3d7ed-a5fc-4b74-b4fd-5fc1fd939cd0"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/2047f943-8a3d-4d9a-a972-ab59639cb841/3d73421d-2f36-49b9-bf86-6dbc789d4a82": {
     "name": "Cyclone Harold potential impacted population maps - Vanuatu, Tonga and Fiji - Tracknodes_geojson_JCW_20200407",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/c9a3d7ed-a5fc-4b74-b4fd-5fc1fd939cd0"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/2047f943-8a3d-4d9a-a972-ab59639cb841/43531bed-aa12-4e59-a9c2-3a67b4fb5494": {
     "name": "Cyclone Harold potential impacted population maps - Vanuatu, Tonga and Fiji - Wind Speed Zones_JCW_20200407",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/c9a3d7ed-a5fc-4b74-b4fd-5fc1fd939cd0"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/2047f943-8a3d-4d9a-a972-ab59639cb841/44d8c6fa-627e-4f3d-85b9-f1d3e640f7f9": {
     "name": "Cyclone Harold potential impacted population maps - Vanuatu, Tonga and Fiji - Area Council_Population impacted by Wind speed zones",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/c9a3d7ed-a5fc-4b74-b4fd-5fc1fd939cd0"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/2047f943-8a3d-4d9a-a972-ab59639cb841/cd888c2b-8630-4852-a68e-43a54bf873c3": {
     "name": "Cyclone Harold potential impacted population maps - Vanuatu, Tonga and Fiji - tracknodes_geojson_1000663_25_jcw20200409.geojson",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/c9a3d7ed-a5fc-4b74-b4fd-5fc1fd939cd0"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/2047f943-8a3d-4d9a-a972-ab59639cb841/7cdc9725-12f0-4a75-892a-2d5a5cc83191": {
     "name": "Cyclone Harold potential impacted population maps - Vanuatu, Tonga and Fiji - Tracklines_geojson_1000663_25_JCW20200409.geojson",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/c9a3d7ed-a5fc-4b74-b4fd-5fc1fd939cd0"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/2047f943-8a3d-4d9a-a972-ab59639cb841/5d43ef00-04b3-4459-8daa-3864558ce889": {
     "name": "Cyclone Harold potential impacted population maps - Vanuatu, Tonga and Fiji - WSZ_geojson_1000663_25_JCW20200409.geojson",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/c9a3d7ed-a5fc-4b74-b4fd-5fc1fd939cd0"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/2047f943-8a3d-4d9a-a972-ab59639cb841/6a04f0b5-d7ff-4471-9720-4b569de04bb2": {
     "name": "Cyclone Harold potential impacted population maps - Vanuatu, Tonga and Fiji - Fiji - Tikina_PopImpacted_Harold_20200409.geojson",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/c9a3d7ed-a5fc-4b74-b4fd-5fc1fd939cd0"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/6f60987c-4dea-495c-91fd-db353055cb04/192e75fd-8a49-4d06-9077-99d592777aa1": {
     "name": "Solomon_Islands_Population_Grid_2020 - SLB_PopGrid_2020_Web Mapping Service",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/c9a3d7ed-a5fc-4b74-b4fd-5fc1fd939cd0"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/4d516c3f-e19c-40c0-9b00-5c434e578cc0/af79ade8-6e7b-4ff8-b756-04bb0275ca6e": {
     "name": "Nauru_Population_Grid_2020 - NRU_PopGrid_2020_Web Mapping Service",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/c9a3d7ed-a5fc-4b74-b4fd-5fc1fd939cd0"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/81a988dc-8bda-40f2-98af-a581bc334d70/eb011fba-4202-4eb6-b636-b9f1d7aced16": {
     "name": "Geographic mapping of school locations in the Pacific - Cook Islands - School locations",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/c9a3d7ed-a5fc-4b74-b4fd-5fc1fd939cd0"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/81a988dc-8bda-40f2-98af-a581bc334d70/c6ac81cc-075b-45b2-ad58-9c5e0a6216c1": {
     "name": "Geographic mapping of school locations in the Pacific - Fiji - School locations",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/c9a3d7ed-a5fc-4b74-b4fd-5fc1fd939cd0"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/81a988dc-8bda-40f2-98af-a581bc334d70/8134abb8-b27f-46ae-b33a-cc94373ae054": {
     "name": "Geographic mapping of school locations in the Pacific - Federated States of Micronesia - School locations",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/c9a3d7ed-a5fc-4b74-b4fd-5fc1fd939cd0"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/81a988dc-8bda-40f2-98af-a581bc334d70/9dbccdb2-1626-4ddf-9089-f6e42a8ee01f": {
     "name": "Geographic mapping of school locations in the Pacific - Kiribati - School locations",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/c9a3d7ed-a5fc-4b74-b4fd-5fc1fd939cd0"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/81a988dc-8bda-40f2-98af-a581bc334d70/d9809f64-5136-4b9d-8fa0-3f78648270bb": {
     "name": "Geographic mapping of school locations in the Pacific - Marshall Islands - School locations",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/c9a3d7ed-a5fc-4b74-b4fd-5fc1fd939cd0"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/81a988dc-8bda-40f2-98af-a581bc334d70/fff7988c-7c50-4757-8b5b-3f1e213b29d3": {
     "name": "Geographic mapping of school locations in the Pacific - Niue - School locations",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/c9a3d7ed-a5fc-4b74-b4fd-5fc1fd939cd0"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/81a988dc-8bda-40f2-98af-a581bc334d70/866891ad-6127-4c87-ad69-a9e8ff37095f": {
     "name": "Geographic mapping of school locations in the Pacific - Nauru - School locations",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/c9a3d7ed-a5fc-4b74-b4fd-5fc1fd939cd0"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/81a988dc-8bda-40f2-98af-a581bc334d70/6d401127-3297-4336-8fc1-7c7df52cde0d": {
     "name": "Geographic mapping of school locations in the Pacific - Palau - School locations",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/c9a3d7ed-a5fc-4b74-b4fd-5fc1fd939cd0"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/81a988dc-8bda-40f2-98af-a581bc334d70/4efe1055-5b41-4fff-8e21-12a84c4c3183": {
     "name": "Geographic mapping of school locations in the Pacific - PNG - School locations",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/c9a3d7ed-a5fc-4b74-b4fd-5fc1fd939cd0"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/81a988dc-8bda-40f2-98af-a581bc334d70/083ed021-84e0-4ec4-bb64-3a38974634f9": {
     "name": "Geographic mapping of school locations in the Pacific - Solomon Islands - School locations",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/c9a3d7ed-a5fc-4b74-b4fd-5fc1fd939cd0"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/81a988dc-8bda-40f2-98af-a581bc334d70/de9a77b0-163a-4211-89c2-1403e4ae8668": {
     "name": "Geographic mapping of school locations in the Pacific - Tokelau - School locations",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/c9a3d7ed-a5fc-4b74-b4fd-5fc1fd939cd0"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/81a988dc-8bda-40f2-98af-a581bc334d70/40e738ef-feab-49ad-b773-3867f2f037cf": {
     "name": "Geographic mapping of school locations in the Pacific - Tonga - School locations",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/c9a3d7ed-a5fc-4b74-b4fd-5fc1fd939cd0"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/81a988dc-8bda-40f2-98af-a581bc334d70/c979edec-0d0e-4584-b628-f7953fa99095": {
     "name": "Geographic mapping of school locations in the Pacific - Tuvalu - School locations",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/c9a3d7ed-a5fc-4b74-b4fd-5fc1fd939cd0"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/81a988dc-8bda-40f2-98af-a581bc334d70/bcde03d3-7681-40ff-abae-115cae6b7853": {
     "name": "Geographic mapping of school locations in the Pacific - Vanuatu - School locations",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/c9a3d7ed-a5fc-4b74-b4fd-5fc1fd939cd0"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/81a988dc-8bda-40f2-98af-a581bc334d70/d2fd8032-7919-4a66-91b6-ec5572cec34c": {
     "name": "Geographic mapping of school locations in the Pacific - Western Samoa - School locations",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/c9a3d7ed-a5fc-4b74-b4fd-5fc1fd939cd0"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/59b50ffb-6507-41f5-934d-dcbee19fd0d6/7ded975b-2070-4534-853d-1f99635a0ad4": {
     "name": "Wallis_and_Futuna_Population_Grid_2020 - WLF_PopGrid_2020_Web Mapping Service",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/c9a3d7ed-a5fc-4b74-b4fd-5fc1fd939cd0"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/b3c609bf-10a7-47ce-9dfd-5eda86770bd4/5362bcf5-b5b9-4422-8465-b556192ef2b2": {
     "name": "Palau_Population_Grid_2020 - PLW_PopGrid_2020_Web Mapping Service",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/c9a3d7ed-a5fc-4b74-b4fd-5fc1fd939cd0"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/9dba1377-740c-429e-92ce-6a484657b4d9/edc67007-1a16-483b-8d6d-aaf713621c24": {
     "name": "2016_Vanuatu_PHC_Admin_Boundaries - 2016_PHC_Vanuatu_EA_4326",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/c9a3d7ed-a5fc-4b74-b4fd-5fc1fd939cd0"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/9dba1377-740c-429e-92ce-6a484657b4d9/c551af2a-3a0f-4d9c-a466-a30efa2c356f": {
     "name": "2016_Vanuatu_PHC_Admin_Boundaries - 2016_PHC_Vanuatu_AreaCouncil_4326",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/c9a3d7ed-a5fc-4b74-b4fd-5fc1fd939cd0"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/9dba1377-740c-429e-92ce-6a484657b4d9/66ae054b-9b67-4876-b59c-0b078c31e800": {
     "name": "2016_Vanuatu_PHC_Admin_Boundaries - 2016_PHC_Vanuatu_Island_4326",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/c9a3d7ed-a5fc-4b74-b4fd-5fc1fd939cd0"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/9dba1377-740c-429e-92ce-6a484657b4d9/3d490d87-99c0-47fd-98bd-211adaf44f71": {
     "name": "2016_Vanuatu_PHC_Admin_Boundaries - 2016_PHC_Vanuatu_Province_4326",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/c9a3d7ed-a5fc-4b74-b4fd-5fc1fd939cd0"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/2e650db6-5eb3-4c60-ac2c-4eb5c2d52193/70805a7a-86de-4455-ac42-07307e85f7cd": {
     "name": "2011_Cook_Islands_PHC_Admin_Boundaries - 2011_PHC_Cook_Islands_EnumArea_4325",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/c9a3d7ed-a5fc-4b74-b4fd-5fc1fd939cd0"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/2e650db6-5eb3-4c60-ac2c-4eb5c2d52193/b46c3299-881e-4751-b23a-6fd6b7648179": {
     "name": "2011_Cook_Islands_PHC_Admin_Boundaries - 2011_PHC_Cook_Islands_CensusDistrict_4325",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/c9a3d7ed-a5fc-4b74-b4fd-5fc1fd939cd0"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/5eb30a1b-9de6-4929-9281-16ab7850c4cf/17f6df1c-e90b-476f-a335-46ec6dd96d39": {
     "name": "2007_Fiji_PHC_Admin_Boundaries - 2007_PHC_Fiji_EnumArea_32760",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/c9a3d7ed-a5fc-4b74-b4fd-5fc1fd939cd0"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/5eb30a1b-9de6-4929-9281-16ab7850c4cf/010783ac-a0a9-41b5-90e6-9f07c8935b7d": {
     "name": "2007_Fiji_PHC_Admin_Boundaries - 2007_PHC_Fiji_Tikina_32760",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/c9a3d7ed-a5fc-4b74-b4fd-5fc1fd939cd0"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/5eb30a1b-9de6-4929-9281-16ab7850c4cf/5880cadb-2287-4eac-9f3d-8b321730e6cd": {
     "name": "2007_Fiji_PHC_Admin_Boundaries - 2007_PHC_Fiji_Province_32760",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/c9a3d7ed-a5fc-4b74-b4fd-5fc1fd939cd0"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/f45cd559-7350-4362-91ad-0c922853fb5c/6a8622f8-3d7c-4af2-9548-7c4278e49114": {
     "name": "2017_Fiji_PHC_Admin_Boundaries - 2017_PHC_Fiji_EnumArea_4326",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/c9a3d7ed-a5fc-4b74-b4fd-5fc1fd939cd0"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/f45cd559-7350-4362-91ad-0c922853fb5c/aaddfae8-7d6d-482c-9c9b-dc2daf3ad250": {
     "name": "2017_Fiji_PHC_Admin_Boundaries - 2017_PHC_Fiji_Tikina_4326",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/c9a3d7ed-a5fc-4b74-b4fd-5fc1fd939cd0"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/f45cd559-7350-4362-91ad-0c922853fb5c/0d2bdd5b-9c28-47fd-9dd8-2917daeb276d": {
     "name": "2017_Fiji_PHC_Admin_Boundaries - 2017_PHC_Fiji_Province_4326",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/c9a3d7ed-a5fc-4b74-b4fd-5fc1fd939cd0"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/13a38fd1-79d6-442e-86a9-838f31e8b8de/10a07fe3-0431-4b51-b594-abf2e51214bd": {
     "name": "2010_FSM_PHC_Admin_Boundaries - 2010_PHC_FSM_EnumArea_4326",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/c9a3d7ed-a5fc-4b74-b4fd-5fc1fd939cd0"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/13a38fd1-79d6-442e-86a9-838f31e8b8de/f5af4ad3-990d-497f-9230-b5821cd9647b": {
     "name": "2010_FSM_PHC_Admin_Boundaries - 2010_PHC_FSM_Municipality_4326",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/c9a3d7ed-a5fc-4b74-b4fd-5fc1fd939cd0"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/13a38fd1-79d6-442e-86a9-838f31e8b8de/b61f4952-ec9a-446f-88d8-b30669c515b5": {
     "name": "2010_FSM_PHC_Admin_Boundaries - 2010_PHC_FSM_State_4326",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/c9a3d7ed-a5fc-4b74-b4fd-5fc1fd939cd0"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/b0033b58-2c9b-4973-a732-27e391b7bd4c/da5deb66-014b-4e71-87b0-a0a20b673c98": {
     "name": "2010_Kiribati_PHC_Admin_Boundaries - 2010_PHC_Kiribati_EnumArea_3832",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/c9a3d7ed-a5fc-4b74-b4fd-5fc1fd939cd0"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/b0033b58-2c9b-4973-a732-27e391b7bd4c/6ae2fdf3-9a58-4a8f-9598-1751db36ac44": {
     "name": "2010_Kiribati_PHC_Admin_Boundaries - 2010_PHC_Kiribati_Village_3832",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/c9a3d7ed-a5fc-4b74-b4fd-5fc1fd939cd0"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/b0033b58-2c9b-4973-a732-27e391b7bd4c/e7b09464-166c-4e81-a43b-09af89642997": {
     "name": "2010_Kiribati_PHC_Admin_Boundaries - 2010_PHC_Kiribati_Island_3832",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/c9a3d7ed-a5fc-4b74-b4fd-5fc1fd939cd0"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/b2ed115f-aa79-4998-b257-04e98d928926/07964d1a-f723-42e2-90f0-d2d9778570ee": {
     "name": "2011_Marshall_Islands_PHC_Admin_Boundaries - 2011_PHC_RMI_EnumArea_4326",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/c9a3d7ed-a5fc-4b74-b4fd-5fc1fd939cd0"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/b2ed115f-aa79-4998-b257-04e98d928926/bc331807-7178-48af-96db-98cbda6ea8fd": {
     "name": "2011_Marshall_Islands_PHC_Admin_Boundaries - 2011_PHC_RMI_Atoll_4326",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/c9a3d7ed-a5fc-4b74-b4fd-5fc1fd939cd0"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/07ecef48-c768-4a43-8cd3-75876c2e0308/fe2589c8-9d37-4319-b99c-4e6cab516bfc": {
     "name": "2011_Niue_PHC_Admin_Boundaries",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/c9a3d7ed-a5fc-4b74-b4fd-5fc1fd939cd0"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/cbdfa893-5c44-440e-a4bb-415ba7781732/757997e7-df31-49ee-83f2-1010420a0adf": {
     "name": "2011_Nauru_PHC_Admin_Boundaries - 2011_PHC_NRU_EnumArea_4326",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/c9a3d7ed-a5fc-4b74-b4fd-5fc1fd939cd0"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/cbdfa893-5c44-440e-a4bb-415ba7781732/4b86c617-cbdc-4b34-a47b-ad80ef3b8a52": {
     "name": "2011_Nauru_PHC_Admin_Boundaries - 2011_PHC_NRU_District_4326",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/c9a3d7ed-a5fc-4b74-b4fd-5fc1fd939cd0"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/720db74a-1add-45dd-a442-e852b2ca6f21/92304f02-a4fe-4750-98b7-3a0a216b0d32": {
     "name": "2015_Palau_PHC_Admin_Boundaries - 2015_PHC_PLW_EnumArea_4326",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/c9a3d7ed-a5fc-4b74-b4fd-5fc1fd939cd0"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/720db74a-1add-45dd-a442-e852b2ca6f21/fe6dd29b-6ec5-4a06-9aac-e8d84d895b21": {
     "name": "2015_Palau_PHC_Admin_Boundaries - 2015_PHC_PLW_Hamlet_4326",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/c9a3d7ed-a5fc-4b74-b4fd-5fc1fd939cd0"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/720db74a-1add-45dd-a442-e852b2ca6f21/de0f3f73-1170-4634-8d34-d4b107ff3a18": {
     "name": "2015_Palau_PHC_Admin_Boundaries - 2015_PHC_PLW_State_4326",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/c9a3d7ed-a5fc-4b74-b4fd-5fc1fd939cd0"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/720db74a-1add-45dd-a442-e852b2ca6f21/f99b62ee-368f-4aa5-b4d9-d84fc6285623": {
     "name": "2015_Palau_PHC_Admin_Boundaries - 2015_PHC_PLW_Group_States_4326",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/c9a3d7ed-a5fc-4b74-b4fd-5fc1fd939cd0"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/e8be9308-8edc-4bfb-b6a9-0dd5588efc98/7b19ab32-2a3b-4afb-84d2-f4deef9050d8": {
     "name": "2009_Solomon_Islands_PHC_Admin_Boundaries - 2009_PHC_Solomons_EnumArea_4326",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/c9a3d7ed-a5fc-4b74-b4fd-5fc1fd939cd0"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/e8be9308-8edc-4bfb-b6a9-0dd5588efc98/5af441a0-aafa-4876-93d3-4fb397542249": {
     "name": "2009_Solomon_Islands_PHC_Admin_Boundaries - 2009_PHC_Solomons_Ward_4326",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/c9a3d7ed-a5fc-4b74-b4fd-5fc1fd939cd0"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/e8be9308-8edc-4bfb-b6a9-0dd5588efc98/00bdccf0-7384-42b1-b9b2-a3f77eff2d20": {
     "name": "2009_Solomon_Islands_PHC_Admin_Boundaries - 2009_PHC_Solomons_Constituency_4326",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/c9a3d7ed-a5fc-4b74-b4fd-5fc1fd939cd0"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/e8be9308-8edc-4bfb-b6a9-0dd5588efc98/8b6bc4e2-17da-4ace-9a6c-7ea186e1dd42": {
     "name": "2009_Solomon_Islands_PHC_Admin_Boundaries - 2009_PHC_Solomons_Province_4326",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/c9a3d7ed-a5fc-4b74-b4fd-5fc1fd939cd0"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/43b4eb64-ccb6-49fc-bea0-d898d966df7c/3657e812-4e39-4402-a8bf-8b5375b029f7": {
     "name": "2011_Tonga_PHC_Admin_Boundaries - 2011_PHC_Tonga_Block_4326",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/c9a3d7ed-a5fc-4b74-b4fd-5fc1fd939cd0"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/43b4eb64-ccb6-49fc-bea0-d898d966df7c/09aee2d2-4d11-4c04-915e-ad0a66d52650": {
     "name": "2011_Tonga_PHC_Admin_Boundaries - 2011_PHC_Tonga_Village_4326",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/c9a3d7ed-a5fc-4b74-b4fd-5fc1fd939cd0"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/43b4eb64-ccb6-49fc-bea0-d898d966df7c/f3c07cb2-6879-4f6f-a4d4-5244556b094a": {
     "name": "2011_Tonga_PHC_Admin_Boundaries - 2011_PHC_Tonga_District_4326",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/c9a3d7ed-a5fc-4b74-b4fd-5fc1fd939cd0"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/43b4eb64-ccb6-49fc-bea0-d898d966df7c/5e35f5e3-0f9d-4abf-87e8-4751c569dc41": {
     "name": "2011_Tonga_PHC_Admin_Boundaries - 2011_PHC_Tonga_Division_4326",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/c9a3d7ed-a5fc-4b74-b4fd-5fc1fd939cd0"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/279a3bd9-220c-4682-ac22-00104f25ef4c/70851348-62da-4fef-9f82-96026cc09043": {
     "name": "2016_Tonga_PHC_Admin_Boundaries - 2016_PHC_Tonga_Block_4326",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/c9a3d7ed-a5fc-4b74-b4fd-5fc1fd939cd0"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/279a3bd9-220c-4682-ac22-00104f25ef4c/4d1f14d4-f4d3-4c42-88d6-579c6de48b50": {
     "name": "2016_Tonga_PHC_Admin_Boundaries - 2016_PHC_Tonga_Village_4326",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/c9a3d7ed-a5fc-4b74-b4fd-5fc1fd939cd0"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/279a3bd9-220c-4682-ac22-00104f25ef4c/a825b058-0932-48ac-a3e2-9ec316e89372": {
     "name": "2016_Tonga_PHC_Admin_Boundaries - 2016_PHC_Tonga_District_4326",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/c9a3d7ed-a5fc-4b74-b4fd-5fc1fd939cd0"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/279a3bd9-220c-4682-ac22-00104f25ef4c/04ef72c7-ee03-4009-86cf-01a80f800e4c": {
     "name": "2016_Tonga_PHC_Admin_Boundaries - 2016_PHC_Tonga_Division_4326",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/c9a3d7ed-a5fc-4b74-b4fd-5fc1fd939cd0"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/f8e8122c-1dbe-4cdb-a265-bef6415205cb/ac8a29eb-7725-45e8-a166-cd38c3e87c4f": {
     "name": "2013_WallisFutuna_PHC_Admin_Boundaries - 2013_PHC_WallisFutuna_village_4326",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/c9a3d7ed-a5fc-4b74-b4fd-5fc1fd939cd0"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/f8e8122c-1dbe-4cdb-a265-bef6415205cb/5ecf2c68-36df-47eb-93ee-ff14abde0b20": {
     "name": "2013_WallisFutuna_PHC_Admin_Boundaries - 2013_PHC_WallisFutuna_district_4326",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/c9a3d7ed-a5fc-4b74-b4fd-5fc1fd939cd0"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/f65c2527-8223-42ac-aebf-7b773ddc412f/238fe7bf-4120-4034-896d-1155bf21fbb7": {
     "name": "2011_WesternSamoa_PHC_Admin_Boundaries - 2011_PHC_Samoa_EnumArea_4326",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/c9a3d7ed-a5fc-4b74-b4fd-5fc1fd939cd0"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/f65c2527-8223-42ac-aebf-7b773ddc412f/d5aee425-5e46-41f1-929e-3b7413ff1d4a": {
     "name": "2011_WesternSamoa_PHC_Admin_Boundaries - 2011_PHC_Samoa_District_4326",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/c9a3d7ed-a5fc-4b74-b4fd-5fc1fd939cd0"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/f65c2527-8223-42ac-aebf-7b773ddc412f/4f3c197c-929f-4f29-884f-3077188f523e": {
     "name": "2011_WesternSamoa_PHC_Admin_Boundaries - 2011_PHC_Samoa_Region_4326",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/c9a3d7ed-a5fc-4b74-b4fd-5fc1fd939cd0"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/3d442365-5ee9-4dc2-bb50-a6780cc554cb/cfb956da-2bb5-4984-ae58-679612a6d39b": {
     "name": "2018_Kiribati_HHL_Admin_Boundaries - 2018_HHL_Kiribati_EnumArea_3832",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/c9a3d7ed-a5fc-4b74-b4fd-5fc1fd939cd0"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/3d442365-5ee9-4dc2-bb50-a6780cc554cb/9b8b6df7-3c89-41ae-84a9-bff823b125b4": {
     "name": "2018_Kiribati_HHL_Admin_Boundaries - 2018_HHL_Kiribati_Village_3832",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/c9a3d7ed-a5fc-4b74-b4fd-5fc1fd939cd0"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/3d442365-5ee9-4dc2-bb50-a6780cc554cb/baac4740-cc6a-4a62-a5d0-b498fe12935a": {
     "name": "2018_Kiribati_HHL_Admin_Boundaries - 2018_HHL_Kiribati_Island_3832",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/c9a3d7ed-a5fc-4b74-b4fd-5fc1fd939cd0"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/2131942c-9e63-4a2c-985b-1801e1568d8e/cb543601-798e-4bc7-8613-806948f86704": {
     "name": "2012_Tuvalu_PHC_Admin_Boundaries - 2012_PHC_Tuvalu_EnumArea_4326",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/c9a3d7ed-a5fc-4b74-b4fd-5fc1fd939cd0"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/2131942c-9e63-4a2c-985b-1801e1568d8e/e697e3b6-db2c-43c6-8522-3d5391a552fe": {
     "name": "2012_Tuvalu_PHC_Admin_Boundaries - 2012_PHC_Tuvalu_Village_4326",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/c9a3d7ed-a5fc-4b74-b4fd-5fc1fd939cd0"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/2131942c-9e63-4a2c-985b-1801e1568d8e/6b4a9510-112b-4f53-9ece-6e0566a74904": {
     "name": "2012_Tuvalu_PHC_Admin_Boundaries - 2012_PHC_Tuvalu_Island_4326",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/c9a3d7ed-a5fc-4b74-b4fd-5fc1fd939cd0"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/e5027bdf-ab88-4473-8148-f04e5a67b083/e5fbdd9a-01a9-4fd9-bd82-9bd3bfd90d6a": {
     "name": "2017_Tuvalu_PHC_Admin_Boundaries - 2017_PHC_Tuvalu_EnumArea_4326",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/c9a3d7ed-a5fc-4b74-b4fd-5fc1fd939cd0"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/e5027bdf-ab88-4473-8148-f04e5a67b083/9eefabe8-d129-44ee-a3a4-7f93a24b2349": {
     "name": "2017_Tuvalu_PHC_Admin_Boundaries - 2017_PHC_Tuvalu_Village_4326",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/c9a3d7ed-a5fc-4b74-b4fd-5fc1fd939cd0"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/e5027bdf-ab88-4473-8148-f04e5a67b083/d6ed90e1-abaf-48d4-b28a-8d6836a36155": {
     "name": "2017_Tuvalu_PHC_Admin_Boundaries - 2017_PHC_Tuvalu_Island_4326",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/c9a3d7ed-a5fc-4b74-b4fd-5fc1fd939cd0"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/f1b1b3fd-798c-40f9-8384-41ae402f19e1": {
     "name": "Samoa Environment Data Portal",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue"
-    ]
+    ],
+    "isGroup": true
   },
   "//Pacific Data Hub Catalogue/f9392193-8589-4a09-8789-bd05af659beb/3400eeaa-97ee-4bdb-8371-2ffd5967e6aa": {
     "name": "Samoa Protected Area Data (WDPA, August 2019 - Samoa Protected Area polygon geojson",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/f1b1b3fd-798c-40f9-8384-41ae402f19e1"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/f9392193-8589-4a09-8789-bd05af659beb/ffd116e0-2a6f-4e17-a290-0ed96c826564": {
     "name": "Samoa Protected Area Data (WDPA, August 2019 - Samoa Protected Area- Polygon geojson",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/f1b1b3fd-798c-40f9-8384-41ae402f19e1"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/f162f06c-de3a-4874-9bf5-833ca7642eed/c2bb9844-bff3-41c3-a219-2dc4ffde65c0": {
     "name": "Samoa Buildings 2009 GIS",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/f1b1b3fd-798c-40f9-8384-41ae402f19e1"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/d4e326b4-823f-4f94-8a72-a4a5bc2980cf": {
     "name": "Secretariat of the Pacific Regional Environment Programme (SPREP)",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue"
-    ]
+    ],
+    "isGroup": true
   },
   "//Pacific Data Hub Catalogue/ffc4a4ae-1bae-4190-a29d-4b7b8dbfe365/593a272c-b3df-4104-bbb5-4be9dabde01c": {
     "name": "Marine Pollution - GIS marine pollution Solomons",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/d4e326b4-823f-4f94-8a72-a4a5bc2980cf"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/b4e9964d-9518-4927-90fb-d6768b848b78": {
     "name": "Socioeconomic Data and Applications Center (SEDAC)",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue"
-    ]
+    ],
+    "isGroup": true
   },
   "//Pacific Data Hub Catalogue/9d630318-f769-4ac0-be06-2834f85e0334/b45f2495-d36d-48e9-9875-75710d8ac2fe": {
     "name": "SEDAC data products and services",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/b4e9964d-9518-4927-90fb-d6768b848b78"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/beb607f5-0def-4c4c-bff9-1eecc8c1cbf8": {
     "name": "The Pacific Community (SPC)",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue"
-    ]
+    ],
+    "isGroup": true
   },
   "//Pacific Data Hub Catalogue/1529127a-b160-4be0-9e6b-437fc9e87938/92bfc4fe-1bda-4fc2-95f7-b2f131932df8": {
     "name": "New Caledonia FAD Locations - Dispositifs de concentration de poissons en Nouvelle-Calédonie",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/beb607f5-0def-4c4c-bff9-1eecc8c1cbf8"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/964dbebf-2f42-414e-bf99-dd7125eedb16/dad3f7b2-a8aa-4584-8bca-a77e16a391fe": {
     "name": "Pacific Island Countries and Territories Exclusive Economic Zones",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/beb607f5-0def-4c4c-bff9-1eecc8c1cbf8"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/def3a384-1b3e-460b-95e8-ef9068503942/1c3e745b-00df-4ccc-9f9b-0aaa39f87ab2": {
     "name": "SPC Member Countries and Territories",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/beb607f5-0def-4c4c-bff9-1eecc8c1cbf8"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/19ea7351-de8a-4aa8-a063-3d6fca4bf8f5": {
     "name": "Tuvalu Environment Data Portal",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue"
-    ]
+    ],
+    "isGroup": true
   },
   "//Pacific Data Hub Catalogue/ddc88ff8-3e7f-475e-bf0a-7a5ffe04d656/88b81d71-4d05-4477-a93f-ebc8364eed34": {
     "name": "GIS mapping for Tuvalu Reef - Tuvalu Reefs GeoJson Format",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/19ea7351-de8a-4aa8-a063-3d6fca4bf8f5"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/e62494f9-3a3b-4e12-ac3a-120dce7febb6/d8710e23-c2b2-42bd-92c2-69a68f576ab4": {
     "name": "Tuvalu GIS Outer Reef Data",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/19ea7351-de8a-4aa8-a063-3d6fca4bf8f5"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/090d56a7-e66b-4e25-a19e-52d47ddd926b/409300c3-5b0c-4239-93fc-1a8eac29f18d": {
     "name": "Tuvalu Coast GIS Data",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/19ea7351-de8a-4aa8-a063-3d6fca4bf8f5"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/2446ce71-5a0d-41d9-9a90-ddaa08ee8216": {
     "name": "Tuvalu Lands and Survey Department",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue"
-    ]
+    ],
+    "isGroup": true
   },
   "//Pacific Data Hub Catalogue/42ccfe7f-9ab7-4f60-8edf-e24204879781/fd04c94b-5ccf-4cab-b080-2f991501d46b": {
     "name": "Cook Islands Territorial Sea Baseline",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/2446ce71-5a0d-41d9-9a90-ddaa08ee8216"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/c8654c51-08f8-42f8-b722-30575640ba21/a8142f86-c986-4496-b27b-ca151d3f3919": {
     "name": "Tuvalu Exclusive Economic Zone (200 Nautical Miles) - December 2012 TV EEZ",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/2446ce71-5a0d-41d9-9a90-ddaa08ee8216"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/0ca8c6ab-1ca3-428c-99f7-6d641709127d/10ed31d4-7571-4d68-8e8c-3f884d13e418": {
     "name": "Tuvalu  Territorial Sea Zone (12 Nautical Miles) - December 2012 TV TSZ",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/2446ce71-5a0d-41d9-9a90-ddaa08ee8216"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/74006988-19c1-40ea-b8c0-d4a8ea6b85fd/e57b543c-1012-4a8c-bb72-55187cf7b454": {
     "name": "Tuvalu  Territorial Sea Baseline - December 2012 TV TSB",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/2446ce71-5a0d-41d9-9a90-ddaa08ee8216"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub Catalogue/b9cc28d3-fe84-456c-8f1c-ad35251b928d": {
     "name": "United Nations Environment Programme World Conservation Monitoring Centre (UNEP-WCMC)",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue"
-    ]
+    ],
+    "isGroup": true
   },
   "//Pacific Data Hub Catalogue/67aa2d51-9727-4fb7-bfe2-b58f5b92f394/b9cee372-dc85-410c-9bbc-8a7c8ce531b7": {
     "name": "Global Distribution of Coral Reefs",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "//Pacific Data Hub Catalogue/b9cc28d3-fe84-456c-8f1c-ad35251b928d"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Pacific Data Hub .Stat": {
     "name": "Pacific Data Hub .Stat",
-    "knownContainerUniqueIds": [
+    "memberKnownContainerUniqueIds": [
       "/"
-    ]
+    ],
+    "isGroup": true
+  },
+  "//Pacific Data Hub .Stat/categoryScheme-CAS_COM_TOPIC": {
+    "name": "Topic",
+    "memberKnownContainerUniqueIds": [
+      "//Pacific Data Hub .Stat"
+    ],
+    "isGroup": true
+  },
+  "//Pacific Data Hub .Stat/category-ECO": {
+    "name": "Economy",
+    "memberKnownContainerUniqueIds": [
+      "//Pacific Data Hub .Stat/categoryScheme-CAS_COM_TOPIC"
+    ],
+    "isGroup": true
+  },
+  "//Pacific Data Hub .Stat/dataflow-DF_BOP": {
+    "name": "Balance of payments",
+    "memberKnownContainerUniqueIds": [
+      "//Pacific Data Hub .Stat/category-ECO"
+    ],
+    "isGroup": false,
+    "isMappable": true
+  },
+  "//Pacific Data Hub .Stat/dataflow-DF_COMMODITY_PRICES": {
+    "name": "Selected International Commodity Prices",
+    "memberKnownContainerUniqueIds": [
+      "//Pacific Data Hub .Stat/category-ECO"
+    ],
+    "isGroup": false,
+    "isMappable": true
+  },
+  "//Pacific Data Hub .Stat/dataflow-DF_CPI": {
+    "name": "Inflation rates",
+    "memberKnownContainerUniqueIds": [
+      "//Pacific Data Hub .Stat/category-ECO"
+    ],
+    "isGroup": false,
+    "isMappable": true
+  },
+  "//Pacific Data Hub .Stat/dataflow-DF_CURRENCIES": {
+    "name": "Currency exchange rates",
+    "memberKnownContainerUniqueIds": [
+      "//Pacific Data Hub .Stat/category-ECO"
+    ],
+    "isGroup": false,
+    "isMappable": true
+  },
+  "//Pacific Data Hub .Stat/dataflow-DF_GFS": {
+    "name": "Government Finance Statistics",
+    "memberKnownContainerUniqueIds": [
+      "//Pacific Data Hub .Stat/category-ECO"
+    ],
+    "isGroup": false,
+    "isMappable": true
+  },
+  "//Pacific Data Hub .Stat/dataflow-DF_IMTS": {
+    "name": "International Merchandise Trade Statistics (IMTS)",
+    "memberKnownContainerUniqueIds": [
+      "//Pacific Data Hub .Stat/category-ECO"
+    ],
+    "isGroup": false,
+    "isMappable": true
+  },
+  "//Pacific Data Hub .Stat/dataflow-DF_NATIONAL_ACCOUNTS": {
+    "name": "Gross Domestic Product for Pacific Island Countries and Territories",
+    "memberKnownContainerUniqueIds": [
+      "//Pacific Data Hub .Stat/category-ECO"
+    ],
+    "isGroup": false,
+    "isMappable": true
+  },
+  "//Pacific Data Hub .Stat/dataflow-DF_OVERSEAS_VISITORS": {
+    "name": "Overseas visitor arrivals",
+    "memberKnownContainerUniqueIds": [
+      "//Pacific Data Hub .Stat/category-ECO"
+    ],
+    "isGroup": false,
+    "isMappable": true
+  },
+  "//Pacific Data Hub .Stat/dataflow-DF_RESERVES": {
+    "name": "Reserves",
+    "memberKnownContainerUniqueIds": [
+      "//Pacific Data Hub .Stat/category-ECO"
+    ],
+    "isGroup": false,
+    "isMappable": true
+  },
+  "//Pacific Data Hub .Stat/dataflow-DF_TOURISM_EARNINGS": {
+    "name": "International tourism earnings",
+    "memberKnownContainerUniqueIds": [
+      "//Pacific Data Hub .Stat/category-ECO"
+    ],
+    "isGroup": false,
+    "isMappable": true
+  },
+  "//Pacific Data Hub .Stat/category-HEA": {
+    "name": "Health",
+    "memberKnownContainerUniqueIds": [
+      "//Pacific Data Hub .Stat/categoryScheme-CAS_COM_TOPIC"
+    ],
+    "isGroup": true
+  },
+  "//Pacific Data Hub .Stat/dataflow-DF_COVID": {
+    "name": "COVID-19 cases in Pacific Island Countries and Territories",
+    "memberKnownContainerUniqueIds": [
+      "//Pacific Data Hub .Stat/category-HEA"
+    ],
+    "isGroup": false,
+    "isMappable": true
+  },
+  "//Pacific Data Hub .Stat/dataflow-DF_COVID_VACCINATION": {
+    "name": "COVID-19 vaccination",
+    "memberKnownContainerUniqueIds": [
+      "//Pacific Data Hub .Stat/category-HEA"
+    ],
+    "isGroup": false,
+    "isMappable": true
+  },
+  "//Pacific Data Hub .Stat/dataflow-DF_FOOD_NUTRIENTS": {
+    "name": "Food nutrients",
+    "memberKnownContainerUniqueIds": [
+      "//Pacific Data Hub .Stat/category-HEA"
+    ],
+    "isGroup": false,
+    "isMappable": true
+  },
+  "//Pacific Data Hub .Stat/dataflow-DF_HEALTH": {
+    "name": "Health indicators",
+    "memberKnownContainerUniqueIds": [
+      "//Pacific Data Hub .Stat/category-HEA"
+    ],
+    "isGroup": false,
+    "isMappable": true
+  },
+  "//Pacific Data Hub .Stat/category-ENV": {
+    "name": "Environment",
+    "memberKnownContainerUniqueIds": [
+      "//Pacific Data Hub .Stat/categoryScheme-CAS_COM_TOPIC"
+    ],
+    "isGroup": true
+  },
+  "//Pacific Data Hub .Stat/dataflow-DF_CROPS": {
+    "name": "Crops and livestock products",
+    "memberKnownContainerUniqueIds": [
+      "//Pacific Data Hub .Stat/category-ENV"
+    ],
+    "isGroup": false,
+    "isMappable": true
+  },
+  "//Pacific Data Hub .Stat/dataflow-DF_WASTE": {
+    "name": "Municipal solid waste",
+    "memberKnownContainerUniqueIds": [
+      "//Pacific Data Hub .Stat/category-ENV"
+    ],
+    "isGroup": false,
+    "isMappable": true
+  },
+  "//Pacific Data Hub .Stat/category-XDO": {
+    "name": "Multi-domain",
+    "memberKnownContainerUniqueIds": [
+      "//Pacific Data Hub .Stat/categoryScheme-CAS_COM_TOPIC"
+    ],
+    "isGroup": true
+  },
+  "//Pacific Data Hub .Stat/dataflow-DF_ECOLEAD": {
+    "name": "COVID-19 economic lead indicators",
+    "memberKnownContainerUniqueIds": [
+      "//Pacific Data Hub .Stat/category-XDO"
+    ],
+    "isGroup": false,
+    "isMappable": true
+  },
+  "//Pacific Data Hub .Stat/dataflow-DF_KEYFACTS": {
+    "name": "About PICTs",
+    "memberKnownContainerUniqueIds": [
+      "//Pacific Data Hub .Stat/category-XDO"
+    ],
+    "isGroup": false,
+    "isMappable": true
+  },
+  "//Pacific Data Hub .Stat/dataflow-DF_POCKET": {
+    "name": "Pocket summary (latest available value per year)",
+    "memberKnownContainerUniqueIds": [
+      "//Pacific Data Hub .Stat/category-XDO"
+    ],
+    "isGroup": false,
+    "isMappable": true
+  },
+  "//Pacific Data Hub .Stat/dataflow-DF_SOCECO": {
+    "name": "COVID-19 socio-economic impact indicators",
+    "memberKnownContainerUniqueIds": [
+      "//Pacific Data Hub .Stat/category-XDO"
+    ],
+    "isGroup": false,
+    "isMappable": true
+  },
+  "//Pacific Data Hub .Stat/dataflow-DF_WBWDI": {
+    "name": "Selection of World Bank World Development Indicators (WB WDI) for Pacific Island Countries and Territories",
+    "memberKnownContainerUniqueIds": [
+      "//Pacific Data Hub .Stat/category-XDO"
+    ],
+    "isGroup": false,
+    "isMappable": true
+  },
+  "//Pacific Data Hub .Stat/category-SOC": {
+    "name": "Social",
+    "memberKnownContainerUniqueIds": [
+      "//Pacific Data Hub .Stat/categoryScheme-CAS_COM_TOPIC"
+    ],
+    "isGroup": true
+  },
+  "//Pacific Data Hub .Stat/dataflow-DF_EMPLOYED": {
+    "name": "Employed population by education, occupation and economic sector",
+    "memberKnownContainerUniqueIds": [
+      "//Pacific Data Hub .Stat/category-SOC"
+    ],
+    "isGroup": false,
+    "isMappable": true
+  },
+  "//Pacific Data Hub .Stat/dataflow-DF_EMPRATES": {
+    "name": "Labour force participation rates and unemployment rates",
+    "memberKnownContainerUniqueIds": [
+      "//Pacific Data Hub .Stat/category-SOC"
+    ],
+    "isGroup": false,
+    "isMappable": true
+  },
+  "//Pacific Data Hub .Stat/dataflow-DF_HHEXP": {
+    "name": "Household expenditure",
+    "memberKnownContainerUniqueIds": [
+      "//Pacific Data Hub .Stat/category-SOC"
+    ],
+    "isGroup": false,
+    "isMappable": true
+  },
+  "//Pacific Data Hub .Stat/dataflow-DF_LABEMP": {
+    "name": "Population by labour force and employment status",
+    "memberKnownContainerUniqueIds": [
+      "//Pacific Data Hub .Stat/category-SOC"
+    ],
+    "isGroup": false,
+    "isMappable": true
+  },
+  "//Pacific Data Hub .Stat/dataflow-DF_NEET": {
+    "name": "NEET - Youth not in education, employment or training (15-24 years)",
+    "memberKnownContainerUniqueIds": [
+      "//Pacific Data Hub .Stat/category-SOC"
+    ],
+    "isGroup": false,
+    "isMappable": true
+  },
+  "//Pacific Data Hub .Stat/dataflow-DF_OLYMPICS": {
+    "name": "Olympic games",
+    "memberKnownContainerUniqueIds": [
+      "//Pacific Data Hub .Stat/category-SOC"
+    ],
+    "isGroup": false,
+    "isMappable": true
+  },
+  "//Pacific Data Hub .Stat/dataflow-DF_PRISON": {
+    "name": "Persons held in prisons",
+    "memberKnownContainerUniqueIds": [
+      "//Pacific Data Hub .Stat/category-SOC"
+    ],
+    "isGroup": false,
+    "isMappable": true
+  },
+  "//Pacific Data Hub .Stat/dataflow-DF_UIS": {
+    "name": "Thematic (SDG goal 4) indicators on Education",
+    "memberKnownContainerUniqueIds": [
+      "//Pacific Data Hub .Stat/category-SOC"
+    ],
+    "isGroup": false,
+    "isMappable": true
+  },
+  "//Pacific Data Hub .Stat/dataflow-DF_VAW": {
+    "name": "Violence aigainst women",
+    "memberKnownContainerUniqueIds": [
+      "//Pacific Data Hub .Stat/category-SOC"
+    ],
+    "isGroup": false,
+    "isMappable": true
+  },
+  "//Pacific Data Hub .Stat/dataflow-DF_WBDAI": {
+    "name": "Selection of indicators from World Bank Digital Adoption Index (WB DAI) for Pacific Island Countries and Territories",
+    "memberKnownContainerUniqueIds": [
+      "//Pacific Data Hub .Stat/category-SOC"
+    ],
+    "isGroup": false,
+    "isMappable": true
+  },
+  "//Pacific Data Hub .Stat/dataflow-DF_WBWGI": {
+    "name": "Selection of World Bank Worldwide Governance Indicators (WB WGI) for Pacific Island Countries and Territories",
+    "memberKnownContainerUniqueIds": [
+      "//Pacific Data Hub .Stat/category-SOC"
+    ],
+    "isGroup": false,
+    "isMappable": true
+  },
+  "//Pacific Data Hub .Stat/category-POP": {
+    "name": "Population",
+    "memberKnownContainerUniqueIds": [
+      "//Pacific Data Hub .Stat/categoryScheme-CAS_COM_TOPIC"
+    ],
+    "isGroup": true
+  },
+  "//Pacific Data Hub .Stat/dataflow-DF_HHCOUNTS": {
+    "name": "Household counts, population and average household size",
+    "memberKnownContainerUniqueIds": [
+      "//Pacific Data Hub .Stat/category-POP"
+    ],
+    "isGroup": false,
+    "isMappable": true
+  },
+  "//Pacific Data Hub .Stat/dataflow-DF_POP_AGE": {
+    "name": "Population structure by age",
+    "memberKnownContainerUniqueIds": [
+      "//Pacific Data Hub .Stat/category-POP"
+    ],
+    "isGroup": false,
+    "isMappable": true
+  },
+  "//Pacific Data Hub .Stat/dataflow-DF_POP_COAST": {
+    "name": "Coastal Population (1, 5 and 10km from coast)",
+    "memberKnownContainerUniqueIds": [
+      "//Pacific Data Hub .Stat/category-POP"
+    ],
+    "isGroup": false,
+    "isMappable": true
+  },
+  "//Pacific Data Hub .Stat/dataflow-DF_POP_DENSITY": {
+    "name": "Population densities",
+    "memberKnownContainerUniqueIds": [
+      "//Pacific Data Hub .Stat/category-POP"
+    ],
+    "isGroup": false,
+    "isMappable": true
+  },
+  "//Pacific Data Hub .Stat/dataflow-DF_POP_PROJ": {
+    "name": "Population projections",
+    "memberKnownContainerUniqueIds": [
+      "//Pacific Data Hub .Stat/category-POP"
+    ],
+    "isGroup": false,
+    "isMappable": true
+  },
+  "//Pacific Data Hub .Stat/dataflow-DF_POP_SEX": {
+    "name": "Population structure by sex",
+    "memberKnownContainerUniqueIds": [
+      "//Pacific Data Hub .Stat/category-POP"
+    ],
+    "isGroup": false,
+    "isMappable": true
+  },
+  "//Pacific Data Hub .Stat/dataflow-DF_POP_URBAN": {
+    "name": "Degree of urbanization",
+    "memberKnownContainerUniqueIds": [
+      "//Pacific Data Hub .Stat/category-POP"
+    ],
+    "isGroup": false,
+    "isMappable": true
+  },
+  "//Pacific Data Hub .Stat/dataflow-DF_VITAL": {
+    "name": "Vital statistics",
+    "memberKnownContainerUniqueIds": [
+      "//Pacific Data Hub .Stat/category-POP"
+    ],
+    "isGroup": false,
+    "isMappable": true
+  },
+  "//Pacific Data Hub .Stat/categoryScheme-CAS_COM_DEV": {
+    "name": "Development indicators",
+    "memberKnownContainerUniqueIds": [
+      "//Pacific Data Hub .Stat"
+    ],
+    "isGroup": true
+  },
+  "//Pacific Data Hub .Stat/category-NMDI": {
+    "name": "National Minimum Development Indicators",
+    "memberKnownContainerUniqueIds": [
+      "//Pacific Data Hub .Stat/categoryScheme-CAS_COM_DEV"
+    ],
+    "isGroup": true
+  },
+  "//Pacific Data Hub .Stat/dataflow-DF_NMDI": {
+    "name": "National Minimum Development Indicators (NMDI) - All indicators",
+    "memberKnownContainerUniqueIds": [
+      "//Pacific Data Hub .Stat/category-NMDI"
+    ],
+    "isGroup": false,
+    "isMappable": true
+  },
+  "//Pacific Data Hub .Stat/dataflow-DF_NMDI_DEV": {
+    "name": "National Minimum Development Indicators (NMDI) for Human Development",
+    "memberKnownContainerUniqueIds": [
+      "//Pacific Data Hub .Stat/category-NMDI"
+    ],
+    "isGroup": false,
+    "isMappable": true
+  },
+  "//Pacific Data Hub .Stat/dataflow-DF_NMDI_EDU": {
+    "name": "National Minimum Development Indicators (NMDI) for Education",
+    "memberKnownContainerUniqueIds": [
+      "//Pacific Data Hub .Stat/category-NMDI"
+    ],
+    "isGroup": false,
+    "isMappable": true
+  },
+  "//Pacific Data Hub .Stat/dataflow-DF_NMDI_FIS": {
+    "name": "National Minimum Development Indicators (NMDI) for Fisheries, Aquaculture, Agriculture and Forestry",
+    "memberKnownContainerUniqueIds": [
+      "//Pacific Data Hub .Stat/category-NMDI"
+    ],
+    "isGroup": false,
+    "isMappable": true
+  },
+  "//Pacific Data Hub .Stat/dataflow-DF_NMDI_HEA": {
+    "name": "National Minimum Development Indicators (NMDI) for Public Health",
+    "memberKnownContainerUniqueIds": [
+      "//Pacific Data Hub .Stat/category-NMDI"
+    ],
+    "isGroup": false,
+    "isMappable": true
+  },
+  "//Pacific Data Hub .Stat/dataflow-DF_NMDI_INF": {
+    "name": "National Minimum Development Indicators (NMDI) for Communication and Infrastructure",
+    "memberKnownContainerUniqueIds": [
+      "//Pacific Data Hub .Stat/category-NMDI"
+    ],
+    "isGroup": false,
+    "isMappable": true
+  },
+  "//Pacific Data Hub .Stat/dataflow-DF_NMDI_OTH": {
+    "name": "National Minimum Development Indicators (NMDI) for other topics not elsewhere classified",
+    "memberKnownContainerUniqueIds": [
+      "//Pacific Data Hub .Stat/category-NMDI"
+    ],
+    "isGroup": false,
+    "isMappable": true
+  },
+  "//Pacific Data Hub .Stat/dataflow-DF_NMDI_POP": {
+    "name": "National Minimum Development Indicators (NMDI) for Population",
+    "memberKnownContainerUniqueIds": [
+      "//Pacific Data Hub .Stat/category-NMDI"
+    ],
+    "isGroup": false,
+    "isMappable": true
+  },
+  "//Pacific Data Hub .Stat/category-SDG": {
+    "name": "Sustainable Development Goals",
+    "memberKnownContainerUniqueIds": [
+      "//Pacific Data Hub .Stat/categoryScheme-CAS_COM_DEV"
+    ],
+    "isGroup": true
+  },
+  "//Pacific Data Hub .Stat/dataflow-DF_SDG": {
+    "name": "Sustainable Development Goals (all)",
+    "memberKnownContainerUniqueIds": [
+      "//Pacific Data Hub .Stat/category-SDG"
+    ],
+    "isGroup": false,
+    "isMappable": true
+  },
+  "//Pacific Data Hub .Stat/dataflow-DF_SDG_01": {
+    "name": "Sustainable Development Goal 01 - No Poverty",
+    "memberKnownContainerUniqueIds": [
+      "//Pacific Data Hub .Stat/category-SDG"
+    ],
+    "isGroup": false,
+    "isMappable": true
+  },
+  "//Pacific Data Hub .Stat/dataflow-DF_SDG_02": {
+    "name": "Sustainable Development Goal 02 - Zero Hunger",
+    "memberKnownContainerUniqueIds": [
+      "//Pacific Data Hub .Stat/category-SDG"
+    ],
+    "isGroup": false,
+    "isMappable": true
+  },
+  "//Pacific Data Hub .Stat/dataflow-DF_SDG_03": {
+    "name": "Sustainable Development Goal 03 - Good Health and Well-Being",
+    "memberKnownContainerUniqueIds": [
+      "//Pacific Data Hub .Stat/category-SDG"
+    ],
+    "isGroup": false,
+    "isMappable": true
+  },
+  "//Pacific Data Hub .Stat/dataflow-DF_SDG_04": {
+    "name": "Sustainable Development Goal 04 - Quality Education",
+    "memberKnownContainerUniqueIds": [
+      "//Pacific Data Hub .Stat/category-SDG"
+    ],
+    "isGroup": false,
+    "isMappable": true
+  },
+  "//Pacific Data Hub .Stat/dataflow-DF_SDG_05": {
+    "name": "Sustainable Development Goal 05 - Gender Equality",
+    "memberKnownContainerUniqueIds": [
+      "//Pacific Data Hub .Stat/category-SDG"
+    ],
+    "isGroup": false,
+    "isMappable": true
+  },
+  "//Pacific Data Hub .Stat/dataflow-DF_SDG_06": {
+    "name": "Sustainable Development Goal 06 - Clean Water and Sanitation",
+    "memberKnownContainerUniqueIds": [
+      "//Pacific Data Hub .Stat/category-SDG"
+    ],
+    "isGroup": false,
+    "isMappable": true
+  },
+  "//Pacific Data Hub .Stat/dataflow-DF_SDG_07": {
+    "name": "Sustainable Development Goal 07 - Affordable and Clean Energy",
+    "memberKnownContainerUniqueIds": [
+      "//Pacific Data Hub .Stat/category-SDG"
+    ],
+    "isGroup": false,
+    "isMappable": true
+  },
+  "//Pacific Data Hub .Stat/dataflow-DF_SDG_08": {
+    "name": "Sustainable Development Goal 08 - Decent Work and Economic Growth",
+    "memberKnownContainerUniqueIds": [
+      "//Pacific Data Hub .Stat/category-SDG"
+    ],
+    "isGroup": false,
+    "isMappable": true
+  },
+  "//Pacific Data Hub .Stat/dataflow-DF_SDG_09": {
+    "name": "Sustainable Development Goal 09 - Industry, Innovation and Infrastructure",
+    "memberKnownContainerUniqueIds": [
+      "//Pacific Data Hub .Stat/category-SDG"
+    ],
+    "isGroup": false,
+    "isMappable": true
+  },
+  "//Pacific Data Hub .Stat/dataflow-DF_SDG_10": {
+    "name": "Sustainable Development Goal 10 - Reduced Inequalities",
+    "memberKnownContainerUniqueIds": [
+      "//Pacific Data Hub .Stat/category-SDG"
+    ],
+    "isGroup": false,
+    "isMappable": true
+  },
+  "//Pacific Data Hub .Stat/dataflow-DF_SDG_11": {
+    "name": "Sustainable Development Goal 11 - Sustainable Cities and Communities",
+    "memberKnownContainerUniqueIds": [
+      "//Pacific Data Hub .Stat/category-SDG"
+    ],
+    "isGroup": false,
+    "isMappable": true
+  },
+  "//Pacific Data Hub .Stat/dataflow-DF_SDG_12": {
+    "name": "Sustainable Development Goal 12 - Responsible Consumption and Production",
+    "memberKnownContainerUniqueIds": [
+      "//Pacific Data Hub .Stat/category-SDG"
+    ],
+    "isGroup": false,
+    "isMappable": true
+  },
+  "//Pacific Data Hub .Stat/dataflow-DF_SDG_13": {
+    "name": "Sustainable Development Goal 13 - Climate Action",
+    "memberKnownContainerUniqueIds": [
+      "//Pacific Data Hub .Stat/category-SDG"
+    ],
+    "isGroup": false,
+    "isMappable": true
+  },
+  "//Pacific Data Hub .Stat/dataflow-DF_SDG_14": {
+    "name": "Sustainable Development Goal 14 - Life Below Water",
+    "memberKnownContainerUniqueIds": [
+      "//Pacific Data Hub .Stat/category-SDG"
+    ],
+    "isGroup": false,
+    "isMappable": true
+  },
+  "//Pacific Data Hub .Stat/dataflow-DF_SDG_15": {
+    "name": "Sustainable Development Goal 15 - Life on Land",
+    "memberKnownContainerUniqueIds": [
+      "//Pacific Data Hub .Stat/category-SDG"
+    ],
+    "isGroup": false,
+    "isMappable": true
+  },
+  "//Pacific Data Hub .Stat/dataflow-DF_SDG_16": {
+    "name": "Sustainable Development Goal 16 - Peace, Justice and Strong Institutions",
+    "memberKnownContainerUniqueIds": [
+      "//Pacific Data Hub .Stat/category-SDG"
+    ],
+    "isGroup": false,
+    "isMappable": true
+  },
+  "//Pacific Data Hub .Stat/dataflow-DF_SDG_17": {
+    "name": "Sustainable Development Goal 17 - Partnerships for the Goals",
+    "memberKnownContainerUniqueIds": [
+      "//Pacific Data Hub .Stat/category-SDG"
+    ],
+    "isGroup": false,
+    "isMappable": true
   },
   "//Corona Virus - Cases": {
     "name": "Corona Virus - Cases",
-    "knownContainerUniqueIds": [
+    "description": "<p>Current situation for the Novel Coronavirus Cases starting from Wuhan, China.</p> <p>Data and web service provided by the Johns Hopkins University Center for Systems Science and Engineering. Click <a href='https://gisanddata.maps.arcgis.com/apps/opsdashboard/index.html#/bda7594740fd40299423467b48e9ecf6'>here</a> for the official Johns Hopkins CSSE dashboard.</p>",
+    "memberKnownContainerUniqueIds": [
       "/"
-    ]
+    ],
+    "isGroup": false,
+    "isMappable": true
   }
 }
