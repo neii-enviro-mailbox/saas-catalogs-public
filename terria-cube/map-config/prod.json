@@ -1,6 +1,9 @@
 {
   "aspects": {
     "terria-config": {
+      "initializationUrls": [
+        "https://raw.githubusercontent.com/GeoscienceAustralia/dea-config/master/dev/terria/terria-cube-v8.json"
+      ],
       "parameters": {
         "appName": "Terria Cube",
         "bingMapsKey": "AsBv-JL-O5GS1uu5GvIRxpgBcJRGVWAWPLxoChvqc5Tw8ATegnK5LCfT-BXOsjzL",
@@ -69,10 +72,7 @@
           "workbenchWidth": "350"
         },
         "useCesiumIonBingImagery": true
-      },
-      "v7initializationUrls": [
-        "https://raw.githubusercontent.com/GeoscienceAustralia/dea-config/master/dev/terria/dea.json"
-      ]
+      }
     },
     "terria-init": {
       "homeCamera": {
