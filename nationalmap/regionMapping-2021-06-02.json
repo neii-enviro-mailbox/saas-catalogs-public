@@ -2485,7 +2485,7 @@
         "asset_code"
       ],
       "description": "AREMI ISF",
-      "regionIdsFile": "https://raw.githubusercontent.com/TerriaJS/saas-catalogs-public/main/nationalmap/regionids/region_map-aremi_isf_combined_asset_code.json"
+      "regionIdsFile": "http://localhost:8080/regionids/region_map-aremi_isf_combined_asset_code.json"
     },
     "AUSTRALIAN_ENERGY_REGIONS": {
       "layerName": "western_power",
