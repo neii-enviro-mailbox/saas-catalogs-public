@@ -2506,7 +2506,7 @@
         "energy_asset"
       ],
       "description": "Western Power and ISF",
-      "regionIdsFile": "https://saas.terria.io/api/v0/storage/terria/nationalmap/regionids/region_map-western_power_asset_code.json"
+      "regionIdsFile": "https://raw.githubusercontent.com/TerriaJS/saas-catalogs-public/main/nationalmap/region-ids/region_map-western_power_asset_code.json"
     }
   }
 }
