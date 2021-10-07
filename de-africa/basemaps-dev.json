@@ -61,6 +61,14 @@
           ]
         },
         "image": "https://saas.terria.io/api/v0/storage/terria/de-africa/dea-basemaps/EsriWorldImageryLabel.png"
+      },
+      {
+        "item": "basemap-positron",
+        "image": "https://saas.terria.io/api/v0/storage/terria/de-africa/dea-basemaps/Positron(Light).png"
+      },
+      {
+        "item": "basemap-darkmatter",
+        "image": "https://saas.terria.io/api/v0/storage/terria/de-africa/dea-basemaps/DarkMatter.png"
       }
     ]
   }
