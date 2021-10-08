@@ -63,6 +63,10 @@
         "image": "https://saas.terria.io/api/v0/storage/terria/de-africa/dea-basemaps/EsriWorldImageryLabel.png"
       },
       {
+        "item": "basemap-natural-earth-II",
+        "image": "https://saas.terria.io/api/v0/storage/terria/de-africa/dea-basemaps/NaturalEarthII.png"
+      },
+      {
         "item": "basemap-positron",
         "image": "https://saas.terria.io/api/v0/storage/terria/de-africa/dea-basemaps/Positron(Light).png"
       },
