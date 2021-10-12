@@ -149,6 +149,7 @@
           }
         ],
         "mobileDefaultViewerMode": "2d",
+        "proj4ServiceBaseUrl": "proj4def/",
         "showWelcomeMessage": true,
         "supportEmail": "environment@bom.gov.au",
         "theme": {

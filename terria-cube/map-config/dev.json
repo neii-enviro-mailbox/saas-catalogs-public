@@ -33,6 +33,7 @@
           "title": "Disclaimer"
         },
         "mobileDefaultViewerMode": "2d",
+        "proj4ServiceBaseUrl": "proj4def/",
         "showWelcomeMessage": false,
         "supportEmail": "info@terria.io",
         "theme": {

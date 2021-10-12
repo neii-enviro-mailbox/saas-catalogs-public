@@ -152,6 +152,7 @@
           }
         },
         "mobileDefaultViewerMode": "2d",
+        "proj4ServiceBaseUrl": "proj4def/",
         "regionMappingDefinitionsUrl": "https://saas.terria.io/api/v0/storage/terria/pacificmap/regions/regionMapping.json",
         "showWelcomeMessage": true,
         "supportEmail": "info@terria.io",
