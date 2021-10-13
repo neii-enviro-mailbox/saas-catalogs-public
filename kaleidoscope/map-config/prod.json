@@ -127,6 +127,7 @@
           }
         ],
         "mobileDefaultViewerMode": "2d",
+        "proj4ServiceBaseUrl": "proj4def/",
         "showWelcomeMessage": true,
         "supportEmail": "oceanexplorer@terria.io",
         "theme": {

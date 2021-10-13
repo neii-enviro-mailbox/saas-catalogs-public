@@ -336,6 +336,7 @@
           }
         },
         "mobileDefaultViewerMode": "2d",
+        "proj4ServiceBaseUrl": "proj4def/",
         "showWelcomeMessage": true,
         "supportEmail": "info@terria.io",
         "theme": {
