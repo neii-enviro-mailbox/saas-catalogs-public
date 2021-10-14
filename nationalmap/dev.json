@@ -42,10 +42,10 @@
               ]
             },
             {
-              "type": "wms",
+              "type": "esri-mapServer",
               "name": "Forests of Australia (2018)",
-              "url": "https://data.gov.au/geoserver/forests-of-australia-2018/wms",
-              "layers": "ckan_6ebffd6f_a937_4fa6_843a_3fde2effbacd",
+              "url": "http://www.asris.csiro.au/arcgis/rest/services/abares/forests_of_australia_2018/MapServer",
+              "layers": "0",
               "id": "SjtbqJgr",
               "shareKeys": [
                 "Root Group/National Datasets/Agriculture/Forests of Australia (2018)"
@@ -8046,7 +8046,8 @@
                               ],
                               "shareKeys": [
                                 "Root Group/Electricity Infrastructure/Network Opportunities/New Generator Connection Capacity/Distribution/Distribution powerlines"
-                              ]
+                              ],
+                              "forceCesiumPrimitives": true
                             },
                             {
                               "type": "csv",
@@ -8483,7 +8484,8 @@
                               ],
                               "shareKeys": [
                                 "Root Group/Electricity Infrastructure/Network Opportunities/New Generator Connection Capacity/Transmission/Transmission powerlines"
-                              ]
+                              ],
+                              "forceCesiumPrimitives": true
                             },
                             {
                               "type": "csv",
@@ -9451,7 +9453,8 @@
                           },
                           "shareKeys": [
                             "Root Group/Electricity Infrastructure/Network Opportunities/Supporting Information/Transmission Lines"
-                          ]
+                          ],
+                          "forceCesiumPrimitives": true
                         }
                       ],
                       "shareKeys": [
@@ -24248,11 +24251,11 @@
             },
             {
               "type": "ckan-item",
-              "name": "Medicare Offices",
+              "name": "Location of Services Australia Offices",
               "id": "Root Group/National Data Sets/Social and Economic/Medicare Offices",
               "url": "https://data.gov.au",
-              "datasetId": "location-of-medicare-offices",
-              "resourceId": "7eb30338-768e-436c-9dde-dc7a1066c9c9",
+              "datasetId": "70c2b2fe-2a32-450e-98dc-453fe4a02aae",
+              "resourceId": "5a45d7b2-8579-425b-bb46-53a0e0bfa053",
               "itemProperties": {
                 "defaultStyle": {
                   "color": {
@@ -24273,7 +24276,7 @@
                 }
               ],
               "shareKeys": [
-                "Root Group/National Datasets/Health/Medicare Offices"
+                "Root Group/National Datasets/Health/Location of Services Australia Offices"
               ]
             },
             {
@@ -24619,10 +24622,10 @@
                   ]
                 },
                 {
-                  "type": "wms",
+                  "type": "esri-mapServer",
                   "name": "Forests of Australia (2018)",
-                  "url": "https://data.gov.au/geoserver/forests-of-australia-2018/wms",
-                  "layers": "ckan_6ebffd6f_a937_4fa6_843a_3fde2effbacd",
+                  "url": "http://www.asris.csiro.au/arcgis/rest/services/abares/forests_of_australia_2018/MapServer",
+                  "layers": "0",
                   "id": "HkgMswTx",
                   "shareKeys": [
                     "Root Group/National Datasets/Land Cover and Land Use/Land Use and Cover/Forests of Australia (2018)"
@@ -26267,594 +26270,10 @@
         },
         {
           "id": "6ATFM7CB",
-          "type": "group",
+          "type": "terria-reference",
+          "url": "https://raw.githubusercontent.com/GeoscienceAustralia/dea-config/master/dev/terria/dea-maps-v8.json",
           "name": "Satellite Images",
-          "members": [
-            {
-              "id": "bkQ24vlQ",
-              "type": "group",
-              "name": "Hotspots",
-              "members": [
-                {
-                  "type": "wms",
-                  "name": "Himawari-8 Mosaic, Last 10m",
-                  "url": "https://hotspots.dea.ga.gov.au/geoserver/ows",
-                  "opacity": 1,
-                  "layers": "public:himawari8_mosaic",
-                  "leafletUpdateInterval": 750,
-                  "tileErrorHandlingOptions": {
-                    "ignoreUnknownTileErrors": true
-                  },
-                  "id": "phNMbq2K",
-                  "shareKeys": [
-                    "Root Group/National Datasets/Satellite Images/Hotspots/Himawari-8 Mosaic, Last 10m"
-                  ]
-                },
-                {
-                  "type": "wms",
-                  "name": "Hotspots, Last 36h",
-                  "url": "https://hotspots.dea.ga.gov.au/geoserver/ows",
-                  "opacity": 1,
-                  "layers": "public:hotspots_three_days",
-                  "leafletUpdateInterval": 750,
-                  "tileErrorHandlingOptions": {
-                    "ignoreUnknownTileErrors": true
-                  },
-                  "id": "Qke15V1b",
-                  "shareKeys": [
-                    "Root Group/National Datasets/Satellite Images/Hotspots/Hotspots, Last 36h"
-                  ]
-                }
-              ],
-              "shareKeys": [
-                "Root Group/National Datasets/Satellite Images/Hotspots"
-              ]
-            },
-            {
-              "id": "lDVnsTI8",
-              "type": "group",
-              "name": "Satellite Images 10m pixels",
-              "members": [
-                {
-                  "id": "sTAjKwD6",
-                  "type": "group",
-                  "name": "Hill shadows removed",
-                  "members": [
-                    {
-                      "id": "cQ8y6ABQ",
-                      "type": "group",
-                      "name": "Sentinel 2 Definitive",
-                      "members": [
-                        {
-                          "type": "wms",
-                          "name": "Sentinel 2A satellite images",
-                          "id": "e3ab5938",
-                          "url": "https://ows.services.dea.ga.gov.au",
-                          "opacity": 1,
-                          "layers": "s2a_ard_granule_nbar_t",
-                          "linkedWcsUrl": "https://ows.services.dea.ga.gov.au/",
-                          "linkedWcsCoverage": "s2a_ard_granule_nbar_t",
-                          "timeFilterPropertyName": "data_available_for_dates",
-                          "tileErrorHandlingOptions": {
-                            "ignoreUnknownTileErrors": true
-                          },
-                          "shareKeys": [
-                            "Root Group/National Datasets/Satellite Images/Satellite Images 10m pixels/Hill shadows removed/Sentinel 2 Definitive/Sentinel 2A satellite images"
-                          ]
-                        },
-                        {
-                          "type": "wms",
-                          "name": "Sentinel 2B satellite images",
-                          "id": "268065ec",
-                          "url": "https://ows.services.dea.ga.gov.au",
-                          "opacity": 1,
-                          "layers": "s2b_ard_granule_nbar_t",
-                          "linkedWcsUrl": "https://ows.services.dea.ga.gov.au/",
-                          "linkedWcsCoverage": "s2b_ard_granule_nbar_t",
-                          "timeFilterPropertyName": "data_available_for_dates",
-                          "tileErrorHandlingOptions": {
-                            "ignoreUnknownTileErrors": true
-                          },
-                          "shareKeys": [
-                            "Root Group/National Datasets/Satellite Images/Satellite Images 10m pixels/Hill shadows removed/Sentinel 2 Definitive/Sentinel 2B satellite images"
-                          ]
-                        }
-                      ],
-                      "shareKeys": [
-                        "Root Group/National Datasets/Satellite Images/Satellite Images 10m pixels/Hill shadows removed/Sentinel 2 Definitive"
-                      ]
-                    },
-                    {
-                      "id": "ARAmYQcl",
-                      "type": "group",
-                      "name": "Sentinel 2 Near Real-Time",
-                      "members": [
-                        {
-                          "type": "wms",
-                          "name": "Sentinel 2A satellite images",
-                          "id": "351222a9",
-                          "url": "https://ows.services.dea.ga.gov.au",
-                          "opacity": 1,
-                          "layers": "s2a_nrt_granule_nbar_t",
-                          "linkedWcsUrl": "https://ows.services.dea.ga.gov.au/",
-                          "linkedWcsCoverage": "s2a_nrt_granule_nbar_t",
-                          "timeFilterPropertyName": "data_available_for_dates",
-                          "tileErrorHandlingOptions": {
-                            "ignoreUnknownTileErrors": true
-                          },
-                          "shareKeys": [
-                            "Root Group/National Datasets/Satellite Images/Satellite Images 10m pixels/Hill shadows removed/Sentinel 2 Near Real-Time/Sentinel 2A satellite images"
-                          ]
-                        },
-                        {
-                          "type": "wms",
-                          "name": "Sentinel 2B satellite images",
-                          "id": "afc9f4b0",
-                          "url": "https://ows.services.dea.ga.gov.au",
-                          "opacity": 1,
-                          "layers": "s2b_nrt_granule_nbar_t",
-                          "linkedWcsUrl": "https://ows.services.dea.ga.gov.au/",
-                          "linkedWcsCoverage": "s2b_nrt_granule_nbar_t",
-                          "timeFilterPropertyName": "data_available_for_dates",
-                          "tileErrorHandlingOptions": {
-                            "ignoreUnknownTileErrors": true
-                          },
-                          "shareKeys": [
-                            "Root Group/National Datasets/Satellite Images/Satellite Images 10m pixels/Hill shadows removed/Sentinel 2 Near Real-Time/Sentinel 2B satellite images"
-                          ]
-                        }
-                      ],
-                      "shareKeys": [
-                        "Root Group/National Datasets/Satellite Images/Satellite Images 10m pixels/Hill shadows removed/Sentinel 2 Near Real-Time"
-                      ]
-                    }
-                  ],
-                  "shareKeys": [
-                    "Root Group/National Datasets/Satellite Images/Satellite Images 10m pixels/Hill shadows removed"
-                  ]
-                }
-              ],
-              "shareKeys": [
-                "Root Group/National Datasets/Satellite Images/Satellite Images 10m pixels"
-              ]
-            },
-            {
-              "id": "fydqA6NH",
-              "type": "group",
-              "name": "Satellite Images 25m pixels",
-              "members": [
-                {
-                  "id": "PJrbTZNf",
-                  "type": "group",
-                  "name": "Barest Earth",
-                  "members": [
-                    {
-                      "type": "wms",
-                      "name": "Imagery",
-                      "id": "0711af5e",
-                      "url": "https://ows.services.dea.ga.gov.au/",
-                      "opacity": 1,
-                      "layers": "ls8_barest_earth_mosaic",
-                      "linkedWcsUrl": "https://ows.services.dea.ga.gov.au/",
-                      "linkedWcsCoverage": "ls8_barest_earth_mosaic",
-                      "tileErrorHandlingOptions": {
-                        "ignoreUnknownTileErrors": true
-                      },
-                      "shareKeys": [
-                        "Root Group/National Datasets/Satellite Images/Satellite Images 25m pixels/Barest Earth/Imagery"
-                      ]
-                    },
-                    {
-                      "type": "wms",
-                      "name": "Landsat 30+ Barest Earth Satellite Images (Combined Landsat)",
-                      "url": "https://ows.services.dea.ga.gov.au/",
-                      "opacity": 1,
-                      "layers": "landsat_barest_earth",
-                      "linkedWcsUrl": "https://ows.services.dea.ga.gov.au/",
-                      "linkedWcsCoverage": "landsat_barest_earth",
-                      "chartColor": "white",
-                      "leafletUpdateInterval": 750,
-                      "chartType": "momentPoints",
-                      "featureInfoTemplate": {
-                        "formats": {
-                          "lat": {
-                            "maximumFractionDigits": 5
-                          },
-                          "lon": {
-                            "maximumFractionDigits": 5
-                          }
-                        }
-                      },
-                      "tileErrorHandlingOptions": {
-                        "ignoreUnknownTileErrors": true
-                      },
-                      "id": "DGpbIaMD",
-                      "shareKeys": [
-                        "Root Group/National Datasets/Satellite Images/Satellite Images 25m pixels/Barest Earth/Landsat 30+ Barest Earth Satellite Images (Combined Landsat)"
-                      ]
-                    }
-                  ],
-                  "shareKeys": [
-                    "Root Group/National Datasets/Satellite Images/Satellite Images 25m pixels/Barest Earth"
-                  ]
-                },
-                {
-                  "id": "L8uVVCBT",
-                  "type": "group",
-                  "name": "Yearly average image",
-                  "members": [
-                    {
-                      "type": "wms",
-                      "name": "Landsat 5 satellite images",
-                      "id": "bd503c94",
-                      "shareKeys": [
-                        "eb9339e1",
-                        "Root Group/National Datasets/Satellite Images/Satellite Images 25m pixels/Yearly average image/Landsat 5 satellite images"
-                      ],
-                      "url": "https://gsky.nci.org.au/ows/dea",
-                      "opacity": 1,
-                      "layers": "landsat5_geomedian",
-                      "styles": "tc",
-                      "linkedWcsUrl": "https://gsky.nci.org.au/ows/dea",
-                      "linkedWcsCoverage": "landsat5_geomedian",
-                      "tileErrorHandlingOptions": {
-                        "ignoreUnknownTileErrors": true
-                      }
-                    },
-                    {
-                      "type": "wms",
-                      "name": "Landsat 7 satellite images",
-                      "id": "a6ab32a4",
-                      "shareKeys": [
-                        "7116f503",
-                        "Root Group/National Datasets/Satellite Images/Satellite Images 25m pixels/Yearly average image/Landsat 7 satellite images"
-                      ],
-                      "url": "https://gsky.nci.org.au/ows/dea",
-                      "opacity": 1,
-                      "layers": "landsat7_geomedian",
-                      "styles": "tc",
-                      "linkedWcsUrl": "https://gsky.nci.org.au/ows/dea",
-                      "linkedWcsCoverage": "landsat7_geomedian",
-                      "tileErrorHandlingOptions": {
-                        "ignoreUnknownTileErrors": true
-                      }
-                    },
-                    {
-                      "type": "wms",
-                      "name": "Landsat 8 satellite images",
-                      "id": "638a3afa",
-                      "shareKeys": [
-                        "0de1b493",
-                        "Root Group/National Datasets/Satellite Images/Satellite Images 25m pixels/Yearly average image/Landsat 8 satellite images"
-                      ],
-                      "url": "https://gsky.nci.org.au/ows/dea",
-                      "opacity": 1,
-                      "layers": "landsat8_geomedian",
-                      "styles": "tc",
-                      "linkedWcsUrl": "https://gsky.nci.org.au/ows/dea",
-                      "linkedWcsCoverage": "landsat8_geomedian",
-                      "tileErrorHandlingOptions": {
-                        "ignoreUnknownTileErrors": true
-                      }
-                    }
-                  ],
-                  "shareKeys": [
-                    "Root Group/National Datasets/Satellite Images/Satellite Images 25m pixels/Yearly average image"
-                  ]
-                }
-              ],
-              "shareKeys": [
-                "Root Group/National Datasets/Satellite Images/Satellite Images 25m pixels"
-              ]
-            },
-            {
-              "id": "vDBqsAu1",
-              "type": "group",
-              "name": "Satellite Images 25m pixels - 16 day composite",
-              "members": [
-                {
-                  "id": "gdC2frgc",
-                  "type": "group",
-                  "name": "Hill shadows included",
-                  "members": [
-                    {
-                      "type": "wms",
-                      "name": "Landsat 5 satellite images",
-                      "id": "be67777f",
-                      "url": "https://gsky.nci.org.au/ows/dea",
-                      "opacity": 1,
-                      "layers": "landsat5_nbar_16day",
-                      "styles": "tc",
-                      "tileErrorHandlingOptions": {
-                        "ignoreUnknownTileErrors": true
-                      },
-                      "shareKeys": [
-                        "Root Group/National Datasets/Satellite Images/Satellite Images 25m pixels - 16 day composite/Hill shadows included/Landsat 5 satellite images"
-                      ]
-                    },
-                    {
-                      "type": "wms",
-                      "name": "Landsat 7 satellite images",
-                      "id": "5bf4ce52",
-                      "url": "https://gsky.nci.org.au/ows/dea",
-                      "opacity": 1,
-                      "layers": "landsat7_nbar_16day",
-                      "styles": "tc",
-                      "tileErrorHandlingOptions": {
-                        "ignoreUnknownTileErrors": true
-                      },
-                      "shareKeys": [
-                        "Root Group/National Datasets/Satellite Images/Satellite Images 25m pixels - 16 day composite/Hill shadows included/Landsat 7 satellite images"
-                      ]
-                    },
-                    {
-                      "type": "wms",
-                      "name": "Landsat 8 satellite images",
-                      "id": "2cade3f2",
-                      "url": "https://gsky.nci.org.au/ows/dea",
-                      "opacity": 1,
-                      "layers": "landsat8_nbar_16day",
-                      "styles": "tc",
-                      "tileErrorHandlingOptions": {
-                        "ignoreUnknownTileErrors": true
-                      },
-                      "shareKeys": [
-                        "Root Group/National Datasets/Satellite Images/Satellite Images 25m pixels - 16 day composite/Hill shadows included/Landsat 8 satellite images"
-                      ]
-                    }
-                  ],
-                  "shareKeys": [
-                    "Root Group/National Datasets/Satellite Images/Satellite Images 25m pixels - 16 day composite/Hill shadows included"
-                  ]
-                },
-                {
-                  "id": "46AlljXH",
-                  "type": "group",
-                  "name": "Hill shadows removed",
-                  "members": [
-                    {
-                      "type": "wms",
-                      "name": "Landsat 5 satellite images",
-                      "id": "5cc3b401",
-                      "url": "https://gsky.nci.org.au/ows/dea",
-                      "opacity": 1,
-                      "layers": "landsat5_nbart_16day",
-                      "styles": "tc",
-                      "tileErrorHandlingOptions": {
-                        "ignoreUnknownTileErrors": true
-                      },
-                      "shareKeys": [
-                        "Root Group/National Datasets/Satellite Images/Satellite Images 25m pixels - 16 day composite/Hill shadows removed/Landsat 5 satellite images"
-                      ]
-                    },
-                    {
-                      "type": "wms",
-                      "name": "Landsat 7 satellite images",
-                      "id": "2f1e3d2d",
-                      "url": "https://gsky.nci.org.au/ows/dea",
-                      "opacity": 1,
-                      "layers": "landsat7_nbart_16day",
-                      "styles": "tc",
-                      "tileErrorHandlingOptions": {
-                        "ignoreUnknownTileErrors": true
-                      },
-                      "shareKeys": [
-                        "Root Group/National Datasets/Satellite Images/Satellite Images 25m pixels - 16 day composite/Hill shadows removed/Landsat 7 satellite images"
-                      ]
-                    },
-                    {
-                      "type": "wms",
-                      "name": "Landsat 8 satellite images",
-                      "id": "2436cf84",
-                      "url": "https://gsky.nci.org.au/ows/dea",
-                      "opacity": 1,
-                      "layers": "landsat8_nbart_16day",
-                      "styles": "tc",
-                      "tileErrorHandlingOptions": {
-                        "ignoreUnknownTileErrors": true
-                      },
-                      "shareKeys": [
-                        "Root Group/National Datasets/Satellite Images/Satellite Images 25m pixels - 16 day composite/Hill shadows removed/Landsat 8 satellite images"
-                      ]
-                    }
-                  ],
-                  "shareKeys": [
-                    "Root Group/National Datasets/Satellite Images/Satellite Images 25m pixels - 16 day composite/Hill shadows removed"
-                  ]
-                }
-              ],
-              "shareKeys": [
-                "Root Group/National Datasets/Satellite Images/Satellite Images 25m pixels - 16 day composite"
-              ]
-            },
-            {
-              "id": "kwJiNYSv",
-              "type": "group",
-              "name": "Satellite Images 25m pixels - daily",
-              "members": [
-                {
-                  "id": "BEtbzmjt",
-                  "type": "group",
-                  "name": "Hill shadows included",
-                  "members": [
-                    {
-                      "type": "wms",
-                      "name": "Landsat 5 satellite images",
-                      "id": "0d7e458a",
-                      "shareKeys": [
-                        "eb9339e1",
-                        "Root Group/National Datasets/Satellite Images/Satellite Images 25m pixels - daily/Hill shadows included/Landsat 5 satellite images"
-                      ],
-                      "url": "https://gsky.nci.org.au/ows/dea",
-                      "opacity": 1,
-                      "layers": "landsat5_nbar_daily",
-                      "styles": "tc",
-                      "linkedWcsUrl": "https://gsky.nci.org.au/ows/dea",
-                      "linkedWcsCoverage": "landsat5_nbar_daily",
-                      "tileErrorHandlingOptions": {
-                        "ignoreUnknownTileErrors": true
-                      }
-                    },
-                    {
-                      "type": "wms",
-                      "name": "Landsat 7 satellite images",
-                      "id": "dc43b31b",
-                      "shareKeys": [
-                        "7116f503",
-                        "Root Group/National Datasets/Satellite Images/Satellite Images 25m pixels - daily/Hill shadows included/Landsat 7 satellite images"
-                      ],
-                      "url": "https://gsky.nci.org.au/ows/dea",
-                      "opacity": 1,
-                      "layers": "landsat7_nbar_daily",
-                      "styles": "tc",
-                      "linkedWcsUrl": "https://gsky.nci.org.au/ows/dea",
-                      "linkedWcsCoverage": "landsat7_nbar_daily",
-                      "tileErrorHandlingOptions": {
-                        "ignoreUnknownTileErrors": true
-                      }
-                    },
-                    {
-                      "type": "wms",
-                      "name": "Landsat 8 satellite images",
-                      "id": "848e68ca",
-                      "shareKeys": [
-                        "0de1b493",
-                        "Root Group/National Datasets/Satellite Images/Satellite Images 25m pixels - daily/Hill shadows included/Landsat 8 satellite images"
-                      ],
-                      "url": "https://gsky.nci.org.au/ows/dea",
-                      "opacity": 1,
-                      "layers": "landsat8_nbar_daily",
-                      "styles": "tc",
-                      "linkedWcsUrl": "https://gsky.nci.org.au/ows/dea",
-                      "linkedWcsCoverage": "landsat8_nbar_daily",
-                      "tileErrorHandlingOptions": {
-                        "ignoreUnknownTileErrors": true
-                      }
-                    }
-                  ],
-                  "shareKeys": [
-                    "Root Group/National Datasets/Satellite Images/Satellite Images 25m pixels - daily/Hill shadows included"
-                  ]
-                },
-                {
-                  "id": "rgiCR2cM",
-                  "type": "group",
-                  "name": "Hill shadows removed",
-                  "members": [
-                    {
-                      "type": "wms",
-                      "name": "Landsat 5 satellite images",
-                      "id": "78492595",
-                      "shareKeys": [
-                        "eb9339e1",
-                        "Root Group/National Datasets/Satellite Images/Satellite Images 25m pixels - daily/Hill shadows removed/Landsat 5 satellite images"
-                      ],
-                      "url": "https://gsky.nci.org.au/ows/dea",
-                      "opacity": 1,
-                      "layers": "landsat5_nbart_daily",
-                      "styles": "tc",
-                      "linkedWcsUrl": "https://gsky.nci.org.au/ows/dea",
-                      "linkedWcsCoverage": "landsat5_nbart_daily",
-                      "tileErrorHandlingOptions": {
-                        "ignoreUnknownTileErrors": true
-                      }
-                    },
-                    {
-                      "type": "wms",
-                      "name": "Landsat 7 satellite images",
-                      "id": "ced51b59",
-                      "shareKeys": [
-                        "7116f503",
-                        "Root Group/National Datasets/Satellite Images/Satellite Images 25m pixels - daily/Hill shadows removed/Landsat 7 satellite images"
-                      ],
-                      "url": "https://gsky.nci.org.au/ows/dea",
-                      "opacity": 1,
-                      "layers": "landsat7_nbart_daily",
-                      "styles": "tc",
-                      "linkedWcsUrl": "https://gsky.nci.org.au/ows/dea",
-                      "linkedWcsCoverage": "landsat7_nbart_daily",
-                      "tileErrorHandlingOptions": {
-                        "ignoreUnknownTileErrors": true
-                      }
-                    },
-                    {
-                      "type": "wms",
-                      "name": "Landsat 8 satellite images",
-                      "id": "5d75bf2a",
-                      "shareKeys": [
-                        "0de1b493",
-                        "Root Group/National Datasets/Satellite Images/Satellite Images 25m pixels - daily/Hill shadows removed/Landsat 8 satellite images"
-                      ],
-                      "url": "https://gsky.nci.org.au/ows/dea",
-                      "opacity": 1,
-                      "layers": "landsat8_nbart_daily",
-                      "styles": "tc",
-                      "linkedWcsUrl": "https://gsky.nci.org.au/ows/dea",
-                      "linkedWcsCoverage": "landsat8_nbart_daily",
-                      "tileErrorHandlingOptions": {
-                        "ignoreUnknownTileErrors": true
-                      }
-                    }
-                  ],
-                  "shareKeys": [
-                    "Root Group/National Datasets/Satellite Images/Satellite Images 25m pixels - daily/Hill shadows removed"
-                  ]
-                }
-              ],
-              "shareKeys": [
-                "Root Group/National Datasets/Satellite Images/Satellite Images 25m pixels - daily"
-              ]
-            },
-            {
-              "id": "m6jDtEpn",
-              "type": "group",
-              "name": "Satellite Images Multi-Sensor Blended - daily",
-              "members": [
-                {
-                  "id": "dywYGzXi",
-                  "type": "group",
-                  "name": "Hill shadows removed",
-                  "members": [
-                    {
-                      "type": "wms",
-                      "name": "Landsat and Sentinel 2 surface reflectance (Beta)",
-                      "id": "7b2da18f",
-                      "url": "https://gsky.nci.org.au/ows/dea",
-                      "opacity": 1,
-                      "layers": "blend_sentinel2_landsat_nbart_daily",
-                      "linkedWcsUrl": "https://gsky.nci.org.au/ows/dea",
-                      "linkedWcsCoverage": "blend_sentinel2_landsat_nbart_daily",
-                      "timeFilterPropertyName": "data_available_for_dates",
-                      "tileErrorHandlingOptions": {
-                        "ignoreUnknownTileErrors": true
-                      },
-                      "shareKeys": [
-                        "Root Group/National Datasets/Satellite Images/Satellite Images Multi-Sensor Blended - daily/Hill shadows removed/Landsat and Sentinel 2 surface reflectance (Beta)"
-                      ]
-                    }
-                  ],
-                  "shareKeys": [
-                    "Root Group/National Datasets/Satellite Images/Satellite Images Multi-Sensor Blended - daily/Hill shadows removed"
-                  ]
-                }
-              ],
-              "shareKeys": [
-                "Root Group/National Datasets/Satellite Images/Satellite Images Multi-Sensor Blended - daily"
-              ]
-            },
-            {
-              "type": "esri-mapServer",
-              "name": "World Bathymetry Imagery",
-              "url": "https://services.ga.gov.au/gis/rest/services/World_Bathymetry_Imagery/MapServer",
-              "id": "19cb612e-d452-431b-9eec-7bbd46edd088",
-              "shareKeys": [
-                "Root Group/National Datasets/Satellite Images/World Bathymetry Imagery"
-              ]
-            }
-          ],
-          "shareKeys": [
-            "Root Group/National Datasets/Satellite Images"
-          ]
+          "isGroup": true
         },
         {
           "id": "ZntTIvdp",
@@ -26862,10 +26281,28 @@
           "name": "Social and Economic",
           "members": [
             {
+              "id": "DPYjz1cT",
               "type": "sdmx-group",
               "name": "ABS.Stat (Beta)",
-              "id": "DPYjz1cT",
+              "description": "Users of NationalMap can access the Beta release of the ABS Data API, which allows to preview the data API before it is released in its final form. It gives the opportunity to provide the ABS with feedback as it works to enhance the service by emailing api.data@abs.gov.au.  \n\nData in this ABS.Stat beta release may not necessarily be the most up to date. You are advised to check the [ABS website ](https://www.abs.gov.au/)for the latest data.  \nWe recognise that there are still some issues in the beta release. We have compiled a [list of issues ](https://www.abs.gov.au/websitedbs/D3310114.nsf/home/absstat+issues) identified so far and are currently working to rectify these. If further issues are discovered please let us know using api.data@abs.gov.au. The [ABS privacy policy ](https://www.abs.gov.au/about/legislation-and-policy/privacy/privacy-abshow) outlines how the ABS handles any personal information that you provide to us.  \n\nFor more information on the ABS.Stat Beta release, please refer to https://stat.data.abs.gov.au/.",
               "url": "https://api.data.abs.gov.au",
+              "excludeMembers": [
+                "DPYjz1cT/category-LGA2019",
+                "DPYjz1cT/category-LGA2020",
+                "DPYjz1cT/dataflow-ABS_ANNUAL_ERP_LGA2019",
+                "DPYjz1cT/dataflow-ABS_ANNUAL_ERP_LGA2020",
+                "DPYjz1cT/dataflow-ERP_COMP_LGA2019",
+                "DPYjz1cT/dataflow-ERP_LGA2019",
+                "DPYjz1cT/dataflow-BA_LGA2021",
+                "DPYjz1cT/dataflow-BA_LGA2020",
+                "DPYjz1cT/dataflow-BA_LGA2019",
+                "DPYjz1cT/dataflow-BA_LGA2018",
+                "abs-sdmx-hidden-group",
+                "DPYjz1cT/dataflow-COVID_SC",
+                "DPYjz1cT/dataflow-COVID_SALTS",
+                "DPYjz1cT/dataflow-COVID_HS",
+                "DPYjz1cT/dataflow-COVID_HI"
+              ],
               "modelOverrides": [
                 {
                   "id": "urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=ABS:CS_C16_COMMON(1.0.0).REGION_TYPE",
@@ -26932,11 +26369,6 @@
                 },
                 {
                   "id": "urn:sdmx:org.sdmx.infomodel.codelist.Codelist=ABS:CL_SEIFA_SA1_2016(1.0.0)",
-                  "type": "region",
-                  "regionType": "SA1_7DIGIT_2016"
-                },
-                {
-                  "id": "urn:sdmx:org.sdmx.infomodel.codelist.Codelist=ABS:CL_ASGS_AAE(1.0.0)",
                   "type": "region",
                   "regionType": "SA1_7DIGIT_2016"
                 },
@@ -27042,6 +26474,21 @@
                   "regionType": "SA4_2016"
                 },
                 {
+                  "id": "urn:sdmx:org.sdmx.infomodel.codelist.Codelist=ABS:CL_ASGS_AAE(1.0.0)",
+                  "type": "region",
+                  "regionType": "STE_2016"
+                },
+                {
+                  "id": "urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=ABS:CS_GEOGRAPHY(1.0.0).FED",
+                  "type": "region",
+                  "regionType": "STE_2016"
+                },
+                {
+                  "id": "urn:sdmx:org.sdmx.infomodel.codelist.Codelist=ABS:CL_AEC_FED_2017(1.0.0)",
+                  "type": "region",
+                  "regionType": "STE_2016"
+                },
+                {
                   "id": "urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=ABS:CS_C16_COMMON(1.0.0).STATE",
                   "disable": true,
                   "allowUndefined": true
@@ -27070,6 +26517,82 @@
                   "id": "urn:sdmx:org.sdmx.infomodel.codelist.Codelist=ABS:CL_LEND_PERSONAL_LOANPURP(1.0.0)",
                   "selectedId": "TOTLOANPURP_EXCLREFIN"
                 }
+              ],
+              "members": [
+                {
+                  "id": "abs-sdmx-hidden-group",
+                  "type": "group",
+                  "members": [
+                    {
+                      "id": "DPYjz1cT/dataflow-AMLPS_PART_2017",
+                      "type": "sdmx-json",
+                      "modelOverrides": [
+                        {
+                          "id": "urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=ABS:CS_GEOGRAPHY(1.0.0).GEO_LEVEL",
+                          "type": "region-type",
+                          "selectedId": "STE",
+                          "disable": true
+                        }
+                      ]
+                    },
+                    {
+                      "id": "DPYjz1cT/dataflow-AMLPS_RESP_2017",
+                      "type": "sdmx-json",
+                      "modelOverrides": [
+                        {
+                          "id": "urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=ABS:CS_GEOGRAPHY(1.0.0).GEO_LEVEL",
+                          "type": "region-type",
+                          "selectedId": "STE",
+                          "disable": true
+                        }
+                      ]
+                    },
+                    {
+                      "id": "DPYjz1cT/dataflow-ABS_ACLD_UNPAIDASST",
+                      "type": "sdmx-json",
+                      "modelOverrides": [
+                        {
+                          "id": "urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=ABS:CS_GEOGRAPHY(1.0.0).REGION",
+                          "type": "region",
+                          "regionType": "STE_2016"
+                        }
+                      ]
+                    },
+                    {
+                      "id": "DPYjz1cT/dataflow-ABS_ACLD_TENURE",
+                      "type": "sdmx-json",
+                      "modelOverrides": [
+                        {
+                          "id": "urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=ABS:CS_GEOGRAPHY(1.0.0).REGION",
+                          "type": "region",
+                          "regionType": "STE_2016"
+                        }
+                      ]
+                    },
+                    {
+                      "id": "DPYjz1cT/dataflow-ABS_ACLD_VOLWORK",
+                      "type": "sdmx-json",
+                      "modelOverrides": [
+                        {
+                          "id": "urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=ABS:CS_GEOGRAPHY(1.0.0).REGION",
+                          "type": "region",
+                          "regionType": "STE_2016"
+                        }
+                      ]
+                    },
+                    {
+                      "id": "DPYjz1cT/dataflow-ABS_ACLD_LFSTATUS",
+                      "type": "sdmx-json",
+                      "modelOverrides": [
+                        {
+                          "id": "urn:sdmx:org.sdmx.infomodel.conceptscheme.Concept=ABS:CS_GEOGRAPHY(1.0.0).REGION",
+                          "type": "region",
+                          "regionType": "STE_2016"
+                        }
+                      ]
+                    }
+                  ]
+                }
               ]
             },
             {
@@ -27090,34 +26613,6 @@
               "isOpen": false,
               "shareKeys": [
                 "Root Group/National Datasets/Social and Economic/Finance, Business and Trade"
-              ]
-            },
-            {
-              "id": "lexGvWGi",
-              "type": "group",
-              "name": "Housing",
-              "members": [
-                {
-                  "type": "wms",
-                  "name": "Housing Stress",
-                  "info": [
-                    {
-                      "name": "Licence",
-                      "content": "[Creative Commons Attribution 4.0 International (CC BY 4.0)](http://creativecommons.org/licenses/by/4.0/)"
-                    }
-                  ],
-                  "url": "https://geoserver.aurin.org.au/nm/wms",
-                  "dataCustodian": "The AURIN project\n\nadmin@aurin.org.au",
-                  "layers": "housingstress",
-                  "id": "Nwg4EBlV",
-                  "shareKeys": [
-                    "Root Group/National Datasets/Social and Economic/Housing/Housing Stress"
-                  ]
-                }
-              ],
-              "isOpen": false,
-              "shareKeys": [
-                "Root Group/National Datasets/Social and Economic/Housing"
               ]
             },
             {
@@ -38334,17 +37829,6 @@
       ]
     },
     {
-      "name": "Australian Capital Territory Government",
-      "url": "https://www.data.act.gov.au",
-      "type": "socrata-group",
-      "shareKeys": [
-        "Root Group/Australian Capital Territory Government"
-      ],
-      "facetGroups": [
-        "categories"
-      ]
-    },
-    {
       "id": "5UEEtwte",
       "type": "group",
       "name": "New South Wales Government",
@@ -40809,8 +40293,9 @@
       "type": "group",
       "members": [
         {
-          "name": "YourDataYourRegions (requires login)",
           "id": "ydyr",
+          "name": "Your Data Your Regions (Beta)",
+          "description": "YourDataYour Regions (YDYR) is an API for the conversion of data between different Australian geographic boundaries: a process often referred to as geographic correspondence. \n\nData is often captured for specific purposes, using particular geographies or administrative boundaries, The regions and geographies used invariably change over time or vary according to the purpose of the analysis. This creates the need for data to be converted between regions to enable its re-use beyond the original purpose, adding to it value. \n\nYDYR can help users maximise the use of new and existing data by making it available for analysis, integration and display across a range of geographic regions. \n\nDeveloped by CSIRO's Data61 in partnership with the Australian Bureau of Statistics (ABS), YDYR modernises the ABS geographic correspondence workflow through the incorporation of machine learning techniques which model the relationship between users' own data and various data collected and maintained by the ABS. \nThis is a beta version of the tool limited to a small number of users for evaluation process. Update to a production version of the tool will depend on user feedback and assessment of the results.\n\n### User Guide\n**Users should note that the use of different algorithms may produce different results. All outputs from YDYR are modelled outcomes that should be used and interpreted with caution. The results are not representative of official statistics from the ABS or CSIRO's Data61.** \n\nThe tool is currently under evaluation and users need to register their interest in testing it by emailing info@terria.io.\nIt can be tested on both the [ydyr.info ](https://ydyr.info/ )website and NationalMap, providing users two options for running the re-aggregation process. You will be prompted to enter username and password to run the analysis (at the last step). \n\n### Getting started to test YDYR on NationalMap\nThe YDYR correspondence process includes 4 simple steps: \n\n1\\. **Specify the data source** - example, in the catalogue search and select a [Statistical Area 2](https://www.abs.gov.au/ausstats/abs@.nsf/lookup/by%20subject/1270.0.55.001~july%202016~main%20features~statistical%20area%20level%202%20(sa2)~10014) (SA2+) based dataset.\n\nOr use your own data (by adding it to the workbench).\n\n><img alt='image' src='images/ydyr-add-data.jpg' style='width: 100%;'>\n\nThe data should contain at least two columns:\n- a geography column containing unique codes (e.g. SA2)\n- a data column containing the values to be converted. For example counts of business by SA2 \n\nOnce the data has been added to the map, the YDYR analytics interface will automatically populate the Region Column and Data Column fields. \n\n><img alt='image' src='images/ydyr-parameters-guide.jpg' style='width: 100%;'>\n\n\n**2. Specify the target geography**\nUnder the Output Geography heading, select the drop down box and specify the geography which you would like to convert (for example Local Government Areas 2016). \n\n\n**3. Specify Algorithms**\nSelect one of the 2 predicting models available for converting data between the input and output geography:\n- **Negative Binomial** - This uses a discrete probability distribution. It models the number of successes in a sequence of independent and identically distributed Bernoulli trials before a specified (non-random) number of failures occurs. This approach potentially provides a better quality result because it may have a stronger relationship with the source data a user wants to convert. Due to the complexity of this approach and interpretation confidence interval, this should be used by advanced users only. \n- **Population Weighted** - This uses population data modelled to address locations to convert data between two sets of geographies. Population based correspondences are typically used to transform social datasets and they're standard correspondence approach used by the ABS. They make the assumption that the distribution of any input dataset is related to the distribution of population. \n\n**4 Run the analysis**\nYou'll be prompted to enter access credentials.\nExecute the tool. This will convert the source data file from the selected input to output geography. \nThe NationalMap workbench (left panel) will be populated with a description of the re-aggregation and a new layer, displaying the output geography and a drop down section to filter the Displaying variable (e.g. Population weighted). \n\n\n---------\n\n\n### YDYR Parameters\n\nPlease fill in the following fields, and press \"Run Analysis\" to execute the tool.",
           "type": "ydyr",
           "parameters": {
             "apiUrl": "https://ydyr.info/api/v1/",
@@ -40864,26 +40349,6 @@
           "opacity": 1
         },
         "image": "images/basemaps/australian-topo.png"
-      },
-      {
-        "item": {
-          "id": "basemap-bing-aerial-with-labels",
-          "name": "Bing Maps Aerial with Labels",
-          "type": "ion-imagery",
-          "ionAssetId": 3,
-          "opacity": 1
-        },
-        "image": "images/basemaps/bing-aerial-labels.png"
-      },
-      {
-        "item": {
-          "id": "basemap-bing-aerial",
-          "name": "Bing Maps Aerial",
-          "type": "ion-imagery",
-          "ionAssetId": 2,
-          "opacity": 1
-        },
-        "image": "images/basemaps/bing-aerial.png"
       },
       {
         "item": {
