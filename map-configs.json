@@ -5,14 +5,7 @@
     "dev": "de-africa/map-config/dev.json",
     "test": "de-africa/map-config/test.json",
     "prod": "de-africa/map-config/prod.json",
-    "files": [
-      {
-        "description": "Main catalog file",
-        "dev": "de-africa/dev.json",
-        "test": "de-africa/test.json",
-        "prod": "de-africa/prod.json"
-      }
-    ]
+    "files": []
   },
   {
     "id": "map-config-de-australia",
@@ -21,12 +14,6 @@
     "test": "de-australia/map-config/test.json",
     "prod": "de-australia/map-config/prod.json",
     "files": [
-      {
-        "description": "Main catalog file",
-        "dev": "de-australia/dev.json",
-        "test": "de-australia/test.json",
-        "prod": "de-australia/prod.json"
-      },
       {
         "description": "Water regulations data catalog file",
         "dev": "de-australia/water-regulations-data/dev.json",
@@ -71,14 +58,7 @@
     "dev": "nationalmap/map-config/dev.json",
     "test": "nationalmap/map-config/test.json",
     "prod": "nationalmap/map-config/prod.json",
-    "files": [
-      {
-        "description": "Main catalog file",
-        "dev": "nationalmap/dev.json",
-        "test": "nationalmap/test.json",
-        "prod": "nationalmap/prod.json"
-      }
-    ]
+    "files": []
   },
   {
     "id": "map-config-neii",
