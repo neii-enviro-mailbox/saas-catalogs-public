@@ -5,7 +5,14 @@
     "dev": "de-africa/map-config/dev.json",
     "test": "de-africa/map-config/test.json",
     "prod": "de-africa/map-config/prod.json",
-    "files": []
+    "files": [
+      {
+        "description": "Basemaps",
+        "dev": "de-africa/basemaps-dev.json",
+        "test": "de-africa/basemaps-test.json",
+        "prod": "de-africa/basemaps-prod.json"
+      }
+    ]
   },
   {
     "id": "map-config-de-australia",
