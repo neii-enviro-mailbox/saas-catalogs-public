@@ -2,6 +2,8 @@ const jsonDiff = require("json-diff");
 const mapConfigs = require("./map-configs.json");
 
 const fsPromises = require("fs/promises");
+const JSON5 = require("json5");
+
 require("colors");
 
 async function readFile(path) {
@@ -52,7 +54,7 @@ async function diffFiles(fileNames, tag) {
   const configFiles = await Promise.all(
     fileNames.map(async (fileName) => {
       try {
-        return JSON.parse((await readFile(fileName)).toString());
+        return JSON5.parse((await readFile(fileName)).toString());
       } catch (error) {
         console.log(`FAILED to read file ${fileName}`);
         console.log(error);
