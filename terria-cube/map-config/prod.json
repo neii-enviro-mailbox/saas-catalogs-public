@@ -34,6 +34,7 @@
         },
         "googleAnalyticsKey": "UA-63280156-14",
         "mobileDefaultViewerMode": "2d",
+        "proj4ServiceBaseUrl": "proj4def/",
         "showWelcomeMessage": false,
         "supportEmail": "info@terria.io",
         "theme": {
