@@ -21,6 +21,7 @@
           "text": "Disclaimer: This map must not be used for navigation or precise spatial analysis",
           "url": "http://google.com"
         },
+        "enableGeojsonMvt": true,
         "experimentalFeatures": true,
         "feedbackUrl": "feedback",
         "globalDisclaimer": {
@@ -71,8 +72,7 @@
           "textLightDimmed": "#bbbbbb",
           "workbenchWidth": "350"
         },
-        "useCesiumIonBingImagery": true,
-        "enableGeojsonMvt": true
+        "useCesiumIonBingImagery": true
       }
     },
     "terria-init": {
