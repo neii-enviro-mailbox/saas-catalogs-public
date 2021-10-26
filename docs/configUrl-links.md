@@ -55,3 +55,9 @@ These links will only add **client-side** configuration. Terriajs-server config 
 - **Dev** http://localhost:3001/#configUrl=https://raw.githubusercontent.com/TerriaJS/saas-catalogs-public/main/pacificmap/map-config/dev.json
 - **Test** http://localhost:3001/#configUrl=https://raw.githubusercontent.com/TerriaJS/saas-catalogs-public/main/pacificmap/map-config/test.json
 - **Prod** http://localhost:3001/#configUrl=https://raw.githubusercontent.com/TerriaJS/saas-catalogs-public/main/pacificmap/map-config/prod.json
+
+## terria-cube
+
+- **Dev** http://localhost:3001/#configUrl=https://raw.githubusercontent.com/TerriaJS/saas-catalogs-public/main/terria-cube/map-config/dev.json
+- **Test** http://localhost:3001/#configUrl=https://raw.githubusercontent.com/TerriaJS/saas-catalogs-public/main/terria-cube/map-config/test.json
+- **Prod** http://localhost:3001/#configUrl=https://raw.githubusercontent.com/TerriaJS/saas-catalogs-public/main/terria-cube/map-config/prod.json
