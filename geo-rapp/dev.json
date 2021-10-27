@@ -20,14 +20,14 @@
                 {
                   "type": "wms",
                   "name": "Vegetation Fractional Cover (PV, NPV & BS, Monthly)",
-                  "url": "http://gsky.nci.org.au/ows/geoglam",
+                  "url": "https://gsky.nci.org.au/ows/geoglam",
                   "cacheDuration": "2h",
                   "opacity": 1,
                   "supportsGetLegendGraphic": true,
                   "dateFormat": "mmmm yyyy",
                   "initialTimeSource": "stop",
                   "layers": "modis_fract_cov_monthly",
-                  "linkedWcsUrl": "http://gsky.nci.org.au/ows/geoglam",
+                  "linkedWcsUrl": "https://gsky.nci.org.au/ows/geoglam",
                   "linkedWcsCoverage": "modis_fract_cov_monthly",
                   "tileErrorHandlingOptions": {
                     "ignoreUnknownTileErrors": true
@@ -36,14 +36,14 @@
                 {
                   "type": "wms",
                   "name": "Total Vegetation Cover (PV+NPV, Monthly)",
-                  "url": "http://gsky.nci.org.au/ows/geoglam",
+                  "url": "https://gsky.nci.org.au/ows/geoglam",
                   "cacheDuration": "2h",
                   "opacity": 1,
                   "supportsGetLegendGraphic": true,
                   "dateFormat": "mmmm yyyy",
                   "initialTimeSource": "stop",
                   "layers": "modis_tot_cov_monthly",
-                  "linkedWcsUrl": "http://gsky.nci.org.au/ows/geoglam",
+                  "linkedWcsUrl": "https://gsky.nci.org.au/ows/geoglam",
                   "linkedWcsCoverage": "modis_tot_cov_monthly",
                   "tileErrorHandlingOptions": {
                     "ignoreUnknownTileErrors": true
@@ -52,14 +52,14 @@
                 {
                   "type": "wms",
                   "name": "Vegetation Cover Anomaly (Monthly)",
-                  "url": "http://gsky.nci.org.au/ows/geoglam",
+                  "url": "https://gsky.nci.org.au/ows/geoglam",
                   "cacheDuration": "2h",
                   "opacity": 1,
                   "supportsGetLegendGraphic": true,
                   "dateFormat": "mmmm yyyy",
                   "initialTimeSource": "stop",
                   "layers": "modis_tot_cov_anomaly",
-                  "linkedWcsUrl": "http://gsky.nci.org.au/ows/geoglam",
+                  "linkedWcsUrl": "https://gsky.nci.org.au/ows/geoglam",
                   "linkedWcsCoverage": "modis_tot_cov_anomaly",
                   "tileErrorHandlingOptions": {
                     "ignoreUnknownTileErrors": true
@@ -68,14 +68,14 @@
                 {
                   "type": "wms",
                   "name": "Vegetation Cover Deciles (Monthly)",
-                  "url": "http://gsky.nci.org.au/ows/geoglam",
+                  "url": "https://gsky.nci.org.au/ows/geoglam",
                   "cacheDuration": "2h",
                   "opacity": 1,
                   "supportsGetLegendGraphic": true,
                   "dateFormat": "mmmm yyyy",
                   "initialTimeSource": "stop",
                   "layers": "modis_tot_cov_decile",
-                  "linkedWcsUrl": "http://gsky.nci.org.au/ows/geoglam",
+                  "linkedWcsUrl": "https://gsky.nci.org.au/ows/geoglam",
                   "linkedWcsCoverage": "modis_tot_cov_decile",
                   "tileErrorHandlingOptions": {
                     "ignoreUnknownTileErrors": true
@@ -91,14 +91,14 @@
                 {
                   "type": "wms",
                   "name": "Vegetation Fractional Cover (PV, NPV & BS) (8-day)",
-                  "url": "http://gsky.nci.org.au/ows/geoglam",
+                  "url": "https://gsky.nci.org.au/ows/geoglam",
                   "cacheDuration": "2h",
                   "opacity": 1,
                   "supportsGetLegendGraphic": true,
                   "dateFormat": "dd/mm/yyyy",
                   "initialTimeSource": "stop",
                   "layers": "modis_fract_cov_8day",
-                  "linkedWcsUrl": "http://gsky.nci.org.au/ows/geoglam",
+                  "linkedWcsUrl": "https://gsky.nci.org.au/ows/geoglam",
                   "linkedWcsCoverage": "modis_fract_cov_8day",
                   "tileErrorHandlingOptions": {
                     "ignoreUnknownTileErrors": true
@@ -107,14 +107,14 @@
                 {
                   "type": "wms",
                   "name": "Total Vegetation Cover (PV+NPV) (8-day)",
-                  "url": "http://gsky.nci.org.au/ows/geoglam",
+                  "url": "https://gsky.nci.org.au/ows/geoglam",
                   "cacheDuration": "2h",
                   "opacity": 1,
                   "supportsGetLegendGraphic": true,
                   "dateFormat": "dd/mm/yyyy",
                   "initialTimeSource": "stop",
                   "layers": "modis_tot_cov_8day",
-                  "linkedWcsUrl": "http://gsky.nci.org.au/ows/geoglam",
+                  "linkedWcsUrl": "https://gsky.nci.org.au/ows/geoglam",
                   "linkedWcsCoverage": "modis_tot_cov_8day",
                   "tileErrorHandlingOptions": {
                     "ignoreUnknownTileErrors": true
@@ -133,7 +133,7 @@
             {
               "type": "wms",
               "name": "Rainfall (CHIRPS, Global, 5km)",
-              "url": "http://gsky.nci.org.au/ows/geoglam",
+              "url": "https://gsky.nci.org.au/ows/geoglam",
               "cacheDuration": "2h",
               "opacity": 1,
               "supportsGetLegendGraphic": true,
@@ -443,14 +443,14 @@
                 {
                   "type": "wms",
                   "name": "Vegetation Fractional Cover (PV, NPV & BS, Monthly)",
-                  "url": "http://gsky.nci.org.au/ows/geoglam",
+                  "url": "https://gsky.nci.org.au/ows/geoglam",
                   "cacheDuration": "2h",
                   "opacity": 1,
                   "supportsGetLegendGraphic": true,
                   "dateFormat": "mmmm yyyy",
                   "initialTimeSource": "stop",
                   "layers": "modis_fract_cov_monthly",
-                  "linkedWcsUrl": "http://gsky.nci.org.au/ows/geoglam",
+                  "linkedWcsUrl": "https://gsky.nci.org.au/ows/geoglam",
                   "linkedWcsCoverage": "modis_fract_cov_monthly",
                   "tileErrorHandlingOptions": {
                     "ignoreUnknownTileErrors": true
@@ -460,14 +460,14 @@
                   "id": "idvaI5",
                   "type": "wms",
                   "name": "Total Vegetation Cover (PV+NPV, Monthly)",
-                  "url": "http://gsky.nci.org.au/ows/geoglam",
+                  "url": "https://gsky.nci.org.au/ows/geoglam",
                   "cacheDuration": "2h",
                   "opacity": 1,
                   "supportsGetLegendGraphic": true,
                   "dateFormat": "mmmm yyyy",
                   "initialTimeSource": "stop",
                   "layers": "modis_tot_cov_monthly",
-                  "linkedWcsUrl": "http://gsky.nci.org.au/ows/geoglam",
+                  "linkedWcsUrl": "https://gsky.nci.org.au/ows/geoglam",
                   "linkedWcsCoverage": "modis_tot_cov_monthly",
                   "tileErrorHandlingOptions": {
                     "ignoreUnknownTileErrors": true
@@ -476,14 +476,14 @@
                 {
                   "type": "wms",
                   "name": "Vegetation Cover Anomaly (Monthly)",
-                  "url": "http://gsky.nci.org.au/ows/geoglam",
+                  "url": "https://gsky.nci.org.au/ows/geoglam",
                   "cacheDuration": "2h",
                   "opacity": 1,
                   "supportsGetLegendGraphic": true,
                   "dateFormat": "mmmm yyyy",
                   "initialTimeSource": "stop",
                   "layers": "modis_tot_cov_anomaly",
-                  "linkedWcsUrl": "http://gsky.nci.org.au/ows/geoglam",
+                  "linkedWcsUrl": "https://gsky.nci.org.au/ows/geoglam",
                   "linkedWcsCoverage": "modis_tot_cov_anomaly",
                   "tileErrorHandlingOptions": {
                     "ignoreUnknownTileErrors": true
@@ -492,14 +492,14 @@
                 {
                   "type": "wms",
                   "name": "Vegetation Cover Deciles (Monthly)",
-                  "url": "http://gsky.nci.org.au/ows/geoglam",
+                  "url": "https://gsky.nci.org.au/ows/geoglam",
                   "cacheDuration": "2h",
                   "opacity": 1,
                   "supportsGetLegendGraphic": true,
                   "dateFormat": "mmmm yyyy",
                   "initialTimeSource": "stop",
                   "layers": "modis_tot_cov_decile",
-                  "linkedWcsUrl": "http://gsky.nci.org.au/ows/geoglam",
+                  "linkedWcsUrl": "https://gsky.nci.org.au/ows/geoglam",
                   "linkedWcsCoverage": "modis_tot_cov_decile",
                   "tileErrorHandlingOptions": {
                     "ignoreUnknownTileErrors": true
@@ -515,14 +515,14 @@
                 {
                   "type": "wms",
                   "name": "Vegetation Fractional Cover (PV, NPV & BS) (8-day)",
-                  "url": "http://gsky.nci.org.au/ows/geoglam",
+                  "url": "https://gsky.nci.org.au/ows/geoglam",
                   "cacheDuration": "2h",
                   "opacity": 1,
                   "supportsGetLegendGraphic": true,
                   "dateFormat": "dd/mm/yyyy",
                   "initialTimeSource": "stop",
                   "layers": "modis_fract_cov_8day",
-                  "linkedWcsUrl": "http://gsky.nci.org.au/ows/geoglam",
+                  "linkedWcsUrl": "https://gsky.nci.org.au/ows/geoglam",
                   "linkedWcsCoverage": "modis_fract_cov_8day",
                   "tileErrorHandlingOptions": {
                     "ignoreUnknownTileErrors": true
@@ -531,14 +531,14 @@
                 {
                   "type": "wms",
                   "name": "Total Vegetation Cover (PV+NPV) (8-day)",
-                  "url": "http://gsky.nci.org.au/ows/geoglam",
+                  "url": "https://gsky.nci.org.au/ows/geoglam",
                   "cacheDuration": "2h",
                   "opacity": 1,
                   "supportsGetLegendGraphic": true,
                   "dateFormat": "dd/mm/yyyy",
                   "initialTimeSource": "stop",
                   "layers": "modis_tot_cov_8day",
-                  "linkedWcsUrl": "http://gsky.nci.org.au/ows/geoglam",
+                  "linkedWcsUrl": "https://gsky.nci.org.au/ows/geoglam",
                   "linkedWcsCoverage": "modis_tot_cov_8day",
                   "tileErrorHandlingOptions": {
                     "ignoreUnknownTileErrors": true
@@ -2297,28 +2297,28 @@
           "type": "wps",
           "name": "Mean for point or region (Monthly)",
           "description": "This function returns the mean value for the monthly vegetation fractional cover fractions and precipitation for a given region or pixel. Fractional cover includes green cover, non-green cover and bare ground. Total vegetation cover is green+non-green. \n\nYou can provide the name of the polygon or pixel. You can click on a point, draw a polygon or select a polygon already displayed in the screen.\n\nThe output is a graph and the data can be downloaded as a csv file. ",
-          "url": "http://gsky.nci.org.au/ows/geoglam",
+          "url": "https://gsky.nci.org.au/ows/geoglam",
           "identifier": "geometryDrill"
         },
         {
           "type": "wps",
           "name": "Mean for point or region (8-day)",
           "description": "This function returns the mean value for the 8-day vegetation fractional cover fractions and precipitation for a given region or pixel. Fractional cover includes green cover, non-green cover and bare ground. Total vegetation cover is green+non-green. \n\nYou can provide the name of the polygon or pixel. You can click on a point, draw a polygon or select a polygon already displayed in the screen.\n\nThe output is a graph and the data can be downloaded as a csv file. ",
-          "url": "http://gsky.nci.org.au/ows/geoglam",
+          "url": "https://gsky.nci.org.au/ows/geoglam",
           "identifier": "geometryDrill_8day"
         },
         {
           "type": "wps",
           "name": "Proportion of region within a Total Vegetation Cover range (Monthly)",
           "description": "This function returns the proportion of a given region within a range of Total Vegetation Cover. Total cover is the sum of green and non-green cover. You can provide the name of the polygon. You must provide the lower and upper limits of total vegetation cover. You can click on a point, draw a polygon or select a polygon already diplayed in the screen.\n\nThe output is a graph and the data can be downloaded as a csv file. ",
-          "url": "http://gsky.nci.org.au/ows/geoglam",
+          "url": "https://gsky.nci.org.au/ows/geoglam",
           "identifier": "geometryDrillPixelFraction"
         },
         {
           "type": "wps",
           "name": "Proportion of region within a Total Vegetation Cover range (8-day)",
           "description": "This function returns the proportion of a given region within a range of Total Vegetation Cover. Total cover is the sum of green and non-green cover. You can provide the name of the polygon. You must provide the lower and upper limits of total vegetation cover. You can click on a point, draw a polygon or select a polygon already diplayed in the screen.\n\nThe output is a graph and the data can be downloaded as a csv file. ",
-          "url": "http://gsky.nci.org.au/ows/geoglam",
+          "url": "https://gsky.nci.org.au/ows/geoglam",
           "identifier": "geometryDrillPixelFraction_8day"
         }
       ],
