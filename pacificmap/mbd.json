@@ -38,6 +38,9 @@
     },
     "related-maps": {
       "visible": false
+    },
+    "pedestrian-mode": {
+      "visible": false
     }
   },
   "homeCamera": {
