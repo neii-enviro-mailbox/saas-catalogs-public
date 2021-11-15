@@ -70,14 +70,6 @@
         "enableGeojsonMvt": true,
         "experimentalFeatures": true,
         "feedbackUrl": "feedback",
-        "globalDisclaimer": {
-          "buttonTitle": "I agree",
-          "confirmationRequired": true,
-          "devHostRegex": "\\b(staging|preview|test|dev)\\.",
-          "enableOnLocalhost": true,
-          "prodHostRegex": "pacificdata.\\.org$",
-          "title": "Disclaimer"
-        },
         "helpContent": [
           {
             "icon": "video",
