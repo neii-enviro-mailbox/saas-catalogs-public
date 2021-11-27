@@ -27,6 +27,7 @@
                     "east": 159,
                     "north": -4
                   },
+                  "supportsColorScaleRange": true,
                   "dataCustodian": "[Bureau of Meteorology](http://www.bom.gov.au/)",
                   "layers": "mean_exposure",
                   "featureInfoTemplate": {
@@ -49,6 +50,7 @@
                     "east": 159,
                     "north": -4
                   },
+                  "supportsColorScaleRange": true,
                   "dataCustodian": "[Bureau of Meteorology](http://www.bom.gov.au/)",
                   "layers": "mean_exposure",
                   "featureInfoTemplate": {
@@ -71,6 +73,7 @@
                     "east": 159,
                     "north": -4
                   },
+                  "supportsColorScaleRange": true,
                   "dataCustodian": "[Bureau of Meteorology](http://www.bom.gov.au/)",
                   "layers": "mean_exposure",
                   "featureInfoTemplate": {
@@ -93,6 +96,7 @@
                     "east": 159,
                     "north": -4
                   },
+                  "supportsColorScaleRange": true,
                   "dataCustodian": "[Bureau of Meteorology](http://www.bom.gov.au/)",
                   "layers": "mean_exposure",
                   "featureInfoTemplate": {
@@ -115,6 +119,7 @@
                     "east": 159,
                     "north": -4
                   },
+                  "supportsColorScaleRange": true,
                   "dataCustodian": "[Bureau of Meteorology](http://www.bom.gov.au/)",
                   "layers": "mean_exposure",
                   "featureInfoTemplate": {
