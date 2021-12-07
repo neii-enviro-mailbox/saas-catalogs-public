@@ -1907,10 +1907,9 @@
               "type": "esri-mapServer",
               "name": "Collaborative Australian Protected Areas Database (CAPAD)",
               "id": "126ff747-1594-4168-b691-ddaf2202d56e",
-              "url": "http://www.environment.gov.au/mapping/rest/services/ogc_services/capad/MapServer",
+              "url": "http://www.environment.gov.au/mapping/rest/services/ogc_services/capad/MapServer/0",
               "opacity": 1,
-              "clipToRectangle": true,
-              "layers": "Protected_Areas"
+              "clipToRectangle": true
             },
             {
               "type": "esri-mapServer",
@@ -2080,8 +2079,7 @@
                   "url": "https://geo.abs.gov.au/arcgis/rest/services/ASGS2016/SSC/MapServer/0",
                   "opacity": 1,
                   "isOpenInWorkbench": false,
-                  "clipToRectangle": true,
-                  "layers": "17"
+                  "clipToRectangle": true
                 },
                 {
                   "type": "esri-mapServer",
@@ -2089,8 +2087,7 @@
                   "url": "https://geo.abs.gov.au/arcgis/rest/services/ASGS2016/SA1/MapServer/1",
                   "opacity": 1,
                   "isOpenInWorkbench": false,
-                  "clipToRectangle": true,
-                  "layers": "12"
+                  "clipToRectangle": true
                 },
                 {
                   "type": "esri-mapServer",
@@ -2098,8 +2095,7 @@
                   "url": "https://geo.abs.gov.au/arcgis/rest/services/ASGS2016/SA2/MapServer/1",
                   "opacity": 1,
                   "isOpenInWorkbench": false,
-                  "clipToRectangle": true,
-                  "layers": "13"
+                  "clipToRectangle": true
                 },
                 {
                   "type": "esri-mapServer",
@@ -2107,8 +2103,7 @@
                   "url": "https://geo.abs.gov.au/arcgis/rest/services/ASGS2016/SA3/MapServer/1",
                   "opacity": 1,
                   "isOpenInWorkbench": false,
-                  "clipToRectangle": true,
-                  "layers": "14"
+                  "clipToRectangle": true
                 },
                 {
                   "type": "esri-mapServer",
@@ -2116,8 +2111,7 @@
                   "url": "https://geo.abs.gov.au/arcgis/rest/services/ASGS2016/SA4/MapServer/1",
                   "opacity": 1,
                   "isOpenInWorkbench": false,
-                  "clipToRectangle": true,
-                  "layers": "15"
+                  "clipToRectangle": true
                 }
               ],
               "isOpen": true
