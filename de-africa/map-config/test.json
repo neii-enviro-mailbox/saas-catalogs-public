@@ -225,6 +225,7 @@
           "url": "http://google.com"
         },
         "experimentalFeatures": true,
+        "enableGeojsonMvt": true,
         "feedbackUrl": "feedback",
         "globalDisclaimer": {
           "buttonTitle": "I agree",
