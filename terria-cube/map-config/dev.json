@@ -14,7 +14,7 @@
         ],
         "cesiumIonAccessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiI2MzY3YTEwNS0wZTE0LTQzZTQtOGJjNy0wZGYwZTczOWI4ZjIiLCJpZCI6Mjk5MiwiaWF0IjoxNjIyNTA1Njc3fQ.gv6jmQdAHhtrgBDvuHz7v2TLghEKJ38EHUu6upeatpI",
         "customRequestSchedulerLimits": {
-          "ows.dea.ga.gov.au:443": 18
+          "ows.dea.ga.gov.au:443": 50
         },
         "developerAttribution": {
           "link": "https://terria.io",
