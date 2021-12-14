@@ -633,7 +633,21 @@
               "shareKeys": [
                 "Root Group/NEII Data Services – Conformant/Air (3)/Australian Climate (BoM)"
               ]
-            }
+            },
+            {
+               "name": "North Australia Automated Marine Weather And Oceanographic Stations (AIMS)",
+ 	      "description": "Automatic weather stations have been deployed by AIMS since 1980. Most of the stations are along the Great Barrier Reef including the Torres Strait in North-Eastern Australia but there is also a station in Darwin and one in Ningaloo Reef in Western Australia. Many of the stations are located on the reef itself either on poles located in the reef lagoon or on tourist pontoons or other structures.",
+               "typeNames": "aims:weather_deployment",
+               "url": "https://geoserver.apps.aims.gov.au/aims/wfs?service=wfs&version=1.0.0",
+               "type": "wfs",
+ 	      "metadataUrl": "https://apps.aims.gov.au/metadata/view/0887cb5b-b443-4e08-a169-038208109466",
+               "info": [
+                 {
+                  "name": "Copyright",
+                  "content": "&copy;Australian Institute of Marine Science 2011. This product is released under the Creative Commons Attribution 3.0 Australia (CC BY 3.0 AU)"
+                }
+	      ]
+	    }
           ],
           "shareKeys": [
             "Root Group/NEII Data Services – Conformant/Air (3)"
